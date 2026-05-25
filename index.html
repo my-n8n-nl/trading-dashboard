@@ -431,23 +431,23 @@
         <div class="container">
             <header>
                 <h1>Jouw Portfolio<br><span class="gradient-text">Live Overzicht</span></h1>
-                <div class="timestamp">Laatst bijgewerkt: 25-05-2026 03:10:02</div>
+                <div class="timestamp">Laatst bijgewerkt: 25-05-2026 03:20:02</div>
             </header>
 
             <!-- Key Metrics -->
             <div class="metrics-grid">
                 <div class="metric-card">
                     <div class="label">Totaal Geinvesteerd</div>
-                    <div class="value neutral">$0.00</div>
+                    <div class="value neutral">$199.48</div>
                 </div>
                 <div class="metric-card">
                     <div class="label">Huidige Waarde</div>
-                    <div class="value neutral">$0.00</div>
+                    <div class="value neutral">$199.59</div>
                 </div>
                 <div class="metric-card">
                     <div class="label">Unrealized P&L</div>
                     <div class="value positive">
-                        ▲ $+0.00
+                        ▲ $+0.12
                     </div>
                 </div>
                 <div class="metric-card">
@@ -485,6 +485,18 @@
                     </thead>
                     <tbody>
 
+                        <tr>
+                            <td><span class="symbol">BTCUSD</span></td>
+                            <td>$77,038.81</td>
+                            <td>$77,083.59</td>
+                            <td class="change-up">▲ 0.06%</td>
+                            <td>0.0026</td>
+                            <td>$199.48</td>
+                            <td>$199.59</td>
+                            <td class="pl-positive">$+0.12 (+0.06%)</td>
+                            <td><span class="badge badge-holding">HOLDING</span></td>
+                        </tr>
+    
                         <tr>
                             <td><span class="symbol">TSLA</span></td>
                             <td>-</td>
@@ -570,18 +582,6 @@
                         </tr>
         
                         <tr>
-                            <td><span class="symbol">BTCUSD</span></td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td class="change-neutral">-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td class="change-neutral">-</td>
-                            <td><span class="badge badge-waiting">AFWACHTEN</span></td>
-                        </tr>
-        
-                        <tr>
                             <td><span class="symbol">CBRS</span></td>
                             <td>-</td>
                             <td>-</td>
@@ -616,6 +616,18 @@
                         </thead>
                         <tbody>
     
+                            <tr>
+                                <td class="td-time">2026-05-25T03:10</td>
+                                <td><span class="event-badge event-default">LIMIT_BUY</span></td>
+                                <td><span class="symbol">BTCUSD</span></td>
+                                <td>BUY</td>
+                                <td class="td-mono">0</td>
+                                <td class="td-value">$77,047.20</td>
+                                <td class="td-value">$200.00</td>
+                                <td class="td-mono">46bbe9fa-e3b...</td>
+                                <td class="td-note">-</td>
+                            </tr>
+        
                             <tr>
                                 <td class="td-time">2026-05-25T03:00</td>
                                 <td><span class="event-badge event-default">LIMIT_BUY</span></td>
@@ -694,9 +706,9 @@
             new Chart(ctx, {
                 type: 'doughnut',
                 data: {
-                    labels: [],
+                    labels: ["BTCUSD"],
                     datasets: [{
-                        data: [],
+                        data: [199.594158],
                         backgroundColor: [
                             '#7c6bf2', '#a98fff', '#3ddbc6', '#f093fb',
                             '#f5576c', '#4facfe', '#00f2fe', '#43e97b'
