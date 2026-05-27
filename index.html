@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Abdel's Trading Dashboard</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -173,6 +173,11 @@
             font-size: 0.85rem;
             position: relative;
         }
+        .refresh-indicator {
+            color: var(--text3);
+            font-size: 0.8rem;
+            margin-top: 4px;
+        }
 
         .metrics-grid {
             display: grid;
@@ -242,6 +247,31 @@
             gap: 10px;
         }
 
+        /* TABLE SCROLL — works on mobile! */
+        .table-scroll {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            scroll-behavior: smooth;
+            margin: 0 -32px;
+            padding: 0 32px;
+        }
+        .table-scroll::-webkit-scrollbar {
+            height: 4px;
+        }
+        .table-scroll::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .table-scroll::-webkit-scrollbar-thumb {
+            background: var(--border2);
+            border-radius: 4px;
+        }
+        .positions-table {
+            min-width: 750px;
+        }
+        .trades-table {
+            min-width: 900px;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
@@ -256,11 +286,13 @@
             font-size: 0.7rem;
             letter-spacing: 0.08em;
             border-bottom: 1px solid var(--border);
+            white-space: nowrap;
         }
         td {
             padding: 14px 12px;
             border-bottom: 1px solid rgba(255,255,255,0.04);
             color: var(--text2);
+            white-space: nowrap;
         }
         tr:hover {
             background: rgba(255,255,255,0.02);
@@ -292,11 +324,39 @@
             color: #ff9800;
             border: 1px solid rgba(255,152,0,0.2);
         }
+        .badge-sold {
+            background: rgba(255,71,87,0.08);
+            color: #ff4757;
+            border: 1px solid rgba(255,71,87,0.2);
+        }
         .change-up { color: var(--teal); font-weight: 600; }
         .change-down { color: #ff4757; font-weight: 600; }
         .change-neutral { color: var(--text3); }
         .pl-positive { color: var(--teal); font-weight: 700; }
         .pl-negative { color: #ff4757; font-weight: 700; }
+
+        /* Stop-loss info */
+        .stop-info {
+            font-size: 0.7rem;
+            color: var(--text3);
+            margin-top: 2px;
+        }
+        .stop-active {
+            color: #ff9800;
+        }
+        .tp-indicator {
+            display: inline-flex;
+            gap: 3px;
+            margin-left: 6px;
+        }
+        .tp-dot {
+            width: 6px; height: 6px;
+            border-radius: 50%;
+            background: var(--text3);
+        }
+        .tp-dot-hit {
+            background: var(--teal);
+        }
 
         .charts-row {
             display: grid;
@@ -326,23 +386,6 @@
             letter-spacing: 0.08em;
         }
 
-        /* Transacties - VERBETERD */
-        .trades-scroll {
-            overflow-x: auto;
-            -webkit-overflow-scrolling: touch;
-            margin: 0 -32px;
-            padding: 0 32px;
-        }
-        .trades-table {
-            min-width: 900px;
-        }
-        .trades-table th {
-            white-space: nowrap;
-            font-size: 0.65rem;
-        }
-        .trades-table td {
-            white-space: nowrap;
-        }
         .event-badge {
             font-size: 0.7rem;
             font-weight: 600;
@@ -396,15 +439,16 @@
         @media (max-width: 768px) {
             .metrics-grid { grid-template-columns: 1fr 1fr; }
             .metric-card .value { font-size: 1.4rem; }
+            .section { padding: 20px; }
+            .table-scroll { margin: 0 -20px; padding: 0 20px; }
             table { font-size: 0.8rem; }
-            th, td { padding: 10px 6px; }
+            th, td { padding: 10px 8px; }
             .container { padding: 90px 4vw 30px; }
         }
         @media (max-width: 480px) {
             .metrics-grid { grid-template-columns: 1fr; }
         }
     </style>
-    <meta http-equiv="refresh" content="300">
 </head>
 <body>
     <!-- LOGIN SCREEN -->
@@ -431,31 +475,16 @@
         <div class="container">
             <header>
                 <h1>Jouw Portfolio<br><span class="gradient-text">Live Overzicht</span></h1>
-                <div class="timestamp">Laatst bijgewerkt: 27-05-2026 07:50:02</div>
+                <div class="timestamp" id="timestamp">Laden...</div>
+                <div class="refresh-indicator" id="refresh-indicator"></div>
             </header>
 
             <!-- Key Metrics -->
-            <div class="metrics-grid">
-                <div class="metric-card">
-                    <div class="label">Totaal Geinvesteerd</div>
-                    <div class="value neutral">$2,026.23</div>
-                </div>
-                <div class="metric-card">
-                    <div class="label">Huidige Waarde</div>
-                    <div class="value neutral">$2,021.10</div>
-                </div>
-                <div class="metric-card">
-                    <div class="label">Unrealized P&L</div>
-                    <div class="value negative">
-                        ▼ $-5.13
-                    </div>
-                </div>
-                <div class="metric-card">
-                    <div class="label">Realized P&L</div>
-                    <div class="value positive">
-                        ▲ $+0.00
-                    </div>
-                </div>
+            <div class="metrics-grid" id="metrics-grid">
+                <div class="metric-card"><div class="label">Laden...</div><div class="value neutral">—</div></div>
+                <div class="metric-card"><div class="label">Laden...</div><div class="value neutral">—</div></div>
+                <div class="metric-card"><div class="label">Laden...</div><div class="value neutral">—</div></div>
+                <div class="metric-card"><div class="label">Laden...</div><div class="value neutral">—</div></div>
             </div>
 
             <!-- Charts Row -->
@@ -469,137 +498,32 @@
             <!-- Positions Table -->
             <div class="section">
                 <h2>📊 Posities</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Symbol</th>
-                            <th>Entry</th>
-                            <th>Huidig</th>
-                            <th>Verandering</th>
-                            <th>Aantal</th>
-                            <th>Ingekocht</th>
-                            <th>Waarde</th>
-                            <th>P&L</th>
-                            <th>Status</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-
-                        <tr>
-                            <td><span class="symbol">BTCUSD</span></td>
-                            <td>$77,038.81</td>
-                            <td>$75,499.40</td>
-                            <td class="change-down">▼ 2.00%</td>
-                            <td>0.0026</td>
-                            <td>$199.48</td>
-                            <td>$195.49</td>
-                            <td class="pl-negative">$-3.99 (-2.00%)</td>
-                            <td><span class="badge badge-holding">HOLDING</span></td>
-                        </tr>
-    
-                        <tr>
-                            <td><span class="symbol">CBRS</span></td>
-                            <td>$249.07</td>
-                            <td>$241.69</td>
-                            <td class="change-down">▼ 2.96%</td>
-                            <td>1.0000</td>
-                            <td>$249.07</td>
-                            <td>$241.69</td>
-                            <td class="pl-negative">$-7.38 (-2.96%)</td>
-                            <td><span class="badge badge-holding">HOLDING</span></td>
-                        </tr>
-    
-                        <tr>
-                            <td><span class="symbol">GOOGL</span></td>
-                            <td>$384.07</td>
-                            <td>$387.23</td>
-                            <td class="change-up">▲ 0.82%</td>
-                            <td>1.0000</td>
-                            <td>$384.07</td>
-                            <td>$387.23</td>
-                            <td class="pl-positive">$+3.16 (+0.82%)</td>
-                            <td><span class="badge badge-holding">HOLDING</span></td>
-                        </tr>
-    
-                        <tr>
-                            <td><span class="symbol">MSFT</span></td>
-                            <td>$415.44</td>
-                            <td>$413.56</td>
-                            <td class="change-down">▼ 0.45%</td>
-                            <td>1.0000</td>
-                            <td>$415.44</td>
-                            <td>$413.56</td>
-                            <td class="pl-negative">$-1.88 (-0.45%)</td>
-                            <td><span class="badge badge-holding">HOLDING</span></td>
-                        </tr>
-    
-                        <tr>
-                            <td><span class="symbol">NVDA</span></td>
-                            <td>$215.37</td>
-                            <td>$213.99</td>
-                            <td class="change-down">▼ 0.64%</td>
-                            <td>1.0000</td>
-                            <td>$215.37</td>
-                            <td>$213.99</td>
-                            <td class="pl-negative">$-1.38 (-0.64%)</td>
-                            <td><span class="badge badge-holding">HOLDING</span></td>
-                        </tr>
-    
-                        <tr>
-                            <td><span class="symbol">PLTR</span></td>
-                            <td>$134.07</td>
-                            <td>$134.85</td>
-                            <td class="change-up">▲ 0.58%</td>
-                            <td>1.0000</td>
-                            <td>$134.07</td>
-                            <td>$134.85</td>
-                            <td class="pl-positive">$+0.78 (+0.58%)</td>
-                            <td><span class="badge badge-holding">HOLDING</span></td>
-                        </tr>
-    
-                        <tr>
-                            <td><span class="symbol">TSLA</span></td>
-                            <td>$428.73</td>
-                            <td>$434.29</td>
-                            <td class="change-up">▲ 1.30%</td>
-                            <td>1.0000</td>
-                            <td>$428.73</td>
-                            <td>$434.29</td>
-                            <td class="pl-positive">$+5.56 (+1.30%)</td>
-                            <td><span class="badge badge-holding">HOLDING</span></td>
-                        </tr>
-    
-                        <tr>
-                            <td><span class="symbol">AAPL</span></td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td class="change-neutral">-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td class="change-neutral">-</td>
-                            <td><span class="badge badge-waiting">AFWACHTEN</span></td>
-                        </tr>
-        
-                        <tr>
-                            <td><span class="symbol">JPM</span></td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td class="change-neutral">-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td class="change-neutral">-</td>
-                            <td><span class="badge badge-waiting">AFWACHTEN</span></td>
-                        </tr>
-        
-                    </tbody>
-                </table>
+                <div class="table-scroll" id="positions-scroll">
+                    <table class="positions-table">
+                        <thead>
+                            <tr>
+                                <th>Symbol</th>
+                                <th>Entry</th>
+                                <th>Huidig</th>
+                                <th>Verandering</th>
+                                <th>Aantal</th>
+                                <th>Ingekocht</th>
+                                <th>Waarde</th>
+                                <th>P&amp;L</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="positions-tbody">
+                            <tr><td colspan="9" style="text-align:center;color:var(--text3)">Laden...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
 
+            <!-- Recent Trades -->
             <div class="section">
                 <h2>📝 Recente Transacties</h2>
-                <div class="trades-scroll">
+                <div class="table-scroll">
                     <table class="trades-table">
                         <thead>
                             <tr>
@@ -614,172 +538,51 @@
                                 <th>Opmerking</th>
                             </tr>
                         </thead>
-                        <tbody>
-    
-                            <tr>
-                                <td class="td-time">2026-05-26T15:40</td>
-                                <td><span class="event-badge event-stop_limit">STOP LIMIT</span></td>
-                                <td><span class="symbol">NVDA</span></td>
-                                <td>SELL</td>
-                                <td class="td-mono">1</td>
-                                <td class="td-value">$204.60</td>
-                                <td class="td-value">-</td>
-                                <td class="td-mono">ddef52f9-418...</td>
-                                <td class="td-note">-</td>
-                            </tr>
-        
-                            <tr>
-                                <td class="td-time">2026-05-26T15:38</td>
-                                <td><span class="event-badge event-stop_limit">STOP LIMIT</span></td>
-                                <td><span class="symbol">PLTR</span></td>
-                                <td>SELL</td>
-                                <td class="td-mono">1</td>
-                                <td class="td-value">$127.37</td>
-                                <td class="td-value">-</td>
-                                <td class="td-mono">beda13e9-29f...</td>
-                                <td class="td-note">-</td>
-                            </tr>
-        
-                            <tr>
-                                <td class="td-time">2026-05-26T15:38</td>
-                                <td><span class="event-badge event-stop_limit">STOP LIMIT</span></td>
-                                <td><span class="symbol">TSLA</span></td>
-                                <td>SELL</td>
-                                <td class="td-mono">1</td>
-                                <td class="td-value">$407.29</td>
-                                <td class="td-value">-</td>
-                                <td class="td-mono">fa8a2283-283...</td>
-                                <td class="td-note">-</td>
-                            </tr>
-        
-                            <tr>
-                                <td class="td-time">2026-05-26T15:30</td>
-                                <td><span class="event-badge event-default">LIMIT_BUY</span></td>
-                                <td><span class="symbol">CBRS</span></td>
-                                <td>BUY</td>
-                                <td class="td-mono">1</td>
-                                <td class="td-value">$260.06</td>
-                                <td class="td-value">$260.06</td>
-                                <td class="td-mono">6048d526-8a9...</td>
-                                <td class="td-note">-</td>
-                            </tr>
-        
-                            <tr>
-                                <td class="td-time">2026-05-26T15:30</td>
-                                <td><span class="event-badge event-default">LIMIT_BUY</span></td>
-                                <td><span class="symbol">PLTR</span></td>
-                                <td>BUY</td>
-                                <td class="td-mono">1</td>
-                                <td class="td-value">$137.32</td>
-                                <td class="td-value">$137.32</td>
-                                <td class="td-mono">722a24ca-623...</td>
-                                <td class="td-note">-</td>
-                            </tr>
-        
-                            <tr>
-                                <td class="td-time">2026-05-26T15:30</td>
-                                <td><span class="event-badge event-default">LIMIT_BUY</span></td>
-                                <td><span class="symbol">JPM</span></td>
-                                <td>BUY</td>
-                                <td class="td-mono">1</td>
-                                <td class="td-value">$308.15</td>
-                                <td class="td-value">$308.15</td>
-                                <td class="td-mono">545fef66-f52...</td>
-                                <td class="td-note">-</td>
-                            </tr>
-        
-                            <tr>
-                                <td class="td-time">2026-05-26T15:30</td>
-                                <td><span class="event-badge event-default">LIMIT_BUY</span></td>
-                                <td><span class="symbol">GOOGL</span></td>
-                                <td>BUY</td>
-                                <td class="td-mono">1</td>
-                                <td class="td-value">$385.12</td>
-                                <td class="td-value">$385.12</td>
-                                <td class="td-mono">4b1ff0a0-bef...</td>
-                                <td class="td-note">-</td>
-                            </tr>
-        
-                            <tr>
-                                <td class="td-time">2026-05-26T15:30</td>
-                                <td><span class="event-badge event-default">LIMIT_BUY</span></td>
-                                <td><span class="symbol">AAPL</span></td>
-                                <td>BUY</td>
-                                <td class="td-mono">1</td>
-                                <td class="td-value">$310.20</td>
-                                <td class="td-value">$310.20</td>
-                                <td class="td-mono">41d48ff4-3e4...</td>
-                                <td class="td-note">-</td>
-                            </tr>
-        
-                            <tr>
-                                <td class="td-time">2026-05-26T15:30</td>
-                                <td><span class="event-badge event-default">LIMIT_BUY</span></td>
-                                <td><span class="symbol">MSFT</span></td>
-                                <td>BUY</td>
-                                <td class="td-mono">1</td>
-                                <td class="td-value">$415.99</td>
-                                <td class="td-value">$415.99</td>
-                                <td class="td-mono">9a2b4367-c18...</td>
-                                <td class="td-note">-</td>
-                            </tr>
-        
-                            <tr>
-                                <td class="td-time">2026-05-26T15:30</td>
-                                <td><span class="event-badge event-default">LIMIT_BUY</span></td>
-                                <td><span class="symbol">NVDA</span></td>
-                                <td>BUY</td>
-                                <td class="td-mono">1</td>
-                                <td class="td-value">$215.90</td>
-                                <td class="td-value">$215.90</td>
-                                <td class="td-mono">11a41721-ffa...</td>
-                                <td class="td-note">-</td>
-                            </tr>
-        
+                        <tbody id="trades-tbody">
+                            <tr><td colspan="9" style="text-align:center;color:var(--text3)">Laden...</td></tr>
                         </tbody>
                     </table>
                 </div>
             </div>
-    
         </div>
     </div>
 
     <script>
         const WEBHOOK_URL = 'https://my-n8n.nl/webhook/trading-dashboard/';
+        const DATA_URL = 'api/data.json';
+        let chartInstance = null;
+        let countdownInterval = null;
 
+        // ——— Login ———
         if (sessionStorage.getItem('dashboard_logged_in') === 'true') {
             document.getElementById('login-screen').style.display = 'none';
             document.getElementById('dashboard').style.display = 'block';
-            initChart();
+            loadData();
         }
 
         function checkLogin() {
             const password = document.getElementById('password-input').value;
             const errorDiv = document.getElementById('login-error');
             const loadingDiv = document.getElementById('login-loading');
-            
-            if (!password) {
-                errorDiv.style.display = 'block';
-                return;
-            }
-            
+
+            if (!password) { errorDiv.style.display = 'block'; return; }
+
             errorDiv.style.display = 'none';
             loadingDiv.style.display = 'block';
-            
+
             fetch(WEBHOOK_URL, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ password: password })
             })
-            .then(response => response.json())
+            .then(r => r.json())
             .then(data => {
                 loadingDiv.style.display = 'none';
-                
                 if (data.valid === true) {
                     sessionStorage.setItem('dashboard_logged_in', 'true');
                     document.getElementById('login-screen').style.display = 'none';
                     document.getElementById('dashboard').style.display = 'block';
-                    initChart();
+                    loadData();
                 } else {
                     errorDiv.style.display = 'block';
                     document.getElementById('password-input').value = '';
@@ -797,18 +600,155 @@
             location.reload();
         }
 
-        function initChart() {
+        // ——— Data loading ———
+        function loadData() {
+            document.getElementById('refresh-indicator').textContent = '\U0001f504 Data laden...';
+
+            fetch(DATA_URL + '?t=' + Date.now())
+                .then(r => r.json())
+                .then(data => {
+                    renderDashboard(data);
+                })
+                .catch(err => {
+                    document.getElementById('refresh-indicator').textContent =
+                        '\u26a0\ufe0f Kon data niet laden. Probeer opnieuw...';
+                    console.error('Data load error:', err);
+                });
+        }
+
+        function renderDashboard(data) {
+            document.getElementById('timestamp').textContent =
+                'Laatst bijgewerkt: ' + data.generated_at;
+
+            renderMetrics(data.metrics);
+            renderPositions(data.positions);
+            renderTrades(data.trades);
+            renderChart(data.allocations);
+            startAutoRefresh();
+        }
+
+        function renderMetrics(metrics) {
+            const grid = document.getElementById('metrics-grid');
+            const m = [
+                { label: 'Totaal Geinvesteerd', value: '$' + fmt(metrics.total_invested), cls: 'neutral' },
+                { label: 'Huidige Waarde', value: '$' + fmt(metrics.total_value), cls: 'neutral' },
+                { label: 'Unrealized P&L',
+                  value: (metrics.unrealized_pl >= 0 ? '\u25b2 ' : '\u25bc ') + '$' + fmt(Math.abs(metrics.unrealized_pl)),
+                  cls: metrics.unrealized_pl >= 0 ? 'positive' : 'negative' },
+                { label: 'Realized P&L',
+                  value: (metrics.realized_pl >= 0 ? '\u25b2 ' : '\u25bc ') + '$' + fmt(Math.abs(metrics.realized_pl)),
+                  cls: metrics.realized_pl >= 0 ? 'positive' : 'negative' },
+            ];
+            grid.innerHTML = m.map(c =>
+                '<div class="metric-card">' +
+                    '<div class="label">' + c.label + '</div>' +
+                    '<div class="value ' + c.cls + '">' + c.value + '</div>' +
+                '</div>'
+            ).join('');
+        }
+
+        function renderPositions(positions) {
+            const tbody = document.getElementById('positions-tbody');
+            if (!positions || positions.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="9" style="text-align:center;color:var(--text3)">Geen posities</td></tr>';
+                return;
+            }
+
+            tbody.innerHTML = positions.map(function(p) {
+                if (p.status === 'AFWACHTEN') {
+                    return '<tr>' +
+                        '<td><span class="symbol">' + p.symbol + '</span></td>' +
+                        '<td>-</td><td>-</td><td class="change-neutral">-</td>' +
+                        '<td>-</td><td>-</td><td>-</td><td class="change-neutral">-</td>' +
+                        '<td><span class="badge badge-waiting">AFWACHTEN</span></td>' +
+                    '</tr>';
+                }
+
+                var changeCls = p.change_pct >= 0 ? 'change-up' : 'change-down';
+                var changeIcon = p.change_pct >= 0 ? '\u25b2' : '\u25bc';
+                var plCls = p.pl >= 0 ? 'pl-positive' : 'pl-negative';
+                var plIcon = p.pl >= 0 ? '\u25b2' : '\u25bc';
+
+                var stopHtml = '';
+                if (p.stop_order_id || p.last_peak) {
+                    stopHtml = '<div class="stop-info">';
+                    if (p.last_peak) {
+                        var trailDist = ((p.current_price / p.last_peak) - 1) * 100;
+                        stopHtml += '<span class="' + (trailDist < -2 ? 'stop-active' : '') + '">\U0001f4c8 ' + fmt(p.last_peak) + '</span>';
+                    }
+                    if (p.stop_order_id) {
+                        stopHtml += ' <span class="stop-active">\U0001f6d1 actief</span>';
+                    }
+                    stopHtml += '</div>';
+                }
+
+                var tpDots = '';
+                if (p.tp_used) {
+                    tpDots = '<span class="tp-indicator">' +
+                        p.tp_used.map(function(hit, i) {
+                            return '<span class="tp-dot' + (hit ? ' tp-dot-hit' : '') + '" title="TP' + (i+1) + ': ' + (hit ? '\u2713' : '\u2014') + '"></span>';
+                        }).join('') +
+                        '</span>';
+                }
+
+                return '<tr>' +
+                    '<td><span class="symbol">' + p.symbol + '</span>' + tpDots + '</td>' +
+                    '<td>$' + fmt(p.entry_price) + '</td>' +
+                    '<td>$' + fmt(p.current_price) + stopHtml + '</td>' +
+                    '<td class="' + changeCls + '">' + changeIcon + ' ' + fmt(Math.abs(p.change_pct)) + '%</td>' +
+                    '<td>' + p.qty + '</td>' +
+                    '<td>$' + fmt(p.invested) + '</td>' +
+                    '<td>$' + fmt(p.value) + '</td>' +
+                    '<td class="' + plCls + '">' + plIcon + ' $' + fmt(Math.abs(p.pl)) + ' (' + plIcon + ' ' + fmt(Math.abs(p.pl_pct)) + '%)</td>' +
+                    '<td><span class="badge badge-holding">HOLDING</span></td>' +
+                '</tr>';
+            }).join('');
+        }
+
+        function renderTrades(trades) {
+            const tbody = document.getElementById('trades-tbody');
+            if (!trades || trades.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="9" style="text-align:center;color:var(--text3)">Geen transacties</td></tr>';
+                return;
+            }
+
+            tbody.innerHTML = trades.map(function(t) {
+                var eventClass = 'event-default';
+                if (t.event.indexOf('BUY') !== -1) eventClass = 'event-market_buy';
+                else if (t.event.indexOf('STOP') !== -1) eventClass = 'event-stop_limit';
+                else if (t.event.indexOf('SELL') !== -1) eventClass = 'event-market_sell';
+
+                var priceStr = (t.price && t.price !== 'None') ? '$' + fmt(parseFloat(t.price)) : '-';
+                var notStr = (t.notional && t.notional !== 'None') ? '$' + fmt(parseFloat(t.notional)) : '-';
+                var oid = (t.order_id && t.order_id.length > 14) ? t.order_id.slice(0, 14) + '...' : (t.order_id || '-');
+
+                return '<tr>' +
+                    '<td class="td-time">' + t.timestamp + '</td>' +
+                    '<td><span class="event-badge ' + eventClass + '">' + t.event + '</span></td>' +
+                    '<td><span class="symbol">' + t.symbol + '</span></td>' +
+                    '<td>' + t.side + '</td>' +
+                    '<td class="td-mono">' + t.qty + '</td>' +
+                    '<td class="td-value">' + priceStr + '</td>' +
+                    '<td class="td-value">' + notStr + '</td>' +
+                    '<td class="td-mono">' + oid + '</td>' +
+                    '<td class="td-note">' + (t.note || '-') + '</td>' +
+                '</tr>';
+            }).join('');
+        }
+
+        function renderChart(alloc) {
+            if (!alloc || !alloc.labels || alloc.labels.length === 0) return;
+
+            if (chartInstance) chartInstance.destroy();
+
             const ctx = document.getElementById('allocationChart').getContext('2d');
-            new Chart(ctx, {
+            chartInstance = new Chart(ctx, {
                 type: 'doughnut',
                 data: {
-                    labels: ["BTCUSD", "CBRS", "GOOGL", "MSFT", "NVDA", "PLTR", "TSLA"],
+                    labels: alloc.labels,
                     datasets: [{
-                        data: [195.492182, 241.69, 387.23, 413.56, 213.99, 134.85, 434.29],
-                        backgroundColor: [
-                            '#7c6bf2', '#a98fff', '#3ddbc6', '#f093fb',
-                            '#f5576c', '#4facfe', '#00f2fe', '#43e97b'
-                        ],
+                        data: alloc.values,
+                        backgroundColor: alloc.colors,
                         borderWidth: 0
                     }]
                 },
@@ -827,6 +767,34 @@
                     }
                 }
             });
+
+            document.getElementById('refresh-indicator').textContent = '\U0001f504 Verversen over 5 min';
+        }
+
+        function startAutoRefresh() {
+            if (countdownInterval) clearInterval(countdownInterval);
+
+            var secondsLeft = 300;
+            var indicator = document.getElementById('refresh-indicator');
+
+            countdownInterval = setInterval(function() {
+                secondsLeft--;
+                if (secondsLeft <= 0) {
+                    loadData();
+                    secondsLeft = 300;
+                } else if (secondsLeft % 60 === 0) {
+                    indicator.textContent = '\U0001f504 Verversen over ' + (secondsLeft / 60) + ' min';
+                } else if (secondsLeft < 60 && secondsLeft % 15 === 0) {
+                    indicator.textContent = '\U0001f504 Verversen over ' + secondsLeft + 's';
+                }
+            }, 1000);
+        }
+
+        function fmt(n) {
+            if (n === null || n === undefined || isNaN(n)) return '\u2014';
+            if (typeof n === 'string') n = parseFloat(n);
+            if (Math.abs(n) >= 1000) return n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            return n.toFixed(2);
         }
     </script>
 </body>
