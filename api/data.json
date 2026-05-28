@@ -1,10 +1,10 @@
 {
-  "generated_at": "28-05-2026 21:23:52",
-  "generated_at_iso": "2026-05-28T21:23:52.664997",
+  "generated_at": "28-05-2026 21:28:54",
+  "generated_at_iso": "2026-05-28T21:28:54.865909",
   "metrics": {
     "total_invested": 1777.16,
-    "total_value": 1806.13,
-    "unrealized_pl": 28.97,
+    "total_value": 1807.45,
+    "unrealized_pl": 30.29,
     "realized_pl": 0
   },
   "positions": [
@@ -37,13 +37,13 @@
     {
       "symbol": "GOOGL",
       "entry_price": 384.07,
-      "current_price": 390.78,
-      "change_pct": 1.75,
+      "current_price": 391.1,
+      "change_pct": 1.83,
       "qty": 1.0,
       "invested": 384.07,
-      "value": 390.78,
-      "pl": 6.71,
-      "pl_pct": 1.75,
+      "value": 391.1,
+      "pl": 7.03,
+      "pl_pct": 1.83,
       "status": "HOLDING",
       "stop_order_id": null,
       "last_peak": 393.71,
@@ -63,13 +63,13 @@
     {
       "symbol": "MSFT",
       "entry_price": 415.44,
-      "current_price": 426.23,
-      "change_pct": 2.6,
+      "current_price": 425.79,
+      "change_pct": 2.49,
       "qty": 1.0,
       "invested": 415.44,
-      "value": 426.23,
-      "pl": 10.79,
-      "pl_pct": 2.6,
+      "value": 425.79,
+      "pl": 10.35,
+      "pl_pct": 2.49,
       "status": "HOLDING",
       "stop_order_id": null,
       "last_peak": 428.49,
@@ -89,13 +89,13 @@
     {
       "symbol": "NVDA",
       "entry_price": 215.37,
-      "current_price": 214.01,
-      "change_pct": -0.63,
+      "current_price": 214.13,
+      "change_pct": -0.58,
       "qty": 1.0,
       "invested": 215.37,
-      "value": 214.01,
-      "pl": -1.36,
-      "pl_pct": -0.63,
+      "value": 214.13,
+      "pl": -1.24,
+      "pl_pct": -0.58,
       "status": "HOLDING",
       "stop_order_id": "ddef52f9-418d-47e9-a204-ac03e4e3d42a",
       "last_peak": 217.86,
@@ -115,15 +115,15 @@
     {
       "symbol": "PLTR",
       "entry_price": 134.07,
-      "current_price": 142.82,
-      "change_pct": 6.53,
+      "current_price": 142.91,
+      "change_pct": 6.59,
       "qty": 1.0,
       "invested": 134.07,
-      "value": 142.82,
-      "pl": 8.76,
-      "pl_pct": 6.53,
+      "value": 142.91,
+      "pl": 8.84,
+      "pl_pct": 6.59,
       "status": "HOLDING",
-      "stop_order_id": "70e2d817-ff2b-4026-8419-6a1b3b584ebe",
+      "stop_order_id": "bee0e5c4-bdcd-4cba-a243-484fbe1e2749",
       "last_peak": 142.97,
       "tp_used": [
         true,
@@ -141,13 +141,13 @@
     {
       "symbol": "TSLA",
       "entry_price": 428.73,
-      "current_price": 442.4,
-      "change_pct": 3.19,
+      "current_price": 443.63,
+      "change_pct": 3.48,
       "qty": 1.0,
       "invested": 428.73,
-      "value": 442.4,
-      "pl": 13.67,
-      "pl_pct": 3.19,
+      "value": 443.63,
+      "pl": 14.9,
+      "pl_pct": 3.48,
       "status": "HOLDING",
       "stop_order_id": "fa8a2283-283d-41e3-9cb5-a53b484c1e48",
       "last_peak": 445.195,
@@ -247,6 +247,17 @@
     }
   ],
   "trades": [
+    {
+      "timestamp": "2026-05-28T21:25",
+      "event": "STOP LIMIT",
+      "symbol": "PLTR",
+      "side": "SELL",
+      "qty": "1",
+      "price": "138.6809",
+      "notional": "",
+      "order_id": "bee0e5c4-bdcd-4cba-a243-484fbe1e2749",
+      "note": "limit=137.29"
+    },
     {
       "timestamp": "2026-05-28T21:20",
       "event": "STOP LIMIT",
@@ -400,17 +411,6 @@
       "notional": "385.12",
       "order_id": "4b1ff0a0-beff-4d65-9bb8-1c7c36ffe138",
       "note": ""
-    },
-    {
-      "timestamp": "2026-05-26T15:30",
-      "event": "LIMIT BUY",
-      "symbol": "AAPL",
-      "side": "BUY",
-      "qty": "1",
-      "price": "310.205",
-      "notional": "310.205",
-      "order_id": "41d48ff4-3e48-483f-a40a-07a3f9a87a19",
-      "note": ""
     }
   ],
   "allocations": {
@@ -424,11 +424,11 @@
     ],
     "values": [
       189.884671,
-      390.78,
-      426.23,
-      214.01,
-      142.825,
-      442.4
+      391.1037,
+      425.79,
+      214.13,
+      142.9099,
+      443.6303
     ],
     "colors": [
       "#7c6bf2",
