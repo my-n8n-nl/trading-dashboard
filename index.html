@@ -485,6 +485,8 @@
                 <div class="metric-card"><div class="label">Laden...</div><div class="value neutral">—</div></div>
                 <div class="metric-card"><div class="label">Laden...</div><div class="value neutral">—</div></div>
                 <div class="metric-card"><div class="label">Laden...</div><div class="value neutral">—</div></div>
+                <div class="metric-card"><div class="label">Laden...</div><div class="value neutral">—</div></div>
+                <div class="metric-card"><div class="label">Laden...</div><div class="value neutral">—</div></div>
             </div>
 
             <!-- Charts Row -->
@@ -510,11 +512,12 @@
                                 <th>Ingekocht</th>
                                 <th>Waarde</th>
                                 <th>P&amp;L</th>
+                                <th>Total P&amp;L</th>
                                 <th>Status</th>
                             </tr>
                         </thead>
                         <tbody id="positions-tbody">
-                            <tr><td colspan="9" style="text-align:center;color:var(--text3)">Laden...</td></tr>
+                            <tr><td colspan="10" style="text-align:center;color:var(--text3)">Laden...</td></tr>
                         </tbody>
                     </table>
                 </div>
@@ -627,16 +630,20 @@
             startAutoRefresh();
         }
 
-        function renderMetrics(metrics) {
+function renderMetrics(metrics) {
             const grid = document.getElementById('metrics-grid');
             const m = [
-                { label: 'Totaal Geinvesteerd', value: '$' + fmt(metrics.total_invested), cls: 'neutral' },
-                { label: 'Huidige Waarde', value: '$' + fmt(metrics.total_value), cls: 'neutral' },
+                { label: 'Portefeuille Waarde', value: '$' + fmt(metrics.portfolio_value), cls: 'neutral' },
+                { label: 'Cash', value: '$' + fmt(metrics.cash), cls: 'neutral' },
+                { label: 'Totaal P&L',
+                  value: (metrics.total_pnl >= 0 ? '\\u25b2 ' : '\\u25bc ') + '$' + fmt(Math.abs(metrics.total_pnl)),
+                  cls: metrics.total_pnl >= 0 ? 'positive' : 'negative' },
+                { label: 'Totaal Geïnvesteerd', value: '$' + fmt(metrics.total_invested), cls: 'neutral' },
                 { label: 'Unrealized P&L',
-                  value: (metrics.unrealized_pl >= 0 ? '\u25b2 ' : '\u25bc ') + '$' + fmt(Math.abs(metrics.unrealized_pl)),
+                  value: (metrics.unrealized_pl >= 0 ? '\\u25b2 ' : '\\u25bc ') + '$' + fmt(Math.abs(metrics.unrealized_pl)),
                   cls: metrics.unrealized_pl >= 0 ? 'positive' : 'negative' },
                 { label: 'Realized P&L',
-                  value: (metrics.realized_pl >= 0 ? '\u25b2 ' : '\u25bc ') + '$' + fmt(Math.abs(metrics.realized_pl)),
+                  value: (metrics.realized_pl >= 0 ? '\\u25b2 ' : '\\u25bc ') + '$' + fmt(Math.abs(metrics.realized_pl)),
                   cls: metrics.realized_pl >= 0 ? 'positive' : 'negative' },
             ];
             grid.innerHTML = m.map(c =>
@@ -654,20 +661,24 @@
                 return;
             }
 
-            tbody.innerHTML = positions.map(function(p) {
+tbody.innerHTML = positions.map(function(p) {
                 if (p.status === 'AFWACHTEN') {
                     return '<tr>' +
                         '<td><span class="symbol">' + p.symbol + '</span></td>' +
                         '<td>-</td><td>-</td><td class="change-neutral">-</td>' +
                         '<td>-</td><td>-</td><td>-</td><td class="change-neutral">-</td>' +
+                        '<td class="change-neutral">-</td>' +
                         '<td><span class="badge badge-waiting">AFWACHTEN</span></td>' +
                     '</tr>';
                 }
 
                 var changeCls = p.change_pct >= 0 ? 'change-up' : 'change-down';
-                var changeIcon = p.change_pct >= 0 ? '\u25b2' : '\u25bc';
+                var changeIcon = p.change_pct >= 0 ? '\\u25b2' : '\\u25bc';
                 var plCls = p.pl >= 0 ? 'pl-positive' : 'pl-negative';
-                var plIcon = p.pl >= 0 ? '\u25b2' : '\u25bc';
+                var plIcon = p.pl >= 0 ? '\\u25b2' : '\\u25bc';
+                var totalPl = (p.pl || 0) + (p.realized_pl || 0);
+                var totalPlCls = totalPl >= 0 ? 'pl-positive' : 'pl-negative';
+                var totalPlIcon = totalPl >= 0 ? '\\u25b2' : '\\u25bc';
 
                 var stopHtml = '';
                 if (p.stop_order_id || p.last_peak) {
@@ -700,6 +711,7 @@
                     '<td>$' + fmt(p.invested) + '</td>' +
                     '<td>$' + fmt(p.value) + '</td>' +
                     '<td class="' + plCls + '">' + plIcon + ' $' + fmt(Math.abs(p.pl)) + ' (' + plIcon + ' ' + fmt(Math.abs(p.pl_pct)) + '%)</td>' +
+                    '<td class="' + totalPlCls + '">' + totalPlIcon + ' $' + fmt(Math.abs(totalPl)) + '</td>' +
                     '<td><span class="badge badge-holding">HOLDING</span></td>' +
                 '</tr>';
             }).join('');
