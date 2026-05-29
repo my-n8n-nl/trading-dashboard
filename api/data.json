@@ -1,26 +1,26 @@
 {
-  "generated_at": "30-05-2026 01:40:02",
-  "generated_at_iso": "2026-05-30T01:40:02.895927",
+  "generated_at": "30-05-2026 01:43:50",
+  "generated_at_iso": "2026-05-30T01:43:50.954957",
   "metrics": {
     "total_invested": 1227.65,
-    "total_value": 1217.08,
-    "portfolio_value": 3041.69,
+    "total_value": 1217.37,
+    "portfolio_value": 3041.98,
     "cash": 1324.61,
-    "unrealized_pl": -10.57,
+    "unrealized_pl": -10.28,
     "realized_pl": 52.77,
-    "total_pnl": 42.2
+    "total_pnl": 42.49
   },
   "positions": [
     {
       "symbol": "BTCUSD",
       "entry_price": 77038.81,
-      "current_price": 73202.93,
-      "change_pct": -4.98,
+      "current_price": 73325.6,
+      "change_pct": -4.82,
       "qty": 0.0026,
       "invested": 199.48,
-      "value": 189.55,
-      "pl": -9.93,
-      "pl_pct": -4.98,
+      "value": 189.86,
+      "pl": -9.61,
+      "pl_pct": -4.82,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": "9a97da67-53b6-459d-8d4f-00acd7432e92",
@@ -68,13 +68,13 @@
     {
       "symbol": "NVDA",
       "entry_price": 215.37,
-      "current_price": 212.58,
-      "change_pct": -1.3,
+      "current_price": 212.54,
+      "change_pct": -1.31,
       "qty": 1.0,
       "invested": 215.37,
-      "value": 212.58,
-      "pl": -2.79,
-      "pl_pct": -1.29,
+      "value": 212.54,
+      "pl": -2.83,
+      "pl_pct": -1.31,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": "ddef52f9-418d-47e9-a204-ac03e4e3d42a",
@@ -95,12 +95,12 @@
     {
       "symbol": "TSLA",
       "entry_price": 428.73,
-      "current_price": 434.33,
+      "current_price": 434.35,
       "change_pct": 1.31,
       "qty": 1.0,
       "invested": 428.73,
-      "value": 434.33,
-      "pl": 5.6,
+      "value": 434.35,
+      "pl": 5.62,
       "pl_pct": 1.31,
       "realized_pl": 0,
       "status": "HOLDING",
@@ -430,10 +430,10 @@
       "TSLA"
     ],
     "values": [
-      189.545884,
+      189.863516,
       380.62,
-      212.58,
-      434.3348
+      212.5398,
+      434.3481
     ],
     "colors": [
       "#7c6bf2",
