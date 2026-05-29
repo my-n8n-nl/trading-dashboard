@@ -636,14 +636,14 @@ function renderMetrics(metrics) {
                 { label: 'Portefeuille Waarde', value: '$' + fmt(metrics.portfolio_value), cls: 'neutral' },
                 { label: 'Cash', value: '$' + fmt(metrics.cash), cls: 'neutral' },
                 { label: 'Totaal P&L',
-                  value: (metrics.total_pnl >= 0 ? '\\u25b2 ' : '\\u25bc ') + '$' + fmt(Math.abs(metrics.total_pnl)),
+value: (metrics.total_pnl >= 0 ? '\u25b2 ' : '\u25bc ') + '$' + fmt(Math.abs(metrics.total_pnl)),
                   cls: metrics.total_pnl >= 0 ? 'positive' : 'negative' },
                 { label: 'Totaal Geïnvesteerd', value: '$' + fmt(metrics.total_invested), cls: 'neutral' },
-                { label: 'Unrealized P&L',
-                  value: (metrics.unrealized_pl >= 0 ? '\\u25b2 ' : '\\u25bc ') + '$' + fmt(Math.abs(metrics.unrealized_pl)),
+                { label: 'Onrealized P&L',
+                  value: (metrics.unrealized_pl >= 0 ? '\u25b2 ' : '\u25bc ') + '$' + fmt(Math.abs(metrics.unrealized_pl)),
                   cls: metrics.unrealized_pl >= 0 ? 'positive' : 'negative' },
                 { label: 'Realized P&L',
-                  value: (metrics.realized_pl >= 0 ? '\\u25b2 ' : '\\u25bc ') + '$' + fmt(Math.abs(metrics.realized_pl)),
+                  value: (metrics.realized_pl >= 0 ? '\u25b2 ' : '\u25bc ') + '$' + fmt(Math.abs(metrics.realized_pl)),
                   cls: metrics.realized_pl >= 0 ? 'positive' : 'negative' },
             ];
             grid.innerHTML = m.map(c =>
@@ -673,12 +673,12 @@ tbody.innerHTML = positions.map(function(p) {
                 }
 
                 var changeCls = p.change_pct >= 0 ? 'change-up' : 'change-down';
-                var changeIcon = p.change_pct >= 0 ? '\\u25b2' : '\\u25bc';
+var changeIcon = p.change_pct >= 0 ? '\u25b2' : '\u25bc';
                 var plCls = p.pl >= 0 ? 'pl-positive' : 'pl-negative';
-                var plIcon = p.pl >= 0 ? '\\u25b2' : '\\u25bc';
+                var plIcon = p.pl >= 0 ? '\u25b2' : '\u25bc';
                 var totalPl = (p.pl || 0) + (p.realized_pl || 0);
                 var totalPlCls = totalPl >= 0 ? 'pl-positive' : 'pl-negative';
-                var totalPlIcon = totalPl >= 0 ? '\\u25b2' : '\\u25bc';
+                var totalPlIcon = totalPl >= 0 ? '\u25b2' : '\u25bc';
 
                 var stopHtml = '';
                 if (p.stop_order_id || p.last_peak) {
