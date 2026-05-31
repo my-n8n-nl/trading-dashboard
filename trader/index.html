@@ -462,12 +462,7 @@
         <div id="login-error">Wachtwoord is onjuist</div>
     </div>
 
-        <!-- ─── TERUG LINK ─── -->
-        <div style="padding: 16px 20px 0">
-          <a href="../" style="color:var(--text2);text-decoration:none;font-size:13px;display:inline-flex;align-items:center;gap:4px">← Terug naar launchpad</a>
-        </div>
-
-        <!-- ─── DASHBOARD ─── -->
+    <!-- DASHBOARD -->
     <div id="dashboard">
         <nav>
             <a href="#" class="nav-logo">
@@ -557,15 +552,12 @@
 
     <script>
         const WEBHOOK_URL = 'https://my-n8n.nl/webhook/trading-dashboard/';
-        const DATA_URL = '../api/data.json';
+        const DATA_URL = 'api/data.json';
         let chartInstance = null;
         let countdownInterval = null;
 
         // ——— Login ———
-        // ─── Auth check: skip login als launcher al geverifieerd heeft ───
-        if (sessionStorage.getItem('trading_hub_auth') === 'true') {
-            document.getElementById('login-screen').style.display = 'none';
-        } else if (sessionStorage.getItem('dashboard_logged_in') === 'true') {
+        if (sessionStorage.getItem('dashboard_logged_in') === 'true') {
             document.getElementById('login-screen').style.display = 'none';
             document.getElementById('dashboard').style.display = 'block';
             loadData();
