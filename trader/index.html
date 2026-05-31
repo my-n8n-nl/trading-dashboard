@@ -557,7 +557,12 @@
         let countdownInterval = null;
 
         // ——— Login ———
-        if (sessionStorage.getItem('dashboard_logged_in') === 'true') {
+        // Skip login als launcher al geverifieerd heeft
+        if (sessionStorage.getItem('trading_hub_auth') === 'true') {
+            document.getElementById('login-screen').style.display = 'none';
+            document.getElementById('dashboard').style.display = 'block';
+            loadData();
+        } else if (sessionStorage.getItem('dashboard_logged_in') === 'true') {
             document.getElementById('login-screen').style.display = 'none';
             document.getElementById('dashboard').style.display = 'block';
             loadData();
