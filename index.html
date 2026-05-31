@@ -133,7 +133,8 @@
   <h2>Abdel's Trading Hub</h2>
   <p>Voer je wachtwoord in om toegang te krijgen</p>
   <input type="password" id="password-input" placeholder="Wachtwoord" autocomplete="off" />
-  <button onclick="checkPassword()">Ontgrendel</button>
+  <button onclick="checkPassword()" id="login-btn">Ontgrendel</button>
+  <div id="login-loading" style="display:none;color:var(--text2);font-size:0.85rem;margin-top:10px">⏳ Verifiëren...</div>
   <div id="login-error"></div>
 </div>
 <div id="launchpad">
