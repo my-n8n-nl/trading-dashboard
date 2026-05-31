@@ -155,19 +155,46 @@
   <div class="footer-text">🔒 Beveiligde omgeving · Alpaca Paper Trading</div>
 </div>
 <script>
-const PASSWORD = '@bdel2026!';
+const WEBHOOK_URL = 'https://my-n8n.nl/webhook/trading-dashboard/';
+
 function checkPassword() {
-  const i = document.getElementById('password-input');
-  const e = document.getElementById('login-error');
-  if (i.value === PASSWORD) {
-    sessionStorage.setItem('trading_hub_auth', 'true');
-    document.getElementById('login-screen').classList.add('hidden');
-    document.getElementById('launchpad').classList.add('visible');
-    document.getElementById('launchpad').style.display = 'flex';
-  } else {
-    e.textContent = '❌ Ongeldig wachtwoord'; i.value = ''; i.focus();
-  }
+  const password = document.getElementById('password-input').value;
+  const errorDiv = document.getElementById('login-error');
+  const loadingDiv = document.getElementById('login-loading');
+  const btn = document.getElementById('login-btn');
+
+  if (!password) { errorDiv.textContent = '❌ Voer een wachtwoord in'; return; }
+
+  errorDiv.textContent = '';
+  loadingDiv.style.display = 'block';
+  btn.disabled = true;
+
+  fetch(WEBHOOK_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ password: password })
+  })
+  .then(r => r.json())
+  .then(data => {
+    loadingDiv.style.display = 'none';
+    btn.disabled = false;
+    if (data.valid === true) {
+      sessionStorage.setItem('trading_hub_auth', 'true');
+      document.getElementById('login-screen').classList.add('hidden');
+      document.getElementById('launchpad').classList.add('visible');
+      document.getElementById('launchpad').style.display = 'flex';
+    } else {
+      errorDiv.textContent = '❌ Ongeldig wachtwoord';
+      document.getElementById('password-input').value = '';
+    }
+  })
+  .catch(err => {
+    loadingDiv.style.display = 'none';
+    btn.disabled = false;
+    errorDiv.textContent = '❌ Fout bij verbinden met server';
+  });
 }
+
 (function() {
   if (sessionStorage.getItem('trading_hub_auth') === 'true') {
     document.getElementById('login-screen').classList.add('hidden');
