@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-05-31T23:16:58.518704",
+  "portfolio": {
+    "equity": 100000.0,
+    "cash": 100000.0,
+    "buying_power": 200000.0,
+    "status": "ACTIVE"
+  },
+  "positions": [],
+  "trades": [],
+  "stats": {
+    "total_pnl": 0,
+    "wins": 0,
+    "losses": 0,
+    "total_trades": 0,
+    "open_trades": 0,
+    "win_rate": 0
+  },
+  "bot": {
+    "online": true,
+    "last_activity": "2026-06-01T01:16:03.372536",
+    "version": "v3.0"
+  },
+  "log": [
+    "2026-06-01 01:16:01,295 | ERROR    | bot_engine           | Geen data beschikbaar voor ASML \u2014 cyclus overgeslagen\n",
+    "2026-06-01 01:16:01,295 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-01 01:16:01,295 | INFO     | bot_engine           | CYCLUS START \u2014 GOOGL\n",
+    "2026-06-01 01:16:01,295 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-01 01:16:01,496 | INFO     | data_feed            | Geen data van IEX voor GOOGL (15Min) \u2014 waarschijnlijk na sluitingstijd\n",
+    "2026-06-01 01:16:01,705 | INFO     | data_feed            | Fetched 3 candles for GOOGL (1Hour)\n",
+    "2026-06-01 01:16:01,705 | ERROR    | bot_engine           | Geen data beschikbaar voor GOOGL \u2014 cyclus overgeslagen\n",
+    "2026-06-01 01:16:01,705 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-01 01:16:01,705 | INFO     | bot_engine           | CYCLUS START \u2014 MSFT\n",
+    "2026-06-01 01:16:01,705 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-01 01:16:01,874 | INFO     | data_feed            | Geen data van IEX voor MSFT (15Min) \u2014 waarschijnlijk na sluitingstijd\n",
+    "2026-06-01 01:16:01,996 | INFO     | data_feed            | Fetched 3 candles for MSFT (1Hour)\n",
+    "2026-06-01 01:16:01,996 | ERROR    | bot_engine           | Geen data beschikbaar voor MSFT \u2014 cyclus overgeslagen\n",
+    "2026-06-01 01:16:01,996 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-01 01:16:01,997 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD\n",
+    "2026-06-01 01:16:01,997 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-01 01:16:02,526 | INFO     | data_feed            | Fetched 100 candles for BTC/USD (15Min)\n",
+    "2026-06-01 01:16:02,729 | INFO     | data_feed            | Fetched 50 candles for BTC/USD (1Hour)\n",
+    "2026-06-01 01:16:03,368 | INFO     | market_structure     | 1H Market Structure: RANGING | Range: 73186.63 - 73921.95\n",
+    "2026-06-01 01:16:03,374 | INFO     | bot_engine           | BTC/USD: Range nog niet vastgesteld \u2014 wacht op meer data\n"
+  ]
+}
