@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-01T01:00:03.605016",
+  "timestamp": "2026-06-01T01:10:02.599249",
   "portfolio": {
     "equity": 3000.0,
     "cash": 3000.0,
@@ -18,29 +18,29 @@
   },
   "bot": {
     "online": true,
-    "last_activity": "2026-06-01T02:46:10.137114",
+    "last_activity": "2026-06-01T03:01:02.530094",
     "version": "v3.0"
   },
   "log": [
-    "2026-06-01 02:46:08,853 | ERROR    | bot_engine           | Geen data beschikbaar voor GOOGL \u2014 cyclus overgeslagen\n",
-    "2026-06-01 02:46:08,853 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-01 02:46:08,853 | INFO     | bot_engine           | CYCLUS START \u2014 MSFT\n",
-    "2026-06-01 02:46:08,853 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-01 02:46:08,955 | INFO     | data_feed            | Geen data van IEX voor MSFT (15Min) \u2014 waarschijnlijk na sluitingstijd\n",
-    "2026-06-01 02:46:09,062 | INFO     | data_feed            | Fetched 2 candles for MSFT (1Hour)\n",
-    "2026-06-01 02:46:09,062 | ERROR    | bot_engine           | Geen data beschikbaar voor MSFT \u2014 cyclus overgeslagen\n",
-    "2026-06-01 02:46:09,062 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-01 02:46:09,062 | INFO     | bot_engine           | CYCLUS START \u2014 AMD\n",
-    "2026-06-01 02:46:09,062 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-01 02:46:09,168 | INFO     | data_feed            | Geen data van IEX voor AMD (15Min) \u2014 waarschijnlijk na sluitingstijd\n",
-    "2026-06-01 02:46:09,273 | INFO     | data_feed            | Fetched 2 candles for AMD (1Hour)\n",
-    "2026-06-01 02:46:09,273 | ERROR    | bot_engine           | Geen data beschikbaar voor AMD \u2014 cyclus overgeslagen\n",
-    "2026-06-01 02:46:09,273 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-01 02:46:09,273 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD\n",
-    "2026-06-01 02:46:09,273 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-01 02:46:09,587 | INFO     | data_feed            | Fetched 100 candles for BTC/USD (15Min)\n",
-    "2026-06-01 02:46:09,705 | INFO     | data_feed            | Fetched 50 candles for BTC/USD (1Hour)\n",
-    "2026-06-01 02:46:10,134 | INFO     | market_structure     | 1H Market Structure: BULLISH | Range: 73186.63 - 73921.95\n",
-    "2026-06-01 02:46:10,140 | INFO     | bot_engine           | BTC/USD: Range nog niet vastgesteld \u2014 wacht op meer data\n"
+    "2026-06-01 03:01:01,232 | INFO     | bot_engine           | CYCLUS START \u2014 MSFT\n",
+    "2026-06-01 03:01:01,232 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-01 03:01:01,333 | INFO     | data_feed            | Geen data van IEX voor MSFT (15Min) \u2014 waarschijnlijk na sluitingstijd\n",
+    "2026-06-01 03:01:01,436 | INFO     | data_feed            | Fetched 1 candles for MSFT (1Hour)\n",
+    "2026-06-01 03:01:01,436 | ERROR    | bot_engine           | Geen data beschikbaar voor MSFT \u2014 cyclus overgeslagen\n",
+    "2026-06-01 03:01:01,437 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-01 03:01:01,437 | INFO     | bot_engine           | CYCLUS START \u2014 AMD\n",
+    "2026-06-01 03:01:01,437 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-01 03:01:01,544 | INFO     | data_feed            | Geen data van IEX voor AMD (15Min) \u2014 waarschijnlijk na sluitingstijd\n",
+    "2026-06-01 03:01:01,648 | INFO     | data_feed            | Fetched 1 candles for AMD (1Hour)\n",
+    "2026-06-01 03:01:01,648 | ERROR    | bot_engine           | Geen data beschikbaar voor AMD \u2014 cyclus overgeslagen\n",
+    "2026-06-01 03:01:01,648 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-01 03:01:01,649 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD\n",
+    "2026-06-01 03:01:01,649 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-01 03:01:01,978 | INFO     | data_feed            | Fetched 100 candles for BTC/USD (15Min)\n",
+    "2026-06-01 03:01:02,102 | INFO     | data_feed            | Fetched 50 candles for BTC/USD (1Hour)\n",
+    "2026-06-01 03:01:02,527 | INFO     | market_structure     | 1H Market Structure: BULLISH | Range: 73186.63 - 73921.95\n",
+    "2026-06-01 03:01:02,533 | INFO     | bot_engine           | BTC/USD: Range [73411.3500 \u2014 74073.1150] | Mode: BULLISH | Close: 73700.4700\n",
+    "2026-06-01 03:01:02,947 | INFO     | data_feed            | Fetched 1 candles for BTC/USD (15Min)\n",
+    "2026-06-01 03:01:02,948 | INFO     | bot_engine           | Cyclus afgerond \u2014 BTC/USD\n"
   ]
 }
