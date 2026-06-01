@@ -1,24 +1,24 @@
 {
-  "generated_at": "01-06-2026 05:10:02",
-  "generated_at_iso": "2026-06-01T05:10:02.478930",
+  "generated_at": "01-06-2026 05:12:28",
+  "generated_at_iso": "2026-06-01T05:12:28.399766",
   "metrics": {
     "total_invested": 1227.65,
-    "total_value": 1219.0,
-    "portfolio_value": 3043.6,
+    "total_value": 1218.82,
+    "portfolio_value": 3043.42,
     "cash": 1324.6,
-    "unrealized_pl": -8.64,
+    "unrealized_pl": -8.83,
     "realized_pl": 52.77,
-    "total_pnl": 44.13
+    "total_pnl": 43.94
   },
   "positions": [
     {
       "symbol": "BTCUSD",
       "entry_price": 77038.81,
-      "current_price": 73827.7,
+      "current_price": 73829.4,
       "change_pct": -4.17,
       "qty": 0.0026,
       "invested": 199.48,
-      "value": 191.16,
+      "value": 191.17,
       "pl": -8.31,
       "pl_pct": -4.17,
       "realized_pl": 0,
@@ -41,13 +41,13 @@
     {
       "symbol": "GOOGL",
       "entry_price": 384.07,
-      "current_price": 379.67,
-      "change_pct": -1.15,
+      "current_price": 379.55,
+      "change_pct": -1.18,
       "qty": 1.0,
       "invested": 384.07,
-      "value": 379.67,
-      "pl": -4.4,
-      "pl_pct": -1.15,
+      "value": 379.55,
+      "pl": -4.52,
+      "pl_pct": -1.18,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": null,
@@ -95,13 +95,13 @@
     {
       "symbol": "TSLA",
       "entry_price": 428.73,
-      "current_price": 432.87,
-      "change_pct": 0.97,
+      "current_price": 432.8,
+      "change_pct": 0.95,
       "qty": 1.0,
       "invested": 428.73,
-      "value": 432.87,
-      "pl": 4.14,
-      "pl_pct": 0.97,
+      "value": 432.8,
+      "pl": 4.07,
+      "pl_pct": 0.95,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": "fa8a2283-283d-41e3-9cb5-a53b484c1e48",
@@ -430,10 +430,10 @@
       "TSLA"
     ],
     "values": [
-      191.163614,
-      379.67,
+      191.168016,
+      379.55,
       215.3,
-      432.87
+      432.8
     ],
     "colors": [
       "#7c6bf2",
