@@ -1,26 +1,26 @@
 {
-  "generated_at": "01-06-2026 04:50:02",
-  "generated_at_iso": "2026-06-01T04:50:02.775016",
+  "generated_at": "01-06-2026 04:52:00",
+  "generated_at_iso": "2026-06-01T04:52:00.126604",
   "metrics": {
     "total_invested": 1227.65,
-    "total_value": 1217.89,
-    "portfolio_value": 3042.49,
+    "total_value": 1218.07,
+    "portfolio_value": 3042.65,
     "cash": 1324.6,
-    "unrealized_pl": -9.76,
+    "unrealized_pl": -9.58,
     "realized_pl": 52.77,
-    "total_pnl": 43.01
+    "total_pnl": 43.19
   },
   "positions": [
     {
       "symbol": "BTCUSD",
       "entry_price": 77038.81,
-      "current_price": 73625.6,
-      "change_pct": -4.43,
+      "current_price": 73689.85,
+      "change_pct": -4.35,
       "qty": 0.0026,
       "invested": 199.48,
-      "value": 190.64,
-      "pl": -8.84,
-      "pl_pct": -4.43,
+      "value": 190.81,
+      "pl": -8.67,
+      "pl_pct": -4.35,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": "9a97da67-53b6-459d-8d4f-00acd7432e92",
@@ -68,13 +68,13 @@
     {
       "symbol": "NVDA",
       "entry_price": 215.37,
-      "current_price": 215.0,
-      "change_pct": -0.17,
+      "current_price": 215.02,
+      "change_pct": -0.16,
       "qty": 1.0,
       "invested": 215.37,
-      "value": 215.0,
-      "pl": -0.37,
-      "pl_pct": -0.17,
+      "value": 215.02,
+      "pl": -0.35,
+      "pl_pct": -0.16,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": "ddef52f9-418d-47e9-a204-ac03e4e3d42a",
@@ -95,12 +95,12 @@
     {
       "symbol": "TSLA",
       "entry_price": 428.73,
-      "current_price": 432.52,
+      "current_price": 432.51,
       "change_pct": 0.88,
       "qty": 1.0,
       "invested": 428.73,
-      "value": 432.52,
-      "pl": 3.79,
+      "value": 432.51,
+      "pl": 3.78,
       "pl_pct": 0.88,
       "realized_pl": 0,
       "status": "HOLDING",
@@ -430,10 +430,10 @@
       "TSLA"
     ],
     "values": [
-      190.640312,
+      190.806676,
       379.73,
-      215.0,
-      432.52
+      215.02,
+      432.51
     ],
     "colors": [
       "#7c6bf2",
