@@ -1,14 +1,14 @@
 {
-  "generated_at": "01-06-2026 20:02:21",
-  "generated_at_iso": "2026-06-01T20:02:21.651378",
+  "generated_at": "01-06-2026 20:07:26",
+  "generated_at_iso": "2026-06-01T20:07:26.397158",
   "metrics": {
     "total_invested": 1726.9,
-    "total_value": 1696.67,
-    "portfolio_value": 3021.25,
+    "total_value": 1696.62,
+    "portfolio_value": 3021.17,
     "cash": 1324.6,
-    "unrealized_pl": -30.23,
+    "unrealized_pl": -30.28,
     "realized_pl": 52.77,
-    "total_pnl": 22.54
+    "total_pnl": 22.49
   },
   "positions": [
     {
@@ -41,13 +41,13 @@
     {
       "symbol": "GOOGL",
       "entry_price": 384.07,
-      "current_price": 376.1,
-      "change_pct": -2.08,
+      "current_price": 376.18,
+      "change_pct": -2.05,
       "qty": 1.0,
       "invested": 384.07,
-      "value": 376.1,
-      "pl": -7.97,
-      "pl_pct": -2.08,
+      "value": 376.18,
+      "pl": -7.89,
+      "pl_pct": -2.05,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": null,
@@ -68,17 +68,17 @@
     {
       "symbol": "NVDA",
       "entry_price": 215.37,
-      "current_price": 224.15,
-      "change_pct": 4.07,
+      "current_price": 224.24,
+      "change_pct": 4.12,
       "qty": 1.0,
       "invested": 215.37,
-      "value": 224.15,
-      "pl": 8.78,
-      "pl_pct": 4.07,
+      "value": 224.24,
+      "pl": 8.87,
+      "pl_pct": 4.12,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": "ddef52f9-418d-47e9-a204-ac03e4e3d42a",
-      "last_peak": 223.97,
+      "last_peak": 224.0,
       "tp_used": [
         false,
         false,
@@ -95,13 +95,13 @@
     {
       "symbol": "TSLA",
       "entry_price": 428.73,
-      "current_price": 420.91,
-      "change_pct": -1.82,
+      "current_price": 420.68,
+      "change_pct": -1.88,
       "qty": 1.0,
       "invested": 428.73,
-      "value": 420.91,
-      "pl": -7.82,
-      "pl_pct": -1.82,
+      "value": 420.68,
+      "pl": -8.05,
+      "pl_pct": -1.88,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": "fa8a2283-283d-41e3-9cb5-a53b484c1e48",
@@ -431,9 +431,9 @@
     ],
     "values": [
       675.519509,
-      376.1,
-      224.145,
-      420.908
+      376.18,
+      224.24,
+      420.68
     ],
     "colors": [
       "#7c6bf2",
