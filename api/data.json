@@ -1,14 +1,14 @@
 {
-  "generated_at": "01-06-2026 12:00:03",
-  "generated_at_iso": "2026-06-01T12:00:03.478080",
+  "generated_at": "01-06-2026 12:01:56",
+  "generated_at_iso": "2026-06-01T12:01:56.429819",
   "metrics": {
     "total_invested": 1726.9,
-    "total_value": 1708.64,
-    "portfolio_value": 3033.24,
+    "total_value": 1709.27,
+    "portfolio_value": 3033.87,
     "cash": 1324.6,
-    "unrealized_pl": -18.26,
+    "unrealized_pl": -17.63,
     "realized_pl": 52.77,
-    "total_pnl": 34.51
+    "total_pnl": 35.14
   },
   "positions": [
     {
@@ -41,13 +41,13 @@
     {
       "symbol": "GOOGL",
       "entry_price": 384.07,
-      "current_price": 378.08,
-      "change_pct": -1.56,
+      "current_price": 378.3,
+      "change_pct": -1.5,
       "qty": 1.0,
       "invested": 384.07,
-      "value": 378.08,
-      "pl": -5.99,
-      "pl_pct": -1.56,
+      "value": 378.3,
+      "pl": -5.77,
+      "pl_pct": -1.5,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": null,
@@ -68,13 +68,13 @@
     {
       "symbol": "NVDA",
       "entry_price": 215.37,
-      "current_price": 214.65,
-      "change_pct": -0.33,
+      "current_price": 214.74,
+      "change_pct": -0.29,
       "qty": 1.0,
       "invested": 215.37,
-      "value": 214.65,
-      "pl": -0.72,
-      "pl_pct": -0.33,
+      "value": 214.74,
+      "pl": -0.63,
+      "pl_pct": -0.29,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": "ddef52f9-418d-47e9-a204-ac03e4e3d42a",
@@ -95,13 +95,13 @@
     {
       "symbol": "TSLA",
       "entry_price": 428.73,
-      "current_price": 429.38,
-      "change_pct": 0.15,
+      "current_price": 429.7,
+      "change_pct": 0.23,
       "qty": 1.0,
       "invested": 428.73,
-      "value": 429.38,
-      "pl": 0.65,
-      "pl_pct": 0.15,
+      "value": 429.7,
+      "pl": 0.97,
+      "pl_pct": 0.23,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": "fa8a2283-283d-41e3-9cb5-a53b484c1e48",
@@ -431,9 +431,9 @@
     ],
     "values": [
       686.525425,
-      378.08,
-      214.65,
-      429.38
+      378.3,
+      214.74,
+      429.7
     ],
     "colors": [
       "#7c6bf2",
