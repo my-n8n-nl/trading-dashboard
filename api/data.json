@@ -1,26 +1,26 @@
 {
-  "generated_at": "02-06-2026 18:22:25",
-  "generated_at_iso": "2026-06-02T18:22:25.272597",
+  "generated_at": "02-06-2026 18:27:29",
+  "generated_at_iso": "2026-06-02T18:27:29.316839",
   "metrics": {
     "total_invested": 1511.49,
-    "total_value": 1427.3,
-    "portfolio_value": 2976.23,
+    "total_value": 1426.77,
+    "portfolio_value": 2975.64,
     "cash": 1548.91,
-    "unrealized_pl": -84.19,
+    "unrealized_pl": -84.72,
     "realized_pl": 61.71,
-    "total_pnl": -22.48
+    "total_pnl": -23.01
   },
   "positions": [
     {
       "symbol": "BTCUSD",
       "entry_price": 74104.78,
-      "current_price": 67825.2,
-      "change_pct": -8.47,
+      "current_price": 67688.5,
+      "change_pct": -8.66,
       "qty": 0.0094,
       "invested": 698.69,
-      "value": 639.48,
-      "pl": -59.21,
-      "pl_pct": -8.47,
+      "value": 638.19,
+      "pl": -60.5,
+      "pl_pct": -8.66,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": "9a97da67-53b6-459d-8d4f-00acd7432e92",
@@ -41,13 +41,13 @@
     {
       "symbol": "GOOGL",
       "entry_price": 384.07,
-      "current_price": 367.17,
-      "change_pct": -4.4,
+      "current_price": 367.4,
+      "change_pct": -4.34,
       "qty": 1.0,
       "invested": 384.07,
-      "value": 367.17,
-      "pl": -16.9,
-      "pl_pct": -4.4,
+      "value": 367.4,
+      "pl": -16.66,
+      "pl_pct": -4.34,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": null,
@@ -68,13 +68,13 @@
     {
       "symbol": "TSLA",
       "entry_price": 428.73,
-      "current_price": 420.65,
-      "change_pct": -1.88,
+      "current_price": 421.17,
+      "change_pct": -1.76,
       "qty": 1.0,
       "invested": 428.73,
-      "value": 420.65,
-      "pl": -8.08,
-      "pl_pct": -1.88,
+      "value": 421.17,
+      "pl": -7.56,
+      "pl_pct": -1.76,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": "fa8a2283-283d-41e3-9cb5-a53b484c1e48",
@@ -103,10 +103,10 @@
       "pl": 0,
       "pl_pct": 0,
       "status": "AFWACHTEN",
-      "stop_order_id": "2d6b1852-8264-4a73-9538-24880630807e",
-      "last_peak": 231.36,
+      "stop_order_id": null,
+      "last_peak": null,
       "tp_used": [
-        true,
+        false,
         false,
         false
       ],
@@ -116,8 +116,8 @@
         false,
         false
       ],
-      "entry_date": "2026-05-26",
-      "pending_proposal_id": null
+      "entry_date": null,
+      "pending_proposal_id": "proposal-20260602T182508-NVDA"
     },
     {
       "symbol": "MSFT",
@@ -429,9 +429,9 @@
       "TSLA"
     ],
     "values": [
-      639.480538,
-      367.17,
-      420.65
+      638.191681,
+      367.405,
+      421.1699
     ],
     "colors": [
       "#7c6bf2",
