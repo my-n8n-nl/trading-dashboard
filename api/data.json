@@ -1,26 +1,26 @@
 {
-  "generated_at": "02-06-2026 08:10:03",
-  "generated_at_iso": "2026-06-02T08:10:03.011449",
+  "generated_at": "02-06-2026 08:10:28",
+  "generated_at_iso": "2026-06-02T08:10:28.175567",
   "metrics": {
     "total_invested": 1726.9,
-    "total_value": 1671.61,
-    "portfolio_value": 2996.21,
+    "total_value": 1671.31,
+    "portfolio_value": 2995.91,
     "cash": 1324.6,
-    "unrealized_pl": -55.29,
+    "unrealized_pl": -55.59,
     "realized_pl": 52.77,
-    "total_pnl": -2.52
+    "total_pnl": -2.82
   },
   "positions": [
     {
       "symbol": "BTCUSD",
       "entry_price": 74109.18,
-      "current_price": 70340.43,
-      "change_pct": -5.09,
+      "current_price": 70319.48,
+      "change_pct": -5.11,
       "qty": 0.0094,
       "invested": 698.73,
-      "value": 663.2,
-      "pl": -35.53,
-      "pl_pct": -5.08,
+      "value": 663.0,
+      "pl": -35.73,
+      "pl_pct": -5.11,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": "9a97da67-53b6-459d-8d4f-00acd7432e92",
@@ -41,12 +41,12 @@
     {
       "symbol": "GOOGL",
       "entry_price": 384.07,
-      "current_price": 369.03,
+      "current_price": 369.01,
       "change_pct": -3.92,
       "qty": 1.0,
       "invested": 384.07,
-      "value": 369.03,
-      "pl": -15.04,
+      "value": 369.01,
+      "pl": -15.06,
       "pl_pct": -3.92,
       "realized_pl": 0,
       "status": "HOLDING",
@@ -95,13 +95,13 @@
     {
       "symbol": "TSLA",
       "entry_price": 428.73,
-      "current_price": 414.65,
-      "change_pct": -3.28,
+      "current_price": 414.57,
+      "change_pct": -3.3,
       "qty": 1.0,
       "invested": 428.73,
-      "value": 414.65,
-      "pl": -14.08,
-      "pl_pct": -3.28,
+      "value": 414.57,
+      "pl": -14.16,
+      "pl_pct": -3.3,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": "fa8a2283-283d-41e3-9cb5-a53b484c1e48",
@@ -430,10 +430,10 @@
       "TSLA"
     ],
     "values": [
-      663.195009,
-      369.03,
+      662.997485,
+      369.01,
       224.73,
-      414.65
+      414.57
     ],
     "colors": [
       "#7c6bf2",
