@@ -117,10 +117,36 @@
   .last-update { font-size: 11px; color: var(--text3); text-align: right; margin-top: 12px; }
 
   .row2 { display: grid; grid-template-columns: 2fr 1fr; gap: 14px; }
+
+  /* Tabs */
+  .tabs {
+    display: flex; gap: 0; margin-bottom: 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  .tab-btn {
+    padding: 10px 20px; cursor: pointer; font-size: 13px; font-weight: 600;
+    color: var(--text3); background: none; border: none;
+    border-bottom: 2px solid transparent; transition: all 0.2s;
+  }
+  .tab-btn:hover { color: var(--text2); }
+  .tab-btn.active { color: var(--accent2); border-bottom-color: var(--accent2); }
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+
+  /* Chart iframe */
+  .chart-frame {
+    width: 100%; border: 1px solid var(--border); border-radius: var(--radius);
+    background: var(--surface); min-height: 400px;
+  }
+  .chart-frame iframe {
+    width: 100%; height: 600px; border: none; border-radius: var(--radius);
+  }
+
   @media (max-width: 768px) {
     .row2 { grid-template-columns: 1fr; }
     header { flex-direction: column; align-items: flex-start; gap: 12px; }
     .card-value { font-size: 22px; }
+    .chart-frame iframe { height: 400px; }
   }
 </style>
 </head>
@@ -144,29 +170,46 @@
     <div class="card"><div class="card-header">Bot Status</div><div class="card-value" id="botVersion">—</div><div class="card-label" id="lastActivity">—</div></div>
   </div>
 
-  <!-- Posities -->
-  <div class="section-title">📊 Actieve Posities</div>
-  <div class="table-wrap">
-    <table>
-      <thead><tr><th>Symbool</th><th>Richting</th><th>Qty</th><th>Entry</th><th>Huidig</th><th>Waarde</th><th>P&L</th><th>P&L%</th></tr></thead>
-      <tbody id="positionsBody"><tr><td colspan="8" style="text-align:center;color:var(--text3)">Geen posities</td></tr></tbody>
-    </table>
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('overview', this)">📊 Overzicht</button>
+    <button class="tab-btn" onclick="switchTab('chart', this)">📈 Strategie Chart</button>
   </div>
 
-  <!-- Trade Historie + Log -->
-  <div class="row2">
-    <div>
-      <div class="section-title">📜 Trade Historie</div>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>#</th><th>Symbool</th><th>Richting</th><th>Entry</th><th>Size</th><th>RR</th><th>P&L</th><th>Status</th></tr></thead>
-          <tbody id="tradesBody"><tr><td colspan="8" style="text-align:center;color:var(--text3)">Nog geen trades</td></tr></tbody>
-        </table>
+  <!-- Tab: Overzicht -->
+  <div id="tab-overview" class="tab-content active">
+    <!-- Posities -->
+    <div class="section-title">📊 Actieve Posities</div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Symbool</th><th>Richting</th><th>Qty</th><th>Entry</th><th>Huidig</th><th>Waarde</th><th>P&L</th><th>P&L%</th></tr></thead>
+        <tbody id="positionsBody"><tr><td colspan="8" style="text-align:center;color:var(--text3)">Geen posities</td></tr></tbody>
+      </table>
+    </div>
+
+    <!-- Trade Historie + Log -->
+    <div class="row2">
+      <div>
+        <div class="section-title">📜 Trade Historie</div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>#</th><th>Symbool</th><th>Richting</th><th>Entry</th><th>Size</th><th>RR</th><th>P&L</th><th>Status</th></tr></thead>
+            <tbody id="tradesBody"><tr><td colspan="8" style="text-align:center;color:var(--text3)">Nog geen trades</td></tr></tbody>
+          </table>
+        </div>
+      </div>
+      <div>
+        <div class="section-title">📋 Live Log</div>
+        <div class="log-box" id="logBox"><div style="color:var(--text3)">Wacht op data...</div></div>
       </div>
     </div>
-    <div>
-      <div class="section-title">📋 Live Log</div>
-      <div class="log-box" id="logBox"><div style="color:var(--text3)">Wacht op data...</div></div>
+  </div>
+
+  <!-- Tab: Strategie Chart -->
+  <div id="tab-chart" class="tab-content">
+    <div class="section-title">📈 RML Strategie Visualisatie</div>
+    <div class="chart-frame">
+      <iframe src="chart.html" id="chartIframe"></iframe>
     </div>
   </div>
 
@@ -293,6 +336,20 @@ function escHtml(t) {
   const d = document.createElement('div');
   d.textContent = t;
   return d.innerHTML;
+}
+
+function switchTab(tab, btn) {
+  // Tab buttons
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  // Tab content
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  document.getElementById('tab-' + tab).classList.add('active');
+  // Refresh chart iframe when switching to chart tab
+  if (tab === 'chart') {
+    const iframe = document.getElementById('chartIframe');
+    iframe.src = 'chart.html?t=' + Date.now();
+  }
 }
 
 load();
