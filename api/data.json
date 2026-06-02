@@ -1,26 +1,26 @@
 {
-  "generated_at": "02-06-2026 16:00:46",
-  "generated_at_iso": "2026-06-02T16:00:46.973546",
+  "generated_at": "02-06-2026 16:05:50",
+  "generated_at_iso": "2026-06-02T16:05:50.595152",
   "metrics": {
     "total_invested": 1726.86,
-    "total_value": 1660.45,
-    "portfolio_value": 2985.0,
+    "total_value": 1661.88,
+    "portfolio_value": 2986.59,
     "cash": 1324.6,
-    "unrealized_pl": -66.41,
+    "unrealized_pl": -64.97,
     "realized_pl": 52.77,
-    "total_pnl": -13.64
+    "total_pnl": -12.2
   },
   "positions": [
     {
       "symbol": "BTCUSD",
       "entry_price": 74104.78,
-      "current_price": 68769.13,
-      "change_pct": -7.2,
+      "current_price": 68805.6,
+      "change_pct": -7.15,
       "qty": 0.0094,
       "invested": 698.69,
-      "value": 648.38,
-      "pl": -50.31,
-      "pl_pct": -7.2,
+      "value": 648.72,
+      "pl": -49.96,
+      "pl_pct": -7.15,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": "9a97da67-53b6-459d-8d4f-00acd7432e92",
@@ -41,13 +41,13 @@
     {
       "symbol": "GOOGL",
       "entry_price": 384.07,
-      "current_price": 363.36,
-      "change_pct": -5.39,
+      "current_price": 365.93,
+      "change_pct": -4.72,
       "qty": 1.0,
       "invested": 384.07,
-      "value": 363.36,
-      "pl": -20.71,
-      "pl_pct": -5.39,
+      "value": 365.93,
+      "pl": -18.14,
+      "pl_pct": -4.72,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": null,
@@ -68,16 +68,16 @@
     {
       "symbol": "NVDA",
       "entry_price": 215.37,
-      "current_price": 231.52,
-      "change_pct": 7.5,
+      "current_price": 230.14,
+      "change_pct": 6.86,
       "qty": 1.0,
       "invested": 215.37,
-      "value": 231.52,
-      "pl": 16.15,
-      "pl_pct": 7.5,
+      "value": 230.14,
+      "pl": 14.77,
+      "pl_pct": 6.86,
       "realized_pl": 0,
       "status": "HOLDING",
-      "stop_order_id": null,
+      "stop_order_id": "2d6b1852-8264-4a73-9538-24880630807e",
       "last_peak": 231.36,
       "tp_used": [
         true,
@@ -95,13 +95,13 @@
     {
       "symbol": "TSLA",
       "entry_price": 428.73,
-      "current_price": 417.19,
-      "change_pct": -2.69,
+      "current_price": 417.09,
+      "change_pct": -2.71,
       "qty": 1.0,
       "invested": 428.73,
-      "value": 417.19,
-      "pl": -11.54,
-      "pl_pct": -2.69,
+      "value": 417.09,
+      "pl": -11.64,
+      "pl_pct": -2.71,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": "fa8a2283-283d-41e3-9cb5-a53b484c1e48",
@@ -257,6 +257,17 @@
   ],
   "trades": [
     {
+      "timestamp": "2026-06-02T16:05",
+      "event": "STOP LIMIT",
+      "symbol": "NVDA",
+      "side": "SELL",
+      "qty": "1",
+      "price": "224.41920000000002",
+      "notional": "",
+      "order_id": "2d6b1852-8264-4a73-9538-24880630807e",
+      "note": "limit=222.18"
+    },
+    {
       "timestamp": "2026-06-02T15:55",
       "event": "STOP LIMIT",
       "symbol": "NVDA",
@@ -409,17 +420,6 @@
       "notional": "",
       "order_id": "aabfe3bb-0739-4330-9612-0bf05a07f693",
       "note": "limit=135.82"
-    },
-    {
-      "timestamp": "2026-05-28T19:35",
-      "event": "STOP LIMIT",
-      "symbol": "PLTR",
-      "side": "SELL",
-      "qty": "1",
-      "price": "133.93592999999998",
-      "notional": "",
-      "order_id": "516684b8-1d0c-4f97-a3d7-563f13fe1289",
-      "note": "limit=132.60"
     }
   ],
   "allocations": {
@@ -430,10 +430,10 @@
       "TSLA"
     ],
     "values": [
-      648.380299,
-      363.355,
-      231.52,
-      417.19
+      648.724104,
+      365.93,
+      230.14,
+      417.0905
     ],
     "colors": [
       "#7c6bf2",
