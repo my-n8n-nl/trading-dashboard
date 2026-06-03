@@ -1,26 +1,26 @@
 {
-  "generated_at": "03-06-2026 13:40:19",
-  "generated_at_iso": "2026-06-03T13:40:19.228868",
+  "generated_at": "03-06-2026 13:45:22",
+  "generated_at_iso": "2026-06-03T13:45:22.651318",
   "metrics": {
     "total_invested": 1511.49,
-    "total_value": 1411.51,
-    "portfolio_value": 2960.41,
+    "total_value": 1411.67,
+    "portfolio_value": 2960.57,
     "cash": 1548.9,
-    "unrealized_pl": -99.98,
+    "unrealized_pl": -99.81,
     "realized_pl": 61.71,
-    "total_pnl": -38.27
+    "total_pnl": -38.1
   },
   "positions": [
     {
       "symbol": "BTCUSD",
       "entry_price": 74104.78,
-      "current_price": 67055.73,
-      "change_pct": -9.51,
+      "current_price": 67114.3,
+      "change_pct": -9.43,
       "qty": 0.0094,
       "invested": 698.69,
-      "value": 632.23,
-      "pl": -66.46,
-      "pl_pct": -9.51,
+      "value": 632.78,
+      "pl": -65.91,
+      "pl_pct": -9.43,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": "9a97da67-53b6-459d-8d4f-00acd7432e92",
@@ -41,13 +41,13 @@
     {
       "symbol": "GOOGL",
       "entry_price": 384.07,
-      "current_price": 358.59,
-      "change_pct": -6.63,
+      "current_price": 358.49,
+      "change_pct": -6.66,
       "qty": 1.0,
       "invested": 384.07,
-      "value": 358.59,
-      "pl": -25.48,
-      "pl_pct": -6.63,
+      "value": 358.49,
+      "pl": -25.58,
+      "pl_pct": -6.66,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": null,
@@ -68,13 +68,13 @@
     {
       "symbol": "TSLA",
       "entry_price": 428.73,
-      "current_price": 420.69,
-      "change_pct": -1.88,
+      "current_price": 420.4,
+      "change_pct": -1.94,
       "qty": 1.0,
       "invested": 428.73,
-      "value": 420.69,
-      "pl": -8.04,
-      "pl_pct": -1.88,
+      "value": 420.4,
+      "pl": -8.33,
+      "pl_pct": -1.94,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": "fa8a2283-283d-41e3-9cb5-a53b484c1e48",
@@ -429,9 +429,9 @@
       "TSLA"
     ],
     "values": [
-      632.225697,
-      358.59,
-      420.69
+      632.777916,
+      358.4947,
+      420.4
     ],
     "colors": [
       "#7c6bf2",
