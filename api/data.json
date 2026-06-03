@@ -1,26 +1,26 @@
 {
-  "generated_at": "03-06-2026 20:04:47",
-  "generated_at_iso": "2026-06-03T20:04:47.419005",
+  "generated_at": "03-06-2026 20:09:50",
+  "generated_at_iso": "2026-06-03T20:09:50.744887",
   "metrics": {
     "total_invested": 1511.49,
-    "total_value": 1406.37,
-    "portfolio_value": 2955.27,
+    "total_value": 1405.2,
+    "portfolio_value": 2954.1,
     "cash": 1548.9,
-    "unrealized_pl": -105.12,
+    "unrealized_pl": -106.29,
     "realized_pl": 61.71,
-    "total_pnl": -43.41
+    "total_pnl": -44.58
   },
   "positions": [
     {
       "symbol": "BTCUSD",
       "entry_price": 74104.78,
-      "current_price": 66009.49,
-      "change_pct": -10.92,
+      "current_price": 65933.0,
+      "change_pct": -11.03,
       "qty": 0.0094,
       "invested": 698.69,
-      "value": 622.36,
-      "pl": -76.33,
-      "pl_pct": -10.92,
+      "value": 621.64,
+      "pl": -77.05,
+      "pl_pct": -11.03,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": "9a97da67-53b6-459d-8d4f-00acd7432e92",
@@ -41,13 +41,13 @@
     {
       "symbol": "GOOGL",
       "entry_price": 384.07,
-      "current_price": 360.51,
-      "change_pct": -6.13,
+      "current_price": 360.07,
+      "change_pct": -6.25,
       "qty": 1.0,
       "invested": 384.07,
-      "value": 360.51,
-      "pl": -23.56,
-      "pl_pct": -6.13,
+      "value": 360.07,
+      "pl": -24.0,
+      "pl_pct": -6.25,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": null,
@@ -68,11 +68,11 @@
     {
       "symbol": "TSLA",
       "entry_price": 428.73,
-      "current_price": 423.5,
+      "current_price": 423.49,
       "change_pct": -1.22,
       "qty": 1.0,
       "invested": 428.73,
-      "value": 423.5,
+      "value": 423.49,
       "pl": -5.24,
       "pl_pct": -1.22,
       "realized_pl": 0,
@@ -429,9 +429,9 @@
       "TSLA"
     ],
     "values": [
-      622.361386,
-      360.51,
-      423.495
+      621.640192,
+      360.07,
+      423.49
     ],
     "colors": [
       "#7c6bf2",
