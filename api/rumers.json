@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-03T16:40:03.431922",
+  "timestamp": "2026-06-03T16:50:02.687397",
   "portfolio": {
     "equity": 3000.0,
     "cash": 3000.0,
@@ -18,29 +18,29 @@
   },
   "bot": {
     "online": true,
-    "last_activity": "2026-06-03T18:31:09.299210",
+    "last_activity": "2026-06-03T18:46:17.168217",
     "version": "v3.0"
   },
   "log": [
-    "2026-06-03 18:31:06,702 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-03 18:31:06,702 | INFO     | bot_engine           | CYCLUS START \u2014 AMD\n",
-    "2026-06-03 18:31:06,702 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-03 18:31:06,838 | INFO     | data_feed            | Fetched 36 candles for AMD (15Min)\n",
-    "2026-06-03 18:31:06,974 | INFO     | data_feed            | Fetched 22 candles for AMD (1Hour)\n",
-    "2026-06-03 18:31:07,190 | INFO     | market_structure     | Swing points gevonden voor 1H: 7 \u2014 drempel: 0.15%\n",
-    "2026-06-03 18:31:07,190 | INFO     | market_structure     | 1H Market Structure: BULLISH | Range: 501.46 - 543.88\n",
-    "2026-06-03 18:31:07,195 | INFO     | bot_engine           | AMD: Range [529.1050 \u2014 543.8800] | Mode: BULLISH | Close: 533.1600\n",
-    "2026-06-03 18:31:07,451 | INFO     | data_feed            | Fetched 1 candles for AMD (15Min)\n",
-    "2026-06-03 18:31:07,451 | INFO     | bot_engine           | Cyclus afgerond \u2014 AMD\n",
-    "2026-06-03 18:31:07,451 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-03 18:31:07,452 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD\n",
-    "2026-06-03 18:31:07,452 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-03 18:31:07,815 | INFO     | data_feed            | Fetched 100 candles for BTC/USD (15Min)\n",
-    "2026-06-03 18:31:08,152 | INFO     | data_feed            | Fetched 50 candles for BTC/USD (1Hour)\n",
-    "2026-06-03 18:31:09,296 | INFO     | market_structure     | Swing points gevonden voor 1H: 15 \u2014 drempel: 0.15%\n",
-    "2026-06-03 18:31:09,296 | INFO     | market_structure     | 1H Market Structure: RANGING | Range: 65365.49 - 67850.17\n",
-    "2026-06-03 18:31:09,302 | INFO     | bot_engine           | BTC/USD: Range [65365.4850 \u2014 67850.1720] | Mode: RANGING | Close: 66197.2235\n",
-    "2026-06-03 18:31:09,694 | INFO     | data_feed            | Fetched 1 candles for BTC/USD (15Min)\n",
-    "2026-06-03 18:31:09,694 | INFO     | bot_engine           | Cyclus afgerond \u2014 BTC/USD\n"
+    "2026-06-03 18:46:14,781 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-03 18:46:14,781 | INFO     | bot_engine           | CYCLUS START \u2014 AMD\n",
+    "2026-06-03 18:46:14,781 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-03 18:46:14,911 | INFO     | data_feed            | Fetched 36 candles for AMD (15Min)\n",
+    "2026-06-03 18:46:15,039 | INFO     | data_feed            | Fetched 22 candles for AMD (1Hour)\n",
+    "2026-06-03 18:46:15,256 | INFO     | market_structure     | Swing points gevonden voor 1H: 7 \u2014 drempel: 0.15%\n",
+    "2026-06-03 18:46:15,256 | INFO     | market_structure     | 1H Market Structure: BULLISH | Range: 501.46 - 543.88\n",
+    "2026-06-03 18:46:15,263 | INFO     | bot_engine           | AMD: Range [529.1050 \u2014 543.8800] | Mode: BULLISH | Close: 531.6000\n",
+    "2026-06-03 18:46:15,580 | INFO     | data_feed            | Fetched 1 candles for AMD (15Min)\n",
+    "2026-06-03 18:46:15,580 | INFO     | bot_engine           | Cyclus afgerond \u2014 AMD\n",
+    "2026-06-03 18:46:15,580 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-03 18:46:15,580 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD\n",
+    "2026-06-03 18:46:15,580 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-03 18:46:16,247 | INFO     | data_feed            | Fetched 100 candles for BTC/USD (15Min)\n",
+    "2026-06-03 18:46:16,940 | INFO     | data_feed            | Fetched 50 candles for BTC/USD (1Hour)\n",
+    "2026-06-03 18:46:17,165 | INFO     | market_structure     | Swing points gevonden voor 1H: 15 \u2014 drempel: 0.15%\n",
+    "2026-06-03 18:46:17,165 | INFO     | market_structure     | 1H Market Structure: RANGING | Range: 65365.49 - 67850.17\n",
+    "2026-06-03 18:46:17,171 | INFO     | bot_engine           | BTC/USD: Range [65365.4850 \u2014 67850.1720] | Mode: RANGING | Close: 65989.9950\n",
+    "2026-06-03 18:46:17,714 | INFO     | data_feed            | Fetched 1 candles for BTC/USD (15Min)\n",
+    "2026-06-03 18:46:17,715 | INFO     | bot_engine           | Cyclus afgerond \u2014 BTC/USD\n"
   ]
 }
