@@ -247,8 +247,7 @@ async function load() {
     const badge = document.getElementById('statusBadge');
     const dot = badge.querySelector('.dot');
     const label = badge.querySelector('span:last-child');
-    const isOnline = d.timestamp && (Date.now() - new Date(d.timestamp).getTime() < 600000);
-    if (isOnline) {
+    if (d.bot && d.bot.online) {
       badge.className = 'status online';
       dot.className = 'dot online';
       label.textContent = 'Online';
@@ -275,8 +274,10 @@ async function load() {
     }
 
     // Bot
-    document.getElementById('botVersion').textContent = d.strategy || 'Momentum';
-    document.getElementById('lastActivity').textContent = fmtTime(d.timestamp);
+    if (d.bot) {
+      document.getElementById('botVersion').textContent = d.bot.version || d.strategy || 'Momentum';
+      document.getElementById('lastActivity').textContent = d.bot.last_activity ? new Date(d.bot.last_activity).toLocaleTimeString('nl-NL', {hour12:false}) + ' UTC' : '—';
+    }
 
     // Positions
     const pb = document.getElementById('positionsBody');
