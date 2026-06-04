@@ -116,6 +116,7 @@
   }
   .launch-card .icon.trader { background: rgba(61,219,198,0.12); }
   .launch-card .icon.rumers { background: rgba(124,107,242,0.15); }
+  .launch-card .icon.momentum { background: rgba(0,180,216,0.15); }
   .launch-card .info h3 { font-size: 1.1rem; font-weight: 600; margin-bottom: 2px; }
   .launch-card .info p { font-size: 0.85rem; color: var(--text2); }
   .launch-card .arrow { margin-left: auto; color: var(--text3); font-size: 1.2rem; transition: transform 0.2s; }
@@ -125,6 +126,7 @@
   .launch-card { animation: fadeIn 0.5s ease backwards; }
   .launch-card:nth-child(1) { animation-delay: 0.1s; }
   .launch-card:nth-child(2) { animation-delay: 0.2s; }
+  .launch-card:nth-child(3) { animation-delay: 0.3s; }
 </style>
 </head>
 <body>
@@ -149,6 +151,11 @@
     <a class="launch-card" href="./rumers/">
       <div class="icon rumers">🧠</div>
       <div class="info"><h3>Rumers Magic Lines</h3><p>SMC/ICT bot met sweeps, MSS, fractals &amp; runners</p></div>
+      <div class="arrow">→</div>
+    </a>
+    <a class="launch-card" href="./rumers/momentum_chart.html">
+      <div class="icon momentum">📈</div>
+      <div class="info"><h3>Momentum Bot</h3><p>Trend following met breakout filters, charts &amp; trades</p></div>
       <div class="arrow">→</div>
     </a>
   </div>
