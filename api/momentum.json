@@ -1,6 +1,11 @@
 {
-  "timestamp": "2026-06-04T19:11:24.637466",
+  "timestamp": "2026-06-04T19:16:35.062489",
   "strategy": "MOMENTUM (Trend Following)",
+  "bot": {
+    "online": true,
+    "last_activity": "2026-06-04T20:31:17.368828",
+    "version": "v3.0"
+  },
   "config": {
     "body_ratio": 0.7,
     "volume_threshold": 1.5,
@@ -28,9 +33,6 @@
   },
   "latest_prices": {},
   "log": [
-    "2026-06-04 20:31:11,641 | INFO     | bot_engine           | CYCLUS START \u2014 META",
-    "2026-06-04 20:31:12,129 | INFO     | bot_engine           | META: Range [618.4300 \u2014 642.3200] | Mode: BULLISH | Close: 625.7650",
-    "2026-06-04 20:31:12,236 | INFO     | bot_engine           | CYCLUS START \u2014 CRWD",
     "2026-06-04 20:31:13,284 | INFO     | bot_engine           | CRWD: Range [671.7050 \u2014 758.9650] | Mode: BEARISH | Close: 713.2200",
     "2026-06-04 20:31:13,382 | INFO     | bot_engine           | CYCLUS START \u2014 HON",
     "2026-06-04 20:31:13,819 | INFO     | bot_engine           | HON: Range [216.9450 \u2014 226.7600] | Mode: RANGING | Close: 218.4000",
