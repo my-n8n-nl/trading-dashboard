@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Momentum Bot — Dashboard</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #0d0e15; color: #e0e0e0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; padding: 20px; }
+h1 { font-size: 24px; margin-bottom: 20px; color: #00B4D8; }
+h2 { font-size: 16px; margin: 20px 0 10px; color: #888; text-transform: uppercase; letter-spacing: 1px; }
+.card { background: #1a1c2a; border-radius: 12px; padding: 16px; margin-bottom: 12px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
+.stat-value { font-size: 22px; font-weight: bold; color: #fff; }
+.stat-label { font-size: 12px; color: #888; margin-top: 4px; }
+.green { color: #00ff88; }
+.red { color: #ff4444; }
+.cyan { color: #00B4D8; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { text-align: left; color: #888; padding: 8px 6px; border-bottom: 1px solid rgba(255,255,255,0.06); font-weight: 500; }
+td { padding: 8px 6px; border-bottom: 1px solid rgba(255,255,255,0.04); }
+.log-line { font-size: 11px; font-family: monospace; color: #aaa; padding: 2px 0; border-bottom: 1px solid rgba(255,255,255,0.03); }
+.config-item { display: flex; justify-content: space-between; padding: 4px 0; font-size: 13px; }
+.config-item .key { color: #888; }
+.config-item .val { color: #00B4D8; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+.badge-buy { background: rgba(0,255,136,0.15); color: #00ff88; }
+.badge-sell { background: rgba(255,68,68,0.15); color: #ff4444; }
+.badge-open { background: rgba(0,180,216,0.15); color: #00B4D8; }
+.badge-closed { background: rgba(255,255,255,0.06); color: #888; }
+</style>
+</head>
+<body>
+<h1>📈 Momentum Bot — Real-Time Dashboard</h1>
+<div class="grid">
+  <div class="card">
+    <div class="stat-value">$$3000</div>
+    <div class="stat-label">Portfolio</div>
+  </div>
+  <div class="card">
+    <div class="stat-value green">$+0.00</div>
+    <div class="stat-label">Total P&amp;L</div>
+  </div>
+  <div class="card">
+    <div class="stat-value">0%</div>
+    <div class="stat-label">Win Rate</div>
+  </div>
+  <div class="card">
+    <div class="stat-value">0</div>
+    <div class="stat-label">Open Trades</div>
+  </div>
+  <div class="card">
+    <div class="stat-value">0</div>
+    <div class="stat-label">Total Trades</div>
+  </div>
+  <div class="card">
+    <div class="stat-value">0 / 0</div>
+    <div class="stat-label">Wins / Losses</div>
+  </div>
+</div>
+
+<h2>🧠 Strategie Config</h2>
+<div class="card">
+  <div class="config-item"><span class="key">Body Ratio</span><span class="val">70%</span></div>
+  <div class="config-item"><span class="key">Volume Threshold</span><span class="val">1.5x</span></div>
+  <div class="config-item"><span class="key">ATR Threshold</span><span class="val">1.2x</span></div>
+  <div class="config-item"><span class="key">SL ATR</span><span class="val">1.0x</span></div>
+  <div class="config-item"><span class="key">TP Ratio</span><span class="val">1:1.5</span></div>
+  <div class="config-item"><span class="key">TP Split</span><span class="val">50%% / runner</span></div>
+</div>
+
+
+
+<h2>📊 Open Trades</h2>
+<div class='card'><p style='color:#666;text-align:center;padding:20px;'>Geen open trades</p></div>
+
+<h2>📜 Recente Trades</h2>
+<div class='card'><p style='color:#666;text-align:center;padding:20px;'>Nog geen trades</p></div>
+
+<h2>📋 Log (momentum)</h2>
+<div class="card">
+<div class='log-line'>2026-06-04 20:31:10,246 | INFO     | bot_engine           | AMD: Range [500.0000 — 544.4100] | Mode: BEARISH | Close: 530.2350</div><div class='log-line'>2026-06-04 20:31:10,343 | INFO     | bot_engine           | CYCLUS START — AVGO</div><div class='log-line'>2026-06-04 20:31:10,889 | INFO     | bot_engine           | AVGO: Range nog niet vastgesteld — wacht op meer data</div><div class='log-line'>2026-06-04 20:31:10,889 | INFO     | bot_engine           | CYCLUS START — AMZN</div><div class='log-line'>2026-06-04 20:31:11,368 | INFO     | bot_engine           | AMZN: Range [251.8300 — 255.8300] | Mode: RANGING | Close: 254.6400</div><div class='log-line'>2026-06-04 20:31:11,641 | INFO     | bot_engine           | CYCLUS START — META</div><div class='log-line'>2026-06-04 20:31:12,129 | INFO     | bot_engine           | META: Range [618.4300 — 642.3200] | Mode: BULLISH | Close: 625.7650</div><div class='log-line'>2026-06-04 20:31:12,236 | INFO     | bot_engine           | CYCLUS START — CRWD</div><div class='log-line'>2026-06-04 20:31:13,284 | INFO     | bot_engine           | CRWD: Range [671.7050 — 758.9650] | Mode: BEARISH | Close: 713.2200</div><div class='log-line'>2026-06-04 20:31:13,382 | INFO     | bot_engine           | CYCLUS START — HON</div><div class='log-line'>2026-06-04 20:31:13,819 | INFO     | bot_engine           | HON: Range [216.9450 — 226.7600] | Mode: RANGING | Close: 218.4000</div><div class='log-line'>2026-06-04 20:31:13,962 | INFO     | bot_engine           | CYCLUS START — CHTR</div><div class='log-line'>2026-06-04 20:31:14,693 | INFO     | bot_engine           | CHTR: Range [128.3500 — 132.6900] | Mode: BEARISH | Close: 127.1300</div><div class='log-line'>2026-06-04 20:31:14,882 | INFO     | bot_engine           | CYCLUS START — NVTS</div><div class='log-line'>2026-06-04 20:31:15,573 | INFO     | bot_engine           | NVTS: Range [28.2300 — 31.4000] | Mode: RANGING | Close: 31.1400</div><div class='log-line'>2026-06-04 20:31:15,680 | INFO     | bot_engine           | CYCLUS START — BTC/USD</div><div class='log-line'>2026-06-04 20:31:16,588 | INFO     | bot_engine           | BTC/USD: Range [61308.7941 — 65292.6200] | Mode: RANGING | Close: 62961.1110</div><div class='log-line'>2026-06-04 20:31:16,694 | INFO     | bot_engine           | CYCLUS START — ETH/USD</div><div class='log-line'>2026-06-04 20:31:17,371 | INFO     | bot_engine           | ETH/USD: Range [1716.4100 — 1815.6270] | Mode: RANGING | Close: 1756.2600</div><div class='log-line'>2026-06-04 20:35:02,263 | INFO     | __main__             | Mode: PAPER TRADING</div>
+</div>
+
+<p style="text-align:center;margin-top:30px;font-size:11px;color:#555;">
+  Laatste update: 2026-06-04T18:42:19 | Hermes Agent — RML Momentum Bot
+</p>
+</body>
+</html>

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-06-04T18:42:19.009580",
+  "strategy": "MOMENTUM (Trend Following)",
+  "config": {
+    "body_ratio": 0.7,
+    "volume_threshold": 1.5,
+    "atr_threshold": 1.2,
+    "sl_atr": 1.0,
+    "tp_ratio": 1.5,
+    "tp_portion": 0.5
+  },
+  "portfolio": {
+    "balance": 3000.0,
+    "open_positions": 0,
+    "active_trades": 0
+  },
+  "positions": [],
+  "open_trades": [],
+  "recent_trades": [],
+  "stats": {
+    "total_trades": 0,
+    "open": 0,
+    "closed": 0,
+    "wins": 0,
+    "losses": 0,
+    "win_rate": 0,
+    "total_pnl": 0
+  },
+  "latest_prices": {},
+  "log": [
+    "2026-06-04 20:31:10,246 | INFO     | bot_engine           | AMD: Range [500.0000 \u2014 544.4100] | Mode: BEARISH | Close: 530.2350",
+    "2026-06-04 20:31:10,343 | INFO     | bot_engine           | CYCLUS START \u2014 AVGO",
+    "2026-06-04 20:31:10,889 | INFO     | bot_engine           | AVGO: Range nog niet vastgesteld \u2014 wacht op meer data",
+    "2026-06-04 20:31:10,889 | INFO     | bot_engine           | CYCLUS START \u2014 AMZN",
+    "2026-06-04 20:31:11,368 | INFO     | bot_engine           | AMZN: Range [251.8300 \u2014 255.8300] | Mode: RANGING | Close: 254.6400",
+    "2026-06-04 20:31:11,641 | INFO     | bot_engine           | CYCLUS START \u2014 META",
+    "2026-06-04 20:31:12,129 | INFO     | bot_engine           | META: Range [618.4300 \u2014 642.3200] | Mode: BULLISH | Close: 625.7650",
+    "2026-06-04 20:31:12,236 | INFO     | bot_engine           | CYCLUS START \u2014 CRWD",
+    "2026-06-04 20:31:13,284 | INFO     | bot_engine           | CRWD: Range [671.7050 \u2014 758.9650] | Mode: BEARISH | Close: 713.2200",
+    "2026-06-04 20:31:13,382 | INFO     | bot_engine           | CYCLUS START \u2014 HON",
+    "2026-06-04 20:31:13,819 | INFO     | bot_engine           | HON: Range [216.9450 \u2014 226.7600] | Mode: RANGING | Close: 218.4000",
+    "2026-06-04 20:31:13,962 | INFO     | bot_engine           | CYCLUS START \u2014 CHTR",
+    "2026-06-04 20:31:14,693 | INFO     | bot_engine           | CHTR: Range [128.3500 \u2014 132.6900] | Mode: BEARISH | Close: 127.1300",
+    "2026-06-04 20:31:14,882 | INFO     | bot_engine           | CYCLUS START \u2014 NVTS",
+    "2026-06-04 20:31:15,573 | INFO     | bot_engine           | NVTS: Range [28.2300 \u2014 31.4000] | Mode: RANGING | Close: 31.1400",
+    "2026-06-04 20:31:15,680 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD",
+    "2026-06-04 20:31:16,588 | INFO     | bot_engine           | BTC/USD: Range [61308.7941 \u2014 65292.6200] | Mode: RANGING | Close: 62961.1110",
+    "2026-06-04 20:31:16,694 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
+    "2026-06-04 20:31:17,371 | INFO     | bot_engine           | ETH/USD: Range [1716.4100 \u2014 1815.6270] | Mode: RANGING | Close: 1756.2600",
+    "2026-06-04 20:35:02,263 | INFO     | __main__             | Mode: PAPER TRADING"
+  ]
+}
