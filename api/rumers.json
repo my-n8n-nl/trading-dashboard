@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-04T19:30:03.324257",
+  "timestamp": "2026-06-04T19:40:02.558142",
   "portfolio": {
     "equity": 3000.0,
     "cash": 3000.0,
@@ -22,25 +22,25 @@
     "version": "v3.0"
   },
   "log": [
-    "Traceback (most recent call last):\n",
-    "  File \"/home/abdel/projects/trader_rml/main.py\", line 112, in run_trading_cycle\n",
-    "    engine.run_all_symbols(is_market_open=is_market_open)\n",
+    "    self.run_cycle(symbol, is_market_open)\n",
+    "  File \"/home/abdel/projects/trader_rml/bot_engine.py\", line 117, in run_cycle\n",
+    "    self._sync_trade_state(symbol, current_index)\n",
     "    ^^^^^^^^^^^^^^^^^^^^^^\n",
-    "AttributeError: 'BotEngine' object has no attribute 'run_all_symbols'\n",
-    "2026-06-04 21:20:02,794 | INFO     | __main__             | \n",
-    "\u26d4 Bot gestopt door gebruiker (Ctrl+C)\n",
-    "2026-06-04 21:20:03,882 | INFO     | __main__             | ============================================================\n",
-    "2026-06-04 21:20:03,882 | INFO     | __main__             | THE RUMERS MAGIC LINES \u2014 Bot v3.0\n",
-    "2026-06-04 21:20:03,882 | INFO     | __main__             | ============================================================\n",
-    "2026-06-04 21:20:03,882 | INFO     | __main__             | Mode: PAPER TRADING\n",
-    "2026-06-04 21:20:03,882 | INFO     | __main__             | Startkapitaal: $3000.00\n",
-    "2026-06-04 21:20:03,882 | INFO     | __main__             | Symbolen: ['TSLA', 'NVDA', 'ASML', 'GOOGL', 'MSFT', 'AMD', 'AVGO', 'AMZN', 'META', 'CRWD', 'HON', 'CHTR', 'NVTS', 'BTC/USD', 'ETH/USD']\n",
-    "2026-06-04 21:20:03,882 | INFO     | __main__             | Max trades: 3\n",
-    "2026-06-04 21:20:03,883 | INFO     | __main__             | Risico per trade: 1.0%\n",
-    "2026-06-04 21:20:03,883 | INFO     | __main__             | ============================================================\n",
-    "2026-06-04 21:20:03,883 | INFO     | state_manager        | Database ge\u00efnitialiseerd\n",
-    "2026-06-04 21:20:03,884 | INFO     | bot_engine           | State geladen \u2014 0 traded ranges\n",
-    "2026-06-04 21:20:03,979 | INFO     | __main__             | Scheduler actief \u2014 96 dagelijkse triggers ingesteld\n",
-    "2026-06-04 21:20:03,979 | INFO     | __main__             | Wacht op eerste 15m candle close...\n"
+    "AttributeError: 'BotEngine' object has no attribute '_sync_trade_state'\n",
+    "2026-06-04 21:31:11,172 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-04 21:31:11,173 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD\n",
+    "2026-06-04 21:31:11,173 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-04 21:31:11,284 | INFO     | data_feed            | Fetched 100 candles for ETH/USD (15Min)\n",
+    "2026-06-04 21:31:11,400 | INFO     | data_feed            | Fetched 50 candles for ETH/USD (1Hour)\n",
+    "2026-06-04 21:31:11,401 | ERROR    | bot_engine           | Fout in cyclus voor ETH/USD: 'BotEngine' object has no attribute '_sync_trade_state'\n",
+    "Traceback (most recent call last):\n",
+    "  File \"/home/abdel/projects/trader_rml/bot_engine.py\", line 515, in run_all_symbols\n",
+    "    self.run_cycle(symbol, is_market_open)\n",
+    "  File \"/home/abdel/projects/trader_rml/bot_engine.py\", line 117, in run_cycle\n",
+    "    self._sync_trade_state(symbol, current_index)\n",
+    "    ^^^^^^^^^^^^^^^^^^^^^^\n",
+    "AttributeError: 'BotEngine' object has no attribute '_sync_trade_state'\n",
+    "2026-06-04 21:39:45,899 | INFO     | __main__             | \n",
+    "\u26d4 Bot gestopt door gebruiker (Ctrl+C)\n"
   ]
 }
