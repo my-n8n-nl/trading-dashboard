@@ -1,14 +1,14 @@
 {
-  "generated_at": "04-06-2026 10:03:50",
-  "generated_at_iso": "2026-06-04T10:03:50.178836",
+  "generated_at": "04-06-2026 10:08:53",
+  "generated_at_iso": "2026-06-04T10:08:53.486227",
   "metrics": {
     "total_invested": 1511.49,
-    "total_value": 1381.05,
-    "portfolio_value": 2929.95,
+    "total_value": 1381.16,
+    "portfolio_value": 2930.06,
     "cash": 1548.9,
-    "unrealized_pl": -130.44,
+    "unrealized_pl": -130.33,
     "realized_pl": 61.71,
-    "total_pnl": -68.73
+    "total_pnl": -68.62
   },
   "positions": [
     {
@@ -41,13 +41,13 @@
     {
       "symbol": "GOOGL",
       "entry_price": 384.07,
-      "current_price": 360.12,
-      "change_pct": -6.24,
+      "current_price": 360.28,
+      "change_pct": -6.19,
       "qty": 1.0,
       "invested": 384.07,
-      "value": 360.12,
-      "pl": -23.95,
-      "pl_pct": -6.24,
+      "value": 360.28,
+      "pl": -23.79,
+      "pl_pct": -6.19,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": null,
@@ -68,13 +68,13 @@
     {
       "symbol": "TSLA",
       "entry_price": 428.73,
-      "current_price": 421.12,
-      "change_pct": -1.78,
+      "current_price": 421.07,
+      "change_pct": -1.79,
       "qty": 1.0,
       "invested": 428.73,
-      "value": 421.12,
-      "pl": -7.61,
-      "pl_pct": -1.77,
+      "value": 421.07,
+      "pl": -7.66,
+      "pl_pct": -1.79,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": "fa8a2283-283d-41e3-9cb5-a53b484c1e48",
@@ -430,8 +430,8 @@
     ],
     "values": [
       599.811648,
-      360.12,
-      421.12
+      360.28,
+      421.07
     ],
     "colors": [
       "#7c6bf2",
