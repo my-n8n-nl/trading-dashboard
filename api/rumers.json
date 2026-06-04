@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-04T23:30:03.178548",
+  "timestamp": "2026-06-04T23:40:03.266806",
   "portfolio": {
     "equity": 3000.0,
     "cash": 3000.0,
@@ -17,30 +17,30 @@
     "win_rate": 0
   },
   "bot": {
-    "online": false,
-    "last_activity": "2026-06-04T20:31:17.368828",
+    "online": true,
+    "last_activity": "2026-06-05T01:33:14.722131",
     "version": "v3.0"
   },
   "log": [
-    "    self.run_cycle(symbol, is_market_open)\n",
-    "  File \"/home/abdel/projects/trader_rml/bot_engine.py\", line 117, in run_cycle\n",
-    "    self._sync_trade_state(symbol, current_index)\n",
-    "    ^^^^^^^^^^^^^^^^^^^^^^\n",
-    "AttributeError: 'BotEngine' object has no attribute '_sync_trade_state'\n",
-    "2026-06-04 21:31:11,172 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-04 21:31:11,173 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD\n",
-    "2026-06-04 21:31:11,173 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-04 21:31:11,284 | INFO     | data_feed            | Fetched 100 candles for ETH/USD (15Min)\n",
-    "2026-06-04 21:31:11,400 | INFO     | data_feed            | Fetched 50 candles for ETH/USD (1Hour)\n",
-    "2026-06-04 21:31:11,401 | ERROR    | bot_engine           | Fout in cyclus voor ETH/USD: 'BotEngine' object has no attribute '_sync_trade_state'\n",
-    "Traceback (most recent call last):\n",
-    "  File \"/home/abdel/projects/trader_rml/bot_engine.py\", line 515, in run_all_symbols\n",
-    "    self.run_cycle(symbol, is_market_open)\n",
-    "  File \"/home/abdel/projects/trader_rml/bot_engine.py\", line 117, in run_cycle\n",
-    "    self._sync_trade_state(symbol, current_index)\n",
-    "    ^^^^^^^^^^^^^^^^^^^^^^\n",
-    "AttributeError: 'BotEngine' object has no attribute '_sync_trade_state'\n",
-    "2026-06-04 21:39:45,899 | INFO     | __main__             | \n",
-    "\u26d4 Bot gestopt door gebruiker (Ctrl+C)\n"
+    "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n",
+    "2026-06-05 01:33:13,583 | INFO     | __main__             | \u23f0 Nieuwe 15m cyclus \u2014 2026-06-05 00:33 BST\n",
+    "2026-06-05 01:33:13,583 | INFO     | __main__             | \ud83d\udcca Stock market: \ud83d\udd34 CLOSED\n",
+    "2026-06-05 01:33:13,583 | INFO     | __main__             | \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n",
+    "2026-06-05 01:33:13,583 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-05 01:33:13,583 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD\n",
+    "2026-06-05 01:33:13,583 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-05 01:33:13,903 | INFO     | data_feed            | Fetched 100 candles for BTC/USD (15Min)\n",
+    "2026-06-05 01:33:14,025 | INFO     | data_feed            | Fetched 50 candles for BTC/USD (1Hour)\n",
+    "2026-06-05 01:33:14,349 | INFO     | market_structure     | Swing points gevonden voor 1H: 17 \u2014 drempel: 0.15%\n",
+    "2026-06-05 01:33:14,350 | INFO     | market_structure     | 1H Market Structure: RANGING | Range: 62117.51 - 65292.62\n",
+    "2026-06-05 01:33:14,355 | INFO     | bot_engine           | BTC/USD: Range nog niet vastgesteld \u2014 wacht op meer data\n",
+    "2026-06-05 01:33:14,355 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-05 01:33:14,356 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD\n",
+    "2026-06-05 01:33:14,356 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-05 01:33:14,471 | INFO     | data_feed            | Fetched 100 candles for ETH/USD (15Min)\n",
+    "2026-06-05 01:33:14,590 | INFO     | data_feed            | Fetched 50 candles for ETH/USD (1Hour)\n",
+    "2026-06-05 01:33:14,718 | INFO     | market_structure     | Swing points gevonden voor 1H: 15 \u2014 drempel: 0.15%\n",
+    "2026-06-05 01:33:14,718 | INFO     | market_structure     | 1H Market Structure: RANGING | Range: 1729.37 - 1889.23\n",
+    "2026-06-05 01:33:14,724 | INFO     | bot_engine           | ETH/USD: Range nog niet vastgesteld \u2014 wacht op meer data\n"
   ]
 }
