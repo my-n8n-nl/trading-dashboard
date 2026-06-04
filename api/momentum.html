@@ -31,7 +31,7 @@ td { padding: 8px 6px; border-bottom: 1px solid rgba(255,255,255,0.04); }
 </style>
 </head>
 <body>
-<h1>📈 Momentum Bot — Real-Time Dashboard</h1>
+<h1>📈 Momentum Bot v3.1 — Dashboard</h1>
 <div class="grid">
   <div class="card">
     <div class="stat-value">$$3000</div>
@@ -40,6 +40,10 @@ td { padding: 8px 6px; border-bottom: 1px solid rgba(255,255,255,0.04); }
   <div class="card">
     <div class="stat-value green">$+0.00</div>
     <div class="stat-label">Total P&amp;L</div>
+  </div>
+  <div class="card">
+    <div class="stat-value green">$+0.00</div>
+    <div class="stat-label">Daily P&amp;L (max -$90)</div>
   </div>
   <div class="card">
     <div class="stat-value">0%</div>
@@ -64,9 +68,17 @@ td { padding: 8px 6px; border-bottom: 1px solid rgba(255,255,255,0.04); }
   <div class="config-item"><span class="key">Body Ratio</span><span class="val">70%</span></div>
   <div class="config-item"><span class="key">Volume Threshold</span><span class="val">1.5x</span></div>
   <div class="config-item"><span class="key">ATR Threshold</span><span class="val">1.2x</span></div>
-  <div class="config-item"><span class="key">SL ATR</span><span class="val">1.0x</span></div>
-  <div class="config-item"><span class="key">TP Ratio</span><span class="val">1:1.5</span></div>
-  <div class="config-item"><span class="key">TP Split</span><span class="val">50%% / runner</span></div>
+  <div class="config-item"><span class="key">SL ATR</span><span class="val">1.5x</span></div>
+  <div class="config-item"><span class="key">TP Ratio</span><span class="val">1:2.0</span></div>
+  <div class="config-item"><span class="key">TP Split</span><span class="val">50% / runner</span></div>
+  <div class="config-item"><span class="key">1H Trendfilter</span><span class="val">✅ Aan</span></div>
+  <div class="config-item"><span class="key">Trailing Stop</span><span class="val">✅ Aan (1.5x ATR)</span></div>
+  <div class="config-item"><span class="key">Breakeven</span><span class="val">bij +1.0R</span></div>
+  <div class="config-item"><span class="key">Pullback Entry</span><span class="val">✅ Aan (50% retrace)</span></div>
+  <div class="config-item"><span class="key">Lookback</span><span class="val">2 candles</span></div>
+  <div class="config-item"><span class="key">Min ATR</span><span class="val">0.3% van prijs</span></div>
+  <div class="config-item"><span class="key">Skip Opening</span><span class="val">30 min</span></div>
+  <div class="config-item"><span class="key">Max Daily Loss</span><span class="val">3% ($90)</span></div>
 </div>
 
 
@@ -79,11 +91,11 @@ td { padding: 8px 6px; border-bottom: 1px solid rgba(255,255,255,0.04); }
 
 <h2>📋 Log (momentum)</h2>
 <div class="card">
-<div class='log-line'>2026-06-04 21:31:08,781 | INFO     | bot_engine           | CYCLUS START — META</div><div class='log-line'>2026-06-04 21:31:09,135 | INFO     | bot_engine           | CYCLUS START — CRWD</div><div class='log-line'>2026-06-04 21:31:09,515 | INFO     | bot_engine           | CYCLUS START — HON</div><div class='log-line'>2026-06-04 21:31:09,970 | INFO     | bot_engine           | CYCLUS START — CHTR</div><div class='log-line'>2026-06-04 21:31:10,273 | INFO     | bot_engine           | CYCLUS START — NVTS</div><div class='log-line'>2026-06-04 21:31:10,606 | INFO     | bot_engine           | CYCLUS START — BTC/USD</div><div class='log-line'>2026-06-04 21:31:11,173 | INFO     | bot_engine           | CYCLUS START — ETH/USD</div>
+<div class='log-line'>2026-06-04 21:31:09,970 | INFO     | bot_engine           | CYCLUS START — CHTR</div><div class='log-line'>2026-06-04 21:31:10,273 | INFO     | bot_engine           | CYCLUS START — NVTS</div><div class='log-line'>2026-06-04 21:31:10,606 | INFO     | bot_engine           | CYCLUS START — BTC/USD</div><div class='log-line'>2026-06-04 21:31:11,173 | INFO     | bot_engine           | CYCLUS START — ETH/USD</div><div class='log-line'>2026-06-05 01:33:13,492 | INFO     | __main__             | Mode: PAPER TRADING</div><div class='log-line'>2026-06-05 01:33:13,583 | INFO     | bot_engine           | CYCLUS START — BTC/USD</div><div class='log-line'>2026-06-05 01:33:14,355 | INFO     | bot_engine           | BTC/USD: Range nog niet vastgesteld — wacht op meer data</div><div class='log-line'>2026-06-05 01:33:14,356 | INFO     | bot_engine           | CYCLUS START — ETH/USD</div><div class='log-line'>2026-06-05 01:33:14,724 | INFO     | bot_engine           | ETH/USD: Range nog niet vastgesteld — wacht op meer data</div>
 </div>
 
 <p style="text-align:center;margin-top:30px;font-size:11px;color:#555;">
-  Laatste update: 2026-06-04T23:30:39 | Hermes Agent — RML Momentum Bot
+  Laatste update: 2026-06-04T23:35:49 | Hermes Agent — RML Momentum Bot
 </p>
 </body>
 </html>

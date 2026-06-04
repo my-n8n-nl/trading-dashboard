@@ -1,23 +1,35 @@
 {
-  "timestamp": "2026-06-04T23:30:39.405191",
-  "strategy": "MOMENTUM (Trend Following)",
+  "timestamp": "2026-06-04T23:35:49.999425",
+  "strategy": "MOMENTUM (Trend Following v3.1)",
   "bot": {
-    "online": false,
-    "last_activity": "2026-06-04T20:31:17.368828",
-    "version": "v3.0"
+    "online": true,
+    "last_activity": "2026-06-05T01:33:14.722131",
+    "version": "v3.1"
   },
   "config": {
     "body_ratio": 0.7,
     "volume_threshold": 1.5,
     "atr_threshold": 1.2,
-    "sl_atr": 1.0,
-    "tp_ratio": 1.5,
-    "tp_portion": 0.5
+    "sl_atr": 1.5,
+    "tp_ratio": 2.0,
+    "tp_portion": 0.5,
+    "trendfilter": true,
+    "trailing_stop": true,
+    "trailing_atr": 1.5,
+    "breakeven_at_r": 1.0,
+    "pullback_entry": true,
+    "pullback_retrace": 0.5,
+    "lookback_candles": 2,
+    "min_atr_pct": 0.003,
+    "skip_opening_min": 30,
+    "max_daily_loss_pct": 0.03
   },
   "portfolio": {
     "balance": 3000.0,
     "open_positions": 0,
-    "active_trades": 0
+    "active_trades": 0,
+    "daily_pnl": 0,
+    "daily_drawdown_limit": 90.0
   },
   "positions": [],
   "open_trades": [],
@@ -29,16 +41,19 @@
     "wins": 0,
     "losses": 0,
     "win_rate": 0,
-    "total_pnl": 0
+    "total_pnl": 0,
+    "daily_pnl": 0
   },
   "latest_prices": {},
   "log": [
-    "2026-06-04 21:31:08,781 | INFO     | bot_engine           | CYCLUS START \u2014 META",
-    "2026-06-04 21:31:09,135 | INFO     | bot_engine           | CYCLUS START \u2014 CRWD",
-    "2026-06-04 21:31:09,515 | INFO     | bot_engine           | CYCLUS START \u2014 HON",
     "2026-06-04 21:31:09,970 | INFO     | bot_engine           | CYCLUS START \u2014 CHTR",
     "2026-06-04 21:31:10,273 | INFO     | bot_engine           | CYCLUS START \u2014 NVTS",
     "2026-06-04 21:31:10,606 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD",
-    "2026-06-04 21:31:11,173 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD"
+    "2026-06-04 21:31:11,173 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
+    "2026-06-05 01:33:13,492 | INFO     | __main__             | Mode: PAPER TRADING",
+    "2026-06-05 01:33:13,583 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD",
+    "2026-06-05 01:33:14,355 | INFO     | bot_engine           | BTC/USD: Range nog niet vastgesteld \u2014 wacht op meer data",
+    "2026-06-05 01:33:14,356 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
+    "2026-06-05 01:33:14,724 | INFO     | bot_engine           | ETH/USD: Range nog niet vastgesteld \u2014 wacht op meer data"
   ]
 }
