@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-04T18:40:03.112045",
+  "timestamp": "2026-06-04T18:50:02.855449",
   "portfolio": {
     "equity": 3000.0,
     "cash": 3000.0,
@@ -22,17 +22,6 @@
     "version": "v3.0"
   },
   "log": [
-    "2026-06-04 20:31:17,038 | INFO     | data_feed            | Fetched 50 candles for ETH/USD (1Hour)\n",
-    "2026-06-04 20:31:17,365 | INFO     | market_structure     | Swing points gevonden voor 1H: 14 \u2014 drempel: 0.15%\n",
-    "2026-06-04 20:31:17,366 | INFO     | market_structure     | 1H Market Structure: RANGING | Range: 1716.41 - 1890.40\n",
-    "2026-06-04 20:31:17,371 | INFO     | bot_engine           | ETH/USD: Range [1716.4100 \u2014 1815.6270] | Mode: RANGING | Close: 1756.2600\n",
-    "2026-06-04 20:31:17,543 | INFO     | bot_engine           | Cyclus afgerond \u2014 ETH/USD\n",
-    "2026-06-04 20:35:01,335 | INFO     | __main__             | \n",
-    "\u26d4 Bot gestopt door gebruiker (Ctrl+C)\n",
-    "2026-06-04 20:35:02,262 | INFO     | __main__             | ============================================================\n",
-    "2026-06-04 20:35:02,263 | INFO     | __main__             | THE RUMERS MAGIC LINES \u2014 Bot v3.0\n",
-    "2026-06-04 20:35:02,263 | INFO     | __main__             | ============================================================\n",
-    "2026-06-04 20:35:02,263 | INFO     | __main__             | Mode: PAPER TRADING\n",
     "2026-06-04 20:35:02,263 | INFO     | __main__             | Startkapitaal: $3000.00\n",
     "2026-06-04 20:35:02,263 | INFO     | __main__             | Symbolen: ['TSLA', 'NVDA', 'ASML', 'GOOGL', 'MSFT', 'AMD', 'AVGO', 'AMZN', 'META', 'CRWD', 'HON', 'CHTR', 'NVTS', 'BTC/USD', 'ETH/USD']\n",
     "2026-06-04 20:35:02,263 | INFO     | __main__             | Max trades: 3\n",
@@ -41,6 +30,17 @@
     "2026-06-04 20:35:02,264 | INFO     | state_manager        | Database ge\u00efnitialiseerd\n",
     "2026-06-04 20:35:02,265 | INFO     | bot_engine           | State geladen \u2014 0 traded ranges\n",
     "2026-06-04 20:35:02,361 | INFO     | __main__             | Scheduler actief \u2014 96 dagelijkse triggers ingesteld\n",
-    "2026-06-04 20:35:02,363 | INFO     | __main__             | Wacht op eerste 15m candle close...\n"
+    "2026-06-04 20:35:02,363 | INFO     | __main__             | Wacht op eerste 15m candle close...\n",
+    "2026-06-04 20:46:02,395 | INFO     | __main__             | \n",
+    "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n",
+    "2026-06-04 20:46:02,395 | INFO     | __main__             | \u23f0 Nieuwe 15m cyclus \u2014 2026-06-04 19:46 BST\n",
+    "2026-06-04 20:46:02,396 | INFO     | __main__             | \ud83d\udcca Stock market: \ud83d\udfe2 OPEN\n",
+    "2026-06-04 20:46:02,396 | INFO     | __main__             | \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n",
+    "2026-06-04 20:46:02,396 | ERROR    | __main__             | Kritieke fout in trading cyclus: 'BotEngine' object has no attribute 'run_all_symbols'\n",
+    "Traceback (most recent call last):\n",
+    "  File \"/home/abdel/projects/trader_rml/main.py\", line 112, in run_trading_cycle\n",
+    "    engine.run_all_symbols(is_market_open=is_market_open)\n",
+    "    ^^^^^^^^^^^^^^^^^^^^^^\n",
+    "AttributeError: 'BotEngine' object has no attribute 'run_all_symbols'\n"
   ]
 }
