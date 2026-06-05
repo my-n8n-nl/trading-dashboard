@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-05T08:00:03.120709",
+  "timestamp": "2026-06-05T08:10:02.877859",
   "portfolio": {
     "equity": 3000.0,
     "cash": 3000.0,
@@ -18,29 +18,29 @@
   },
   "bot": {
     "online": true,
-    "last_activity": "2026-06-05T09:46:03.914426",
+    "last_activity": "2026-06-05T10:01:06.177160",
     "version": "v3.0"
   },
   "log": [
-    "2026-06-05 09:46:01,352 | INFO     | __main__             | \ud83d\udcca Stock market: \ud83d\udd34 CLOSED\n",
-    "2026-06-05 09:46:01,352 | INFO     | __main__             | \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n",
-    "2026-06-05 09:46:01,352 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-05 09:46:01,353 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD\n",
-    "2026-06-05 09:46:01,353 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-05 09:46:02,552 | INFO     | data_feed            | Fetched 100 candles for BTC/USD (15Min)\n",
-    "2026-06-05 09:46:02,736 | INFO     | data_feed            | Fetched 50 candles for BTC/USD (1Hour)\n",
-    "2026-06-05 09:46:03,247 | INFO     | market_structure     | Swing points gevonden voor 1H: 14 \u2014 drempel: 0.15%\n",
-    "2026-06-05 09:46:03,247 | INFO     | market_structure     | 1H Market Structure: BEARISH | Range: 62117.51 - 65292.62\n",
-    "2026-06-05 09:46:03,253 | INFO     | bot_engine           | BTC/USD: Range [61109.6000 \u2014 65292.6200] | Mode: BEARISH | Close: 61875.9020\n",
-    "2026-06-05 09:46:03,437 | INFO     | bot_engine           | Cyclus afgerond \u2014 BTC/USD\n",
-    "2026-06-05 09:46:03,437 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-05 09:46:03,437 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD\n",
-    "2026-06-05 09:46:03,437 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-05 09:46:03,561 | INFO     | data_feed            | Fetched 100 candles for ETH/USD (15Min)\n",
-    "2026-06-05 09:46:03,791 | INFO     | data_feed            | Fetched 50 candles for ETH/USD (1Hour)\n",
-    "2026-06-05 09:46:03,911 | INFO     | market_structure     | Swing points gevonden voor 1H: 16 \u2014 drempel: 0.15%\n",
-    "2026-06-05 09:46:03,911 | INFO     | market_structure     | 1H Market Structure: BEARISH | Range: 1729.37 - 1783.49\n",
-    "2026-06-05 09:46:03,917 | INFO     | bot_engine           | ETH/USD: Range [1625.7579 \u2014 1799.5000] | Mode: BEARISH | Close: 1654.0600\n",
-    "2026-06-05 09:46:04,132 | INFO     | bot_engine           | Cyclus afgerond \u2014 ETH/USD\n"
+    "2026-06-05 10:01:04,177 | INFO     | __main__             | \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n",
+    "2026-06-05 10:01:04,177 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-05 10:01:04,177 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD\n",
+    "2026-06-05 10:01:04,177 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-05 10:01:04,662 | INFO     | data_feed            | Fetched 100 candles for BTC/USD (15Min)\n",
+    "2026-06-05 10:01:04,823 | INFO     | data_feed            | Fetched 50 candles for BTC/USD (1Hour)\n",
+    "2026-06-05 10:01:05,249 | INFO     | market_structure     | Swing points gevonden voor 1H: 14 \u2014 drempel: 0.15%\n",
+    "2026-06-05 10:01:05,249 | INFO     | market_structure     | 1H Market Structure: BEARISH | Range: 62117.51 - 65292.62\n",
+    "2026-06-05 10:01:05,255 | INFO     | bot_engine           | BTC/USD: Range [61109.6000 \u2014 65292.6200] | Mode: BEARISH | Close: 61437.5430\n",
+    "2026-06-05 10:01:05,536 | INFO     | filters              | NewsAPI check gedaan: 0 artikelen, 0 symbolen geblokkeerd\n",
+    "2026-06-05 10:01:05,665 | INFO     | bot_engine           | Cyclus afgerond \u2014 BTC/USD\n",
+    "2026-06-05 10:01:05,666 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-05 10:01:05,666 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD\n",
+    "2026-06-05 10:01:05,666 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-05 10:01:05,851 | INFO     | data_feed            | Fetched 100 candles for ETH/USD (15Min)\n",
+    "2026-06-05 10:01:05,995 | INFO     | data_feed            | Fetched 50 candles for ETH/USD (1Hour)\n",
+    "2026-06-05 10:01:06,174 | INFO     | market_structure     | Swing points gevonden voor 1H: 15 \u2014 drempel: 0.15%\n",
+    "2026-06-05 10:01:06,174 | INFO     | market_structure     | 1H Market Structure: BEARISH | Range: 1729.37 - 1783.49\n",
+    "2026-06-05 10:01:06,180 | INFO     | bot_engine           | ETH/USD: Range [1625.7579 \u2014 1799.5000] | Mode: BEARISH | Close: 1636.9400\n",
+    "2026-06-05 10:01:06,358 | INFO     | bot_engine           | Cyclus afgerond \u2014 ETH/USD\n"
   ]
 }
