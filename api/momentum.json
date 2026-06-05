@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-05T20:11:43.986911",
+  "timestamp": "2026-06-05T20:16:54.967088",
   "strategy": "MOMENTUM (Trend Following v3.1)",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-05T22:01:06.633611",
+    "last_activity": "2026-06-05T22:16:08.874324",
     "version": "v3.1"
   },
   "config": {
@@ -46,14 +46,6 @@
   },
   "latest_prices": {},
   "log": [
-    "2026-06-05 21:46:10,176 | INFO     | bot_engine           | CYCLUS START \u2014 AMZN",
-    "2026-06-05 21:46:10,849 | INFO     | fractals             | Range Low definitief doorbroken (3 closes) \u2014 range reset",
-    "2026-06-05 21:46:10,849 | INFO     | sweep_detection      | LONG sweep reset: Range reset \u2014 definitieve breakout",
-    "2026-06-05 21:46:10,849 | INFO     | sweep_detection      | SHORT sweep reset: Range reset \u2014 definitieve breakout",
-    "2026-06-05 21:46:10,851 | INFO     | bot_engine           | AMZN: Range nog niet vastgesteld \u2014 wacht op meer data",
-    "2026-06-05 21:46:10,851 | INFO     | bot_engine           | CYCLUS START \u2014 META",
-    "2026-06-05 21:46:11,256 | INFO     | bot_engine           | META: Range [582.9600 \u2014 642.3200] | Mode: BEARISH | Close: 591.0200",
-    "2026-06-05 21:46:11,358 | INFO     | bot_engine           | CYCLUS START \u2014 CRWD",
     "2026-06-05 21:46:11,686 | INFO     | bot_engine           | CRWD: Range [674.7650 \u2014 720.8450] | Mode: RANGING | Close: 674.5600",
     "2026-06-05 21:46:11,789 | INFO     | bot_engine           | CYCLUS START \u2014 HON",
     "2026-06-05 21:46:12,117 | INFO     | bot_engine           | HON: Range [213.2450 \u2014 218.8650] | Mode: RANGING | Close: 213.8000",
@@ -68,6 +60,10 @@
     "2026-06-05 22:01:04,812 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD",
     "2026-06-05 22:01:05,920 | INFO     | bot_engine           | BTC/USD: Range [59758.1230 \u2014 64338.6870] | Mode: BEARISH | Close: 59350.8225",
     "2026-06-05 22:01:06,099 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
-    "2026-06-05 22:01:06,636 | INFO     | bot_engine           | ETH/USD: Range [1546.6110 \u2014 1783.4900] | Mode: BEARISH | Close: 1550.9850"
+    "2026-06-05 22:01:06,636 | INFO     | bot_engine           | ETH/USD: Range [1546.6110 \u2014 1783.4900] | Mode: BEARISH | Close: 1550.9850",
+    "2026-06-05 22:16:06,861 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD",
+    "2026-06-05 22:16:07,973 | INFO     | bot_engine           | BTC/USD: Range [59758.1230 \u2014 64338.6870] | Mode: BEARISH | Close: 59821.1025",
+    "2026-06-05 22:16:08,453 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
+    "2026-06-05 22:16:08,877 | INFO     | bot_engine           | ETH/USD: Range [1546.6110 \u2014 1783.4900] | Mode: BEARISH | Close: 1559.7550"
   ]
 }
