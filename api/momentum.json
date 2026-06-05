@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-05T06:56:49.579490",
+  "timestamp": "2026-06-05T07:02:01.105369",
   "strategy": "MOMENTUM (Trend Following v3.1)",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-05T08:46:05.218894",
+    "last_activity": "2026-06-05T09:01:07.475299",
     "version": "v3.1"
   },
   "config": {
@@ -46,10 +46,6 @@
   },
   "latest_prices": {},
   "log": [
-    "2026-06-05 08:01:07,330 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD",
-    "2026-06-05 08:01:08,512 | INFO     | bot_engine           | BTC/USD: Range [61308.7941 \u2014 65292.6200] | Mode: BEARISH | Close: 63306.4300",
-    "2026-06-05 08:01:08,900 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
-    "2026-06-05 08:01:09,266 | INFO     | bot_engine           | ETH/USD: Range [1716.4100 \u2014 1815.6270] | Mode: BEARISH | Close: 1730.9655",
     "2026-06-05 08:16:09,415 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD",
     "2026-06-05 08:16:10,839 | INFO     | bot_engine           | BTC/USD: Range [61308.7941 \u2014 65292.6200] | Mode: BEARISH | Close: 63430.9805",
     "2026-06-05 08:16:11,221 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
@@ -63,6 +59,13 @@
     "2026-06-05 08:46:04,861 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
     "2026-06-05 08:46:05,223 | INFO     | bot_engine           | ETH/USD: Range [1716.4100 \u2014 1815.6270] | Mode: BEARISH | Close: 1682.9345",
     "2026-06-05 08:46:05,323 | INFO     | momentum             | \u2713 MOMENTUM SHORT breakout (offset=2) \u2014 close $1698.34 < RL $1716.41 | body=94.3% | vol=2.3x | ATR=2.5x",
-    "2026-06-05 08:46:05,323 | INFO     | bot_engine           | ETH/USD: Pullback SHORT entry \u2014 limit op $1715.2405 (50% retrace van body)"
+    "2026-06-05 08:46:05,323 | INFO     | bot_engine           | ETH/USD: Pullback SHORT entry \u2014 limit op $1715.2405 (50% retrace van body)",
+    "2026-06-05 09:01:05,486 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD",
+    "2026-06-05 09:01:06,646 | INFO     | bot_engine           | BTC/USD: Range [61308.7941 \u2014 65292.6200] | Mode: BEARISH | Close: 62025.3000",
+    "2026-06-05 09:01:07,077 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
+    "2026-06-05 09:01:07,478 | INFO     | fractals             | Range Low definitief doorbroken (3 closes) \u2014 range reset",
+    "2026-06-05 09:01:07,479 | INFO     | sweep_detection      | LONG sweep reset: Range reset \u2014 definitieve breakout",
+    "2026-06-05 09:01:07,479 | INFO     | sweep_detection      | SHORT sweep reset: Range reset \u2014 definitieve breakout",
+    "2026-06-05 09:01:07,480 | INFO     | bot_engine           | ETH/USD: Range nog niet vastgesteld \u2014 wacht op meer data"
   ]
 }
