@@ -173,8 +173,7 @@
   <!-- Tabs -->
   <div class="tabs">
     <button class="tab-btn active" onclick="switchTab('overview', this)">📊 Overzicht</button>
-    <button class="tab-btn" onclick="switchTab('chart', this)">📈 Strategie Chart</button>
-    <button class="tab-btn" onclick="switchTab('bounce', this)">⚡ Bounce Chart</button>
+    <button class="tab-btn" onclick="switchTab('chart', this)">📍 Chart</button>
   </div>
 
   <!-- Tab: Overzicht -->
@@ -211,14 +210,6 @@
     <div class="section-title">📈 RML Strategie Visualisatie</div>
     <div class="chart-frame">
       <iframe src="chart.html" id="chartIframe"></iframe>
-    </div>
-  </div>
-
-  <!-- Tab: Bounce Chart -->
-  <div id="tab-bounce" class="tab-content">
-    <div class="section-title">⚡ Counter-Trend Bounce Visualisatie</div>
-    <div class="chart-frame">
-      <iframe src="bounce_chart.html" id="bounceIframe"></iframe>
     </div>
   </div>
 
@@ -358,11 +349,6 @@ function switchTab(tab, btn) {
   if (tab === 'chart') {
     const iframe = document.getElementById('chartIframe');
     iframe.src = 'chart.html?t=' + Date.now();
-  }
-  // Refresh bounce iframe when switching to bounce tab
-  if (tab === 'bounce') {
-    const iframe = document.getElementById('bounceIframe');
-    iframe.src = 'bounce_chart.html?t=' + Date.now();
   }
 }
 

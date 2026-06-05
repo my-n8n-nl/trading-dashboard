@@ -207,7 +207,6 @@
   </div>
 
   <!-- Tab: Momentum Chart -->
-  <!-- Tab: Momentum Chart -->
   <div id="tab-chart" class="tab-content">
     <div class="chart-frame">
       <iframe id="chartIframe" src="momentum_chart.html"></iframe>
@@ -361,6 +360,10 @@ function switchTab(tab, btn) {
   if (tab === 'chart') {
     const iframe = document.getElementById('chartIframe');
     iframe.src = 'momentum_chart.html?t=' + Date.now();
+  }
+  if (tab === 'bounce') {
+    const iframe = document.getElementById('bounceIframe');
+    iframe.src = 'bounce_chart.html?t=' + Date.now();
   }
 }
 
