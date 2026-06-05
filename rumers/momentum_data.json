@@ -1,40 +1,26 @@
 {
   "TSLA": {
-    "price": 391.575,
-    "close": 391.91,
+    "price": 393.04,
+    "close": 392.58,
     "rh": 424.44,
-    "rl": 394.91,
-    "atr": 2.1028571428571468,
+    "rl": 388.64,
+    "atr": 2.09178571428572,
     "mode": "RANGING",
     "breakout": {
-      "trigger": true,
-      "direction": "SHORT",
-      "body_ratio": 0.7326388888888948,
-      "volume_ratio": 1.6863674541992033,
-      "atr_ratio": 1.4436090225563853
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
     },
-    "entry": {
-      "direction": "SHORT",
-      "entry": 390.645,
-      "sl": 393.7992857142857,
-      "tp1": 384.33642857142854,
-      "tp2": 374.8735714285714,
-      "rr": 2.0,
-      "rr_pass": true,
-      "body_ratio": 0.7326388888888948,
-      "volume_ratio": 1.6863674541992033,
-      "atr_ratio": 1.4436090225563853,
-      "candle_open": 391.7,
-      "entry_type": "LIMIT",
-      "trailing": true
-    }
+    "entry": null
   },
   "NVDA": {
-    "price": 206.11,
-    "close": 206.1,
+    "price": 206.535,
+    "close": 206.04,
     "rh": 208.97,
-    "rl": 206.64,
-    "atr": 1.3146428571428572,
+    "rl": 204.35,
+    "atr": 1.2882142857142855,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -46,11 +32,11 @@
     "entry": null
   },
   "ASML": {
-    "price": 1661.38,
-    "close": 1662.17,
+    "price": 1666.02,
+    "close": 1665.34,
     "rh": 1704.88,
     "rl": 1639.25,
-    "atr": 12.762857142857115,
+    "atr": 12.554285714285681,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -62,11 +48,11 @@
     "entry": null
   },
   "GOOGL": {
-    "price": 365.63,
-    "close": 364.82,
+    "price": 366.7,
+    "close": 366.44,
     "rh": 372.065,
-    "rl": 364.625,
-    "atr": 1.6264285714285742,
+    "rl": 364.15,
+    "atr": 1.6707142857142887,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -78,11 +64,11 @@
     "entry": null
   },
   "MSFT": {
-    "price": 416.2,
-    "close": 416.55,
+    "price": 416.77,
+    "close": 417.02,
     "rh": 422.59,
-    "rl": 418.62,
-    "atr": 1.2914285714285825,
+    "rl": 414.46,
+    "atr": 1.3167857142857267,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -94,11 +80,11 @@
     "entry": null
   },
   "AMD": {
-    "price": 472.32,
-    "close": 471.99,
+    "price": 475.2,
+    "close": 473.29,
     "rh": 496.76,
     "rl": 463.99,
-    "atr": 5.251428571428574,
+    "atr": 5.112500000000007,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -110,11 +96,11 @@
     "entry": null
   },
   "AVGO": {
-    "price": 389.62,
-    "close": 389.565,
+    "price": 390.05,
+    "close": 390.315,
     "rh": 410.18,
-    "rl": 391.92,
-    "atr": 2.5382142857142793,
+    "rl": 386.425,
+    "atr": 2.4832142857142805,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -126,11 +112,11 @@
     "entry": null
   },
   "AMZN": {
-    "price": 247.475,
-    "close": 247.31,
+    "price": 247.55,
+    "close": 248.09,
     "rh": 253.84,
     "rl": 252.09,
-    "atr": 1.1228571428571428,
+    "atr": 1.1407142857142856,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -142,11 +128,11 @@
     "entry": null
   },
   "META": {
-    "price": 590.84,
-    "close": 590.88,
+    "price": 591.61,
+    "close": 592.36,
     "rh": 611.35,
     "rl": 582.96,
-    "atr": 4.900357142857144,
+    "atr": 5.037857142857141,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -158,11 +144,11 @@
     "entry": null
   },
   "CRWD": {
-    "price": 674.01,
-    "close": 673.515,
+    "price": 676.0,
+    "close": 676.18,
     "rh": 700.0,
     "rl": 674.765,
-    "atr": 5.081785714285721,
+    "atr": 5.142142857142858,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -174,11 +160,11 @@
     "entry": null
   },
   "HON": {
-    "price": 213.8,
-    "close": 213.765,
+    "price": 214.27,
+    "close": 214.075,
     "rh": 217.9,
     "rl": 214.12,
-    "atr": 0.5357142857142877,
+    "atr": 0.5260714285714313,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -190,11 +176,11 @@
     "entry": null
   },
   "CHTR": {
-    "price": 132.22,
-    "close": 132.22,
+    "price": 132.305,
+    "close": 132.305,
     "rh": 132.54,
     "rl": 127.905,
-    "atr": 0.7149999999999973,
+    "atr": 0.6510714285714272,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -206,11 +192,11 @@
     "entry": null
   },
   "NVTS": {
-    "price": 25.12,
-    "close": 25.08,
+    "price": 25.36,
+    "close": 25.36,
     "rh": 26.58,
     "rl": 24.4,
-    "atr": 0.5260714285714284,
+    "atr": 0.5249999999999998,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -222,7 +208,7 @@
     "entry": null
   },
   "BTC/USD": {
-    "price": 59841.994000000006,
+    "price": 60283.152,
     "close": 59358.165,
     "rh": 63907.113,
     "rl": 59758.123,
@@ -238,7 +224,7 @@
     "entry": null
   },
   "ETH/USD": {
-    "price": 1557.032,
+    "price": 1575.689,
     "close": 1551.6385,
     "rh": 1772.615,
     "rl": 1546.611,
