@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-05T15:00:04.666875",
+  "timestamp": "2026-06-05T15:10:03.307298",
   "portfolio": {
     "equity": 3000.0,
     "cash": 3000.0,
@@ -18,29 +18,29 @@
   },
   "bot": {
     "online": true,
-    "last_activity": "2026-06-05T16:46:14.059284",
+    "last_activity": "2026-06-05T17:01:15.109723",
     "version": "v3.0"
   },
   "log": [
-    "2026-06-05 16:46:12,853 | INFO     | bot_engine           | NVTS: Range [26.5500 \u2014 31.5300] | Mode: RANGING | Close: 27.1500\n",
-    "2026-06-05 16:46:12,955 | INFO     | bot_engine           | Cyclus afgerond \u2014 NVTS\n",
-    "2026-06-05 16:46:12,955 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-05 16:46:12,955 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD\n",
-    "2026-06-05 16:46:12,955 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-05 16:46:13,283 | INFO     | data_feed            | Fetched 100 candles for BTC/USD (15Min)\n",
-    "2026-06-05 16:46:13,449 | INFO     | data_feed            | Fetched 50 candles for BTC/USD (1Hour)\n",
-    "2026-06-05 16:46:13,573 | INFO     | market_structure     | Swing points gevonden voor 1H: 15 \u2014 drempel: 0.15%\n",
-    "2026-06-05 16:46:13,573 | INFO     | market_structure     | 1H Market Structure: BEARISH | Range: 61109.60 - 64447.33\n",
-    "2026-06-05 16:46:13,579 | INFO     | bot_engine           | BTC/USD: Range [61109.6000 \u2014 65292.6200] | Mode: BEARISH | Close: 60676.1320\n",
-    "2026-06-05 16:46:13,678 | INFO     | bot_engine           | Cyclus afgerond \u2014 BTC/USD\n",
-    "2026-06-05 16:46:13,678 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-05 16:46:13,678 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD\n",
-    "2026-06-05 16:46:13,679 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-05 16:46:13,795 | INFO     | data_feed            | Fetched 100 candles for ETH/USD (15Min)\n",
-    "2026-06-05 16:46:13,932 | INFO     | data_feed            | Fetched 50 candles for ETH/USD (1Hour)\n",
-    "2026-06-05 16:46:14,056 | INFO     | market_structure     | Swing points gevonden voor 1H: 15 \u2014 drempel: 0.15%\n",
-    "2026-06-05 16:46:14,057 | INFO     | market_structure     | 1H Market Structure: BEARISH | Range: 1625.76 - 1780.21\n",
-    "2026-06-05 16:46:14,062 | INFO     | bot_engine           | ETH/USD: Range [1625.7579 \u2014 1799.5000] | Mode: BEARISH | Close: 1614.1466\n",
-    "2026-06-05 16:46:14,162 | INFO     | bot_engine           | Cyclus afgerond \u2014 ETH/USD\n"
+    "2026-06-05 17:01:14,078 | INFO     | risk_management      | RR check SHORT geslaagd: 2.00\n",
+    "2026-06-05 17:01:14,078 | INFO     | order_manager        | Portfolio balance (config): $3000.00\n",
+    "2026-06-05 17:01:14,078 | INFO     | risk_management      | Position size: 0.0306 eenheden (risk=$30.00, risk/unit=$978.9614)\n",
+    "2026-06-05 17:01:14,192 | ERROR    | order_manager        | \u2717 Fout bij plaatsen crypto orders BTC/USD: {\"available\":\"0\",\"balance\":\"0\",\"code\":40310000,\"message\":\"insufficient balance for BTC (requested: 0.030645, available: 0)\",\"symbol\":\"USD\"}\n",
+    "2026-06-05 17:01:14,192 | INFO     | bot_engine           | Cyclus afgerond \u2014 BTC/USD\n",
+    "2026-06-05 17:01:14,193 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-05 17:01:14,193 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD\n",
+    "2026-06-05 17:01:14,193 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-05 17:01:14,491 | INFO     | data_feed            | Fetched 100 candles for ETH/USD (15Min)\n",
+    "2026-06-05 17:01:14,984 | INFO     | data_feed            | Fetched 50 candles for ETH/USD (1Hour)\n",
+    "2026-06-05 17:01:15,108 | INFO     | market_structure     | Swing points gevonden voor 1H: 14 \u2014 drempel: 0.15%\n",
+    "2026-06-05 17:01:15,108 | INFO     | market_structure     | 1H Market Structure: BEARISH | Range: 1625.76 - 1780.21\n",
+    "2026-06-05 17:01:15,113 | INFO     | bot_engine           | ETH/USD: Range [1625.7579 \u2014 1799.5000] | Mode: BEARISH | Close: 1614.2980\n",
+    "2026-06-05 17:01:15,226 | INFO     | momentum             | \u2713 MOMENTUM SHORT breakout (offset=2) \u2014 close $1614.15 < RL $1625.76 | body=97.1% | vol=18.6x | ATR=2.8x\n",
+    "2026-06-05 17:01:15,226 | INFO     | bot_engine           | ETH/USD: Pullback SHORT entry \u2014 limit op $1634.3005 (50% retrace van body)\n",
+    "2026-06-05 17:01:15,226 | INFO     | risk_management      | RR check SHORT geslaagd: 2.00\n",
+    "2026-06-05 17:01:15,226 | INFO     | order_manager        | Portfolio balance (config): $3000.00\n",
+    "2026-06-05 17:01:15,226 | INFO     | risk_management      | Position size: 1.2418 eenheden (risk=$30.00, risk/unit=$24.1583)\n",
+    "2026-06-05 17:01:15,330 | ERROR    | order_manager        | \u2717 Fout bij plaatsen crypto orders ETH/USD: {\"available\":\"0\",\"balance\":\"0\",\"code\":40310000,\"message\":\"insufficient balance for ETH (requested: 1.241809, available: 0)\",\"symbol\":\"USD\"}\n",
+    "2026-06-05 17:01:15,331 | INFO     | bot_engine           | Cyclus afgerond \u2014 ETH/USD\n"
   ]
 }
