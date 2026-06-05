@@ -1,10 +1,10 @@
 {
   "TSLA": {
-    "price": 405.815,
-    "close": 405.96,
+    "price": 403.62,
+    "close": 403.59,
     "rh": 424.44,
     "rl": 417.36,
-    "atr": 2.5896428571428607,
+    "atr": 2.68607142857143,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -16,11 +16,11 @@
     "entry": null
   },
   "NVDA": {
-    "price": 210.79,
-    "close": 210.83,
+    "price": 210.48,
+    "close": 210.35,
     "rh": 221.59,
     "rl": null,
-    "atr": 1.249285714285713,
+    "atr": 1.25535714285714,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -32,11 +32,11 @@
     "entry": null
   },
   "ASML": {
-    "price": 1702.67,
-    "close": 1701.9,
+    "price": 1697.18,
+    "close": 1697.18,
     "rh": 1779.225,
     "rl": 1679.6,
-    "atr": 16.416785714285716,
+    "atr": 16.055000000000014,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -48,43 +48,11 @@
     "entry": null
   },
   "GOOGL": {
-    "price": 369.94,
-    "close": 369.99,
+    "price": 369.175,
+    "close": 369.115,
     "rh": 372.84,
     "rl": 364.625,
-    "atr": 1.786071428571424,
-    "mode": "BEARISH",
-    "breakout": {
-      "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
-    },
-    "entry": null
-  },
-  "MSFT": {
-    "price": 421.43,
-    "close": 421.43,
-    "rh": 429.83,
-    "rl": 426.99,
-    "atr": 1.4985714285714298,
-    "mode": "BULLISH",
-    "breakout": {
-      "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
-    },
-    "entry": null
-  },
-  "AMD": {
-    "price": 493.0,
-    "close": 493.095,
-    "rh": 530.91,
-    "rl": 484.45,
-    "atr": 6.3925,
+    "atr": 1.8074999999999963,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -95,13 +63,45 @@
     },
     "entry": null
   },
+  "MSFT": {
+    "price": 422.195,
+    "close": 422.01,
+    "rh": 429.83,
+    "rl": 426.99,
+    "atr": 1.4789285714285703,
+    "mode": "RANGING",
+    "breakout": {
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
+    },
+    "entry": null
+  },
+  "AMD": {
+    "price": 491.205,
+    "close": 491.23,
+    "rh": 530.91,
+    "rl": 484.45,
+    "atr": 6.344642857142857,
+    "mode": "BEARISH",
+    "breakout": {
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
+    },
+    "entry": null
+  },
   "AVGO": {
-    "price": 400.765,
-    "close": 400.79,
+    "price": 399.37,
+    "close": 399.28,
     "rh": 423.425,
     "rl": 397.02,
-    "atr": 3.7203571428571416,
-    "mode": "BULLISH",
+    "atr": 3.506785714285712,
+    "mode": "RANGING",
     "breakout": {
       "trigger": false,
       "direction": "NONE",
@@ -112,11 +112,11 @@
     "entry": null
   },
   "AMZN": {
-    "price": 253.29,
-    "close": 253.23,
+    "price": 253.73,
+    "close": 253.69,
     "rh": 256.3,
     "rl": 252.09,
-    "atr": 1.0660714285714294,
+    "atr": 1.0735714285714306,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -128,12 +128,12 @@
     "entry": null
   },
   "META": {
-    "price": 615.255,
-    "close": 615.26,
+    "price": 614.9,
+    "close": 614.96,
     "rh": 628.92,
     "rl": 614.79,
-    "atr": 3.148928571428574,
-    "mode": "BULLISH",
+    "atr": 3.17428571428571,
+    "mode": "RANGING",
     "breakout": {
       "trigger": false,
       "direction": "NONE",
@@ -144,11 +144,11 @@
     "entry": null
   },
   "CRWD": {
-    "price": 695.225,
-    "close": 694.92,
+    "price": 694.22,
+    "close": 695.75,
     "rh": 720.845,
     "rl": 683.53,
-    "atr": 7.5175,
+    "atr": 7.469999999999994,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -160,11 +160,11 @@
     "entry": null
   },
   "HON": {
-    "price": 217.11,
-    "close": 217.11,
+    "price": 217.34,
+    "close": 217.34,
     "rh": 218.865,
     "rl": 215.28,
-    "atr": 1.0253571428571402,
+    "atr": 0.9707142857142819,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -176,11 +176,11 @@
     "entry": null
   },
   "CHTR": {
-    "price": 130.11,
-    "close": 129.68,
+    "price": 129.91,
+    "close": 129.91,
     "rh": 134.3,
     "rl": null,
-    "atr": 1.12892857142857,
+    "atr": 1.101785714285713,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -192,11 +192,11 @@
     "entry": null
   },
   "NVTS": {
-    "price": 27.09,
-    "close": 27.2,
+    "price": 26.87,
+    "close": 26.83,
     "rh": 31.53,
     "rl": 26.55,
-    "atr": 0.8017857142857137,
+    "atr": 0.7767857142857137,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -208,35 +208,63 @@
     "entry": null
   },
   "BTC/USD": {
-    "price": 60788.904500000004,
-    "close": 60676.132,
+    "price": 60877.220499999996,
+    "close": 60833.705,
     "rh": 64072.8,
     "rl": 61109.6,
-    "atr": 622.4701428571435,
+    "atr": 652.640928571429,
     "mode": "BEARISH",
     "breakout": {
-      "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
+      "trigger": true,
+      "direction": "SHORT",
+      "body_ratio": 0.9515935895119869,
+      "volume_ratio": 10.848627864906653,
+      "atr_ratio": 1.8675112587155642
     },
-    "entry": null
+    "entry": {
+      "direction": "SHORT",
+      "entry": 61229.231499999994,
+      "sl": 62208.192892857136,
+      "tp1": 59271.30871428571,
+      "tp2": 56334.424535714286,
+      "rr": 2.0,
+      "rr_pass": true,
+      "body_ratio": 0.9515935895119869,
+      "volume_ratio": 10.848627864906653,
+      "atr_ratio": 1.8675112587155642,
+      "candle_open": 61782.331,
+      "entry_type": "LIMIT",
+      "trailing": true
+    }
   },
   "ETH/USD": {
-    "price": 1598.875,
-    "close": 1614.146551724,
+    "price": 1598.795,
+    "close": 1614.298,
     "rh": 1783.49,
     "rl": 1625.757881773,
-    "atr": 14.685924876857095,
+    "atr": 16.10553201971423,
     "mode": "BEARISH",
     "breakout": {
-      "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
+      "trigger": true,
+      "direction": "SHORT",
+      "body_ratio": 0.9705520810198672,
+      "volume_ratio": 18.560064216600967,
+      "atr_ratio": 2.827942306953149
     },
-    "entry": null
+    "entry": {
+      "direction": "SHORT",
+      "entry": 1634.300525862,
+      "sl": 1658.4588238915715,
+      "tp1": 1585.9839298028573,
+      "tp2": 1513.5090357141432,
+      "rr": 2.0,
+      "rr_pass": true,
+      "body_ratio": 0.9705520810198672,
+      "volume_ratio": 18.560064216600967,
+      "atr_ratio": 2.827942306953149,
+      "candle_open": 1654.4545,
+      "entry_type": "LIMIT",
+      "trailing": true
+    }
   }
 }
