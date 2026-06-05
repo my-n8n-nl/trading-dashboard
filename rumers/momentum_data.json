@@ -48,11 +48,11 @@
     "entry": null
   },
   "GOOGL": {
-    "price": 366.29,
-    "close": 366.29,
+    "price": 365.61,
+    "close": 365.61,
     "rh": 372.065,
     "rl": 364.15,
-    "atr": 1.878928571428572,
+    "atr": 1.8017857142857159,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -96,34 +96,20 @@
     "entry": null
   },
   "AVGO": {
-    "price": 383.97,
-    "close": 383.97,
+    "price": 385.74,
+    "close": 385.74,
     "rh": 410.18,
-    "rl": 391.92,
-    "atr": 2.578928571428569,
+    "rl": 383.97,
+    "atr": 2.3932142857142815,
     "mode": "RANGING",
     "breakout": {
-      "trigger": true,
-      "direction": "SHORT",
-      "body_ratio": 0.7689161554192232,
-      "volume_ratio": 5.662930557962389,
-      "atr_ratio": 1.7956721311475414
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
     },
-    "entry": {
-      "direction": "SHORT",
-      "entry": 387.61,
-      "sl": 391.47839285714286,
-      "tp1": 379.8732142857143,
-      "tp2": 368.26803571428576,
-      "rr": 2.0,
-      "rr_pass": true,
-      "body_ratio": 0.7689161554192232,
-      "volume_ratio": 5.662930557962389,
-      "atr_ratio": 1.7956721311475414,
-      "candle_open": 389.49,
-      "entry_type": "LIMIT",
-      "trailing": true
-    }
+    "entry": null
   },
   "AMZN": {
     "price": 246.47,
@@ -206,11 +192,11 @@
     "entry": null
   },
   "NVTS": {
-    "price": 24.47,
-    "close": 24.47,
+    "price": 24.54,
+    "close": 24.54,
     "rh": 26.58,
     "rl": 24.4,
-    "atr": 0.44750000000000006,
+    "atr": 0.42571428571428577,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -222,11 +208,11 @@
     "entry": null
   },
   "BTC/USD": {
-    "price": 61174.8495,
-    "close": 59697.045,
+    "price": 61310.168,
+    "close": 60277.065,
     "rh": 63907.113,
-    "rl": 59758.123,
-    "atr": 592.6300524278912,
+    "rl": 59102.128,
+    "atr": 588.0464809993199,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -238,11 +224,11 @@
     "entry": null
   },
   "ETH/USD": {
-    "price": 1597.8,
-    "close": 1552.715,
+    "price": 1600.6135,
+    "close": 1573.37,
     "rh": 1772.615,
-    "rl": 1546.611,
-    "atr": 17.52814989446428,
+    "rl": 1540.365,
+    "atr": 17.538257037321436,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
