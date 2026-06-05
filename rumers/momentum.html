@@ -174,6 +174,7 @@
   <div class="tabs">
     <button class="tab-btn active" onclick="switchTab('overview', this)">📊 Overzicht</button>
     <button class="tab-btn" onclick="switchTab('chart', this)">📈 Momentum Chart</button>
+    <button class="tab-btn" onclick="switchTab('bounce', this)">⚡ Bounce Chart</button>
   </div>
 
   <!-- Tab: Overzicht -->
@@ -206,10 +207,17 @@
   </div>
 
   <!-- Tab: Momentum Chart -->
+  <!-- Tab: Momentum Chart -->
   <div id="tab-chart" class="tab-content">
-    <div class="section-title">📈 Momentum Strategie Visualisatie</div>
     <div class="chart-frame">
-      <iframe src="momentum_chart.html" id="chartIframe"></iframe>
+      <iframe id="chartIframe" src="momentum_chart.html"></iframe>
+    </div>
+  </div>
+
+  <!-- Tab: Bounce Chart -->
+  <div id="tab-bounce" class="tab-content">
+    <div class="chart-frame">
+      <iframe id="bounceIframe" src="bounce_chart.html"></iframe>
     </div>
   </div>
 
