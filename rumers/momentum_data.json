@@ -208,11 +208,11 @@
     "entry": null
   },
   "BTC/USD": {
-    "price": 61443.235,
-    "close": 62025.3,
+    "price": 61577.305,
+    "close": 61623.465,
     "rh": 64447.335,
     "rl": 62117.51,
-    "atr": 502.9784642857147,
+    "atr": 621.2261314215003,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -224,33 +224,19 @@
     "entry": null
   },
   "ETH/USD": {
-    "price": 1638.7415,
-    "close": 1670.141,
+    "price": 1642.4,
+    "close": 1643.31,
     "rh": 1792.8445,
     "rl": 1717.1615,
-    "atr": 15.479321428571422,
+    "atr": 18.350329873357136,
     "mode": "BEARISH",
     "breakout": {
-      "trigger": true,
-      "direction": "SHORT",
-      "body_ratio": 0.9429261010895874,
-      "volume_ratio": 2.3197634148712343,
-      "atr_ratio": 2.507974987878804
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
     },
-    "entry": {
-      "direction": "SHORT",
-      "entry": 1715.2404999999999,
-      "sl": 1738.459482142857,
-      "tp1": 1668.8025357142856,
-      "tp2": 1599.145589285714,
-      "rr": 2.0,
-      "rr_pass": true,
-      "body_ratio": 0.9429261010895874,
-      "volume_ratio": 2.3197634148712343,
-      "atr_ratio": 2.507974987878804,
-      "candle_open": 1732.1375,
-      "entry_type": "LIMIT",
-      "trailing": true
-    }
+    "entry": null
   }
 }
