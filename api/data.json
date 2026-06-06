@@ -1,16 +1,70 @@
 {
-  "generated_at": "06-06-2026 13:23:30",
-  "generated_at_iso": "2026-06-06T13:23:30.322410",
+  "generated_at": "06-06-2026 13:28:47",
+  "generated_at_iso": "2026-06-06T13:28:47.228581",
   "metrics": {
-    "total_invested": 0,
-    "total_value": 0,
-    "portfolio_value": 0,
-    "cash": 0,
-    "unrealized_pl": 0,
+    "total_invested": 1082.76,
+    "total_value": 940.47,
+    "portfolio_value": 2896.58,
+    "cash": 1956.11,
+    "unrealized_pl": -142.28,
     "realized_pl": 40.21,
-    "total_pnl": 40.21
+    "total_pnl": -102.07
   },
   "positions": [
+    {
+      "symbol": "BTCUSD",
+      "entry_price": 74104.78,
+      "current_price": 60661.93,
+      "change_pct": -18.14,
+      "qty": 0.0094,
+      "invested": 698.69,
+      "value": 571.94,
+      "pl": -126.74,
+      "pl_pct": -18.14,
+      "realized_pl": 0,
+      "status": "HOLDING",
+      "stop_order_id": null,
+      "last_peak": null,
+      "tp_used": [
+        false,
+        false,
+        false
+      ],
+      "ladder_used": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "entry_date": null
+    },
+    {
+      "symbol": "GOOGL",
+      "entry_price": 384.07,
+      "current_price": 368.53,
+      "change_pct": -4.05,
+      "qty": 1.0,
+      "invested": 384.07,
+      "value": 368.53,
+      "pl": -15.54,
+      "pl_pct": -4.05,
+      "realized_pl": 0,
+      "status": "HOLDING",
+      "stop_order_id": null,
+      "last_peak": null,
+      "tp_used": [
+        false,
+        false,
+        false
+      ],
+      "ladder_used": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "entry_date": null
+    },
     {
       "symbol": "TSLA",
       "entry_price": null,
@@ -120,33 +174,6 @@
       "pending_proposal_id": "proposal-20260526T154347-AAPL"
     },
     {
-      "symbol": "GOOGL",
-      "entry_price": null,
-      "current_price": null,
-      "change_pct": null,
-      "qty": 0,
-      "invested": 0,
-      "value": 0,
-      "pl": 0,
-      "pl_pct": 0,
-      "status": "AFWACHTEN",
-      "stop_order_id": null,
-      "last_peak": null,
-      "tp_used": [
-        false,
-        false,
-        false
-      ],
-      "ladder_used": [
-        false,
-        false,
-        false,
-        false
-      ],
-      "entry_date": null,
-      "pending_proposal_id": null
-    },
-    {
       "symbol": "JPM",
       "entry_price": null,
       "current_price": null,
@@ -199,33 +226,6 @@
       ],
       "entry_date": null,
       "pending_proposal_id": "proposal-20260529T154010-PLTR"
-    },
-    {
-      "symbol": "BTCUSD",
-      "entry_price": null,
-      "current_price": null,
-      "change_pct": null,
-      "qty": 0,
-      "invested": 0,
-      "value": 0,
-      "pl": 0,
-      "pl_pct": 0,
-      "status": "AFWACHTEN",
-      "stop_order_id": null,
-      "last_peak": null,
-      "tp_used": [
-        false,
-        false,
-        false
-      ],
-      "ladder_used": [
-        false,
-        false,
-        false,
-        false
-      ],
-      "entry_date": null,
-      "pending_proposal_id": null
     },
     {
       "symbol": "CBRS",
@@ -423,8 +423,17 @@
     }
   ],
   "allocations": {
-    "labels": [],
-    "values": [],
-    "colors": []
+    "labels": [
+      "BTCUSD",
+      "GOOGL"
+    ],
+    "values": [
+      571.942645,
+      368.53
+    ],
+    "colors": [
+      "#7c6bf2",
+      "#a98fff"
+    ]
   }
 }
