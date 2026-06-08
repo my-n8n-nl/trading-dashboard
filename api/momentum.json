@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-08T21:20:45.262713",
+  "timestamp": "2026-06-08T21:26:02.634255",
   "strategy": "MOMENTUM (Trend Following v3.1)",
   "bot": {
     "online": false,
@@ -19,6 +19,10 @@
     "breakeven_at_r": 1.0,
     "pullback_entry": true,
     "pullback_retrace": 0.5,
+    "sweet_min": 2.0,
+    "sweet_max": 3.0,
+    "short_body": 0.8,
+    "short_4h": true,
     "lookback_candles": 2,
     "min_atr_pct": 0.003,
     "skip_opening_min": 30,
