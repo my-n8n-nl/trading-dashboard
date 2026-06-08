@@ -122,6 +122,38 @@ td { padding: 8px 10px; border-bottom: 1px solid rgba(255,255,255,0.04); }
 
 .footer { text-align: center; margin-top: 24px; font-size: 11px; color: var(--text-muted); }
 
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  margin-bottom: 16px;
+}
+.nav-link {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease;
+}
+.nav-link:hover {
+  color: var(--purple);
+  transform: translateX(-2px);
+}
+.nav-link-dashboard {
+  background: rgba(139, 92, 246, 0.12);
+  color: var(--purple);
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(139, 92, 246, 0.25);
+}
+.nav-link-dashboard:hover {
+  background: rgba(139, 92, 246, 0.2);
+  border-color: var(--purple);
+  transform: none;
+}
+
 @media (min-width: 768px) {
   .cards-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
 }
@@ -132,6 +164,10 @@ td { padding: 8px 10px; border-bottom: 1px solid rgba(255,255,255,0.04); }
 </head>
 <body>
 <div class="container">
+  <nav class="top-nav">
+    <a href="../index.html" class="nav-link">← Hub</a>
+    <a href="../api/momentum.html" class="nav-link nav-link-dashboard">📈 Dashboard</a>
+  </nav>
 
   <div class="page-header">
     <div class="page-title">🎯 Momentum Sniper Charts <span>v6.0 — 15 Symbolen</span></div>
@@ -914,7 +950,7 @@ td { padding: 8px 10px; border-bottom: 1px solid rgba(255,255,255,0.04); }
   
 
   <p class="footer">
-    🤖 Hermes Agent — RML Momentum Bot v6.0 · Last update: 2026-06-09 01:01:46 · Auto-push every 10min
+    🤖 Hermes Agent — RML Momentum Bot v6.0 · Last update: 2026-06-09 01:05:41 · Auto-push every 10min
   </p>
 </div>
 </body>
