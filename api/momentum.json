@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-08T22:24:34.295011",
+  "timestamp": "2026-06-08T22:25:40.836185",
   "strategy": "MOMENTUM (Trend Following v3.1)",
   "bot": {
-    "online": false,
-    "last_activity": "2026-06-06T01:31:04.902013",
+    "online": true,
+    "last_activity": "2026-06-09T00:25:02.594104",
     "version": "v3.1"
   },
   "config": {
@@ -50,9 +50,6 @@
   },
   "latest_prices": {},
   "log": [
-    "2026-06-06 01:01:06,960 | INFO     | bot_engine           | BTC/USD: Range [59102.1280 \u2014 63907.1130] | Mode: BEARISH | Close: 61371.7500",
-    "2026-06-06 01:01:07,125 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
-    "2026-06-06 01:01:07,779 | INFO     | bot_engine           | ETH/USD: Range [1540.3650 \u2014 1774.3450] | Mode: BEARISH | Close: 1593.7035",
     "2026-06-06 01:07:49,145 | INFO     | __main__             | Mode: PAPER TRADING",
     "2026-06-06 01:07:49,229 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD",
     "2026-06-06 01:07:50,057 | INFO     | bot_engine           | BTC/USD: Range [59102.1280 \u2014 63907.1130] | Mode: BEARISH | Close: 61371.7500",
@@ -65,6 +62,7 @@
     "2026-06-06 01:31:02,860 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD",
     "2026-06-06 01:31:03,974 | INFO     | bot_engine           | BTC/USD: Range [59102.1280 \u2014 63907.1130] | Mode: BEARISH | Close: 61729.5400",
     "2026-06-06 01:31:04,361 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
-    "2026-06-06 01:31:04,800 | INFO     | bot_engine           | ETH/USD: Range [1540.3650 \u2014 1774.3450] | Mode: BEARISH | Close: 1598.7000"
+    "2026-06-06 01:31:04,800 | INFO     | bot_engine           | ETH/USD: Range [1540.3650 \u2014 1774.3450] | Mode: BEARISH | Close: 1598.7000",
+    "2026-06-09 00:25:02,512 | INFO     | __main__             | Mode: PAPER TRADING"
   ]
 }
