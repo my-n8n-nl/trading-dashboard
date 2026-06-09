@@ -1,26 +1,26 @@
 {
-  "generated_at": "09-06-2026 07:00:02",
-  "generated_at_iso": "2026-06-09T07:00:02.807370",
+  "generated_at": "09-06-2026 07:05:14",
+  "generated_at_iso": "2026-06-09T07:05:14.562682",
   "metrics": {
     "total_invested": 1082.76,
-    "total_value": 961.03,
-    "portfolio_value": 2917.14,
+    "total_value": 960.36,
+    "portfolio_value": 2916.47,
     "cash": 1956.11,
-    "unrealized_pl": -121.73,
+    "unrealized_pl": -122.4,
     "realized_pl": 40.21,
-    "total_pnl": -81.52
+    "total_pnl": -82.19
   },
   "positions": [
     {
       "symbol": "BTCUSD",
       "entry_price": 74104.78,
-      "current_price": 63272.56,
-      "change_pct": -14.62,
+      "current_price": 63217.52,
+      "change_pct": -14.69,
       "qty": 0.0094,
       "invested": 698.69,
-      "value": 596.56,
-      "pl": -102.13,
-      "pl_pct": -14.62,
+      "value": 596.04,
+      "pl": -102.65,
+      "pl_pct": -14.69,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": null,
@@ -41,13 +41,13 @@
     {
       "symbol": "GOOGL",
       "entry_price": 384.07,
-      "current_price": 364.47,
-      "change_pct": -5.1,
+      "current_price": 364.32,
+      "change_pct": -5.14,
       "qty": 1.0,
       "invested": 384.07,
-      "value": 364.47,
-      "pl": -19.6,
-      "pl_pct": -5.1,
+      "value": 364.32,
+      "pl": -19.75,
+      "pl_pct": -5.14,
       "realized_pl": 0,
       "status": "HOLDING",
       "stop_order_id": null,
@@ -428,8 +428,8 @@
       "GOOGL"
     ],
     "values": [
-      596.5566,
-      364.47
+      596.037626,
+      364.32
     ],
     "colors": [
       "#7c6bf2",
