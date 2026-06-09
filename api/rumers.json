@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-09T04:00:03.135494",
+  "timestamp": "2026-06-09T04:10:02.807284",
   "portfolio": {
     "equity": 3000.0,
     "cash": 3000.0,
@@ -18,29 +18,29 @@
   },
   "bot": {
     "online": true,
-    "last_activity": "2026-06-09T05:46:08.380656",
+    "last_activity": "2026-06-09T06:01:11.208333",
     "version": "v3.0"
   },
   "log": [
-    "2026-06-09 05:46:07,318 | INFO     | bot_engine           | ETH/USD: Range [1644.8010 \u2014 1713.6500] | Mode: BULLISH | Close: 1667.0000\n",
-    "2026-06-09 05:46:07,496 | INFO     | bot_engine           | Cyclus afgerond \u2014 ETH/USD\n",
-    "2026-06-09 05:46:07,496 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-09 05:46:07,496 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD\n",
-    "2026-06-09 05:46:07,496 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-09 05:46:07,639 | INFO     | data_feed            | Fetched 100 candles for SOL/USD (15Min)\n",
-    "2026-06-09 05:46:07,804 | INFO     | data_feed            | Fetched 50 candles for SOL/USD (1Hour)\n",
-    "2026-06-09 05:46:07,926 | INFO     | market_structure     | Swing points gevonden voor 1H: 18 \u2014 drempel: 0.15%\n",
-    "2026-06-09 05:46:07,927 | INFO     | market_structure     | 1H Market Structure: BULLISH | Range: 65.05 - 68.14\n",
-    "2026-06-09 05:46:07,933 | INFO     | bot_engine           | SOL/USD: Range [65.0510 \u2014 68.1360] | Mode: BULLISH | Close: 65.8560\n",
-    "2026-06-09 05:46:08,035 | INFO     | bot_engine           | Cyclus afgerond \u2014 SOL/USD\n",
-    "2026-06-09 05:46:08,035 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-09 05:46:08,035 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD\n",
-    "2026-06-09 05:46:08,035 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-09 05:46:08,144 | INFO     | data_feed            | Fetched 100 candles for AVAX/USD (15Min)\n",
-    "2026-06-09 05:46:08,256 | INFO     | data_feed            | Fetched 50 candles for AVAX/USD (1Hour)\n",
-    "2026-06-09 05:46:08,377 | INFO     | market_structure     | Swing points gevonden voor 1H: 20 \u2014 drempel: 0.15%\n",
-    "2026-06-09 05:46:08,378 | INFO     | market_structure     | 1H Market Structure: BULLISH | Range: 6.53 - 6.88\n",
-    "2026-06-09 05:46:08,383 | INFO     | bot_engine           | AVAX/USD: Range [6.5348 \u2014 7.7120] | Mode: BULLISH | Close: 6.6609\n",
-    "2026-06-09 05:46:08,484 | INFO     | bot_engine           | Cyclus afgerond \u2014 AVAX/USD\n"
+    "2026-06-09 06:01:10,305 | INFO     | bot_engine           | ETH/USD: Range [1644.8010 \u2014 1713.6500] | Mode: RANGING | Close: 1667.8450\n",
+    "2026-06-09 06:01:10,408 | INFO     | bot_engine           | Cyclus afgerond \u2014 ETH/USD\n",
+    "2026-06-09 06:01:10,408 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-09 06:01:10,408 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD\n",
+    "2026-06-09 06:01:10,408 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-09 06:01:10,519 | INFO     | data_feed            | Fetched 100 candles for SOL/USD (15Min)\n",
+    "2026-06-09 06:01:10,633 | INFO     | data_feed            | Fetched 50 candles for SOL/USD (1Hour)\n",
+    "2026-06-09 06:01:10,754 | INFO     | market_structure     | Swing points gevonden voor 1H: 18 \u2014 drempel: 0.15%\n",
+    "2026-06-09 06:01:10,754 | INFO     | market_structure     | 1H Market Structure: BULLISH | Range: 65.05 - 68.14\n",
+    "2026-06-09 06:01:10,760 | INFO     | bot_engine           | SOL/USD: Range [65.0510 \u2014 68.1360] | Mode: BULLISH | Close: 65.9711\n",
+    "2026-06-09 06:01:10,856 | INFO     | bot_engine           | Cyclus afgerond \u2014 SOL/USD\n",
+    "2026-06-09 06:01:10,856 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-09 06:01:10,856 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD\n",
+    "2026-06-09 06:01:10,856 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-09 06:01:10,967 | INFO     | data_feed            | Fetched 100 candles for AVAX/USD (15Min)\n",
+    "2026-06-09 06:01:11,082 | INFO     | data_feed            | Fetched 50 candles for AVAX/USD (1Hour)\n",
+    "2026-06-09 06:01:11,204 | INFO     | market_structure     | Swing points gevonden voor 1H: 20 \u2014 drempel: 0.15%\n",
+    "2026-06-09 06:01:11,205 | INFO     | market_structure     | 1H Market Structure: BULLISH | Range: 6.53 - 6.88\n",
+    "2026-06-09 06:01:11,211 | INFO     | bot_engine           | AVAX/USD: Range [6.5348 \u2014 7.7120] | Mode: BULLISH | Close: 6.6591\n",
+    "2026-06-09 06:01:11,317 | INFO     | bot_engine           | Cyclus afgerond \u2014 AVAX/USD\n"
   ]
 }
