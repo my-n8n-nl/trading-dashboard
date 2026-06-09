@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-09T17:30:19.696084",
+  "timestamp": "2026-06-09T17:31:08.109123",
   "strategy": "MOMENTUM v6.0 (Golden Middle)",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-09T19:16:17.484165",
+    "last_activity": "2026-06-09T19:31:08.707398",
     "version": "v6.0"
   },
   "config": {
@@ -74,12 +74,6 @@
     "daily_pnl": 0.0
   },
   "log": [
-    "2026-06-09 19:16:09,650 | INFO     | bot_engine           | CYCLUS START \u2014 META",
-    "2026-06-09 19:16:09,987 | INFO     | bot_engine           | META: Range [579.2300 \u2014 598.9200] | Mode: RANGING | Close: 584.7450",
-    "2026-06-09 19:16:10,091 | INFO     | bot_engine           | CYCLUS START \u2014 PLTR",
-    "2026-06-09 19:16:10,485 | INFO     | bot_engine           | PLTR: Range [127.4100 \u2014 136.9700] | Mode: RANGING | Close: 129.6400",
-    "2026-06-09 19:16:10,589 | INFO     | bot_engine           | CYCLUS START \u2014 CRWD",
-    "2026-06-09 19:16:11,109 | INFO     | bot_engine           | CRWD: Range [617.8750 \u2014 663.9350] | Mode: RANGING | Close: 630.8700",
     "2026-06-09 19:16:11,407 | INFO     | bot_engine           | CYCLUS START \u2014 MSTR",
     "2026-06-09 19:16:11,805 | INFO     | bot_engine           | MSTR: Range [114.2300 \u2014 128.4950] | Mode: BEARISH | Close: 116.9550",
     "2026-06-09 19:16:11,912 | INFO     | bot_engine           | CYCLUS START \u2014 COIN",
@@ -103,6 +97,12 @@
     "2026-06-09 19:16:16,536 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
     "2026-06-09 19:16:16,896 | INFO     | bot_engine           | SOL/USD: Range [64.3700 \u2014 68.1360] | Mode: RANGING | Close: 64.0320",
     "2026-06-09 19:16:16,998 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD",
-    "2026-06-09 19:16:17,382 | INFO     | bot_engine           | AVAX/USD: Range [6.5305 \u2014 7.7120] | Mode: RANGING | Close: 6.5250"
+    "2026-06-09 19:16:17,382 | INFO     | bot_engine           | AVAX/USD: Range [6.5305 \u2014 7.7120] | Mode: RANGING | Close: 6.5250",
+    "2026-06-09 19:31:07,528 | INFO     | bot_engine           | CYCLUS START \u2014 TSLA",
+    "2026-06-09 19:31:08,704 | INFO     | fractals             | Range Low definitief doorbroken (3 closes) \u2014 range reset",
+    "2026-06-09 19:31:08,705 | INFO     | sweep_detection      | LONG sweep reset: Range reset \u2014 definitieve breakout",
+    "2026-06-09 19:31:08,705 | INFO     | sweep_detection      | SHORT sweep reset: Range reset \u2014 definitieve breakout",
+    "2026-06-09 19:31:08,706 | INFO     | bot_engine           | TSLA: Range nog niet vastgesteld \u2014 wacht op meer data",
+    "2026-06-09 19:31:08,707 | INFO     | bot_engine           | CYCLUS START \u2014 NVDA"
   ]
 }
