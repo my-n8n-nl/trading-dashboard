@@ -251,6 +251,7 @@ window.addEventListener('load', () => {
   <div class="section-title">Actieve v6 Configfilter Matrix</div>
   <div class="card">
     <div class="config-grid">
+      <div class="config-item"><span class="key">Timeframes</span><span class="val">('5Min',)</span></div>
       <div class="config-item"><span class="key">Body Ratio</span><span class="val">&ge;65%</span></div>
       <div class="config-item"><span class="key">Volume Limiet</span><span class="val">1.3x - 8.0x max</span></div>
       <div class="config-item"><span class="key">ATR Threshold</span><span class="val">1.1x ATR(14)</span></div>
@@ -258,7 +259,9 @@ window.addEventListener('load', () => {
       <div class="config-item"><span class="key">Lookback</span><span class="val">3 candles</span></div>
       <div class="config-item"><span class="key">1H Trend Filter</span><span class="val active">Aan</span></div>
       <div class="config-item"><span class="key">SL = 1.5x ATR(14)</span><span class="val">1.5x</span></div>
-      <div class="config-item"><span class="key">TP Ratio</span><span class="val">2.0R | 50% runner</span></div>
+      <div class="config-item"><span class="key">TP1 Ratio</span><span class="val">2.0R | 50% close</span></div>
+      <div class="config-item"><span class="key">TP2 Ratio</span><span class="val">3.0R | 25% close</span></div>
+      <div class="config-item"><span class="key">Trailing Stop</span><span class="val active">Aan (1.5x ATR)</span></div>
       <div class="config-item"><span class="key">LONG Risk %</span><span class="val" style="color:var(--purple);">1.0% ($30)</span></div>
       <div class="config-item"><span class="key">SHORT Risk %</span><span class="val warning">0.5% ($15)</span></div>
       <div class="config-item"><span class="key">Breakeven Trigger</span><span class="val active">@ +1.0R</span></div>
@@ -267,6 +270,7 @@ window.addEventListener('load', () => {
       <div class="config-item"><span class="key">Max Dagelijkse DD</span><span class="val">3% ($90)</span></div>
       <div class="config-item"><span class="key">Max Actieve Trades</span><span class="val">4</span></div>
       <div class="config-item"><span class="key">Skip First 30 min</span><span class="val">10 min</span></div>
+      <div class="config-item"><span class="key">Cooldown na Loss</span><span class="val">120 min</span></div>
     </div>
   </div>
 
@@ -310,11 +314,19 @@ window.addEventListener('load', () => {
       <div class="log-line">2026-06-11 01:31:04,965 | INFO     | bot_engine           | SOL/USD: Range [62.3000 — 65.8060] | Mode: RANGING | Close: 62.8450</div>
       <div class="log-line">2026-06-11 01:31:05,069 | INFO     | bot_engine           | CYCLUS START — AVAX/USD</div>
       <div class="log-line">2026-06-11 01:31:05,487 | INFO     | bot_engine           | AVAX/USD: Range [6.2986 — 6.6741] | Mode: RANGING | Close: 6.3733</div>
+      <div class="log-line">2026-06-11 01:46:05,637 | INFO     | bot_engine           | CYCLUS START — BTC/USD</div>
+      <div class="log-line">2026-06-11 01:46:06,426 | INFO     | bot_engine           | BTC/USD: Range [60730.6175 — 62808.2250] | Mode: BULLISH | Close: 61318.3165</div>
+      <div class="log-line">2026-06-11 01:46:06,528 | INFO     | bot_engine           | CYCLUS START — ETH/USD</div>
+      <div class="log-line">2026-06-11 01:46:06,892 | INFO     | bot_engine           | ETH/USD: Range [1603.1965 — 1666.5940] | Mode: BULLISH | Close: 1615.3785</div>
+      <div class="log-line">2026-06-11 01:46:06,995 | INFO     | bot_engine           | CYCLUS START — SOL/USD</div>
+      <div class="log-line">2026-06-11 01:46:07,436 | INFO     | bot_engine           | SOL/USD: Range [62.3000 — 65.8060] | Mode: RANGING | Close: 62.7061</div>
+      <div class="log-line">2026-06-11 01:46:07,538 | INFO     | bot_engine           | CYCLUS START — AVAX/USD</div>
+      <div class="log-line">2026-06-11 01:46:07,920 | INFO     | bot_engine           | AVAX/USD: Range [6.2986 — 6.6741] | Mode: RANGING | Close: 6.3274</div>
     </div>
   </div>
 
   <p class="footer">
-    Laatste update: 2026-06-10T23:42:54 · Hermes Agent — RM L Momentum Bot
+    Laatste update: 2026-06-10T23:47:44 · Hermes Agent — RM L Momentum Bot
   </p>
 </div>
 </body>
