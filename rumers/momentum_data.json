@@ -1,6 +1,6 @@
 {
   "TSLA": {
-    "price": 381.58,
+    "price": 381.63,
     "close": 381.58,
     "rh": 397.06,
     "rl": 380.16,
@@ -51,7 +51,7 @@
     "volume_blocked": false
   },
   "GOOGL": {
-    "price": 356.33,
+    "price": 355.52,
     "close": 356.33,
     "rh": 368.52,
     "rl": 355.565,
@@ -102,7 +102,7 @@
     "volume_blocked": false
   },
   "AVGO": {
-    "price": 371.88,
+    "price": 371.66,
     "close": 371.88,
     "rh": 379.57,
     "rl": 371.185,
@@ -222,33 +222,19 @@
   },
   "SMCI": {
     "price": 29.25,
-    "close": 29.26,
+    "close": 29.25,
     "rh": 36.49,
     "rl": 32.035,
-    "atr": 0.5385714285714273,
-    "mode": "RANGING",
+    "atr": 0.514285714285713,
+    "mode": "BEARISH",
     "breakout": {
-      "trigger": true,
-      "direction": "SHORT",
-      "body_ratio": 1.0,
-      "volume_ratio": 2.9789072069589215,
-      "atr_ratio": 2.088791848617187
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
     },
-    "entry": {
-      "direction": "SHORT",
-      "entry": 30.5925,
-      "sl": 31.400357142857143,
-      "tp1": 28.976785714285718,
-      "tp2": 26.553214285714294,
-      "rr": 2.0,
-      "rr_pass": true,
-      "body_ratio": 1.0,
-      "volume_ratio": 2.9789072069589215,
-      "atr_ratio": 2.088791848617187,
-      "entry_type": "LIMIT",
-      "trailing": true,
-      "risk_alloc": 15.0
-    },
+    "entry": null,
     "volume_blocked": false
   },
   "HON": {
@@ -337,7 +323,7 @@
     "volume_blocked": false
   },
   "BTC/USD": {
-    "price": 61847.25,
+    "price": 61814.3535,
     "close": 61685.731,
     "rh": 62808.225,
     "rl": 60730.6175,
@@ -371,7 +357,7 @@
     "volume_blocked": false
   },
   "SOL/USD": {
-    "price": 63.4153,
+    "price": 63.4623,
     "close": 63.56,
     "rh": 65.806,
     "rl": 63.03,
@@ -388,7 +374,7 @@
     "volume_blocked": false
   },
   "AVAX/USD": {
-    "price": 6.446,
+    "price": 6.45348,
     "close": 6.488415,
     "rh": 6.67406,
     "rl": 6.418515443,
