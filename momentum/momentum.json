@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-10T23:47:44.237333",
+  "timestamp": "2026-06-10T23:49:10.052097",
   "strategy": "MOMENTUM v6.0 (Golden Middle)",
   "bot": {
     "online": true,
@@ -28,13 +28,11 @@
     "risk_percentage": 0.01,
     "short_risk_percentage": 0.005,
     "max_active_trades": 4,
-    "short_enabled": true,
+    "short_enabled": false,
     "tp2_ratio": 3.0,
-    "tp2_portion": 0.25,
+    "tp2_portion": 0.3,
     "cooldown_min": 120,
-    "timeframes": [
-      "5Min"
-    ]
+    "timeframes": "15Min + 1Hour"
   },
   "execution": {
     "volume_caps": 0,
