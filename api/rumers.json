@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-10T11:10:02.832298",
+  "timestamp": "2026-06-10T11:20:03.395847",
   "portfolio": {
     "equity": 3000.0,
     "cash": 3000.0,
@@ -10,12 +10,12 @@
     {
       "symbol": "SOLUSD",
       "side": "long",
-      "qty": 72.949232842,
-      "entry_price": 63.883595101,
+      "qty": 95.550107047,
+      "entry_price": 63.770769706,
       "current_price": 63.762,
-      "unrealized_pl": -8.87,
-      "unrealized_plpc": -0.19,
-      "market_value": 4651.39
+      "unrealized_pl": -0.84,
+      "unrealized_plpc": -0.01,
+      "market_value": 6092.47
     }
   ],
   "trades": [
@@ -48,29 +48,29 @@
   },
   "bot": {
     "online": true,
-    "last_activity": "2026-06-10T13:01:11.566211",
+    "last_activity": "2026-06-10T13:16:04.731498",
     "version": "v3.0"
   },
   "log": [
-    "2026-06-10 13:01:10,216 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD\n",
-    "2026-06-10 13:01:10,216 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-10 13:01:10,372 | INFO     | data_feed            | Fetched 100 candles for SOL/USD (15Min)\n",
-    "2026-06-10 13:01:10,525 | INFO     | data_feed            | Fetched 50 candles for SOL/USD (1Hour)\n",
-    "2026-06-10 13:01:10,655 | INFO     | market_structure     | Swing points gevonden voor 1H: 16 \u2014 drempel: 0.15%\n",
-    "2026-06-10 13:01:10,656 | INFO     | market_structure     | 1H Market Structure: BEARISH | Range: 63.68 - 67.54\n",
-    "2026-06-10 13:01:10,662 | INFO     | bot_engine           | SOL/USD: Range [63.0832 \u2014 68.1360] | Mode: BEARISH | Close: 63.4314\n",
-    "2026-06-10 13:01:10,829 | INFO     | bounce               | \u2713 BOUNCE LONG [CRYPTO] \u2014 HAMMER | touch $63.0832 | RL $63.0832 | zone 0.00% | vol 16.7x | entry $63.4400\n",
-    "2026-06-10 13:01:11,110 | INFO     | risk_management      | Bounce TPs: TP1=64.4608 (1.5R) | TP2=65.1413 (2.5R)\n",
-    "2026-06-10 13:01:11,110 | INFO     | risk_management      | REJECTED: RR 1.50 < minimum 1.5\n",
-    "2026-06-10 13:01:11,202 | INFO     | bot_engine           | Cyclus afgerond \u2014 SOL/USD\n",
-    "2026-06-10 13:01:11,204 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-10 13:01:11,204 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD\n",
-    "2026-06-10 13:01:11,204 | INFO     | bot_engine           | ============================================================\n",
-    "2026-06-10 13:01:11,318 | INFO     | data_feed            | Fetched 100 candles for AVAX/USD (15Min)\n",
-    "2026-06-10 13:01:11,436 | INFO     | data_feed            | Fetched 50 candles for AVAX/USD (1Hour)\n",
-    "2026-06-10 13:01:11,562 | INFO     | market_structure     | Swing points gevonden voor 1H: 13 \u2014 drempel: 0.15%\n",
-    "2026-06-10 13:01:11,563 | INFO     | market_structure     | 1H Market Structure: RANGING | Range: 6.44 - 6.69\n",
-    "2026-06-10 13:01:11,568 | INFO     | bot_engine           | AVAX/USD: Range [6.4301 \u2014 7.7120] | Mode: RANGING | Close: 6.4550\n",
-    "2026-06-10 13:01:11,673 | INFO     | bot_engine           | Cyclus afgerond \u2014 AVAX/USD\n"
+    "2026-06-10 13:16:03,845 | INFO     | market_structure     | Swing points gevonden voor 1H: 16 \u2014 drempel: 0.15%\n",
+    "2026-06-10 13:16:03,845 | INFO     | market_structure     | 1H Market Structure: BEARISH | Range: 63.68 - 67.54\n",
+    "2026-06-10 13:16:03,851 | INFO     | bot_engine           | SOL/USD: Range [63.0832 \u2014 68.1360] | Mode: BEARISH | Close: 63.4990\n",
+    "2026-06-10 13:16:03,956 | INFO     | bounce               | \u2713 BOUNCE LONG [CRYPTO] \u2014 HAMMER | touch $63.0832 | RL $63.0832 | zone 0.00% | vol 16.7x | entry $63.4400\n",
+    "2026-06-10 13:16:04,053 | INFO     | risk_management      | Bounce TPs: TP1=64.4330 (1.5R) | TP2=65.0951 (2.5R)\n",
+    "2026-06-10 13:16:04,054 | INFO     | risk_management      | RR check geslaagd: 1.50\n",
+    "2026-06-10 13:16:04,054 | INFO     | order_manager        | Portfolio balance (config): $3000.00\n",
+    "2026-06-10 13:16:04,055 | INFO     | risk_management      | Position size: 22.6575 eenheden (risk=$15.00, risk/unit=$0.6620)\n",
+    "2026-06-10 13:16:04,167 | INFO     | order_manager        | \u2713 Crypto entry OrderSide.BUY \u2014 SOL/USD | qty=22.657518 | ID=5aacda2b-c680-45c0-a682-5f8c21bee0e7\n",
+    "2026-06-10 13:16:04,270 | ERROR    | order_manager        | \u2717 Fout bij plaatsen crypto orders SOL/USD: {\"code\":40010001,\"message\":\"invalid order type for crypto order\"}\n",
+    "2026-06-10 13:16:04,373 | INFO     | bot_engine           | Cyclus afgerond \u2014 SOL/USD\n",
+    "2026-06-10 13:16:04,373 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-10 13:16:04,374 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD\n",
+    "2026-06-10 13:16:04,374 | INFO     | bot_engine           | ============================================================\n",
+    "2026-06-10 13:16:04,486 | INFO     | data_feed            | Fetched 100 candles for AVAX/USD (15Min)\n",
+    "2026-06-10 13:16:04,602 | INFO     | data_feed            | Fetched 50 candles for AVAX/USD (1Hour)\n",
+    "2026-06-10 13:16:04,727 | INFO     | market_structure     | Swing points gevonden voor 1H: 13 \u2014 drempel: 0.15%\n",
+    "2026-06-10 13:16:04,727 | INFO     | market_structure     | 1H Market Structure: RANGING | Range: 6.44 - 6.69\n",
+    "2026-06-10 13:16:04,734 | INFO     | bot_engine           | AVAX/USD: Range [6.4301 \u2014 7.7120] | Mode: RANGING | Close: 6.4649\n",
+    "2026-06-10 13:16:04,841 | INFO     | bot_engine           | Cyclus afgerond \u2014 AVAX/USD\n"
   ]
 }
