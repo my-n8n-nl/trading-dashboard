@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Momentum Bot — Dashboard v6.0 (Golden Middle)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg-primary: #0a0e1a;
+  --bg-secondary: #121826;
+  --bg-card: #1a2030;
+  --border: rgba(255,255,255,0.06);
+  --border-accent: rgba(99,102,241,0.3);
+  --text-primary: #f0f2f5;
+  --text-secondary: #8892a4;
+  --text-muted: #5a6478;
+  --green: #34d399;
+  --green-soft: rgba(52,211,153,0.12);
+  --red: #f87171;
+  --red-soft: rgba(248,113,113,0.12);
+  --blue: #6366f1;
+  --cyan: #22d3ee;
+  --cyan-soft: rgba(34,211,238,0.1);
+  --yellow: #fbbf24;
+  --purple: #a78bfa;
+  --purple-soft: rgba(167,139,250,0.12);
+  --radius: 12px;
+  --shadow: 0 4px 24px rgba(0,0,0,0.4);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'JetBrains Mono', monospace;
+  padding: 24px;
+  line-height: 1.5;
+}
+.container { max-width: 1100px; margin: 0 auto; }
+
+.page-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 20px 24px; margin-bottom: 24px;
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius); box-shadow: var(--shadow);
+}
+.page-header h1 { font-size: 20px; font-weight: 700; display: flex; align-items: center; gap: 10px; }
+.page-header h1 span { color: var(--purple); }
+.version-tag {
+  font-size: 11px; font-weight: 600; padding: 4px 10px;
+  background: var(--purple-soft); color: var(--purple);
+  border-radius: 6px; letter-spacing: 0.5px;
+}
+
+.metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 14px; margin-bottom: 24px; }
+.metric {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 18px 20px;
+  position: relative; overflow: hidden; transition: all 0.2s;
+}
+.metric:hover { border-color: var(--border-accent); transform: translateY(-1px); }
+.metric::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: linear-gradient(90deg, var(--purple), var(--blue));
+  opacity: 0.6;
+}
+.metric-value { font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.metric-label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.7px; color: var(--text-muted); margin-top: 4px; }
+
+.green { color: var(--green); }
+.red { color: var(--red); }
+.cyan { color: var(--cyan); }
+.purple { color: var(--purple); }
+
+.section-title {
+  font-size: 13px; font-weight: 600; color: var(--text-muted);
+  text-transform: uppercase; letter-spacing: 0.7px;
+  margin: 28px 0 12px; padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.card {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 20px;
+  margin-bottom: 16px; box-shadow: var(--shadow);
+}
+.config-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+.config-item {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 10px 14px; border-bottom: 1px solid var(--border);
+  font-size: 13px; transition: background 0.15s;
+}
+.config-item:hover { background: rgba(99,102,241,0.04); }
+.config-item:nth-last-child(-n+2) { border-bottom: none; }
+.config-item .key { color: var(--text-secondary); font-weight: 500; }
+.config-item .val { color: var(--cyan); font-weight: 600; font-variant-numeric: tabular-nums; }
+.config-item .val.active { color: var(--green); }
+.config-item .val.warning { color: var(--yellow); }
+.config-item .val.danger { color: var(--red); }
+
+.table-scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th {
+  text-align: left; padding: 10px 14px;
+  font-size: 11px; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.5px; color: var(--text-muted);
+  border-bottom: 1px solid var(--border); white-space: nowrap;
+}
+td { padding: 10px 14px; border-bottom: 1px solid var(--border); white-space: nowrap; font-variant-numeric: tabular-nums; }
+tr { transition: background 0.15s; }
+tr:hover td { background: rgba(99,102,241,0.04); }
+tr:last-child td { border-bottom: none; }
+
+.badge {
+  display: inline-flex; align-items: center; padding: 3px 10px;
+  border-radius: 6px; font-size: 11px; font-weight: 600; letter-spacing: 0.3px;
+}
+.badge-buy { background: var(--green-soft); color: var(--green); }
+.badge-sell { background: var(--red-soft); color: var(--red); }
+
+.log-box {
+  background: var(--bg-primary); border: 1px solid var(--border);
+  border-radius: 10px; padding: 14px 16px;
+  font-size: 11px; line-height: 1.8;
+  max-height: 320px; overflow-y: auto;
+}
+.log-box::-webkit-scrollbar { width: 5px; }
+.log-box::-webkit-scrollbar-thumb { background: var(--bg-secondary); border-radius: 3px; }
+.log-line { color: var(--text-muted); padding: 1px 0; border-bottom: 1px solid rgba(255,255,255,0.02); }
+
+.empty-state { text-align: center; padding: 28px; color: var(--text-muted); font-size: 13px; }
+.footer { text-align: center; margin-top: 32px; font-size: 11px; color: var(--text-muted); }
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  margin-bottom: 16px;
+}
+.nav-link {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease;
+}
+.nav-link:hover {
+  color: var(--purple);
+  transform: translateX(-2px);
+}
+.nav-link-charts {
+  background: rgba(139, 92, 246, 0.12);
+  color: var(--purple);
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(139, 92, 246, 0.25);
+}
+.nav-link-charts:hover {
+  background: rgba(139, 92, 246, 0.2);
+  border-color: var(--purple);
+  transform: none;
+}
+
+.stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 14px; margin-bottom: 24px; }
+.stat-card {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px;
+  display: flex; flex-direction: column; align-items: center; text-align: center;
+}
+.stat-value { font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.stat-label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.7px; color: var(--text-muted); margin-top: 4px; }
+
+@media (max-width: 768px) {
+  .metrics { grid-template-columns: repeat(2, 1fr); }
+  .config-grid { grid-template-columns: 1fr; }
+}
+
+/* Auto-refresh indicator */
+.refresh-indicator {
+  position: fixed; top: 12px; right: 12px; z-index: 999;
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: 8px; padding: 6px 12px; font-size: 11px;
+  color: var(--text-muted);
+}
+</style>
+<script>
+// Auto-refresh every 5 minutes (data wordt elke 10min gepusht naar GitHub Pages)
+setInterval(() => { location.reload(); }, 300000);
+// Show refresh indicator
+window.addEventListener('load', () => {
+  const ind = document.createElement('div');
+  ind.className = 'refresh-indicator';
+  ind.textContent = '⟳ Auto-refresh 5min';
+  document.body.appendChild(ind);
+  setTimeout(() => ind.style.opacity = '0.5', 3000);
+});
+</script>
+</head>
+<body>
+<div class="container">
+  <nav class="top-nav">
+    <a href="../index.html" class="nav-link">← Hub</a>
+    <a href="charts.html" class="nav-link nav-link-charts">📊 Live Charts</a>
+  </nav>
+
+  <div class="page-header">
+    <h1>📈 Momentum Sniper <span>Bot</span></h1>
+    <span class="version-tag">v6.0 — Golden Middle</span>
+  </div>
+
+
+  <div class="metrics">
+    <div class="metric">
+      <div class="metric-value purple">$3,000</div>
+      <div class="metric-label">Portfolio Balance</div>
+    </div>
+    <div class="metric">
+      <div class="metric-value green">$+0.00 <span style="font-size:12px;font-weight:500;">(+0.0R)</span></div>
+      <div class="metric-label">Total P&amp;L</div>
+    </div>
+    <div class="metric">
+      <div class="metric-value green">$+0.00</div>
+      <div class="metric-label">Daily P&amp;L (Max -$90)</div>
+    </div>
+    <div class="metric">
+      <div class="metric-value">0.0%</div>
+      <div class="metric-label">Win Rate</div>
+    </div>
+  </div>
+
+  <div class="section-title">Execution &amp; Strategy Health</div>
+  <div class="metrics-sub">
+    <div class="metric">
+      <div class="metric-value cyan">0</div>
+      <div class="metric-label">Pullback Fills</div>
+    </div>
+    <div class="metric">
+      <div class="metric-value" style="color:var(--yellow);">0</div>
+      <div class="metric-label">Volume Caps Triggered (&gt;5x)</div>
+    </div>
+    <div class="metric">
+      <div class="metric-value">0 / 0</div>
+      <div class="metric-label">Open / Total Trades</div>
+    </div>
+  </div>
+
+
+  <div class="section-title">Actieve v6 Configfilter Matrix</div>
+  <div class="card">
+    <div class="config-grid">
+      <div class="config-item"><span class="key">Body Ratio</span><span class="val">&ge;65%</span></div>
+      <div class="config-item"><span class="key">Volume Limiet</span><span class="val">1.3x - 8.0x max</span></div>
+      <div class="config-item"><span class="key">ATR Threshold</span><span class="val">1.1x ATR(14)</span></div>
+      <div class="config-item"><span class="key">Pullback Entry</span><span class="val active">40% Limit Order</span></div>
+      <div class="config-item"><span class="key">Lookback</span><span class="val">3 candles</span></div>
+      <div class="config-item"><span class="key">1H Trend Filter</span><span class="val active">Aan</span></div>
+      <div class="config-item"><span class="key">SL = 1.5x ATR(14)</span><span class="val">1.5x</span></div>
+      <div class="config-item"><span class="key">TP Ratio</span><span class="val">2.0R | 50% runner</span></div>
+      <div class="config-item"><span class="key">LONG Risk %</span><span class="val" style="color:var(--purple);">1.0% ($30)</span></div>
+      <div class="config-item"><span class="key">SHORT Risk %</span><span class="val warning">0.5% ($15)</span></div>
+      <div class="config-item"><span class="key">Breakeven Trigger</span><span class="val active">@ +1.0R</span></div>
+      <div class="config-item"><span class="key">Limit Expiry</span><span class="val danger">3 candles (30m)</span></div>
+      <div class="config-item"><span class="key">Min ATR%</span><span class="val">0.2% van prijs</span></div>
+      <div class="config-item"><span class="key">Max Dagelijkse DD</span><span class="val">3% ($90)</span></div>
+      <div class="config-item"><span class="key">Max Actieve Trades</span><span class="val">4</span></div>
+      <div class="config-item"><span class="key">Skip First 30 min</span><span class="val">10 min</span></div>
+    </div>
+  </div>
+
+
+  <div class="section-title">Open Positions</div>
+  <div class="card"><div class="empty-state">Geen open posities</div></div>
+
+
+  <div class="section-title">Recente Trades</div>
+  <div class="card"><div class="empty-state">Geen recente trades</div></div>
+
+
+  <div class="stats-grid">
+    <div class="stat-card"><span class="stat-value">0</span><span class="stat-label">Wins</span></div>
+    <div class="stat-card"><span class="stat-value">0</span><span class="stat-label">Losses</span></div>
+    <div class="stat-card"><span class="stat-value" style="color:var(--green);">$+0.00</span><span class="stat-label">Totaal P&amp;L</span></div>
+    <div class="stat-card"><span class="stat-value">$+0.00</span><span class="stat-label">Vandaag</span></div>
+    <div class="stat-card"><span class="stat-value">0</span><span class="stat-label">Open Posities</span></div>
+    <div class="stat-card"><span class="stat-value">0</span><span class="stat-label">Volume Caps</span></div>
+  </div>
+
+
+  <div class="section-title">Bot Log (live)</div>
+  <div class="card"><div class="empty-state">Geen log output beschikbaar</div></div>
+
+  <p class="footer">
+    Laatste update: 2026-06-10T23:35:00 · Hermes Agent — RM L Momentum Bot
+  </p>
+</div>
+</body>
+</html>
