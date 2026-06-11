@@ -175,7 +175,7 @@
     "rh": 661.88,
     "rl": 644.455,
     "atr": 2.910357142857119,
-    "mode": "RANGING",
+    "mode": "BULLISH",
     "breakout": {
       "trigger": false,
       "direction": "NONE",
@@ -260,7 +260,7 @@
     "rh": 140.0,
     "rl": 134.295,
     "atr": 0.6796428571428582,
-    "mode": "BULLISH",
+    "mode": "RANGING",
     "breakout": {
       "trigger": false,
       "direction": "NONE",
@@ -323,11 +323,11 @@
     "volume_blocked": false
   },
   "BTC/USD": {
-    "price": 61770.16,
-    "close": 61449.77,
+    "price": 61863.048500000004,
+    "close": 61634.0465,
     "rh": 62808.225,
     "rl": 60730.6175,
-    "atr": 236.50681257142787,
+    "atr": 243.49791971428516,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -340,28 +340,11 @@
     "volume_blocked": false
   },
   "ETH/USD": {
-    "price": 1627.65,
-    "close": 1620.655,
+    "price": 1629.9135,
+    "close": 1624.49,
     "rh": 1666.594,
     "rl": 1603.1965,
-    "atr": 8.234250000000007,
-    "mode": "BULLISH",
-    "breakout": {
-      "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
-    },
-    "entry": null,
-    "volume_blocked": false
-  },
-  "SOL/USD": {
-    "price": 63.6045,
-    "close": 63.1576,
-    "rh": 65.806,
-    "rl": 62.3,
-    "atr": 0.3724328571428564,
+    "atr": 8.234071428571431,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -373,12 +356,29 @@
     "entry": null,
     "volume_blocked": false
   },
+  "SOL/USD": {
+    "price": 63.756,
+    "close": 63.3742,
+    "rh": 65.806,
+    "rl": 62.3,
+    "atr": 0.37090414285714196,
+    "mode": "BEARISH",
+    "breakout": {
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
+    },
+    "entry": null,
+    "volume_blocked": false
+  },
   "AVAX/USD": {
-    "price": 6.42555,
-    "close": 6.3763,
+    "price": 6.45305,
+    "close": 6.40995,
     "rh": 6.65674,
     "rl": 6.2986,
-    "atr": 0.04496425407142857,
+    "atr": 0.04526068264285721,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
