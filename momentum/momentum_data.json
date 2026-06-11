@@ -1,33 +1,19 @@
 {
   "TSLA": {
-    "price": 399.5,
-    "close": 399.5,
-    "rh": 394.39,
+    "price": 399.14,
+    "close": 399.14,
+    "rh": 399.515,
     "rl": 383.59,
-    "atr": 2.5739285714285773,
+    "atr": 2.4796428571428635,
     "mode": "BULLISH",
     "breakout": {
-      "trigger": true,
-      "direction": "LONG",
-      "body_ratio": 0.7291666666666726,
-      "volume_ratio": 2.3131048755249863,
-      "atr_ratio": 1.2338360655737508
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
     },
-    "entry": {
-      "direction": "LONG",
-      "entry": 397.57,
-      "sl": 393.70910714285714,
-      "tp1": 405.2917857142857,
-      "tp2": 416.8744642857143,
-      "rr": 2.0,
-      "rr_pass": true,
-      "body_ratio": 0.7291666666666726,
-      "volume_ratio": 2.3131048755249863,
-      "atr_ratio": 1.2338360655737508,
-      "entry_type": "LIMIT",
-      "trailing": true,
-      "risk_alloc": 30.0
-    },
+    "entry": null,
     "volume_blocked": false
   },
   "NVDA": {
@@ -65,11 +51,11 @@
     "volume_blocked": false
   },
   "GOOGL": {
-    "price": 357.87,
-    "close": 357.87,
+    "price": 359.09,
+    "close": 359.09,
     "rh": 357.37,
     "rl": 346.37,
-    "atr": 1.9267857142857119,
+    "atr": 1.8917857142857113,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -82,11 +68,11 @@
     "volume_blocked": false
   },
   "MSFT": {
-    "price": 391.5,
-    "close": 391.5,
+    "price": 391.95,
+    "close": 391.95,
     "rh": 396.78,
     "rl": 384.0,
-    "atr": 1.7739285714285822,
+    "atr": 1.6771428571428666,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -337,7 +323,7 @@
     "volume_blocked": false
   },
   "BTC/USD": {
-    "price": 63488.535,
+    "price": 63394.555,
     "close": 63542.205,
     "rh": 63714.9,
     "rl": 61864.995,
@@ -354,7 +340,7 @@
     "volume_blocked": false
   },
   "ETH/USD": {
-    "price": 1677.556,
+    "price": 1675.6999999999998,
     "close": 1678.925,
     "rh": 1691.115,
     "rl": 1629.4245,
@@ -371,7 +357,7 @@
     "volume_blocked": false
   },
   "SOL/USD": {
-    "price": 66.795,
+    "price": 66.79615000000001,
     "close": 66.9,
     "rh": 67.337,
     "rl": 63.3932,
@@ -388,7 +374,7 @@
     "volume_blocked": false
   },
   "AVAX/USD": {
-    "price": 6.657555,
+    "price": 6.6549499999999995,
     "close": 6.646125,
     "rh": 6.6985,
     "rl": 6.219141315,
