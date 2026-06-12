@@ -279,8 +279,8 @@ window.addEventListener('load', () => {
   <div class="card table-scroll">
     <table>
       <thead><tr><th>Symbool</th><th>Richting</th><th>Qty</th><th>Entry</th><th>Huidige</th><th>P/L ($)</th><th>P/L %</th></tr></thead>
-      <tbody><tr><td style="color:var(--text-secondary);">GOOGL</td><td><span class="badge badge-buy">LONG</span></td><td>2.7446</td><td>$364.32</td><td>$361.62</td><td class="red">$-7.41</td><td class="red">-0.7%</td></tr>
-<tr><td style="color:var(--text-secondary);">NVTS</td><td><span class="badge badge-buy">LONG</span></td><td>41.8340</td><td>$23.88</td><td>$23.91</td><td class="green">$1.05</td><td class="green">+0.1%</td></tr>
+      <tbody><tr><td style="color:var(--text-secondary);">GOOGL</td><td><span class="badge badge-buy">LONG</span></td><td>2.7446</td><td>$364.32</td><td>$361.08</td><td class="red">$-8.88</td><td class="red">-0.9%</td></tr>
+<tr><td style="color:var(--text-secondary);">NVTS</td><td><span class="badge badge-buy">LONG</span></td><td>41.8340</td><td>$23.88</td><td>$23.76</td><td class="red">$-5.02</td><td class="red">-0.5%</td></tr>
 </tbody>
     </table>
   </div>
@@ -303,27 +303,6 @@ window.addEventListener('load', () => {
   <div class="section-title">Bot Log (live)</div>
   <div class="card">
     <div class="log-box">
-      <div class="log-line">2026-06-12 19:46:16,320 | INFO     | bot_engine           | CYCLUS START — AVAX/USD</div>
-      <div class="log-line">2026-06-12 19:46:16,694 | INFO     | bot_engine           | AVAX/USD: Range [6.2191 — 6.6985] | Mode: RANGING | Close: 6.6147</div>
-      <div class="log-line">2026-06-12 20:01:06,846 | INFO     | bot_engine           | CYCLUS START — TSLA</div>
-      <div class="log-line">2026-06-12 20:01:08,503 | INFO     | bot_engine           | TSLA: Range [383.5900 — 405.1750] | Mode: BULLISH | Close: 402.7900</div>
-      <div class="log-line">2026-06-12 20:01:08,607 | INFO     | bot_engine           | CYCLUS START — NVDA</div>
-      <div class="log-line">2026-06-12 20:01:09,029 | INFO     | bot_engine           | NVDA: Range [199.5400 — 207.0600] | Mode: BULLISH | Close: 204.9650</div>
-      <div class="log-line">2026-06-12 20:01:09,139 | INFO     | bot_engine           | CYCLUS START — ASML</div>
-      <div class="log-line">2026-06-12 20:01:09,487 | INFO     | bot_engine           | ASML: Range [1775.5100 — 1903.0650] | Mode: BULLISH | Close: 1877.8750</div>
-      <div class="log-line">2026-06-12 20:01:09,593 | INFO     | bot_engine           | CYCLUS START — GOOGL</div>
-      <div class="log-line">2026-06-12 20:01:10,093 | INFO     | bot_engine           | GOOGL: Range [346.3700 — 366.5700] | Mode: BULLISH | Close: 361.4500</div>
-      <div class="log-line">2026-06-12 20:01:10,199 | INFO     | bot_engine           | CYCLUS START — MSFT</div>
-      <div class="log-line">2026-06-12 20:01:10,621 | INFO     | bot_engine           | MSFT: Range [382.2900 — 396.7800] | Mode: BEARISH | Close: 386.8600</div>
-      <div class="log-line">2026-06-12 20:01:10,721 | INFO     | bot_engine           | CYCLUS START — AMD</div>
-      <div class="log-line">2026-06-12 20:01:11,529 | INFO     | bot_engine           | AMD: Range [458.2300 — 517.4900] | Mode: BULLISH | Close: 518.4900</div>
-      <div class="log-line">2026-06-12 20:01:11,636 | INFO     | bot_engine           | CYCLUS START — AVGO</div>
-      <div class="log-line">2026-06-12 20:01:12,023 | INFO     | bot_engine           | AVGO: Range [370.2900 — 388.7500] | Mode: BEARISH | Close: 381.2200</div>
-      <div class="log-line">2026-06-12 20:01:12,279 | INFO     | bot_engine           | CYCLUS START — AMZN</div>
-      <div class="log-line">2026-06-12 20:01:13,305 | INFO     | bot_engine           | AMZN: Range [233.6600 — 243.1600] | Mode: BEARISH | Close: 236.5200</div>
-      <div class="log-line">2026-06-12 20:01:13,440 | INFO     | bot_engine           | CYCLUS START — META</div>
-      <div class="log-line">2026-06-12 20:01:14,358 | INFO     | bot_engine           | META: Range [557.0500 — 575.9300] | Mode: BULLISH | Close: 566.1200</div>
-      <div class="log-line">2026-06-12 20:01:14,462 | INFO     | bot_engine           | CYCLUS START — PLTR</div>
       <div class="log-line">2026-06-12 20:01:14,910 | INFO     | bot_engine           | PLTR: Range [126.6800 — 131.5000] | Mode: BEARISH | Close: 128.0700</div>
       <div class="log-line">2026-06-12 20:01:15,012 | INFO     | bot_engine           | CYCLUS START — CRWD</div>
       <div class="log-line">2026-06-12 20:01:15,436 | INFO     | bot_engine           | CRWD: Range [667.0600 — 701.7000] | Mode: BULLISH | Close: 689.1300</div>
@@ -333,11 +312,32 @@ window.addEventListener('load', () => {
       <div class="log-line">2026-06-12 20:01:16,559 | INFO     | bot_engine           | COIN: Range [152.4800 — 165.4500] | Mode: BULLISH | Close: 159.9700</div>
       <div class="log-line">2026-06-12 20:01:16,667 | INFO     | bot_engine           | CYCLUS START — SMCI</div>
       <div class="log-line">2026-06-12 20:01:17,047 | INFO     | bot_engine           | SMCI: Range [28.4600 — 32.0350] | Mode: BULLISH | Close: 30.3850</div>
+      <div class="log-line">2026-06-12 20:01:17,147 | INFO     | bot_engine           | CYCLUS START — HON</div>
+      <div class="log-line">2026-06-12 20:01:17,548 | INFO     | bot_engine           | HON: Range [208.3400 — 225.5100] | Mode: RANGING | Close: 222.7900</div>
+      <div class="log-line">2026-06-12 20:01:17,652 | INFO     | bot_engine           | CYCLUS START — CHTR</div>
+      <div class="log-line">2026-06-12 20:01:18,265 | INFO     | fractals             | Range High definitief doorbroken (3 closes) — range reset</div>
+      <div class="log-line">2026-06-12 20:01:18,265 | INFO     | sweep_detection      | LONG sweep reset: Range reset — definitieve breakout</div>
+      <div class="log-line">2026-06-12 20:01:18,265 | INFO     | sweep_detection      | SHORT sweep reset: Range reset — definitieve breakout</div>
+      <div class="log-line">2026-06-12 20:01:18,266 | INFO     | bot_engine           | CHTR: Range nog niet vastgesteld — wacht op meer data</div>
+      <div class="log-line">2026-06-12 20:01:18,267 | INFO     | bot_engine           | CYCLUS START — NVTS</div>
+      <div class="log-line">2026-06-12 20:01:18,642 | INFO     | bot_engine           | NVTS: Range [20.2800 — 24.5450] | Mode: BULLISH | Close: 23.8800</div>
+      <div class="log-line">2026-06-12 20:01:18,767 | INFO     | bot_engine           | CYCLUS START — QQQ</div>
+      <div class="log-line">2026-06-12 20:01:19,108 | INFO     | bot_engine           | QQQ: Range [695.1200 — 723.9800] | Mode: BULLISH | Close: 721.9400</div>
+      <div class="log-line">2026-06-12 20:01:19,217 | INFO     | bot_engine           | CYCLUS START — SPY</div>
+      <div class="log-line">2026-06-12 20:01:19,611 | INFO     | bot_engine           | SPY: Range [724.4600 — 744.4100] | Mode: BULLISH | Close: 741.3000</div>
+      <div class="log-line">2026-06-12 20:01:19,712 | INFO     | bot_engine           | CYCLUS START — BTC/USD</div>
+      <div class="log-line">2026-06-12 20:01:20,328 | INFO     | bot_engine           | BTC/USD: Range [61043.6505 — 64380.3000] | Mode: BULLISH | Close: 63858.6125</div>
+      <div class="log-line">2026-06-12 20:01:20,441 | INFO     | bot_engine           | CYCLUS START — ETH/USD</div>
+      <div class="log-line">2026-06-12 20:01:20,821 | INFO     | bot_engine           | ETH/USD: Range [1603.1965 — 1691.1150] | Mode: BULLISH | Close: 1670.6000</div>
+      <div class="log-line">2026-06-12 20:01:20,925 | INFO     | bot_engine           | CYCLUS START — SOL/USD</div>
+      <div class="log-line">2026-06-12 20:01:21,636 | INFO     | bot_engine           | SOL/USD: Range [64.8900 — 68.7630] | Mode: RANGING | Close: 67.8120</div>
+      <div class="log-line">2026-06-12 20:01:21,740 | INFO     | bot_engine           | CYCLUS START — AVAX/USD</div>
+      <div class="log-line">2026-06-12 20:01:22,134 | INFO     | bot_engine           | AVAX/USD: Range [6.2191 — 6.6985] | Mode: BEARISH | Close: 6.6204</div>
     </div>
   </div>
 
   <p class="footer">
-    Laatste update: 2026-06-12T18:01:16 · Hermes Agent — RM L Momentum Bot
+    Laatste update: 2026-06-12T18:06:58 · Hermes Agent — RM L Momentum Bot
   </p>
 </div>
 </body>
