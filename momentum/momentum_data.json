@@ -257,15 +257,29 @@
     "rh": 215.475,
     "rl": 208.34,
     "atr": 1.1678571428571425,
-    "mode": "BEARISH",
+    "mode": "RANGING",
     "breakout": {
-      "trigger": false,
+      "trigger": true,
       "direction": "LONG",
       "body_ratio": 0.8296296296296365,
       "volume_ratio": 1.7282455468950582,
       "atr_ratio": 1.2130937098844612
     },
-    "entry": null,
+    "entry": {
+      "direction": "LONG",
+      "entry": 218.772,
+      "sl": 217.02021428571427,
+      "tp1": 222.27557142857142,
+      "tp2": 227.53092857142857,
+      "rr": 2.0,
+      "rr_pass": true,
+      "body_ratio": 0.8296296296296365,
+      "volume_ratio": 1.7282455468950582,
+      "atr_ratio": 1.2130937098844612,
+      "entry_type": "LIMIT",
+      "trailing": true,
+      "risk_alloc": 30.0
+    },
     "volume_blocked": false
   },
   "CHTR": {
@@ -291,7 +305,7 @@
     "rh": 21.715,
     "rl": 20.28,
     "atr": 0.35107142857142953,
-    "mode": "BEARISH",
+    "mode": "RANGING",
     "breakout": {
       "trigger": false,
       "direction": "NONE",
@@ -337,12 +351,12 @@
     "volume_blocked": false
   },
   "BTC/USD": {
-    "price": 63570.332500000004,
-    "close": 63438.0595,
+    "price": 63480.7225,
+    "close": 63343.47,
     "rh": 63852.378,
     "rl": 62257.6045,
-    "atr": 185.91592857142885,
-    "mode": "RANGING",
+    "atr": 156.71653571428604,
+    "mode": "BULLISH",
     "breakout": {
       "trigger": false,
       "direction": "NONE",
@@ -354,11 +368,11 @@
     "volume_blocked": false
   },
   "ETH/USD": {
-    "price": 1672.25,
-    "close": 1674.26,
+    "price": 1668.6599999999999,
+    "close": 1672.13,
     "rh": 1691.115,
     "rl": 1630.6,
-    "atr": 5.814714285714298,
+    "atr": 5.269857142857144,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -371,11 +385,11 @@
     "volume_blocked": false
   },
   "SOL/USD": {
-    "price": 66.838,
-    "close": 66.837,
+    "price": 66.6855,
+    "close": 66.69385,
     "rh": 67.337,
     "rl": 63.3932,
-    "atr": 0.3560321428571415,
+    "atr": 0.3390499999999993,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -388,11 +402,11 @@
     "volume_blocked": false
   },
   "AVAX/USD": {
-    "price": 6.6434999999999995,
-    "close": 6.642295,
+    "price": 6.632569999999999,
+    "close": 6.63285,
     "rh": 6.6985,
     "rl": 6.219141315,
-    "atr": 0.037056071428571515,
+    "atr": 0.03473571428571428,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
