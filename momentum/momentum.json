@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-12T21:26:27.204082",
+  "timestamp": "2026-06-12T21:32:04.269858",
   "strategy": "MOMENTUM v6.0 (Golden Middle)",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-12T23:16:09.653697",
+    "last_activity": "2026-06-12T23:31:54.524029",
     "version": "v6.0"
   },
   "config": {
@@ -52,18 +52,18 @@
       "side": "long",
       "qty": 2.744643827,
       "entry_price": 364.316356,
-      "current_price": 360.3,
-      "unrealized_pl": -11.02,
-      "unrealized_plpc": -1.1
+      "current_price": 360.12,
+      "unrealized_pl": -11.52,
+      "unrealized_plpc": -1.15
     },
     {
       "symbol": "NVTS",
       "side": "long",
       "qty": 41.834002677,
       "entry_price": 23.88,
-      "current_price": 23.66,
-      "unrealized_pl": -9.2,
-      "unrealized_plpc": -0.92
+      "current_price": 23.57,
+      "unrealized_pl": -12.97,
+      "unrealized_plpc": -1.3
     }
   ],
   "open_trades": [],
@@ -79,15 +79,6 @@
     "daily_pnl": 0
   },
   "log": [
-    "2026-06-12 22:31:05,865 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
-    "2026-06-12 22:31:06,377 | INFO     | bot_engine           | SOL/USD: Range [64.8900 \u2014 68.7630] | Mode: RANGING | Close: 66.9730",
-    "2026-06-12 22:31:06,553 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD",
-    "2026-06-12 22:31:07,041 | INFO     | bot_engine           | AVAX/USD: Range [6.2191 \u2014 6.6985] | Mode: RANGING | Close: 6.6035",
-    "2026-06-12 22:42:07,406 | INFO     | __main__             | MOMENTUM BOT \u2014 Standalone",
-    "2026-06-12 22:46:07,618 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD",
-    "2026-06-12 22:46:08,694 | INFO     | bot_engine           | BTC/USD: Range [62754.0580 \u2014 64380.3000] | Mode: BULLISH | Close: 63561.5300",
-    "2026-06-12 22:46:08,828 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
-    "2026-06-12 22:46:09,235 | INFO     | bot_engine           | ETH/USD: Range [1650.0835 \u2014 1690.9130] | Mode: BULLISH | Close: 1664.9050",
     "2026-06-12 22:46:09,338 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
     "2026-06-12 22:46:09,836 | INFO     | bot_engine           | SOL/USD: Range [65.7850 \u2014 68.7630] | Mode: RANGING | Close: 66.7540",
     "2026-06-12 22:46:09,955 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD",
@@ -108,6 +99,15 @@
     "2026-06-12 23:16:08,620 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
     "2026-06-12 23:16:09,043 | INFO     | bot_engine           | SOL/USD: Range [65.7850 \u2014 68.7630] | Mode: RANGING | Close: 66.6945",
     "2026-06-12 23:16:09,148 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD",
-    "2026-06-12 23:16:09,552 | INFO     | bot_engine           | AVAX/USD: Range [6.5160 \u2014 6.6953] | Mode: RANGING | Close: 6.5935"
+    "2026-06-12 23:16:09,552 | INFO     | bot_engine           | AVAX/USD: Range [6.5160 \u2014 6.6953] | Mode: RANGING | Close: 6.5935",
+    "2026-06-12 23:31:09,699 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD",
+    "2026-06-12 23:31:10,682 | INFO     | bot_engine           | BTC/USD: Range [62754.0580 \u2014 64380.3000] | Mode: BULLISH | Close: 63479.7500",
+    "2026-06-12 23:31:10,799 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
+    "2026-06-12 23:31:11,169 | INFO     | bot_engine           | ETH/USD: Range [1650.0835 \u2014 1689.5500] | Mode: BULLISH | Close: 1664.9690",
+    "2026-06-12 23:31:11,272 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
+    "2026-06-12 23:31:11,639 | INFO     | bot_engine           | SOL/USD: Range [65.7850 \u2014 68.7630] | Mode: RANGING | Close: 66.7792",
+    "2026-06-12 23:31:11,741 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD",
+    "2026-06-12 23:31:12,105 | INFO     | bot_engine           | AVAX/USD: Range [6.5160 \u2014 6.6953] | Mode: RANGING | Close: 6.5880",
+    "2026-06-12 23:31:54,389 | INFO     | __main__             | MOMENTUM BOT \u2014 Standalone"
   ]
 }
