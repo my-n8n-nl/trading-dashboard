@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-12T15:04:02.807352",
+  "timestamp": "2026-06-12T15:09:47.739158",
   "strategy": "MOMENTUM v6.0 (Golden Middle)",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-12T17:01:19.462448",
+    "last_activity": "2026-06-12T17:06:42.158513",
     "version": "v6.0"
   },
   "config": {
@@ -52,9 +52,9 @@
       "side": "long",
       "qty": 41.834002677,
       "entry_price": 23.88,
-      "current_price": 24.18,
-      "unrealized_pl": 12.55,
-      "unrealized_plpc": 1.26
+      "current_price": 24.48,
+      "unrealized_pl": 25.1,
+      "unrealized_plpc": 2.51
     }
   ],
   "open_trades": [],
@@ -70,9 +70,6 @@
     "daily_pnl": 0
   },
   "log": [
-    "2026-06-12 17:01:13,628 | INFO     | bot_engine           | AVGO: Range [370.2900 \u2014 388.7500] | Mode: BULLISH | Close: 381.3900",
-    "2026-06-12 17:01:13,729 | INFO     | bot_engine           | CYCLUS START \u2014 AMZN",
-    "2026-06-12 17:01:14,181 | INFO     | bot_engine           | AMZN: Range [233.6600 \u2014 243.1600] | Mode: BULLISH | Close: 237.6600",
     "2026-06-12 17:01:14,286 | INFO     | bot_engine           | CYCLUS START \u2014 META",
     "2026-06-12 17:01:14,650 | INFO     | bot_engine           | META: Range [557.0500 \u2014 575.9300] | Mode: BULLISH | Close: 571.5500",
     "2026-06-12 17:01:14,760 | INFO     | bot_engine           | CYCLUS START \u2014 PLTR",
@@ -99,6 +96,9 @@
     "2026-06-12 17:01:18,624 | INFO     | bot_engine           | NVTS: Range [20.2800 \u2014 24.4100] | Mode: BULLISH | Close: 24.2750",
     "2026-06-12 17:01:18,729 | INFO     | bot_engine           | CYCLUS START \u2014 QQQ",
     "2026-06-12 17:01:19,250 | INFO     | bot_engine           | QQQ: Range [695.1200 \u2014 720.6900] | Mode: BULLISH | Close: 721.7450",
-    "2026-06-12 17:01:19,355 | INFO     | momentum             | \u2713 MOMENTUM LONG breakout (offset=2) \u2014 close $721.04 > RH $720.69 | body=76.4% | vol=2.2x | ATR=2.2x"
+    "2026-06-12 17:01:19,355 | INFO     | momentum             | \u2713 MOMENTUM LONG breakout (offset=2) \u2014 close $721.04 > RH $720.69 | body=76.4% | vol=2.2x | ATR=2.2x",
+    "2026-06-12 17:06:41,064 | INFO     | bot_engine           | CYCLUS START \u2014 SPY",
+    "2026-06-12 17:06:41,870 | INFO     | bot_engine           | SPY: Range [724.4600 \u2014 741.4000] | Mode: BULLISH | Close: 742.6300",
+    "2026-06-12 17:06:42,052 | INFO     | momentum             | \u2713 MOMENTUM LONG breakout (offset=2) \u2014 close $742.41 > RH $741.40 | body=80.6% | vol=1.3x | ATR=2.3x"
   ]
 }
