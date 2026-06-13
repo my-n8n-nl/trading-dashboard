@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-13T19:14:42.205753",
+  "timestamp": "2026-06-13T19:17:16.316879",
   "strategy": "MOMENTUM v6.0 (Golden Middle)",
   "bot": {
-    "online": false,
-    "last_activity": "2026-06-13T10:31:06.763453",
+    "online": true,
+    "last_activity": "2026-06-13T21:16:39.705054",
     "version": "v6.0"
   },
   "config": {
@@ -79,7 +79,6 @@
     "daily_pnl": 0
   },
   "log": [
-    "2026-06-13 09:46:03,459 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
     "2026-06-13 09:46:03,964 | INFO     | bot_engine           | ETH/USD: Range [1650.0835 \u2014 1689.5500] | Mode: BULLISH | Close: 1668.4550",
     "2026-06-13 09:46:04,066 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
     "2026-06-13 09:46:04,439 | INFO     | bot_engine           | SOL/USD: Range [65.7850 \u2014 68.7630] | Mode: RANGING | Close: 67.1240",
@@ -108,6 +107,7 @@
     "2026-06-13 10:31:04,716 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
     "2026-06-13 10:31:05,256 | INFO     | bot_engine           | SOL/USD: Range [65.7850 \u2014 68.7630] | Mode: RANGING | Close: 67.1988",
     "2026-06-13 10:31:05,526 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD",
-    "2026-06-13 10:31:06,175 | INFO     | bot_engine           | AVAX/USD: Range [6.5160 \u2014 6.6953] | Mode: RANGING | Close: 6.6545"
+    "2026-06-13 10:31:06,175 | INFO     | bot_engine           | AVAX/USD: Range [6.5160 \u2014 6.6953] | Mode: RANGING | Close: 6.6545",
+    "2026-06-13 21:16:39,590 | INFO     | __main__             | MOMENTUM BOT \u2014 Standalone"
   ]
 }
