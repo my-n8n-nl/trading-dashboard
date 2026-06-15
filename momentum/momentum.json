@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-15T21:49:35.440261",
+  "timestamp": "2026-06-15T21:54:58.801446",
   "strategy": "MOMENTUM v6.0 (Golden Middle)",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-15T23:48:13.034274",
+    "last_activity": "2026-06-15T23:54:09.683483",
     "version": "v6.0"
   },
   "config": {
@@ -61,18 +61,18 @@
       "side": "long",
       "qty": 0.550464789,
       "entry_price": 1811.9,
-      "current_price": 1812.7,
-      "unrealized_pl": 0.44,
-      "unrealized_plpc": 0.04
+      "current_price": 1810.7,
+      "unrealized_pl": -0.66,
+      "unrealized_plpc": -0.07
     },
     {
       "symbol": "GOOGL",
       "side": "long",
       "qty": 2.744643827,
       "entry_price": 364.316357,
-      "current_price": 369.7,
-      "unrealized_pl": 14.78,
-      "unrealized_plpc": 1.48
+      "current_price": 369.8,
+      "unrealized_pl": 15.05,
+      "unrealized_plpc": 1.5
     }
   ],
   "open_trades": [],
@@ -113,6 +113,7 @@
     "2026-06-15 23:46:08,920 | INFO     | bot_engine           | SOL/USD: Range [70.0500 \u2014 76.1580] | Mode: RANGING | Close: 74.9277",
     "2026-06-15 23:46:09,019 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD",
     "2026-06-15 23:46:09,416 | INFO     | bot_engine           | AVAX/USD: Range [6.6850 \u2014 7.0752] | Mode: BULLISH | Close: 6.8797",
-    "2026-06-15 23:48:12,940 | INFO     | __main__             | MOMENTUM BOT \u2014 Standalone"
+    "2026-06-15 23:48:12,940 | INFO     | __main__             | MOMENTUM BOT \u2014 Standalone",
+    "2026-06-15 23:54:09,589 | INFO     | __main__             | MOMENTUM BOT \u2014 Standalone"
   ]
 }
