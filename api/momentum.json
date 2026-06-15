@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-06-10T23:30:04.519815",
-  "strategy": "MOMENTUM v6.0 (Golden Middle)",
+  "timestamp": "2026-06-15T21:46:10.352614+00:00",
+  "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
-    "online": false,
-    "last_activity": null,
-    "version": "v6.0"
+    "online": true,
+    "last_activity": "2026-06-15T21:46:10.352614+00:00",
+    "version": "v7.5"
   },
   "config": {
     "body_ratio": 0.65,
@@ -13,11 +13,8 @@
     "atr_threshold": 1.05,
     "sl_atr": 1.5,
     "tp_ratio": 2.0,
-    "tp_portion": 0.5,
     "trendfilter": true,
     "trailing_stop": true,
-    "trailing_atr": 1.5,
-    "breakeven_at_r": 1.0,
     "pullback_entry": true,
     "pullback_retrace": 0.4,
     "pullback_expiry": 3,
@@ -26,33 +23,135 @@
     "skip_opening_min": 10,
     "max_daily_loss_pct": 0.03,
     "risk_percentage": 0.01,
-    "short_risk_percentage": 0.005,
     "max_active_trades": 4
   },
-  "execution": {
-    "volume_caps": 0,
-    "pullback_fills": 0,
-    "pullback_expirations": 0
-  },
   "portfolio": {
-    "balance": 3000.0,
-    "open_positions": 0,
-    "active_trades": 0,
-    "daily_pnl": 0,
-    "daily_drawdown_limit": 90.0
+    "balance": 2965.6,
+    "cash": -30.85,
+    "open_positions": 3,
+    "active_trades": 3,
+    "total_market_value": 2996.45,
+    "total_unrealized_pl": 3.96,
+    "daily_pnl": -1.16,
+    "daily_drawdown_limit": 88.97
   },
-  "positions": [],
-  "open_trades": [],
+  "positions": [
+    {
+      "symbol": "AVAXUSD",
+      "direction": "LONG",
+      "qty": 142.813424461,
+      "entry": 6.96842,
+      "current_price": 6.8848,
+      "market_value": 983.241865,
+      "unrealized_pl": -11.942058,
+      "unrealized_plpc": -0.012,
+      "mode": "UNKNOWN",
+      "range_high": null,
+      "range_low": null
+    },
+    {
+      "symbol": "ETHUSD",
+      "direction": "LONG",
+      "qty": 0.550464789,
+      "entry": 1811.9,
+      "current_price": 1812.7,
+      "market_value": 997.827523,
+      "unrealized_pl": 0.440372,
+      "unrealized_plpc": 0.00044,
+      "mode": "UNKNOWN",
+      "range_high": null,
+      "range_low": null
+    },
+    {
+      "symbol": "GOOGL",
+      "direction": "LONG",
+      "qty": 2.744643827,
+      "entry": 364.316357,
+      "current_price": 369.95,
+      "market_value": 1015.380984,
+      "unrealized_pl": 15.462344,
+      "unrealized_plpc": 0.01546,
+      "mode": "RANGING",
+      "range_high": 372.98,
+      "range_low": 365.17
+    }
+  ],
+  "open_trades": [
+    {
+      "symbol": "AVAXUSD",
+      "direction": "LONG",
+      "qty": 142.813424461,
+      "entry": 6.96842,
+      "current_price": 6.8848,
+      "market_value": 983.241865,
+      "unrealized_pl": -11.942058,
+      "unrealized_plpc": -0.012,
+      "mode": "UNKNOWN",
+      "range_high": null,
+      "range_low": null
+    },
+    {
+      "symbol": "ETHUSD",
+      "direction": "LONG",
+      "qty": 0.550464789,
+      "entry": 1811.9,
+      "current_price": 1812.7,
+      "market_value": 997.827523,
+      "unrealized_pl": 0.440372,
+      "unrealized_plpc": 0.00044,
+      "mode": "UNKNOWN",
+      "range_high": null,
+      "range_low": null
+    },
+    {
+      "symbol": "GOOGL",
+      "direction": "LONG",
+      "qty": 2.744643827,
+      "entry": 364.316357,
+      "current_price": 369.95,
+      "market_value": 1015.380984,
+      "unrealized_pl": 15.462344,
+      "unrealized_plpc": 0.01546,
+      "mode": "RANGING",
+      "range_high": 372.98,
+      "range_low": 365.17
+    }
+  ],
   "recent_trades": [],
   "stats": {
     "total": 0,
-    "open": 0,
+    "open": 3,
     "closed": 0,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
-    "total_pnl": 0,
-    "daily_pnl": 0
+    "total_pnl": 3.96,
+    "daily_pnl": -1.16
+  },
+  "market_modes": {
+    "TSLA": "BEARISH",
+    "NVDA": "RANGING",
+    "ASML": "RANGING",
+    "GOOGL": "RANGING",
+    "MSFT": "RANGING",
+    "AMD": "RANGING",
+    "AVGO": "RANGING",
+    "AMZN": "RANGING",
+    "META": "RANGING",
+    "PLTR": "RANGING",
+    "CRWD": "RANGING",
+    "MSTR": "RANGING",
+    "COIN": "RANGING",
+    "SMCI": "BEARISH",
+    "HON": "RANGING",
+    "CHTR": "RANGING",
+    "NVTS": "RANGING",
+    "QQQ": "RANGING",
+    "SPY": "RANGING",
+    "BTC/USD": "BULLISH",
+    "ETH/USD": "BULLISH",
+    "SOL/USD": "RANGING",
+    "AVAX/USD": "BULLISH"
   },
   "log": []
 }
