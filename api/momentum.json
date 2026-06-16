@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-16T12:31:11.545214+00:00",
+  "timestamp": "2026-06-16T12:46:05.014080+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-16T12:31:11.545214+00:00",
+    "last_activity": "2026-06-16T12:46:05.014080+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -26,13 +26,13 @@
     "max_active_trades": 4
   },
   "portfolio": {
-    "balance": 2951.9,
+    "balance": 2951.93,
     "cash": 1940.14,
     "open_positions": 1,
     "active_trades": 1,
-    "total_market_value": 1011.76,
-    "total_unrealized_pl": 11.84,
-    "daily_pnl": -1.97,
+    "total_market_value": 1011.79,
+    "total_unrealized_pl": 11.87,
+    "daily_pnl": -1.94,
     "daily_drawdown_limit": 88.56
   },
   "positions": [
@@ -41,13 +41,13 @@
       "direction": "LONG",
       "qty": 2.744643827,
       "entry": 364.316357,
-      "current_price": 368.6303,
-      "market_value": 1011.758877,
-      "unrealized_pl": 11.840237,
-      "unrealized_plpc": 0.01184,
+      "current_price": 368.64,
+      "market_value": 1011.7855,
+      "unrealized_pl": 11.86686,
+      "unrealized_plpc": 0.01187,
       "mode": "RANGING",
-      "range_high": 372.98,
-      "range_low": 370.68
+      "range_high": 372.17,
+      "range_low": 367.63
     }
   ],
   "open_trades": [
@@ -56,13 +56,13 @@
       "direction": "LONG",
       "qty": 2.744643827,
       "entry": 364.316357,
-      "current_price": 368.6303,
-      "market_value": 1011.758877,
-      "unrealized_pl": 11.840237,
-      "unrealized_plpc": 0.01184,
+      "current_price": 368.64,
+      "market_value": 1011.7855,
+      "unrealized_pl": 11.86686,
+      "unrealized_plpc": 0.01187,
       "mode": "RANGING",
-      "range_high": 372.98,
-      "range_low": 370.68
+      "range_high": 372.17,
+      "range_low": 367.63
     }
   ],
   "recent_trades": [],
@@ -73,8 +73,8 @@
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
-    "total_pnl": 11.84,
-    "daily_pnl": -1.97
+    "total_pnl": 11.87,
+    "daily_pnl": -1.94
   },
   "market_modes": {
     "TSLA": "BEARISH",
