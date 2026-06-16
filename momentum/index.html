@@ -242,7 +242,7 @@ window.addEventListener('load', () => {
       <div class="metric-label">Volume Caps Triggered (&gt;5x)</div>
     </div>
     <div class="metric">
-      <div class="metric-value">0 / 0</div>
+      <div class="metric-value">1 / 1</div>
       <div class="metric-label">Open / Total Trades</div>
     </div>
   </div>
@@ -279,14 +279,21 @@ window.addEventListener('load', () => {
   <div class="card table-scroll">
     <table>
       <thead><tr><th>Symbool</th><th>Richting</th><th>Qty</th><th>Entry</th><th>Huidige</th><th>P/L ($)</th><th>P/L %</th></tr></thead>
-      <tbody><tr><td style="color:var(--text-secondary);">GOOGL</td><td><span class="badge badge-buy">LONG</span></td><td>2.7446</td><td>$364.32</td><td>$368.49</td><td class="green">$11.44</td><td class="green">+1.1%</td></tr>
+      <tbody><tr><td style="color:var(--text-secondary);">CRWD</td><td><span class="badge badge-buy">LONG</span></td><td>0.0049</td><td>$688.50</td><td>$686.72</td><td class="red">$-0.01</td><td class="red">-0.3%</td></tr>
+<tr><td style="color:var(--text-secondary);">GOOGL</td><td><span class="badge badge-buy">LONG</span></td><td>2.7446</td><td>$364.32</td><td>$368.36</td><td class="green">$11.10</td><td class="green">+1.1%</td></tr>
 </tbody>
     </table>
   </div>
 
 
   <div class="section-title">Recente Trades</div>
-  <div class="card"><div class="empty-state">Geen recente trades</div></div>
+  <div class="card table-scroll">
+    <table>
+      <thead><tr><th>Datum</th><th>Symbool</th><th>Dir</th><th>Entry</th><th>SL</th><th>TP1</th><th>RR</th><th>Status</th><th>P&amp;L</th></tr></thead>
+      <tbody><tr><td style="color:var(--text-secondary);">2026-06-16T14:01</td><td>CRWD</td><td>LONG</td><td>$696.92</td><td>$687.81</td><td>$715.14</td><td>2.00</td><td><span class="badge badge-buy">OPEN</span></td><td class="var(--text-muted)">$+0.00</td></tr>
+</tbody>
+    </table>
+  </div>
 
 
   <div class="stats-grid">
@@ -294,7 +301,7 @@ window.addEventListener('load', () => {
     <div class="stat-card"><span class="stat-value">0</span><span class="stat-label">Losses</span></div>
     <div class="stat-card"><span class="stat-value" style="color:var(--green);">$+0.00</span><span class="stat-label">Totaal P&amp;L</span></div>
     <div class="stat-card"><span class="stat-value">$+0.00</span><span class="stat-label">Vandaag</span></div>
-    <div class="stat-card"><span class="stat-value">1</span><span class="stat-label">Open Posities</span></div>
+    <div class="stat-card"><span class="stat-value">2</span><span class="stat-label">Open Posities</span></div>
     <div class="stat-card"><span class="stat-value">0</span><span class="stat-label">Volume Caps</span></div>
   </div>
 
@@ -302,41 +309,41 @@ window.addEventListener('load', () => {
   <div class="section-title">Bot Log (live)</div>
   <div class="card">
     <div class="log-box">
-      <div class="log-line">2026-06-16 15:46:09,345 | INFO     | bot_engine           | META: Range [594.3300 — 601.1850] | Mode: RANGING | Close: 600.9950</div>
-      <div class="log-line">2026-06-16 15:46:09,451 | INFO     | bot_engine           | CYCLUS START — PLTR</div>
-      <div class="log-line">2026-06-16 15:46:09,886 | INFO     | bot_engine           | PLTR: Range [133.4200 — 134.9650] | Mode: RANGING | Close: 133.3700</div>
-      <div class="log-line">2026-06-16 15:46:09,990 | INFO     | bot_engine           | CYCLUS START — CRWD</div>
-      <div class="log-line">2026-06-16 15:46:10,364 | INFO     | bot_engine           | CRWD: Range [669.1900 — 696.7800] | Mode: RANGING | Close: 678.2400</div>
-      <div class="log-line">2026-06-16 15:46:10,473 | INFO     | bot_engine           | CYCLUS START — MSTR</div>
-      <div class="log-line">2026-06-16 15:46:10,820 | INFO     | bot_engine           | MSTR: Range [130.6350 — 136.2500] | Mode: RANGING | Close: 130.7700</div>
-      <div class="log-line">2026-06-16 15:46:10,938 | INFO     | bot_engine           | CYCLUS START — COIN</div>
-      <div class="log-line">2026-06-16 15:46:11,341 | INFO     | bot_engine           | COIN: Range [168.9800 — 174.3750] | Mode: RANGING | Close: 172.7900</div>
-      <div class="log-line">2026-06-16 15:46:11,454 | INFO     | bot_engine           | CYCLUS START — SMCI</div>
-      <div class="log-line">2026-06-16 15:46:12,015 | INFO     | bot_engine           | SMCI: Range [30.7750 — 31.6200] | Mode: BEARISH | Close: 30.1600</div>
-      <div class="log-line">2026-06-16 15:46:12,199 | INFO     | bot_engine           | CYCLUS START — HON</div>
-      <div class="log-line">2026-06-16 15:46:12,827 | INFO     | bot_engine           | HON: Range [226.9850 — 231.3300] | Mode: RANGING | Close: 230.1200</div>
-      <div class="log-line">2026-06-16 15:46:12,996 | INFO     | bot_engine           | CYCLUS START — CHTR</div>
-      <div class="log-line">2026-06-16 15:46:13,747 | INFO     | bot_engine           | CHTR: Range [141.3850 — 144.0200] | Mode: RANGING | Close: 145.3150</div>
-      <div class="log-line">2026-06-16 15:46:13,943 | INFO     | momentum             | ✓ MOMENTUM LONG breakout (offset=4) — close $144.10 > RH $144.02 | body=89.6% | vol=2.3x | ATR=2.3x</div>
-      <div class="log-line">2026-06-16 15:51:59,888 | INFO     | bot_engine           | CYCLUS START — NVTS</div>
-      <div class="log-line">2026-06-16 15:52:00,712 | INFO     | bot_engine           | NVTS: Range [22.9800 — 26.1550] | Mode: RANGING | Close: 23.5800</div>
-      <div class="log-line">2026-06-16 15:52:00,906 | INFO     | bot_engine           | CYCLUS START — QQQ</div>
-      <div class="log-line">2026-06-16 15:52:01,438 | INFO     | bot_engine           | QQQ: Range [736.0400 — 744.7200] | Mode: RANGING | Close: 743.6900</div>
-      <div class="log-line">2026-06-16 15:52:01,622 | INFO     | bot_engine           | CYCLUS START — SPY</div>
-      <div class="log-line">2026-06-16 15:52:02,058 | INFO     | bot_engine           | SPY: Range [750.9300 — 756.6800] | Mode: RANGING | Close: 755.1600</div>
-      <div class="log-line">2026-06-16 15:52:02,161 | INFO     | bot_engine           | CYCLUS START — BTC/USD</div>
-      <div class="log-line">2026-06-16 15:52:02,797 | INFO     | bot_engine           | BTC/USD: Range [64761.0250 — 67272.4840] | Mode: RANGING | Close: 66366.5700</div>
-      <div class="log-line">2026-06-16 15:52:02,901 | INFO     | bot_engine           | CYCLUS START — ETH/USD</div>
-      <div class="log-line">2026-06-16 15:52:03,324 | INFO     | bot_engine           | ETH/USD: Range [1709.0430 — 1848.4100] | Mode: BEARISH | Close: 1813.1900</div>
-      <div class="log-line">2026-06-16 15:52:03,426 | INFO     | bot_engine           | CYCLUS START — SOL/USD</div>
-      <div class="log-line">2026-06-16 15:52:03,831 | INFO     | bot_engine           | SOL/USD: Range [70.0500 — 76.1580] | Mode: RANGING | Close: 74.8825</div>
-      <div class="log-line">2026-06-16 15:52:03,935 | INFO     | bot_engine           | CYCLUS START — AVAX/USD</div>
-      <div class="log-line">2026-06-16 15:52:04,402 | INFO     | bot_engine           | AVAX/USD: Range [6.6850 — 7.0752] | Mode: RANGING | Close: 6.9617</div>
+      <div class="log-line">2026-06-16 16:01:13,821 | INFO     | bot_engine           | CYCLUS START — PLTR</div>
+      <div class="log-line">2026-06-16 16:01:14,215 | INFO     | bot_engine           | PLTR: Range [131.5700 — 134.9650] | Mode: RANGING | Close: 132.3400</div>
+      <div class="log-line">2026-06-16 16:01:14,406 | INFO     | bot_engine           | CYCLUS START — CRWD</div>
+      <div class="log-line">2026-06-16 16:01:15,030 | INFO     | bot_engine           | CRWD: Range [667.0100 — 696.7800] | Mode: RANGING | Close: 689.7550</div>
+      <div class="log-line">2026-06-16 16:01:15,228 | INFO     | momentum             | ✓ MOMENTUM LONG breakout (offset=2) — close $696.92 > RH $696.78 | body=88.7% | vol=2.5x | ATR=4.5x</div>
+      <div class="log-line">2026-06-16 16:01:22,290 | INFO     | bot_engine           | ✓ MOMENTUM LONG OTO TRADE — CRWD | Entry: $696.9200 | SL: $687.8112 | Shares: 1.4349 | Cash: $1000.00 | Risk: $13.07 | RR: 2.00</div>
+      <div class="log-line">2026-06-16 16:01:22,292 | INFO     | bot_engine           | CYCLUS START — MSTR</div>
+      <div class="log-line">2026-06-16 16:01:22,824 | INFO     | bot_engine           | MSTR: Range [128.6100 — 136.2500] | Mode: BEARISH | Close: 130.6400</div>
+      <div class="log-line">2026-06-16 16:01:22,927 | INFO     | bot_engine           | CYCLUS START — COIN</div>
+      <div class="log-line">2026-06-16 16:01:23,431 | INFO     | bot_engine           | COIN: Range [168.7400 — 174.3750] | Mode: BEARISH | Close: 171.2400</div>
+      <div class="log-line">2026-06-16 16:01:23,621 | INFO     | bot_engine           | CYCLUS START — SMCI</div>
+      <div class="log-line">2026-06-16 16:01:24,659 | INFO     | bot_engine           | SMCI: Range [30.1100 — 31.6200] | Mode: BEARISH | Close: 30.2600</div>
+      <div class="log-line">2026-06-16 16:01:24,759 | INFO     | bot_engine           | CYCLUS START — HON</div>
+      <div class="log-line">2026-06-16 16:01:25,375 | INFO     | bot_engine           | HON: Range [226.9850 — 231.3300] | Mode: RANGING | Close: 230.0100</div>
+      <div class="log-line">2026-06-16 16:01:25,571 | INFO     | bot_engine           | CYCLUS START — CHTR</div>
+      <div class="log-line">2026-06-16 16:01:26,112 | INFO     | bot_engine           | CHTR: Range [141.3850 — 145.4350] | Mode: RANGING | Close: 143.5650</div>
+      <div class="log-line">2026-06-16 16:01:26,228 | INFO     | bot_engine           | CYCLUS START — NVTS</div>
+      <div class="log-line">2026-06-16 16:01:26,709 | INFO     | bot_engine           | NVTS: Range [22.7700 — 26.1550] | Mode: BEARISH | Close: 23.3900</div>
+      <div class="log-line">2026-06-16 16:01:26,808 | INFO     | bot_engine           | CYCLUS START — QQQ</div>
+      <div class="log-line">2026-06-16 16:01:27,336 | INFO     | bot_engine           | QQQ: Range [736.0400 — 744.7200] | Mode: RANGING | Close: 742.2100</div>
+      <div class="log-line">2026-06-16 16:01:27,516 | INFO     | bot_engine           | CYCLUS START — SPY</div>
+      <div class="log-line">2026-06-16 16:01:28,039 | INFO     | bot_engine           | SPY: Range [750.9300 — 756.6800] | Mode: RANGING | Close: 754.3800</div>
+      <div class="log-line">2026-06-16 16:01:28,232 | INFO     | bot_engine           | CYCLUS START — BTC/USD</div>
+      <div class="log-line">2026-06-16 16:01:29,078 | INFO     | bot_engine           | BTC/USD: Range [64761.0250 — 67272.4840] | Mode: RANGING | Close: 66144.9800</div>
+      <div class="log-line">2026-06-16 16:01:29,256 | INFO     | bot_engine           | CYCLUS START — ETH/USD</div>
+      <div class="log-line">2026-06-16 16:01:29,795 | INFO     | bot_engine           | ETH/USD: Range [1709.0430 — 1848.4100] | Mode: BEARISH | Close: 1801.7795</div>
+      <div class="log-line">2026-06-16 16:01:29,894 | INFO     | bot_engine           | CYCLUS START — SOL/USD</div>
+      <div class="log-line">2026-06-16 16:01:30,268 | INFO     | bot_engine           | SOL/USD: Range [70.0500 — 76.1580] | Mode: RANGING | Close: 74.2500</div>
+      <div class="log-line">2026-06-16 16:01:30,371 | INFO     | bot_engine           | CYCLUS START — AVAX/USD</div>
+      <div class="log-line">2026-06-16 16:01:30,770 | INFO     | bot_engine           | AVAX/USD: Range [6.6850 — 7.0752] | Mode: RANGING | Close: 6.8920</div>
     </div>
   </div>
 
   <p class="footer">
-    Laatste update: 2026-06-16T14:00:13 · Hermes Agent — RM L Momentum Bot
+    Laatste update: 2026-06-16T14:05:45 · Hermes Agent — RM L Momentum Bot
   </p>
 </div>
 </body>
