@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-16T15:17:30.933610+00:00",
+  "timestamp": "2026-06-16T15:31:14.758265+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-16T15:17:30.933610+00:00",
+    "last_activity": "2026-06-16T15:31:14.758265+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -26,14 +26,14 @@
     "max_active_trades": 4
   },
   "portfolio": {
-    "balance": 2966.53,
+    "balance": 2964.72,
     "cash": 935.02,
     "open_positions": 3,
     "active_trades": 3,
-    "total_market_value": 2031.51,
-    "total_unrealized_pl": 28.37,
-    "daily_pnl": 12.66,
-    "daily_drawdown_limit": 89.0
+    "total_market_value": 2029.7,
+    "total_unrealized_pl": 26.56,
+    "daily_pnl": 10.85,
+    "daily_drawdown_limit": 88.94
   },
   "positions": [
     {
@@ -41,10 +41,10 @@
       "direction": "LONG",
       "qty": 4.014431882,
       "entry": 249.065054,
-      "current_price": 249.09,
-      "market_value": 999.954837,
-      "unrealized_pl": 0.100144,
-      "unrealized_plpc": 0.0001,
+      "current_price": 248.58,
+      "market_value": 997.907477,
+      "unrealized_pl": -1.947216,
+      "unrealized_plpc": -0.00195,
       "mode": "RANGING",
       "range_high": 248.375,
       "range_low": 245.475
@@ -54,10 +54,10 @@
       "direction": "LONG",
       "qty": 0.004884922,
       "entry": 688.5,
-      "current_price": 683.85,
-      "market_value": 3.340554,
-      "unrealized_pl": -0.022715,
-      "unrealized_plpc": -0.00675,
+      "current_price": 684.8,
+      "market_value": 3.345195,
+      "unrealized_pl": -0.018074,
+      "unrealized_plpc": -0.00537,
       "mode": "RANGING",
       "range_high": 699.81,
       "range_low": 667.01
@@ -67,10 +67,10 @@
       "direction": "LONG",
       "qty": 2.744643827,
       "entry": 364.316357,
-      "current_price": 374.625,
-      "market_value": 1028.212194,
-      "unrealized_pl": 28.293554,
-      "unrealized_plpc": 0.0283,
+      "current_price": 374.71,
+      "market_value": 1028.445488,
+      "unrealized_pl": 28.526848,
+      "unrealized_plpc": 0.02853,
       "mode": "RANGING",
       "range_high": 371.12,
       "range_low": 367.075
@@ -82,10 +82,10 @@
       "direction": "LONG",
       "qty": 4.014431882,
       "entry": 249.065054,
-      "current_price": 249.09,
-      "market_value": 999.954837,
-      "unrealized_pl": 0.100144,
-      "unrealized_plpc": 0.0001,
+      "current_price": 248.58,
+      "market_value": 997.907477,
+      "unrealized_pl": -1.947216,
+      "unrealized_plpc": -0.00195,
       "mode": "RANGING",
       "range_high": 248.375,
       "range_low": 245.475
@@ -95,10 +95,10 @@
       "direction": "LONG",
       "qty": 0.004884922,
       "entry": 688.5,
-      "current_price": 683.85,
-      "market_value": 3.340554,
-      "unrealized_pl": -0.022715,
-      "unrealized_plpc": -0.00675,
+      "current_price": 684.8,
+      "market_value": 3.345195,
+      "unrealized_pl": -0.018074,
+      "unrealized_plpc": -0.00537,
       "mode": "RANGING",
       "range_high": 699.81,
       "range_low": 667.01
@@ -108,10 +108,10 @@
       "direction": "LONG",
       "qty": 2.744643827,
       "entry": 364.316357,
-      "current_price": 374.625,
-      "market_value": 1028.212194,
-      "unrealized_pl": 28.293554,
-      "unrealized_plpc": 0.0283,
+      "current_price": 374.71,
+      "market_value": 1028.445488,
+      "unrealized_pl": 28.526848,
+      "unrealized_plpc": 0.02853,
       "mode": "RANGING",
       "range_high": 371.12,
       "range_low": 367.075
@@ -125,8 +125,8 @@
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
-    "total_pnl": 28.37,
-    "daily_pnl": 12.66
+    "total_pnl": 26.56,
+    "daily_pnl": 10.85
   },
   "market_modes": {
     "TSLA": "RANGING",
@@ -134,13 +134,13 @@
     "ASML": "RANGING",
     "GOOGL": "RANGING",
     "MSFT": "BEARISH",
-    "AMD": "BEARISH",
+    "AMD": "RANGING",
     "AVGO": "RANGING",
     "AMZN": "RANGING",
     "META": "RANGING",
     "PLTR": "RANGING",
     "CRWD": "RANGING",
-    "MSTR": "BEARISH",
+    "MSTR": "RANGING",
     "COIN": "BEARISH",
     "SMCI": "BEARISH",
     "HON": "RANGING",
