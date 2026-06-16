@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-16T17:58:19.760890",
+  "timestamp": "2026-06-16T18:03:51.943527",
   "strategy": "MOMENTUM v6.0 (Golden Middle)",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-16T19:46:18.113229",
+    "last_activity": "2026-06-16T20:01:22.481321",
     "version": "v6.0"
   },
   "config": {
@@ -52,27 +52,27 @@
       "side": "long",
       "qty": 0.004431882,
       "entry_price": 249.065054,
-      "current_price": 245.87,
+      "current_price": 245.89,
       "unrealized_pl": -0.01,
-      "unrealized_plpc": -1.28
+      "unrealized_plpc": -1.27
     },
     {
       "symbol": "CRWD",
       "side": "long",
       "qty": 0.004884922,
       "entry_price": 688.5,
-      "current_price": 682.83,
+      "current_price": 682.29,
       "unrealized_pl": -0.03,
-      "unrealized_plpc": -0.82
+      "unrealized_plpc": -0.9
     },
     {
       "symbol": "GOOGL",
       "side": "long",
       "qty": 2.744643827,
       "entry_price": 364.316357,
-      "current_price": 371.08,
-      "unrealized_pl": 18.56,
-      "unrealized_plpc": 1.86
+      "current_price": 371.125,
+      "unrealized_pl": 18.69,
+      "unrealized_plpc": 1.87
     }
   ],
   "open_trades": [
@@ -162,35 +162,35 @@
     "daily_pnl": 0
   },
   "log": [
-    "2026-06-16 19:46:08,329 | INFO     | bot_engine           | CYCLUS START \u2014 META",
-    "2026-06-16 19:46:08,827 | INFO     | bot_engine           | META: Range [592.0100 \u2014 605.8100] | Mode: RANGING | Close: 595.6700",
-    "2026-06-16 19:46:08,936 | INFO     | bot_engine           | CYCLUS START \u2014 PLTR",
-    "2026-06-16 19:46:09,475 | INFO     | bot_engine           | PLTR: Range [129.6300 \u2014 134.9650] | Mode: RANGING | Close: 130.8300",
-    "2026-06-16 19:46:09,664 | INFO     | bot_engine           | CYCLUS START \u2014 CRWD",
-    "2026-06-16 19:46:10,186 | INFO     | bot_engine           | CRWD: Range [667.0100 \u2014 699.8100] | Mode: RANGING | Close: 682.2900",
-    "2026-06-16 19:46:10,377 | INFO     | bot_engine           | CYCLUS START \u2014 MSTR",
-    "2026-06-16 19:46:10,856 | INFO     | bot_engine           | MSTR: Range [124.9900 \u2014 135.6250] | Mode: RANGING | Close: 124.4300",
-    "2026-06-16 19:46:10,994 | INFO     | bot_engine           | CYCLUS START \u2014 COIN",
-    "2026-06-16 19:46:11,451 | INFO     | bot_engine           | COIN: Range [167.0100 \u2014 174.3750] | Mode: BEARISH | Close: 169.9200",
-    "2026-06-16 19:46:11,551 | INFO     | bot_engine           | CYCLUS START \u2014 SMCI",
-    "2026-06-16 19:46:12,030 | INFO     | bot_engine           | SMCI: Range [29.1200 \u2014 31.6200] | Mode: BEARISH | Close: 30.3550",
-    "2026-06-16 19:46:12,221 | INFO     | bot_engine           | CYCLUS START \u2014 HON",
-    "2026-06-16 19:46:12,746 | INFO     | bot_engine           | HON: Range [226.9850 \u2014 231.3300] | Mode: RANGING | Close: 230.5700",
-    "2026-06-16 19:46:12,873 | INFO     | bot_engine           | CYCLUS START \u2014 CHTR",
-    "2026-06-16 19:46:13,463 | INFO     | bot_engine           | CHTR: Range [141.1050 \u2014 145.4350] | Mode: RANGING | Close: 142.2450",
-    "2026-06-16 19:46:13,569 | INFO     | bot_engine           | CYCLUS START \u2014 NVTS",
-    "2026-06-16 19:46:14,108 | INFO     | bot_engine           | NVTS: Range [21.9000 \u2014 26.1550] | Mode: BEARISH | Close: 22.2900",
-    "2026-06-16 19:46:14,268 | INFO     | bot_engine           | CYCLUS START \u2014 QQQ",
-    "2026-06-16 19:46:14,659 | INFO     | bot_engine           | QQQ: Range [732.6300 \u2014 744.7200] | Mode: RANGING | Close: 733.7000",
-    "2026-06-16 19:46:14,784 | INFO     | bot_engine           | CYCLUS START \u2014 SPY",
-    "2026-06-16 19:46:15,279 | INFO     | bot_engine           | SPY: Range [750.9300 \u2014 756.6800] | Mode: RANGING | Close: 752.0400",
-    "2026-06-16 19:46:15,499 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD",
-    "2026-06-16 19:46:16,148 | INFO     | bot_engine           | BTC/USD: Range [64761.0250 \u2014 67272.4840] | Mode: RANGING | Close: 65710.9300",
-    "2026-06-16 19:46:16,256 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
-    "2026-06-16 19:46:16,623 | INFO     | bot_engine           | ETH/USD: Range [1709.0430 \u2014 1848.4100] | Mode: RANGING | Close: 1776.1530",
-    "2026-06-16 19:46:16,728 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
-    "2026-06-16 19:46:17,123 | INFO     | bot_engine           | SOL/USD: Range [70.0500 \u2014 76.1580] | Mode: RANGING | Close: 73.0230",
-    "2026-06-16 19:46:17,227 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD",
-    "2026-06-16 19:46:17,588 | INFO     | bot_engine           | AVAX/USD: Range [6.6850 \u2014 7.0752] | Mode: RANGING | Close: 6.7734"
+    "2026-06-16 20:01:14,089 | INFO     | bot_engine           | CYCLUS START \u2014 META",
+    "2026-06-16 20:01:14,664 | INFO     | bot_engine           | META: Range [592.0100 \u2014 605.8100] | Mode: RANGING | Close: 596.1450",
+    "2026-06-16 20:01:14,794 | INFO     | bot_engine           | CYCLUS START \u2014 PLTR",
+    "2026-06-16 20:01:15,179 | INFO     | bot_engine           | PLTR: Range [129.6300 \u2014 134.9650] | Mode: RANGING | Close: 130.9100",
+    "2026-06-16 20:01:15,290 | INFO     | bot_engine           | CYCLUS START \u2014 CRWD",
+    "2026-06-16 20:01:15,623 | INFO     | bot_engine           | CRWD: Range [667.0100 \u2014 699.8100] | Mode: RANGING | Close: 682.8700",
+    "2026-06-16 20:01:15,730 | INFO     | bot_engine           | CYCLUS START \u2014 MSTR",
+    "2026-06-16 20:01:16,090 | INFO     | bot_engine           | MSTR: Range [123.8850 \u2014 135.6250] | Mode: BEARISH | Close: 124.9100",
+    "2026-06-16 20:01:16,217 | INFO     | bot_engine           | CYCLUS START \u2014 COIN",
+    "2026-06-16 20:01:16,676 | INFO     | bot_engine           | COIN: Range [167.0100 \u2014 174.3750] | Mode: BEARISH | Close: 170.6450",
+    "2026-06-16 20:01:16,777 | INFO     | bot_engine           | CYCLUS START \u2014 SMCI",
+    "2026-06-16 20:01:17,179 | INFO     | bot_engine           | SMCI: Range [29.1200 \u2014 31.6200] | Mode: BEARISH | Close: 29.9850",
+    "2026-06-16 20:01:17,281 | INFO     | bot_engine           | CYCLUS START \u2014 HON",
+    "2026-06-16 20:01:17,745 | INFO     | bot_engine           | HON: Range [226.9850 \u2014 231.3300] | Mode: RANGING | Close: 230.4100",
+    "2026-06-16 20:01:17,850 | INFO     | bot_engine           | CYCLUS START \u2014 CHTR",
+    "2026-06-16 20:01:18,313 | INFO     | bot_engine           | CHTR: Range [141.1050 \u2014 145.4350] | Mode: RANGING | Close: 142.1500",
+    "2026-06-16 20:01:18,416 | INFO     | bot_engine           | CYCLUS START \u2014 NVTS",
+    "2026-06-16 20:01:18,793 | INFO     | bot_engine           | NVTS: Range [21.9000 \u2014 26.1550] | Mode: RANGING | Close: 22.3100",
+    "2026-06-16 20:01:18,897 | INFO     | bot_engine           | CYCLUS START \u2014 QQQ",
+    "2026-06-16 20:01:19,298 | INFO     | bot_engine           | QQQ: Range [732.2700 \u2014 744.7200] | Mode: RANGING | Close: 734.0400",
+    "2026-06-16 20:01:19,403 | INFO     | bot_engine           | CYCLUS START \u2014 SPY",
+    "2026-06-16 20:01:19,761 | INFO     | bot_engine           | SPY: Range [750.9300 \u2014 756.6800] | Mode: RANGING | Close: 752.0600",
+    "2026-06-16 20:01:19,889 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD",
+    "2026-06-16 20:01:20,471 | INFO     | bot_engine           | BTC/USD: Range [64761.0250 \u2014 67272.4840] | Mode: RANGING | Close: 65716.7450",
+    "2026-06-16 20:01:20,575 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
+    "2026-06-16 20:01:20,954 | INFO     | bot_engine           | ETH/USD: Range [1709.0430 \u2014 1848.4100] | Mode: RANGING | Close: 1778.9990",
+    "2026-06-16 20:01:21,061 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
+    "2026-06-16 20:01:21,430 | INFO     | bot_engine           | SOL/USD: Range [70.0500 \u2014 76.1580] | Mode: RANGING | Close: 73.2114",
+    "2026-06-16 20:01:21,537 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD",
+    "2026-06-16 20:01:21,959 | INFO     | bot_engine           | AVAX/USD: Range [6.6850 \u2014 7.0752] | Mode: RANGING | Close: 6.7864"
   ]
 }
