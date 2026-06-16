@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-16T15:10:57.944235",
+  "timestamp": "2026-06-16T15:16:20.898018",
   "strategy": "MOMENTUM v6.0 (Golden Middle)",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-16T17:01:17.733845",
+    "last_activity": "2026-06-16T17:16:12.928267",
     "version": "v6.0"
   },
   "config": {
@@ -52,18 +52,18 @@
       "side": "long",
       "qty": 0.004884922,
       "entry_price": 688.5,
-      "current_price": 682.93,
+      "current_price": 683.27,
       "unrealized_pl": -0.03,
-      "unrealized_plpc": -0.81
+      "unrealized_plpc": -0.76
     },
     {
       "symbol": "GOOGL",
       "side": "long",
       "qty": 2.744643827,
       "entry_price": 364.316357,
-      "current_price": 374.815,
-      "unrealized_pl": 28.82,
-      "unrealized_plpc": 2.88
+      "current_price": 374.675,
+      "unrealized_pl": 28.43,
+      "unrealized_plpc": 2.84
     }
   ],
   "open_trades": [
@@ -117,24 +117,6 @@
     "daily_pnl": 0
   },
   "log": [
-    "2026-06-16 17:01:08,513 | INFO     | bot_engine           | PLTR: Range [133.4200 \u2014 134.9650] | Mode: RANGING | Close: 129.9850",
-    "2026-06-16 17:01:08,690 | INFO     | bot_engine           | CYCLUS START \u2014 CRWD",
-    "2026-06-16 17:01:09,212 | INFO     | bot_engine           | CRWD: Range [667.0100 \u2014 699.8100] | Mode: RANGING | Close: 680.5000",
-    "2026-06-16 17:01:09,368 | INFO     | bot_engine           | CYCLUS START \u2014 MSTR",
-    "2026-06-16 17:01:10,033 | INFO     | fractals             | Range Low definitief doorbroken (3 closes) \u2014 range reset",
-    "2026-06-16 17:01:10,033 | INFO     | sweep_detection      | LONG sweep reset: Range reset \u2014 definitieve breakout",
-    "2026-06-16 17:01:10,033 | INFO     | sweep_detection      | SHORT sweep reset: Range reset \u2014 definitieve breakout",
-    "2026-06-16 17:01:10,036 | INFO     | bot_engine           | MSTR: Range nog niet vastgesteld \u2014 wacht op meer data",
-    "2026-06-16 17:01:10,036 | INFO     | bot_engine           | CYCLUS START \u2014 COIN",
-    "2026-06-16 17:01:10,749 | INFO     | bot_engine           | COIN: Range [168.7400 \u2014 174.3750] | Mode: BEARISH | Close: 167.6250",
-    "2026-06-16 17:01:10,849 | INFO     | bot_engine           | CYCLUS START \u2014 SMCI",
-    "2026-06-16 17:01:11,382 | INFO     | bot_engine           | SMCI: Range [29.1200 \u2014 31.6200] | Mode: BEARISH | Close: 29.7300",
-    "2026-06-16 17:01:11,481 | INFO     | bot_engine           | CYCLUS START \u2014 HON",
-    "2026-06-16 17:01:11,884 | INFO     | bot_engine           | HON: Range [226.9850 \u2014 231.3300] | Mode: RANGING | Close: 230.3900",
-    "2026-06-16 17:01:11,997 | INFO     | bot_engine           | CYCLUS START \u2014 CHTR",
-    "2026-06-16 17:01:12,480 | INFO     | bot_engine           | CHTR: Range [141.3850 \u2014 145.4350] | Mode: RANGING | Close: 142.6750",
-    "2026-06-16 17:01:12,684 | INFO     | bot_engine           | CYCLUS START \u2014 NVTS",
-    "2026-06-16 17:01:13,208 | INFO     | bot_engine           | NVTS: Range [22.3000 \u2014 26.1550] | Mode: BEARISH | Close: 22.7550",
     "2026-06-16 17:01:13,397 | INFO     | bot_engine           | CYCLUS START \u2014 QQQ",
     "2026-06-16 17:01:13,887 | INFO     | bot_engine           | QQQ: Range [736.0400 \u2014 744.7200] | Mode: RANGING | Close: 737.2600",
     "2026-06-16 17:01:14,016 | INFO     | bot_engine           | CYCLUS START \u2014 SPY",
@@ -146,6 +128,24 @@
     "2026-06-16 17:01:16,334 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
     "2026-06-16 17:01:16,723 | INFO     | bot_engine           | SOL/USD: Range [70.0500 \u2014 76.1580] | Mode: RANGING | Close: 73.7320",
     "2026-06-16 17:01:16,825 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD",
-    "2026-06-16 17:01:17,187 | INFO     | bot_engine           | AVAX/USD: Range [6.6850 \u2014 7.0752] | Mode: RANGING | Close: 6.8332"
+    "2026-06-16 17:01:17,187 | INFO     | bot_engine           | AVAX/USD: Range [6.6850 \u2014 7.0752] | Mode: RANGING | Close: 6.8332",
+    "2026-06-16 17:16:07,780 | INFO     | bot_engine           | CYCLUS START \u2014 TSLA",
+    "2026-06-16 17:16:08,851 | INFO     | bot_engine           | TSLA: Range [400.5500 \u2014 416.0000] | Mode: RANGING | Close: 406.5850",
+    "2026-06-16 17:16:08,958 | INFO     | bot_engine           | CYCLUS START \u2014 NVDA",
+    "2026-06-16 17:16:09,516 | INFO     | bot_engine           | NVDA: Range [208.3500 \u2014 212.7100] | Mode: RANGING | Close: 209.6100",
+    "2026-06-16 17:16:09,627 | INFO     | bot_engine           | CYCLUS START \u2014 ASML",
+    "2026-06-16 17:16:09,989 | INFO     | bot_engine           | ASML: Range [1843.6500 \u2014 1912.4500] | Mode: RANGING | Close: 1853.4500",
+    "2026-06-16 17:16:10,093 | INFO     | bot_engine           | CYCLUS START \u2014 GOOGL",
+    "2026-06-16 17:16:10,480 | INFO     | bot_engine           | GOOGL: Range [365.1700 \u2014 372.9800] | Mode: RANGING | Close: 374.6100",
+    "2026-06-16 17:16:10,585 | INFO     | momentum             | \u2713 MOMENTUM LONG breakout (offset=3) \u2014 close $374.18 > RH $372.98 | body=71.0% | vol=1.7x | ATR=1.1x",
+    "2026-06-16 17:16:10,694 | INFO     | bot_engine           | CYCLUS START \u2014 MSFT",
+    "2026-06-16 17:16:11,044 | INFO     | bot_engine           | MSFT: Range [391.0000 \u2014 401.7500] | Mode: BEARISH | Close: 393.6800",
+    "2026-06-16 17:16:11,145 | INFO     | bot_engine           | CYCLUS START \u2014 AMD",
+    "2026-06-16 17:16:11,647 | INFO     | bot_engine           | AMD: Range [521.2500 \u2014 551.6500] | Mode: BEARISH | Close: 528.0100",
+    "2026-06-16 17:16:11,745 | INFO     | bot_engine           | CYCLUS START \u2014 AVGO",
+    "2026-06-16 17:16:12,109 | INFO     | bot_engine           | AVGO: Range [381.1700 \u2014 395.3200] | Mode: RANGING | Close: 384.1200",
+    "2026-06-16 17:16:12,213 | INFO     | bot_engine           | CYCLUS START \u2014 AMZN",
+    "2026-06-16 17:16:12,685 | INFO     | bot_engine           | AMZN: Range [243.4800 \u2014 248.3750] | Mode: RANGING | Close: 249.4100",
+    "2026-06-16 17:16:12,790 | INFO     | momentum             | \u2713 MOMENTUM LONG breakout (offset=2) \u2014 close $249.34 > RH $248.38 | body=74.3% | vol=2.1x | ATR=1.2x"
   ]
 }
