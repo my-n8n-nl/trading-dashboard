@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-16T14:31:24.031195+00:00",
+  "timestamp": "2026-06-16T14:46:20.400044+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-16T14:31:24.031195+00:00",
+    "last_activity": "2026-06-16T14:46:20.400044+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -26,14 +26,14 @@
     "max_active_trades": 4
   },
   "portfolio": {
-    "balance": 2955.71,
+    "balance": 2962.16,
     "cash": 1934.87,
     "open_positions": 2,
     "active_trades": 2,
-    "total_market_value": 1020.91,
-    "total_unrealized_pl": 17.63,
-    "daily_pnl": 1.84,
-    "daily_drawdown_limit": 88.67
+    "total_market_value": 1027.39,
+    "total_unrealized_pl": 24.11,
+    "daily_pnl": 8.29,
+    "daily_drawdown_limit": 88.86
   },
   "positions": [
     {
@@ -41,10 +41,10 @@
       "direction": "LONG",
       "qty": 0.004884922,
       "entry": 688.5,
-      "current_price": 683.0,
-      "market_value": 3.336402,
-      "unrealized_pl": -0.026867,
-      "unrealized_plpc": -0.00799,
+      "current_price": 683.02,
+      "market_value": 3.336499,
+      "unrealized_pl": -0.02677,
+      "unrealized_plpc": -0.00796,
       "mode": "RANGING",
       "range_high": 699.81,
       "range_low": 667.01
@@ -54,10 +54,10 @@
       "direction": "LONG",
       "qty": 2.744643827,
       "entry": 364.316357,
-      "current_price": 370.75,
-      "market_value": 1017.576699,
-      "unrealized_pl": 17.658059,
-      "unrealized_plpc": 0.01766,
+      "current_price": 373.1089,
+      "market_value": 1024.051039,
+      "unrealized_pl": 24.132399,
+      "unrealized_plpc": 0.02413,
       "mode": "RANGING",
       "range_high": 371.12,
       "range_low": 367.075
@@ -69,10 +69,10 @@
       "direction": "LONG",
       "qty": 0.004884922,
       "entry": 688.5,
-      "current_price": 683.0,
-      "market_value": 3.336402,
-      "unrealized_pl": -0.026867,
-      "unrealized_plpc": -0.00799,
+      "current_price": 683.02,
+      "market_value": 3.336499,
+      "unrealized_pl": -0.02677,
+      "unrealized_plpc": -0.00796,
       "mode": "RANGING",
       "range_high": 699.81,
       "range_low": 667.01
@@ -82,10 +82,10 @@
       "direction": "LONG",
       "qty": 2.744643827,
       "entry": 364.316357,
-      "current_price": 370.75,
-      "market_value": 1017.576699,
-      "unrealized_pl": 17.658059,
-      "unrealized_plpc": 0.01766,
+      "current_price": 373.1089,
+      "market_value": 1024.051039,
+      "unrealized_pl": 24.132399,
+      "unrealized_plpc": 0.02413,
       "mode": "RANGING",
       "range_high": 371.12,
       "range_low": 367.075
@@ -99,8 +99,8 @@
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
-    "total_pnl": 17.63,
-    "daily_pnl": 1.84
+    "total_pnl": 24.11,
+    "daily_pnl": 8.29
   },
   "market_modes": {
     "TSLA": "RANGING",
