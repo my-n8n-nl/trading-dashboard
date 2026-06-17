@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-17T17:46:16.685811+00:00",
+  "timestamp": "2026-06-17T18:01:26.382850+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-17T17:46:16.685811+00:00",
+    "last_activity": "2026-06-17T18:01:26.382850+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -26,14 +26,14 @@
     "max_active_trades": 4
   },
   "portfolio": {
-    "balance": 2921.27,
+    "balance": 2922.13,
     "cash": 1910.31,
     "open_positions": 3,
     "active_trades": 3,
-    "total_market_value": 1010.96,
-    "total_unrealized_pl": 1.75,
-    "daily_pnl": -34.93,
-    "daily_drawdown_limit": 87.64
+    "total_market_value": 1011.93,
+    "total_unrealized_pl": 2.71,
+    "daily_pnl": -34.07,
+    "daily_drawdown_limit": 87.66
   },
   "positions": [
     {
@@ -41,10 +41,10 @@
       "direction": "LONG",
       "qty": 0.00310352,
       "entry": 1911.638,
-      "current_price": 1916.26,
-      "market_value": 5.947151,
-      "unrealized_pl": 0.014344,
-      "unrealized_plpc": 0.00242,
+      "current_price": 1909.8,
+      "market_value": 5.927102,
+      "unrealized_pl": -0.005705,
+      "unrealized_plpc": -0.00096,
       "mode": "RANGING",
       "range_high": 1938.16,
       "range_low": 1877.65
@@ -54,10 +54,10 @@
       "direction": "LONG",
       "qty": 0.004884922,
       "entry": 688.5,
-      "current_price": 687.15,
-      "market_value": 3.356674,
-      "unrealized_pl": -0.006595,
-      "unrealized_plpc": -0.00196,
+      "current_price": 686.55,
+      "market_value": 3.353743,
+      "unrealized_pl": -0.009526,
+      "unrealized_plpc": -0.00283,
       "mode": "BULLISH",
       "range_high": 690.73,
       "range_low": 678.675
@@ -67,10 +67,10 @@
       "direction": "LONG",
       "qty": 2.744643827,
       "entry": 364.316357,
-      "current_price": 364.95,
-      "market_value": 1001.657765,
-      "unrealized_pl": 1.739125,
-      "unrealized_plpc": 0.00174,
+      "current_price": 365.31,
+      "market_value": 1002.645836,
+      "unrealized_pl": 2.727196,
+      "unrealized_plpc": 0.00273,
       "mode": "BEARISH",
       "range_high": 372.175,
       "range_low": 362.73
@@ -82,10 +82,10 @@
       "direction": "LONG",
       "qty": 0.00310352,
       "entry": 1911.638,
-      "current_price": 1916.26,
-      "market_value": 5.947151,
-      "unrealized_pl": 0.014344,
-      "unrealized_plpc": 0.00242,
+      "current_price": 1909.8,
+      "market_value": 5.927102,
+      "unrealized_pl": -0.005705,
+      "unrealized_plpc": -0.00096,
       "mode": "RANGING",
       "range_high": 1938.16,
       "range_low": 1877.65
@@ -95,10 +95,10 @@
       "direction": "LONG",
       "qty": 0.004884922,
       "entry": 688.5,
-      "current_price": 687.15,
-      "market_value": 3.356674,
-      "unrealized_pl": -0.006595,
-      "unrealized_plpc": -0.00196,
+      "current_price": 686.55,
+      "market_value": 3.353743,
+      "unrealized_pl": -0.009526,
+      "unrealized_plpc": -0.00283,
       "mode": "BULLISH",
       "range_high": 690.73,
       "range_low": 678.675
@@ -108,10 +108,10 @@
       "direction": "LONG",
       "qty": 2.744643827,
       "entry": 364.316357,
-      "current_price": 364.95,
-      "market_value": 1001.657765,
-      "unrealized_pl": 1.739125,
-      "unrealized_plpc": 0.00174,
+      "current_price": 365.31,
+      "market_value": 1002.645836,
+      "unrealized_pl": 2.727196,
+      "unrealized_plpc": 0.00273,
       "mode": "BEARISH",
       "range_high": 372.175,
       "range_low": 362.73
@@ -125,8 +125,8 @@
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
-    "total_pnl": 1.75,
-    "daily_pnl": -34.93
+    "total_pnl": 2.71,
+    "daily_pnl": -34.07
   },
   "market_modes": {
     "TSLA": "BEARISH",
@@ -135,8 +135,8 @@
     "GOOGL": "BEARISH",
     "MSFT": "BEARISH",
     "AMD": "BEARISH",
-    "AVGO": "BULLISH",
-    "AMZN": "RANGING",
+    "AVGO": "RANGING",
+    "AMZN": "BEARISH",
     "META": "RANGING",
     "PLTR": "BULLISH",
     "CRWD": "BULLISH",
@@ -146,12 +146,12 @@
     "HON": "BEARISH",
     "CHTR": "BEARISH",
     "NVTS": "RANGING",
-    "QQQ": "BEARISH",
+    "QQQ": "RANGING",
     "SPY": "RANGING",
     "BTC/USD": "BEARISH",
     "ETH/USD": "BEARISH",
-    "SOL/USD": "RANGING",
-    "AVAX/USD": "RANGING"
+    "SOL/USD": "BEARISH",
+    "AVAX/USD": "BEARISH"
   },
   "log": []
 }
