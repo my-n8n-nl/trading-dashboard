@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-17T07:28:33.415134",
+  "timestamp": "2026-06-17T07:33:56.494381",
   "strategy": "MOMENTUM v6.0 (Golden Middle)",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-17T09:16:04.459530",
+    "last_activity": "2026-06-17T09:31:07.563362",
     "version": "v6.0"
   },
   "config": {
@@ -52,27 +52,27 @@
       "side": "long",
       "qty": 0.004431882,
       "entry_price": 249.065054,
-      "current_price": 246.91,
+      "current_price": 246.87,
       "unrealized_pl": -0.01,
-      "unrealized_plpc": -0.86
+      "unrealized_plpc": -0.88
     },
     {
       "symbol": "CRWD",
       "side": "long",
       "qty": 0.004884922,
       "entry_price": 688.5,
-      "current_price": 685.51,
-      "unrealized_pl": -0.01,
-      "unrealized_plpc": -0.43
+      "current_price": 684.68,
+      "unrealized_pl": -0.02,
+      "unrealized_plpc": -0.56
     },
     {
       "symbol": "GOOGL",
       "side": "long",
       "qty": 2.744643827,
       "entry_price": 364.316357,
-      "current_price": 372.75,
-      "unrealized_pl": 23.15,
-      "unrealized_plpc": 2.31
+      "current_price": 372.8,
+      "unrealized_pl": 23.28,
+      "unrealized_plpc": 2.33
     }
   ],
   "open_trades": [
@@ -162,14 +162,6 @@
     "daily_pnl": 0
   },
   "log": [
-    "2026-06-17 08:31:02,009 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
-    "2026-06-17 08:31:02,553 | INFO     | bot_engine           | ETH/USD: Range [1709.0430 \u2014 1848.4100] | Mode: BULLISH | Close: 1795.5500",
-    "2026-06-17 08:31:02,655 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
-    "2026-06-17 08:31:03,267 | INFO     | bot_engine           | SOL/USD: Range [70.0500 \u2014 76.1580] | Mode: BEARISH | Close: 73.7950",
-    "2026-06-17 08:31:03,443 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD",
-    "2026-06-17 08:31:03,881 | INFO     | bot_engine           | AVAX/USD: Range [6.6850 \u2014 7.0752] | Mode: RANGING | Close: 6.9420",
-    "2026-06-17 08:46:04,719 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD",
-    "2026-06-17 08:46:05,735 | INFO     | bot_engine           | BTC/USD: Range [64761.0250 \u2014 67272.4840] | Mode: BEARISH | Close: 65782.4500",
     "2026-06-17 08:46:05,840 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
     "2026-06-17 08:46:06,194 | INFO     | bot_engine           | ETH/USD: Range [1709.0430 \u2014 1848.4100] | Mode: BULLISH | Close: 1792.5175",
     "2026-06-17 08:46:06,295 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
@@ -191,6 +183,14 @@
     "2026-06-17 09:16:02,936 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
     "2026-06-17 09:16:03,315 | INFO     | bot_engine           | SOL/USD: Range [70.0500 \u2014 76.1580] | Mode: RANGING | Close: 73.2965",
     "2026-06-17 09:16:03,441 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD",
-    "2026-06-17 09:16:03,931 | INFO     | bot_engine           | AVAX/USD: Range [6.6850 \u2014 7.0752] | Mode: BULLISH | Close: 6.9192"
+    "2026-06-17 09:16:03,931 | INFO     | bot_engine           | AVAX/USD: Range [6.6850 \u2014 7.0752] | Mode: BULLISH | Close: 6.9192",
+    "2026-06-17 09:31:04,503 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD",
+    "2026-06-17 09:31:05,610 | INFO     | bot_engine           | BTC/USD: Range [64761.0250 \u2014 67272.4840] | Mode: BEARISH | Close: 65581.9210",
+    "2026-06-17 09:31:05,745 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
+    "2026-06-17 09:31:06,119 | INFO     | bot_engine           | ETH/USD: Range [1709.0430 \u2014 1848.4100] | Mode: BULLISH | Close: 1787.1350",
+    "2026-06-17 09:31:06,220 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
+    "2026-06-17 09:31:06,579 | INFO     | bot_engine           | SOL/USD: Range [70.0500 \u2014 76.1580] | Mode: RANGING | Close: 73.2470",
+    "2026-06-17 09:31:06,679 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD",
+    "2026-06-17 09:31:07,032 | INFO     | bot_engine           | AVAX/USD: Range [6.6850 \u2014 7.0752] | Mode: BULLISH | Close: 6.8885"
   ]
 }
