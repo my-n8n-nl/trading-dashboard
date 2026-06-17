@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-17T19:16:17.601432",
+  "timestamp": "2026-06-17T19:21:42.518524",
   "strategy": "MOMENTUM v6.0 (Golden Middle)",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-17T21:16:17.972488",
+    "last_activity": "2026-06-17T21:16:21.077843",
     "version": "v6.0"
   },
   "config": {
@@ -52,27 +52,27 @@
       "side": "long",
       "qty": 0.00310352,
       "entry_price": 1911.638,
-      "current_price": 1911.05,
-      "unrealized_pl": -0.0,
-      "unrealized_plpc": -0.03
+      "current_price": 1889.8,
+      "unrealized_pl": -0.07,
+      "unrealized_plpc": -1.14
     },
     {
       "symbol": "CRWD",
       "side": "long",
       "qty": 0.004884922,
       "entry_price": 688.5,
-      "current_price": 684.185,
-      "unrealized_pl": -0.02,
-      "unrealized_plpc": -0.63
+      "current_price": 679.435,
+      "unrealized_pl": -0.04,
+      "unrealized_plpc": -1.32
     },
     {
       "symbol": "GOOGL",
       "side": "long",
       "qty": 2.744643827,
       "entry_price": 364.316357,
-      "current_price": 364.84,
-      "unrealized_pl": 1.44,
-      "unrealized_plpc": 0.14
+      "current_price": 363.25,
+      "unrealized_pl": -2.93,
+      "unrealized_plpc": -0.29
     }
   ],
   "open_trades": [
@@ -180,17 +180,6 @@
     "daily_pnl": 0.0
   },
   "log": [
-    "2026-06-17 21:16:10,238 | INFO     | bot_engine           | ASML: Range [1814.9850 \u2014 1938.1600] | Mode: RANGING | Close: 1910.6050",
-    "2026-06-17 21:16:10,337 | INFO     | bot_engine           | CYCLUS START \u2014 GOOGL",
-    "2026-06-17 21:16:10,715 | INFO     | bot_engine           | GOOGL: Range [362.7300 \u2014 375.7400] | Mode: BEARISH | Close: 364.7850",
-    "2026-06-17 21:16:10,815 | INFO     | bot_engine           | CYCLUS START \u2014 MSFT",
-    "2026-06-17 21:16:11,282 | INFO     | bot_engine           | MSFT: Range [383.4700 \u2014 394.2800] | Mode: BEARISH | Close: 380.9900",
-    "2026-06-17 21:16:11,400 | INFO     | bot_engine           | CYCLUS START \u2014 AMD",
-    "2026-06-17 21:16:11,833 | INFO     | bot_engine           | AMD: Range [507.2800 \u2014 548.4000] | Mode: RANGING | Close: 522.6850",
-    "2026-06-17 21:16:11,933 | INFO     | bot_engine           | CYCLUS START \u2014 AVGO",
-    "2026-06-17 21:16:12,350 | INFO     | bot_engine           | AVGO: Range [376.9650 \u2014 400.5950] | Mode: BULLISH | Close: 396.8800",
-    "2026-06-17 21:16:12,483 | INFO     | bot_engine           | CYCLUS START \u2014 AMZN",
-    "2026-06-17 21:16:12,870 | INFO     | bot_engine           | AMZN: Range [237.8800 \u2014 249.5050] | Mode: BEARISH | Close: 238.2400",
     "2026-06-17 21:16:12,967 | INFO     | bot_engine           | CYCLUS START \u2014 META",
     "2026-06-17 21:16:13,396 | INFO     | bot_engine           | META: Range [576.9700 \u2014 601.1800] | Mode: RANGING | Close: 572.2100",
     "2026-06-17 21:16:13,498 | INFO     | bot_engine           | CYCLUS START \u2014 PLTR",
@@ -209,6 +198,17 @@
     "2026-06-17 21:16:16,919 | INFO     | bot_engine           | CHTR: Range [134.9150 \u2014 142.7600] | Mode: BEARISH | Close: 134.0700",
     "2026-06-17 21:16:17,014 | INFO     | bot_engine           | CYCLUS START \u2014 NVTS",
     "2026-06-17 21:16:17,533 | INFO     | bot_engine           | NVTS: Range [21.9000 \u2014 26.1550] | Mode: RANGING | Close: 23.1100",
-    "2026-06-17 21:16:17,634 | INFO     | bot_engine           | CYCLUS START \u2014 QQQ"
+    "2026-06-17 21:16:17,634 | INFO     | bot_engine           | CYCLUS START \u2014 QQQ",
+    "2026-06-17 21:16:17,972 | INFO     | bot_engine           | QQQ: Range [724.6400 \u2014 744.7200] | Mode: BEARISH | Close: 730.4400",
+    "2026-06-17 21:16:18,067 | INFO     | bot_engine           | CYCLUS START \u2014 SPY",
+    "2026-06-17 21:16:18,450 | INFO     | bot_engine           | SPY: Range [743.4800 \u2014 756.6800] | Mode: RANGING | Close: 746.0200",
+    "2026-06-17 21:16:18,549 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD",
+    "2026-06-17 21:16:19,131 | INFO     | bot_engine           | BTC/USD: Range [64485.9700 \u2014 67272.4840] | Mode: BEARISH | Close: 65364.7880",
+    "2026-06-17 21:16:19,226 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
+    "2026-06-17 21:16:19,656 | INFO     | bot_engine           | ETH/USD: Range [1709.0430 \u2014 1848.4100] | Mode: BEARISH | Close: 1766.0100",
+    "2026-06-17 21:16:19,752 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
+    "2026-06-17 21:16:20,120 | INFO     | bot_engine           | SOL/USD: Range [70.0500 \u2014 76.1580] | Mode: BEARISH | Close: 73.1350",
+    "2026-06-17 21:16:20,219 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD",
+    "2026-06-17 21:16:20,569 | INFO     | bot_engine           | AVAX/USD: Range [6.6850 \u2014 7.0752] | Mode: BEARISH | Close: 6.8426"
   ]
 }
