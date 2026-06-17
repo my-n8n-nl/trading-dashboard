@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-17T19:16:20.880025+00:00",
+  "timestamp": "2026-06-17T19:31:20.406805+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-17T19:16:20.880025+00:00",
+    "last_activity": "2026-06-17T19:31:20.406805+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -26,14 +26,14 @@
     "max_active_trades": 4
   },
   "portfolio": {
-    "balance": 2920.86,
-    "cash": 1910.31,
-    "open_positions": 3,
-    "active_trades": 3,
-    "total_market_value": 1010.55,
-    "total_unrealized_pl": 1.33,
-    "daily_pnl": -35.34,
-    "daily_drawdown_limit": 87.63
+    "balance": 2914.46,
+    "cash": 2905.27,
+    "open_positions": 2,
+    "active_trades": 2,
+    "total_market_value": 9.19,
+    "total_unrealized_pl": -0.1,
+    "daily_pnl": -41.74,
+    "daily_drawdown_limit": 87.43
   },
   "positions": [
     {
@@ -41,10 +41,10 @@
       "direction": "LONG",
       "qty": 0.00310352,
       "entry": 1911.638,
-      "current_price": 1910.805,
-      "market_value": 5.930222,
-      "unrealized_pl": -0.002585,
-      "unrealized_plpc": -0.00044,
+      "current_price": 1890.685,
+      "market_value": 5.867779,
+      "unrealized_pl": -0.065028,
+      "unrealized_plpc": -0.01096,
       "mode": "RANGING",
       "range_high": 1938.16,
       "range_low": 1877.65
@@ -54,26 +54,13 @@
       "direction": "LONG",
       "qty": 0.004884922,
       "entry": 688.5,
-      "current_price": 684.21,
-      "market_value": 3.342312,
-      "unrealized_pl": -0.020957,
-      "unrealized_plpc": -0.00623,
+      "current_price": 680.565,
+      "market_value": 3.324507,
+      "unrealized_pl": -0.038762,
+      "unrealized_plpc": -0.01153,
       "mode": "BULLISH",
       "range_high": 690.73,
       "range_low": 678.675
-    },
-    {
-      "symbol": "GOOGL",
-      "direction": "LONG",
-      "qty": 2.744643827,
-      "entry": 364.316357,
-      "current_price": 364.81,
-      "market_value": 1001.273515,
-      "unrealized_pl": 1.354875,
-      "unrealized_plpc": 0.00135,
-      "mode": "BEARISH",
-      "range_high": 372.175,
-      "range_low": 362.73
     }
   ],
   "open_trades": [
@@ -82,10 +69,10 @@
       "direction": "LONG",
       "qty": 0.00310352,
       "entry": 1911.638,
-      "current_price": 1910.805,
-      "market_value": 5.930222,
-      "unrealized_pl": -0.002585,
-      "unrealized_plpc": -0.00044,
+      "current_price": 1890.685,
+      "market_value": 5.867779,
+      "unrealized_pl": -0.065028,
+      "unrealized_plpc": -0.01096,
       "mode": "RANGING",
       "range_high": 1938.16,
       "range_low": 1877.65
@@ -95,42 +82,29 @@
       "direction": "LONG",
       "qty": 0.004884922,
       "entry": 688.5,
-      "current_price": 684.21,
-      "market_value": 3.342312,
-      "unrealized_pl": -0.020957,
-      "unrealized_plpc": -0.00623,
+      "current_price": 680.565,
+      "market_value": 3.324507,
+      "unrealized_pl": -0.038762,
+      "unrealized_plpc": -0.01153,
       "mode": "BULLISH",
       "range_high": 690.73,
       "range_low": 678.675
-    },
-    {
-      "symbol": "GOOGL",
-      "direction": "LONG",
-      "qty": 2.744643827,
-      "entry": 364.316357,
-      "current_price": 364.81,
-      "market_value": 1001.273515,
-      "unrealized_pl": 1.354875,
-      "unrealized_plpc": 0.00135,
-      "mode": "BEARISH",
-      "range_high": 372.175,
-      "range_low": 362.73
     }
   ],
   "recent_trades": [],
   "stats": {
     "total": 0,
-    "open": 3,
+    "open": 2,
     "closed": 0,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
-    "total_pnl": 1.33,
-    "daily_pnl": -35.34
+    "total_pnl": -0.1,
+    "daily_pnl": -41.74
   },
   "market_modes": {
     "TSLA": "BEARISH",
-    "NVDA": "BEARISH",
+    "NVDA": "RANGING",
     "ASML": "RANGING",
     "GOOGL": "BEARISH",
     "MSFT": "BEARISH",
@@ -141,7 +115,7 @@
     "PLTR": "BULLISH",
     "CRWD": "BULLISH",
     "MSTR": "BEARISH",
-    "COIN": "RANGING",
+    "COIN": "BEARISH",
     "SMCI": "BEARISH",
     "HON": "BEARISH",
     "CHTR": "BEARISH",
