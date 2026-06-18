@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-18T00:01:07.288517+00:00",
+  "timestamp": "2026-06-18T00:16:10.977884+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-18T00:01:07.288517+00:00",
+    "last_activity": "2026-06-18T00:16:10.977884+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -26,13 +26,13 @@
     "max_active_trades": 4
   },
   "portfolio": {
-    "balance": 2914.54,
+    "balance": 2914.55,
     "cash": 2905.27,
     "open_positions": 2,
     "active_trades": 2,
-    "total_market_value": 9.27,
-    "total_unrealized_pl": -0.03,
-    "daily_pnl": -41.66,
+    "total_market_value": 9.28,
+    "total_unrealized_pl": -0.02,
+    "daily_pnl": -41.65,
     "daily_drawdown_limit": 87.44
   },
   "positions": [
@@ -41,10 +41,10 @@
       "direction": "LONG",
       "qty": 0.00310352,
       "entry": 1911.638,
-      "current_price": 1910.0,
-      "market_value": 5.927723,
-      "unrealized_pl": -0.005084,
-      "unrealized_plpc": -0.00086,
+      "current_price": 1913.5,
+      "market_value": 5.938586,
+      "unrealized_pl": 0.005779,
+      "unrealized_plpc": 0.00097,
       "mode": "BEARISH",
       "range_high": 1938.16,
       "range_low": 1877.65
@@ -69,10 +69,10 @@
       "direction": "LONG",
       "qty": 0.00310352,
       "entry": 1911.638,
-      "current_price": 1910.0,
-      "market_value": 5.927723,
-      "unrealized_pl": -0.005084,
-      "unrealized_plpc": -0.00086,
+      "current_price": 1913.5,
+      "market_value": 5.938586,
+      "unrealized_pl": 0.005779,
+      "unrealized_plpc": 0.00097,
       "mode": "BEARISH",
       "range_high": 1938.16,
       "range_low": 1877.65
@@ -99,18 +99,18 @@
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
-    "total_pnl": -0.03,
-    "daily_pnl": -41.66
+    "total_pnl": -0.02,
+    "daily_pnl": -41.65
   },
   "market_modes": {
     "TSLA": "BEARISH",
     "NVDA": "RANGING",
     "ASML": "BEARISH",
     "GOOGL": "BEARISH",
-    "MSFT": "BEARISH",
+    "MSFT": "RANGING",
     "AMD": "BEARISH",
     "AVGO": "BULLISH",
-    "AMZN": "BEARISH",
+    "AMZN": "RANGING",
     "META": "RANGING",
     "PLTR": "BULLISH",
     "CRWD": "RANGING",
