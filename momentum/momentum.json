@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-18T10:42:30.632235",
+  "timestamp": "2026-06-18T10:48:11.264122",
   "strategy": "MOMENTUM v6.0 (Golden Middle)",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-18T12:31:04.487776",
+    "last_activity": "2026-06-18T12:46:08.506515",
     "version": "v6.0"
   },
   "config": {
@@ -52,18 +52,18 @@
       "side": "long",
       "qty": 0.00310352,
       "entry_price": 1911.638,
-      "current_price": 1923.57,
-      "unrealized_pl": 0.04,
-      "unrealized_plpc": 0.62
+      "current_price": 1921.0,
+      "unrealized_pl": 0.03,
+      "unrealized_plpc": 0.49
     },
     {
       "symbol": "CRWD",
       "side": "long",
       "qty": 0.004884922,
       "entry_price": 688.5,
-      "current_price": 685.3,
-      "unrealized_pl": -0.02,
-      "unrealized_plpc": -0.46
+      "current_price": 686.0263,
+      "unrealized_pl": -0.01,
+      "unrealized_plpc": -0.36
     }
   ],
   "open_trades": [
@@ -171,14 +171,6 @@
     "daily_pnl": 0
   },
   "log": [
-    "2026-06-18 11:46:01,164 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
-    "2026-06-18 11:46:01,523 | INFO     | bot_engine           | ETH/USD: Range [1709.0430 \u2014 1848.4100] | Mode: BEARISH | Close: 1746.5550",
-    "2026-06-18 11:46:01,625 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
-    "2026-06-18 11:46:02,138 | INFO     | bot_engine           | SOL/USD: Range [70.0500 \u2014 76.1580] | Mode: BEARISH | Close: 71.8055",
-    "2026-06-18 11:46:02,232 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD",
-    "2026-06-18 11:46:02,591 | INFO     | bot_engine           | AVAX/USD: Range [6.5699 \u2014 7.0136] | Mode: BEARISH | Close: 6.6638",
-    "2026-06-18 12:01:03,128 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD",
-    "2026-06-18 12:01:04,313 | INFO     | bot_engine           | BTC/USD: Range [63617.1980 \u2014 66379.6650] | Mode: BEARISH | Close: 64327.8185",
     "2026-06-18 12:01:04,409 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
     "2026-06-18 12:01:05,029 | INFO     | bot_engine           | ETH/USD: Range [1709.0430 \u2014 1848.4100] | Mode: BEARISH | Close: 1745.4500",
     "2026-06-18 12:01:05,125 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
@@ -200,6 +192,14 @@
     "2026-06-18 12:31:03,096 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
     "2026-06-18 12:31:03,482 | INFO     | bot_engine           | SOL/USD: Range [70.0500 \u2014 76.1580] | Mode: BEARISH | Close: 71.8865",
     "2026-06-18 12:31:03,578 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD",
-    "2026-06-18 12:31:03,941 | INFO     | bot_engine           | AVAX/USD: Range [6.5699 \u2014 7.0136] | Mode: BEARISH | Close: 6.6615"
+    "2026-06-18 12:31:03,941 | INFO     | bot_engine           | AVAX/USD: Range [6.5699 \u2014 7.0136] | Mode: BEARISH | Close: 6.6615",
+    "2026-06-18 12:46:04,533 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD",
+    "2026-06-18 12:46:05,565 | INFO     | bot_engine           | BTC/USD: Range [63617.1980 \u2014 66379.6650] | Mode: BEARISH | Close: 64137.5895",
+    "2026-06-18 12:46:05,719 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
+    "2026-06-18 12:46:06,209 | INFO     | bot_engine           | ETH/USD: Range [1709.0430 \u2014 1848.4100] | Mode: BEARISH | Close: 1745.2235",
+    "2026-06-18 12:46:06,354 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
+    "2026-06-18 12:46:07,027 | INFO     | bot_engine           | SOL/USD: Range [70.0500 \u2014 76.1580] | Mode: BEARISH | Close: 71.8000",
+    "2026-06-18 12:46:07,174 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD",
+    "2026-06-18 12:46:07,718 | INFO     | bot_engine           | AVAX/USD: Range [6.5699 \u2014 7.0136] | Mode: BEARISH | Close: 6.6681"
   ]
 }

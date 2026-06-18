@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-18T10:31:04.239664+00:00",
+  "timestamp": "2026-06-18T10:46:08.198778+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-18T10:31:04.239664+00:00",
+    "last_activity": "2026-06-18T10:46:08.198778+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -31,7 +31,7 @@
     "open_positions": 2,
     "active_trades": 2,
     "total_market_value": 9.32,
-    "total_unrealized_pl": 0.03,
+    "total_unrealized_pl": 0.02,
     "daily_pnl": 0.19,
     "daily_drawdown_limit": 87.44
   },
@@ -41,25 +41,25 @@
       "direction": "LONG",
       "qty": 0.00310352,
       "entry": 1911.638,
-      "current_price": 1926.3,
-      "market_value": 5.978311,
-      "unrealized_pl": 0.045504,
-      "unrealized_plpc": 0.00767,
+      "current_price": 1923.33,
+      "market_value": 5.969093,
+      "unrealized_pl": 0.036286,
+      "unrealized_plpc": 0.00612,
       "mode": "BEARISH",
       "range_high": 1938.16,
-      "range_low": 1877.65
+      "range_low": 1882.86
     },
     {
       "symbol": "CRWD",
       "direction": "LONG",
       "qty": 0.004884922,
       "entry": 688.5,
-      "current_price": 685.0,
-      "market_value": 3.346172,
-      "unrealized_pl": -0.017097,
-      "unrealized_plpc": -0.00508,
+      "current_price": 686.0263,
+      "market_value": 3.351185,
+      "unrealized_pl": -0.012084,
+      "unrealized_plpc": -0.00359,
       "mode": "RANGING",
-      "range_high": 690.73,
+      "range_high": 688.95,
       "range_low": 678.675
     }
   ],
@@ -69,25 +69,25 @@
       "direction": "LONG",
       "qty": 0.00310352,
       "entry": 1911.638,
-      "current_price": 1926.3,
-      "market_value": 5.978311,
-      "unrealized_pl": 0.045504,
-      "unrealized_plpc": 0.00767,
+      "current_price": 1923.33,
+      "market_value": 5.969093,
+      "unrealized_pl": 0.036286,
+      "unrealized_plpc": 0.00612,
       "mode": "BEARISH",
       "range_high": 1938.16,
-      "range_low": 1877.65
+      "range_low": 1882.86
     },
     {
       "symbol": "CRWD",
       "direction": "LONG",
       "qty": 0.004884922,
       "entry": 688.5,
-      "current_price": 685.0,
-      "market_value": 3.346172,
-      "unrealized_pl": -0.017097,
-      "unrealized_plpc": -0.00508,
+      "current_price": 686.0263,
+      "market_value": 3.351185,
+      "unrealized_pl": -0.012084,
+      "unrealized_plpc": -0.00359,
       "mode": "RANGING",
-      "range_high": 690.73,
+      "range_high": 688.95,
       "range_low": 678.675
     }
   ],
@@ -99,7 +99,7 @@
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
-    "total_pnl": 0.03,
+    "total_pnl": 0.02,
     "daily_pnl": 0.19
   },
   "market_modes": {
