@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-18T15:01:26.853448+00:00",
+  "timestamp": "2026-06-18T15:16:21.358937+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-18T15:01:26.853448+00:00",
+    "last_activity": "2026-06-18T15:16:21.358937+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -41,11 +41,11 @@
       "direction": "LONG",
       "qty": 0.00310352,
       "entry": 1911.638,
-      "current_price": 1936.96,
-      "market_value": 6.011394,
-      "unrealized_pl": 0.078587,
-      "unrealized_plpc": 0.01325,
-      "mode": "RANGING",
+      "current_price": 1937.795,
+      "market_value": 6.013986,
+      "unrealized_pl": 0.081179,
+      "unrealized_plpc": 0.01368,
+      "mode": "BULLISH",
       "range_high": 1940.94,
       "range_low": 1865.92
     }
@@ -56,11 +56,11 @@
       "direction": "LONG",
       "qty": 0.00310352,
       "entry": 1911.638,
-      "current_price": 1936.96,
-      "market_value": 6.011394,
-      "unrealized_pl": 0.078587,
-      "unrealized_plpc": 0.01325,
-      "mode": "RANGING",
+      "current_price": 1937.795,
+      "market_value": 6.013986,
+      "unrealized_pl": 0.081179,
+      "unrealized_plpc": 0.01368,
+      "mode": "BULLISH",
       "range_high": 1940.94,
       "range_low": 1865.92
     }
@@ -78,8 +78,8 @@
   },
   "market_modes": {
     "TSLA": "BEARISH",
-    "NVDA": "RANGING",
-    "ASML": "RANGING",
+    "NVDA": "BULLISH",
+    "ASML": "BULLISH",
     "GOOGL": "BEARISH",
     "MSFT": "RANGING",
     "AMD": "RANGING",
@@ -92,8 +92,8 @@
     "COIN": "BEARISH",
     "SMCI": "BEARISH",
     "HON": "BEARISH",
-    "CHTR": "RANGING",
-    "NVTS": "RANGING",
+    "CHTR": "BEARISH",
+    "NVTS": "BULLISH",
     "QQQ": "BEARISH",
     "SPY": "RANGING",
     "BTC/USD": "BEARISH",
