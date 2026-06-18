@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-18T14:16:16.785192+00:00",
+  "timestamp": "2026-06-18T14:31:22.727864+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-18T14:16:16.785192+00:00",
+    "last_activity": "2026-06-18T14:31:22.727864+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -26,13 +26,13 @@
     "max_active_trades": 4
   },
   "portfolio": {
-    "balance": 2914.55,
+    "balance": 2914.56,
     "cash": 2908.57,
     "open_positions": 1,
     "active_trades": 1,
-    "total_market_value": 5.98,
-    "total_unrealized_pl": 0.05,
-    "daily_pnl": 0.17,
+    "total_market_value": 5.99,
+    "total_unrealized_pl": 0.06,
+    "daily_pnl": 0.18,
     "daily_drawdown_limit": 87.44
   },
   "positions": [
@@ -41,10 +41,10 @@
       "direction": "LONG",
       "qty": 0.00310352,
       "entry": 1911.638,
-      "current_price": 1926.37,
-      "market_value": 5.978528,
-      "unrealized_pl": 0.045721,
-      "unrealized_plpc": 0.00771,
+      "current_price": 1930.34,
+      "market_value": 5.990849,
+      "unrealized_pl": 0.058042,
+      "unrealized_plpc": 0.00978,
       "mode": "RANGING",
       "range_high": 1935.56,
       "range_low": 1865.92
@@ -56,10 +56,10 @@
       "direction": "LONG",
       "qty": 0.00310352,
       "entry": 1911.638,
-      "current_price": 1926.37,
-      "market_value": 5.978528,
-      "unrealized_pl": 0.045721,
-      "unrealized_plpc": 0.00771,
+      "current_price": 1930.34,
+      "market_value": 5.990849,
+      "unrealized_pl": 0.058042,
+      "unrealized_plpc": 0.00978,
       "mode": "RANGING",
       "range_high": 1935.56,
       "range_low": 1865.92
@@ -73,16 +73,16 @@
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
-    "total_pnl": 0.05,
-    "daily_pnl": 0.17
+    "total_pnl": 0.06,
+    "daily_pnl": 0.18
   },
   "market_modes": {
     "TSLA": "BEARISH",
     "NVDA": "RANGING",
     "ASML": "RANGING",
     "GOOGL": "BEARISH",
-    "MSFT": "BEARISH",
-    "AMD": "BULLISH",
+    "MSFT": "RANGING",
+    "AMD": "RANGING",
     "AVGO": "BULLISH",
     "AMZN": "BEARISH",
     "META": "RANGING",
