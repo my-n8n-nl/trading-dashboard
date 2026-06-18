@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-18T23:01:11.370656+00:00",
+  "timestamp": "2026-06-18T23:16:04.952601+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-18T23:01:11.370656+00:00",
+    "last_activity": "2026-06-18T23:16:04.952601+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -26,13 +26,13 @@
     "max_active_trades": 4
   },
   "portfolio": {
-    "balance": 2914.56,
+    "balance": 2914.55,
     "cash": 2908.57,
     "open_positions": 1,
     "active_trades": 1,
-    "total_market_value": 5.99,
-    "total_unrealized_pl": 0.06,
-    "daily_pnl": 0.18,
+    "total_market_value": 5.98,
+    "total_unrealized_pl": 0.05,
+    "daily_pnl": 0.17,
     "daily_drawdown_limit": 87.44
   },
   "positions": [
@@ -41,10 +41,10 @@
       "direction": "LONG",
       "qty": 0.00310352,
       "entry": 1911.638,
-      "current_price": 1930.8,
-      "market_value": 5.992276,
-      "unrealized_pl": 0.059469,
-      "unrealized_plpc": 0.01002,
+      "current_price": 1928.01,
+      "market_value": 5.983618,
+      "unrealized_pl": 0.050811,
+      "unrealized_plpc": 0.00856,
       "mode": "BULLISH",
       "range_high": 1940.94,
       "range_low": 1910.95
@@ -56,10 +56,10 @@
       "direction": "LONG",
       "qty": 0.00310352,
       "entry": 1911.638,
-      "current_price": 1930.8,
-      "market_value": 5.992276,
-      "unrealized_pl": 0.059469,
-      "unrealized_plpc": 0.01002,
+      "current_price": 1928.01,
+      "market_value": 5.983618,
+      "unrealized_pl": 0.050811,
+      "unrealized_plpc": 0.00856,
       "mode": "BULLISH",
       "range_high": 1940.94,
       "range_low": 1910.95
@@ -73,8 +73,8 @@
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
-    "total_pnl": 0.06,
-    "daily_pnl": 0.18
+    "total_pnl": 0.05,
+    "daily_pnl": 0.17
   },
   "market_modes": {
     "TSLA": "BEARISH",
@@ -98,7 +98,7 @@
     "SPY": "RANGING",
     "BTC/USD": "BEARISH",
     "ETH/USD": "BEARISH",
-    "SOL/USD": "BEARISH",
+    "SOL/USD": "RANGING",
     "AVAX/USD": "BEARISH"
   },
   "log": []
