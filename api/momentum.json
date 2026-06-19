@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-19T23:01:12.826426+00:00",
+  "timestamp": "2026-06-19T23:16:06.265632+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-19T23:01:12.826426+00:00",
+    "last_activity": "2026-06-19T23:16:06.265632+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -45,7 +45,7 @@
       "market_value": 5.9888,
       "unrealized_pl": 0.055993,
       "unrealized_plpc": 0.00944,
-      "mode": "BULLISH",
+      "mode": "RANGING",
       "range_high": 1940.94,
       "range_low": 1910.95
     }
@@ -60,7 +60,7 @@
       "market_value": 5.9888,
       "unrealized_pl": 0.055993,
       "unrealized_plpc": 0.00944,
-      "mode": "BULLISH",
+      "mode": "RANGING",
       "range_high": 1940.94,
       "range_low": 1910.95
     }
@@ -79,7 +79,7 @@
   "market_modes": {
     "TSLA": "BEARISH",
     "NVDA": "BULLISH",
-    "ASML": "BULLISH",
+    "ASML": "RANGING",
     "GOOGL": "BULLISH",
     "MSFT": "RANGING",
     "AMD": "BULLISH",
@@ -89,16 +89,16 @@
     "PLTR": "RANGING",
     "CRWD": "RANGING",
     "MSTR": "BEARISH",
-    "COIN": "BEARISH",
+    "COIN": "RANGING",
     "SMCI": "RANGING",
     "HON": "RANGING",
     "CHTR": "BEARISH",
-    "NVTS": "BULLISH",
+    "NVTS": "RANGING",
     "QQQ": "RANGING",
     "SPY": "RANGING",
     "BTC/USD": "RANGING",
     "ETH/USD": "RANGING",
-    "SOL/USD": "BULLISH",
+    "SOL/USD": "RANGING",
     "AVAX/USD": "RANGING"
   },
   "log": []
