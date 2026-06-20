@@ -1,10 +1,10 @@
 {
   "TSLA": {
     "price": 399.81,
-    "close": 400.49,
+    "close": 399.9,
     "rh": 397.15,
     "rl": 384.74,
-    "atr": 1.8467857142857116,
+    "atr": 1.7521428571428592,
     "mode": "RANGING",
     "breakout": {
       "trigger": true,
@@ -16,9 +16,9 @@
     "entry": {
       "direction": "LONG",
       "entry": 397.585,
-      "sl": 394.8148214285714,
-      "tp1": 403.1253571428571,
-      "tp2": 411.43589285714285,
+      "sl": 394.9567857142857,
+      "tp1": 402.8414285714286,
+      "tp2": 410.7260714285715,
       "rr": 2.0,
       "rr_pass": true,
       "body_ratio": 0.8599695585996856,
@@ -31,14 +31,14 @@
     "volume_blocked": false,
     "stale_data": true,
     "data_label": "[MARKET CLOSED - LAST AVAILABLE DATA]",
-    "last_candle_time": "2026-06-18 19:45:00+00:00"
+    "last_candle_time": "2026-06-18 20:00:00+00:00"
   },
   "NVDA": {
     "price": 209.97,
-    "close": 210.38,
+    "close": 210.39,
     "rh": 211.18,
     "rl": 206.5,
-    "atr": 0.6803571428571392,
+    "atr": 0.6032142857142812,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -51,7 +51,7 @@
     "volume_blocked": false,
     "stale_data": true,
     "data_label": "[MARKET CLOSED - LAST AVAILABLE DATA]",
-    "last_candle_time": "2026-06-18 19:45:00+00:00"
+    "last_candle_time": "2026-06-18 20:00:00+00:00"
   },
   "ASML": {
     "price": 1928.665,
@@ -119,7 +119,7 @@
     "rh": 539.48,
     "rl": 526.35,
     "atr": 2.468571428571425,
-    "mode": "BULLISH",
+    "mode": "RANGING",
     "breakout": {
       "trigger": false,
       "direction": "NONE",
@@ -135,10 +135,10 @@
   },
   "AVGO": {
     "price": 411.98,
-    "close": 411.07,
+    "close": 411.98,
     "rh": 412.37,
     "rl": 405.8,
-    "atr": 1.4732142857142938,
+    "atr": 1.4217857142857204,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -151,7 +151,7 @@
     "volume_blocked": false,
     "stale_data": true,
     "data_label": "[MARKET CLOSED - LAST AVAILABLE DATA]",
-    "last_candle_time": "2026-06-18 19:45:00+00:00"
+    "last_candle_time": "2026-06-18 20:00:00+00:00"
   },
   "AMZN": {
     "price": 244.61,
@@ -235,10 +235,10 @@
   },
   "MSTR": {
     "price": 112.33,
-    "close": 112.57,
+    "close": 112.33,
     "rh": 115.12,
     "rl": 107.85,
-    "atr": 1.145,
+    "atr": 1.1217857142857142,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -251,7 +251,7 @@
     "volume_blocked": false,
     "stale_data": true,
     "data_label": "[MARKET CLOSED - LAST AVAILABLE DATA]",
-    "last_candle_time": "2026-06-18 19:45:00+00:00"
+    "last_candle_time": "2026-06-18 20:00:00+00:00"
   },
   "COIN": {
     "price": 163.31,
@@ -355,10 +355,10 @@
   },
   "QQQ": {
     "price": 740.48,
-    "close": 739.82,
+    "close": 740.06,
     "rh": 740.56,
     "rl": 732.6,
-    "atr": 1.0707142857142702,
+    "atr": 1.0142857142856851,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -371,14 +371,14 @@
     "volume_blocked": false,
     "stale_data": true,
     "data_label": "[MARKET CLOSED - LAST AVAILABLE DATA]",
-    "last_candle_time": "2026-06-18 19:45:00+00:00"
+    "last_candle_time": "2026-06-18 20:00:00+00:00"
   },
   "SPY": {
     "price": 748.46,
-    "close": 746.75,
+    "close": 747.7,
     "rh": 748.18,
     "rl": 743.88,
-    "atr": 0.882142857142875,
+    "atr": 0.8857142857143084,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -391,14 +391,34 @@
     "volume_blocked": false,
     "stale_data": true,
     "data_label": "[MARKET CLOSED - LAST AVAILABLE DATA]",
-    "last_candle_time": "2026-06-18 19:45:00+00:00"
+    "last_candle_time": "2026-06-18 20:00:00+00:00"
   },
   "BTC/USD": {
-    "price": 63853.235,
-    "close": 63730.495,
+    "price": 63871.657,
+    "close": 63828.7195,
     "rh": 64323.36,
     "rl": 63137.8105,
-    "atr": 143.9884285714283,
+    "atr": 142.8870357142857,
+    "mode": "RANGING",
+    "breakout": {
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
+    },
+    "entry": null,
+    "volume_blocked": false,
+    "stale_data": false,
+    "data_label": "",
+    "last_candle_time": "2026-06-20 19:00:00+00:00"
+  },
+  "ETH/USD": {
+    "price": 1727.812,
+    "close": 1725.278,
+    "rh": 1746.9195,
+    "rl": 1702.575,
+    "atr": 3.8625714285714303,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -411,34 +431,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-06-20 18:45:00+00:00"
-  },
-  "ETH/USD": {
-    "price": 1727.4105,
-    "close": 1724.2635,
-    "rh": 1746.9195,
-    "rl": 1702.575,
-    "atr": 4.010428571428569,
-    "mode": "RANGING",
-    "breakout": {
-      "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
-    },
-    "entry": null,
-    "volume_blocked": false,
-    "stale_data": false,
-    "data_label": "",
-    "last_candle_time": "2026-06-20 18:45:00+00:00"
+    "last_candle_time": "2026-06-20 19:00:00+00:00"
   },
   "SOL/USD": {
-    "price": 71.7525,
-    "close": 71.66,
+    "price": 71.87,
+    "close": 71.7145,
     "rh": 72.5287,
     "rl": 69.42,
-    "atr": 0.34237500000000204,
+    "atr": 0.3144535714285744,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -451,14 +451,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-06-20 18:45:00+00:00"
+    "last_candle_time": "2026-06-20 19:00:00+00:00"
   },
   "AVAX/USD": {
-    "price": 6.1066,
-    "close": 6.08214,
+    "price": 6.116135,
+    "close": 6.08415,
     "rh": 6.251,
     "rl": 5.82336,
-    "atr": 0.03089749999999996,
+    "atr": 0.030301785714285705,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -471,6 +471,6 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-06-20 18:45:00+00:00"
+    "last_candle_time": "2026-06-20 19:00:00+00:00"
   }
 }
