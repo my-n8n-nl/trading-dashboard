@@ -3,7 +3,7 @@
     "price": 399.81,
     "close": 399.81,
     "rh": 402.47,
-    "rl": 387.455,
+    "rl": 393.735,
     "atr": 1.6964285714285714,
     "mode": "RANGING",
     "breakout": {
@@ -23,7 +23,7 @@
     "price": 209.97,
     "close": 209.97,
     "rh": 211.385,
-    "rl": 207.7,
+    "rl": 209.52,
     "atr": 0.5728571428571375,
     "mode": "RANGING",
     "breakout": {
@@ -100,12 +100,12 @@
     "last_candle_time": "2026-06-18 19:45:00+00:00"
   },
   "AMD": {
-    "price": 536.59,
-    "close": 536.59,
-    "rh": 536.69,
-    "rl": 529.385,
-    "atr": 2.3574999999999915,
-    "mode": "BULLISH",
+    "price": 540.46,
+    "close": 540.59,
+    "rh": null,
+    "rl": null,
+    "atr": NaN,
+    "mode": "RANGING",
     "breakout": {
       "trigger": false,
       "direction": "NONE",
@@ -115,15 +115,15 @@
     },
     "entry": null,
     "volume_blocked": false,
-    "stale_data": true,
-    "data_label": "[MARKET CLOSED - LAST AVAILABLE DATA]",
-    "last_candle_time": "2026-06-18 20:45:00+00:00"
+    "stale_data": false,
+    "data_label": "",
+    "last_candle_time": "2026-06-22 12:00:00+00:00"
   },
   "AVGO": {
     "price": 411.98,
     "close": 411.98,
     "rh": 409.88,
-    "rl": 406.49,
+    "rl": 406.79,
     "atr": 1.4217857142857204,
     "mode": "RANGING",
     "breakout": {
@@ -203,7 +203,7 @@
     "price": 685.31,
     "close": 685.31,
     "rh": 684.91,
-    "rl": 670.84,
+    "rl": 677.545,
     "atr": 3.372857142857169,
     "mode": "RANGING",
     "breakout": {
@@ -343,7 +343,7 @@
     "price": 740.48,
     "close": 740.48,
     "rh": 741.8,
-    "rl": 734.96,
+    "rl": 738.43,
     "atr": 0.867857142857125,
     "mode": "RANGING",
     "breakout": {
@@ -380,11 +380,11 @@
     "last_candle_time": "2026-06-18 20:15:00+00:00"
   },
   "BTC/USD": {
-    "price": 64690.61,
-    "close": 64249.8555,
+    "price": 64627.0505,
+    "close": 64298.5015,
     "rh": 64734.44,
     "rl": 63206.481,
-    "atr": 161.1941785714298,
+    "atr": 169.87246428571493,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -397,14 +397,34 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-06-22 11:00:00+00:00"
+    "last_candle_time": "2026-06-22 11:15:00+00:00"
   },
   "ETH/USD": {
-    "price": 1765.1255,
-    "close": 1752.12,
+    "price": 1762.432,
+    "close": 1762.105,
     "rh": 1757.36,
     "rl": 1700.49,
-    "atr": 4.691785714285776,
+    "atr": 4.91142857142862,
+    "mode": "RANGING",
+    "breakout": {
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
+    },
+    "entry": null,
+    "volume_blocked": false,
+    "stale_data": false,
+    "data_label": "",
+    "last_candle_time": "2026-06-22 11:30:00+00:00"
+  },
+  "SOL/USD": {
+    "price": 73.9853,
+    "close": 73.8555,
+    "rh": 74.97,
+    "rl": 72.1047,
+    "atr": 0.3327535714285708,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -419,32 +439,12 @@
     "data_label": "",
     "last_candle_time": "2026-06-22 11:15:00+00:00"
   },
-  "SOL/USD": {
-    "price": 74.1045,
-    "close": 73.90605,
-    "rh": 74.97,
-    "rl": 72.1047,
-    "atr": 0.3276107142857145,
-    "mode": "RANGING",
-    "breakout": {
-      "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
-    },
-    "entry": null,
-    "volume_blocked": false,
-    "stale_data": false,
-    "data_label": "",
-    "last_candle_time": "2026-06-22 11:00:00+00:00"
-  },
   "AVAX/USD": {
-    "price": 6.363849999999999,
-    "close": 6.30577,
+    "price": 6.35306,
+    "close": 6.3067,
     "rh": 6.33292229,
     "rl": 6.083,
-    "atr": 0.03288250000000005,
+    "atr": 0.03316865321428576,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -457,6 +457,6 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-06-22 11:00:00+00:00"
+    "last_candle_time": "2026-06-22 11:15:00+00:00"
   }
 }
