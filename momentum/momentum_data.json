@@ -80,24 +80,24 @@
     "last_candle_time": "2026-06-22 19:45:00+00:00"
   },
   "MSFT": {
-    "price": 367.21,
-    "close": 367.21,
+    "price": 367.98,
+    "close": 367.98,
     "rh": 381.51,
     "rl": 367.96,
-    "atr": 1.014642857142864,
+    "atr": 1.027142857142865,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
+      "direction": "SHORT",
+      "body_ratio": 0.7800829875518572,
+      "volume_ratio": 4.899626294941255,
+      "atr_ratio": 2.3752199929602336
     },
     "entry": null,
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-06-22 19:45:00+00:00"
+    "last_candle_time": "2026-06-22 20:00:00+00:00"
   },
   "AMD": {
     "price": 552.1,
@@ -340,11 +340,11 @@
     "last_candle_time": "2026-06-22 19:45:00+00:00"
   },
   "QQQ": {
-    "price": 737.97,
-    "close": 737.97,
+    "price": 737.9,
+    "close": 737.9,
     "rh": 745.32,
     "rl": 734.41,
-    "atr": 1.3024999999999929,
+    "atr": 1.3210714285714207,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -380,7 +380,7 @@
     "last_candle_time": "2026-06-22 19:45:00+00:00"
   },
   "BTC/USD": {
-    "price": 64464.536,
+    "price": 64465.296,
     "close": 64333.01,
     "rh": 65550.975,
     "rl": 63206.481,
@@ -400,7 +400,7 @@
     "last_candle_time": "2026-06-22 19:00:00+00:00"
   },
   "ETH/USD": {
-    "price": 1735.5055,
+    "price": 1734.7435,
     "close": 1732.9005,
     "rh": 1777.54,
     "rl": 1702.67,
@@ -420,7 +420,7 @@
     "last_candle_time": "2026-06-22 19:00:00+00:00"
   },
   "SOL/USD": {
-    "price": 72.77165,
+    "price": 72.714,
     "close": 72.640250575,
     "rh": 75.02,
     "rl": 72.598250575,
@@ -440,7 +440,7 @@
     "last_candle_time": "2026-06-22 19:00:00+00:00"
   },
   "AVAX/USD": {
-    "price": 6.279730000000001,
+    "price": 6.290200465,
     "close": 6.249,
     "rh": 6.444365545,
     "rl": 6.194813855,
