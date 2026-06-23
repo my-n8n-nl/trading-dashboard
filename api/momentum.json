@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-23T18:01:21.151136+00:00",
+  "timestamp": "2026-06-23T18:16:15.359239+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-23T18:01:21.151136+00:00",
+    "last_activity": "2026-06-23T18:16:15.359239+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -26,14 +26,14 @@
     "max_active_trades": 4
   },
   "portfolio": {
-    "balance": 2910.67,
+    "balance": 2913.51,
     "cash": 1914.43,
     "open_positions": 1,
     "active_trades": 1,
-    "total_market_value": 996.24,
-    "total_unrealized_pl": -3.76,
-    "daily_pnl": -3.76,
-    "daily_drawdown_limit": 87.32
+    "total_market_value": 999.08,
+    "total_unrealized_pl": -0.92,
+    "daily_pnl": -0.92,
+    "daily_drawdown_limit": 87.41
   },
   "positions": [
     {
@@ -41,10 +41,10 @@
       "direction": "LONG",
       "qty": 4.23751258,
       "entry": 235.98764,
-      "current_price": 235.1,
-      "market_value": 996.239208,
-      "unrealized_pl": -3.761385,
-      "unrealized_plpc": -0.00376,
+      "current_price": 235.77,
+      "market_value": 999.078341,
+      "unrealized_pl": -0.922252,
+      "unrealized_plpc": -0.00092,
       "mode": "RANGING",
       "range_high": 236.87,
       "range_low": 233.22
@@ -56,10 +56,10 @@
       "direction": "LONG",
       "qty": 4.23751258,
       "entry": 235.98764,
-      "current_price": 235.1,
-      "market_value": 996.239208,
-      "unrealized_pl": -3.761385,
-      "unrealized_plpc": -0.00376,
+      "current_price": 235.77,
+      "market_value": 999.078341,
+      "unrealized_pl": -0.922252,
+      "unrealized_plpc": -0.00092,
       "mode": "RANGING",
       "range_high": 236.87,
       "range_low": 233.22
@@ -73,8 +73,8 @@
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
-    "total_pnl": -3.76,
-    "daily_pnl": -3.76
+    "total_pnl": -0.92,
+    "daily_pnl": -0.92
   },
   "market_modes": {
     "TSLA": "RANGING",
@@ -92,7 +92,7 @@
     "COIN": "BEARISH",
     "SMCI": "BEARISH",
     "HON": "RANGING",
-    "CHTR": "BEARISH",
+    "CHTR": "RANGING",
     "NVTS": "BEARISH",
     "QQQ": "RANGING",
     "SPY": "RANGING",
