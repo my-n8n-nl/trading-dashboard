@@ -2,7 +2,7 @@
   "TSLA": {
     "price": 405.05,
     "close": 405.05,
-    "rh": 411.585,
+    "rh": 409.51,
     "rl": 403.33,
     "atr": 1.9671428571428504,
     "mode": "RANGING",
@@ -63,7 +63,7 @@
     "price": 348.53,
     "close": 348.53,
     "rh": 350.0,
-    "rl": 341.78,
+    "rl": 345.6,
     "atr": 1.1017857142857193,
     "mode": "RANGING",
     "breakout": {
@@ -88,10 +88,10 @@
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
-      "direction": "SHORT",
-      "body_ratio": 0.7800829875518572,
-      "volume_ratio": 4.899626294941255,
-      "atr_ratio": 2.3752199929602336
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
     },
     "entry": null,
     "volume_blocked": false,
@@ -107,27 +107,13 @@
     "atr": 2.549999999999987,
     "mode": "RANGING",
     "breakout": {
-      "trigger": true,
-      "direction": "LONG",
-      "body_ratio": 1.0,
-      "volume_ratio": 6.354534044776015,
-      "atr_ratio": 2.2389011528084386
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
     },
-    "entry": {
-      "direction": "LONG",
-      "entry": 549.392,
-      "sl": 545.5670000000001,
-      "tp1": 557.0419999999999,
-      "tp2": 568.5169999999997,
-      "rr": 2.0,
-      "rr_pass": true,
-      "body_ratio": 1.0,
-      "volume_ratio": 6.354534044776015,
-      "atr_ratio": 2.2389011528084386,
-      "entry_type": "LIMIT",
-      "trailing": true,
-      "risk_alloc": 30.0
-    },
+    "entry": null,
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
@@ -142,10 +128,10 @@
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
-      "direction": "SHORT",
-      "body_ratio": 0.6856403622250895,
-      "volume_ratio": 5.530323798395614,
-      "atr_ratio": 2.7383603238866394
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
     },
     "entry": null,
     "volume_blocked": false,
@@ -337,7 +323,7 @@
     "price": 23.71,
     "close": 23.71,
     "rh": 24.37,
-    "rl": 23.13,
+    "rl": 23.355,
     "atr": 0.22392857142857153,
     "mode": "RANGING",
     "breakout": {
@@ -394,11 +380,11 @@
     "last_candle_time": "2026-06-22 19:45:00+00:00"
   },
   "BTC/USD": {
-    "price": 62516.994999999995,
-    "close": 62181.177,
+    "price": 62417.265,
+    "close": 62238.8915,
     "rh": 64732.25,
     "rl": 61859.6,
-    "atr": 264.4351071428563,
+    "atr": 263.88074999999975,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -411,14 +397,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-06-23 10:30:00+00:00"
+    "last_candle_time": "2026-06-23 10:45:00+00:00"
   },
   "ETH/USD": {
-    "price": 1659.432,
-    "close": 1647.956,
+    "price": 1659.9555,
+    "close": 1650.22,
     "rh": 1745.24,
     "rl": 1635.315,
-    "atr": 8.735392857142886,
+    "atr": 8.910178571428592,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -431,14 +417,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-06-23 10:30:00+00:00"
+    "last_candle_time": "2026-06-23 10:45:00+00:00"
   },
   "SOL/USD": {
-    "price": 69.158,
-    "close": 68.605,
+    "price": 69.18115,
+    "close": 68.73,
     "rh": 73.6971,
     "rl": 68.108047783,
-    "atr": 0.4207459711785719,
+    "atr": 0.42337454260714324,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -451,14 +437,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-06-23 10:30:00+00:00"
+    "last_candle_time": "2026-06-23 10:45:00+00:00"
   },
   "AVAX/USD": {
-    "price": 6.23735,
-    "close": 6.1745,
+    "price": 6.2345,
+    "close": 6.185119535,
     "rh": 6.3265,
     "rl": 6.008695,
-    "atr": 0.04055951000000002,
+    "atr": 0.04123233392857146,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -471,6 +457,6 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-06-23 10:30:00+00:00"
+    "last_candle_time": "2026-06-23 10:45:00+00:00"
   }
 }
