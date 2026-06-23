@@ -380,31 +380,31 @@
     "last_candle_time": "2026-06-22 19:45:00+00:00"
   },
   "BTC/USD": {
-    "price": 62960.7675,
-    "close": 63122.52,
+    "price": 62924.961,
+    "close": 62692.1985,
     "rh": 65550.975,
     "rl": 63724.115,
-    "atr": 176.6877362772866,
+    "atr": 217.2249148487151,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
+      "direction": "SHORT",
+      "body_ratio": 0.778711279665982,
+      "volume_ratio": 5.23435539602196,
+      "atr_ratio": 1.7476867064355526
     },
     "entry": null,
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-06-23 06:00:00+00:00"
+    "last_candle_time": "2026-06-23 06:15:00+00:00"
   },
   "ETH/USD": {
-    "price": 1692.15,
-    "close": 1705.05,
+    "price": 1691.99,
+    "close": 1685.803,
     "rh": 1777.54,
     "rl": 1715.72,
-    "atr": 4.665285714285736,
+    "atr": 7.501321428571454,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -417,14 +417,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-06-23 06:00:00+00:00"
+    "last_candle_time": "2026-06-23 06:15:00+00:00"
   },
   "SOL/USD": {
-    "price": 70.44575,
-    "close": 70.7146,
+    "price": 70.3775,
+    "close": 69.885,
     "rh": 75.02,
     "rl": 71.25335,
-    "atr": 0.2810656931785737,
+    "atr": 0.3576871217500021,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -437,14 +437,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-06-23 06:00:00+00:00"
+    "last_candle_time": "2026-06-23 06:15:00+00:00"
   },
   "AVAX/USD": {
-    "price": 6.189924535,
-    "close": 6.210479815,
+    "price": 6.185669535000001,
+    "close": 6.09205,
     "rh": 6.444365545,
     "rl": 6.1565,
-    "atr": 0.030782817142857116,
+    "atr": 0.039728518214285725,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -457,6 +457,6 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-06-23 06:00:00+00:00"
+    "last_candle_time": "2026-06-23 06:15:00+00:00"
   }
 }
