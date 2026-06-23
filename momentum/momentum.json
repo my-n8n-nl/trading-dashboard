@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-23T23:13:29.406987",
+  "timestamp": "2026-06-23T23:18:52.137467",
   "strategy": "MOMENTUM v6.0 (Golden Middle)",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-24T01:01:05.842231",
+    "last_activity": "2026-06-24T01:16:09.203760",
     "version": "v6.0"
   },
   "config": {
@@ -52,9 +52,9 @@
       "side": "long",
       "qty": 4.23751258,
       "entry_price": 235.98764,
-      "current_price": 232.84,
-      "unrealized_pl": -13.34,
-      "unrealized_plpc": -1.33
+      "current_price": 232.9937,
+      "unrealized_pl": -12.69,
+      "unrealized_plpc": -1.27
     }
   ],
   "open_trades": [],
@@ -125,16 +125,6 @@
     "daily_pnl": 0
   },
   "log": [
-    "2026-06-24 00:16:02,974 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
-    "2026-06-24 00:16:03,636 | INFO     | bot_engine           | ETH/USD: Range [1635.3150 \u2014 1794.3415] | Mode: BULLISH | Close: 1664.3450",
-    "2026-06-24 00:16:03,860 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
-    "2026-06-24 00:16:04,223 | INFO     | bot_engine           | SOL/USD: Range [67.2749 \u2014 75.0200] | Mode: RANGING | Close: 69.1181",
-    "2026-06-24 00:16:04,325 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD",
-    "2026-06-24 00:16:04,683 | INFO     | bot_engine           | AVAX/USD: Range [5.6774 \u2014 6.4444] | Mode: RANGING | Close: 6.4141",
-    "2026-06-24 00:31:05,229 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD",
-    "2026-06-24 00:31:06,477 | INFO     | bot_engine           | BTC/USD: Range [61859.6000 \u2014 66379.6650] | Mode: RANGING | Close: 62539.4610",
-    "2026-06-24 00:31:06,577 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
-    "2026-06-24 00:31:07,080 | INFO     | bot_engine           | ETH/USD: Range [1635.3150 \u2014 1794.3415] | Mode: BULLISH | Close: 1664.7850",
     "2026-06-24 00:31:07,181 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
     "2026-06-24 00:31:07,532 | INFO     | bot_engine           | SOL/USD: Range [67.2749 \u2014 75.0200] | Mode: RANGING | Close: 69.1543",
     "2026-06-24 00:31:07,632 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD",
@@ -154,6 +144,16 @@
     "2026-06-24 01:01:03,694 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
     "2026-06-24 01:01:04,231 | INFO     | bot_engine           | SOL/USD: Range [67.2749 \u2014 75.0200] | Mode: RANGING | Close: 69.6110",
     "2026-06-24 01:01:04,347 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD",
-    "2026-06-24 01:01:04,949 | INFO     | bot_engine           | AVAX/USD: Range [5.6774 \u2014 6.4444] | Mode: RANGING | Close: 6.4860"
+    "2026-06-24 01:01:04,949 | INFO     | bot_engine           | AVAX/USD: Range [5.6774 \u2014 6.4444] | Mode: RANGING | Close: 6.4860",
+    "2026-06-24 01:16:05,889 | INFO     | bot_engine           | CYCLUS START \u2014 BTC/USD",
+    "2026-06-24 01:16:06,896 | INFO     | bot_engine           | BTC/USD: Range [61859.6000 \u2014 66379.6650] | Mode: RANGING | Close: 62536.3745",
+    "2026-06-24 01:16:07,075 | INFO     | bot_engine           | CYCLUS START \u2014 ETH/USD",
+    "2026-06-24 01:16:07,613 | INFO     | bot_engine           | ETH/USD: Range [1635.3150 \u2014 1794.3415] | Mode: BULLISH | Close: 1663.6650",
+    "2026-06-24 01:16:07,791 | INFO     | bot_engine           | CYCLUS START \u2014 SOL/USD",
+    "2026-06-24 01:16:08,163 | INFO     | bot_engine           | SOL/USD: Range [67.2749 \u2014 75.0200] | Mode: RANGING | Close: 69.3561",
+    "2026-06-24 01:16:08,264 | INFO     | bot_engine           | CYCLUS START \u2014 AVAX/USD",
+    "2026-06-24 01:16:08,612 | INFO     | bot_engine           | AVAX/USD: Range [5.6774 \u2014 6.4444] | Mode: RANGING | Close: 6.4856",
+    "2026-06-24 01:16:08,714 | INFO     | momentum             | \u2713 MOMENTUM LONG breakout (offset=2) \u2014 close $6.49 > RH $6.44 | body=89.3% | vol=76.8x | ATR=2.2x",
+    "2026-06-24 01:16:08,714 | INFO     | bot_engine           | AVAX/USD: \u26d4 MOMENTUM LONG geblokkeerd \u2014 volume 76.8x > 8.0x (trap/pump)"
   ]
 }
