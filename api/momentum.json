@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-23T22:01:11.253882+00:00",
+  "timestamp": "2026-06-23T22:16:04.981880+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-23T22:01:11.253882+00:00",
+    "last_activity": "2026-06-23T22:16:04.981880+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -26,13 +26,13 @@
     "max_active_trades": 4
   },
   "portfolio": {
-    "balance": 2904.48,
+    "balance": 2904.44,
     "cash": 1914.43,
     "open_positions": 1,
     "active_trades": 1,
-    "total_market_value": 990.05,
-    "total_unrealized_pl": -9.95,
-    "daily_pnl": -9.95,
+    "total_market_value": 990.01,
+    "total_unrealized_pl": -9.99,
+    "daily_pnl": -9.99,
     "daily_drawdown_limit": 87.13
   },
   "positions": [
@@ -41,10 +41,10 @@
       "direction": "LONG",
       "qty": 4.23751258,
       "entry": 235.98764,
-      "current_price": 233.64,
-      "market_value": 990.052439,
-      "unrealized_pl": -9.948154,
-      "unrealized_plpc": -0.00995,
+      "current_price": 233.63,
+      "market_value": 990.010064,
+      "unrealized_pl": -9.990529,
+      "unrealized_plpc": -0.00999,
       "mode": "RANGING",
       "range_high": 236.87,
       "range_low": 233.22
@@ -56,10 +56,10 @@
       "direction": "LONG",
       "qty": 4.23751258,
       "entry": 235.98764,
-      "current_price": 233.64,
-      "market_value": 990.052439,
-      "unrealized_pl": -9.948154,
-      "unrealized_plpc": -0.00995,
+      "current_price": 233.63,
+      "market_value": 990.010064,
+      "unrealized_pl": -9.990529,
+      "unrealized_plpc": -0.00999,
       "mode": "RANGING",
       "range_high": 236.87,
       "range_low": 233.22
@@ -73,8 +73,8 @@
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
-    "total_pnl": -9.95,
-    "daily_pnl": -9.95
+    "total_pnl": -9.99,
+    "daily_pnl": -9.99
   },
   "market_modes": {
     "TSLA": "RANGING",
@@ -98,7 +98,7 @@
     "SPY": "RANGING",
     "BTC/USD": "RANGING",
     "ETH/USD": "BULLISH",
-    "SOL/USD": "BEARISH",
+    "SOL/USD": "RANGING",
     "AVAX/USD": "RANGING"
   },
   "log": []
