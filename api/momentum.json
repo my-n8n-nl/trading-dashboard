@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-23T14:22:04.782626+00:00",
+  "timestamp": "2026-06-23T14:32:48.001578+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-23T14:22:04.782626+00:00",
+    "last_activity": "2026-06-23T14:32:48.001578+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -26,34 +26,62 @@
     "max_active_trades": 4
   },
   "portfolio": {
-    "balance": 2914.43,
-    "cash": 2914.43,
-    "open_positions": 0,
-    "active_trades": 0,
-    "total_market_value": 0,
-    "total_unrealized_pl": 0,
-    "daily_pnl": 0.0,
-    "daily_drawdown_limit": 87.43
+    "balance": 2915.16,
+    "cash": 1914.43,
+    "open_positions": 1,
+    "active_trades": 1,
+    "total_market_value": 1000.73,
+    "total_unrealized_pl": 0.73,
+    "daily_pnl": 0.73,
+    "daily_drawdown_limit": 87.45
   },
-  "positions": [],
-  "open_trades": [],
+  "positions": [
+    {
+      "symbol": "AMZN",
+      "direction": "LONG",
+      "qty": 4.23751258,
+      "entry": 235.98764,
+      "current_price": 236.16,
+      "market_value": 1000.730971,
+      "unrealized_pl": 0.730378,
+      "unrealized_plpc": 0.00073,
+      "mode": "RANGING",
+      "range_high": 235.055,
+      "range_low": 230.91
+    }
+  ],
+  "open_trades": [
+    {
+      "symbol": "AMZN",
+      "direction": "LONG",
+      "qty": 4.23751258,
+      "entry": 235.98764,
+      "current_price": 236.16,
+      "market_value": 1000.730971,
+      "unrealized_pl": 0.730378,
+      "unrealized_plpc": 0.00073,
+      "mode": "RANGING",
+      "range_high": 235.055,
+      "range_low": 230.91
+    }
+  ],
   "recent_trades": [],
   "stats": {
     "total": 0,
-    "open": 0,
+    "open": 1,
     "closed": 0,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
-    "total_pnl": 0,
-    "daily_pnl": 0.0
+    "total_pnl": 0.73,
+    "daily_pnl": 0.73
   },
   "market_modes": {
     "TSLA": "RANGING",
     "NVDA": "RANGING",
     "ASML": "BEARISH",
     "GOOGL": "RANGING",
-    "MSFT": "BEARISH",
+    "MSFT": "RANGING",
     "AMD": "RANGING",
     "AVGO": "RANGING",
     "AMZN": "RANGING",
