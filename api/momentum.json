@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-23T20:01:05.118710+00:00",
+  "timestamp": "2026-06-23T20:16:08.362011+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-23T20:01:05.118710+00:00",
+    "last_activity": "2026-06-23T20:16:08.362011+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -26,14 +26,14 @@
     "max_active_trades": 4
   },
   "portfolio": {
-    "balance": 2907.87,
+    "balance": 2908.72,
     "cash": 1914.43,
     "open_positions": 1,
     "active_trades": 1,
-    "total_market_value": 993.44,
-    "total_unrealized_pl": -6.56,
-    "daily_pnl": -6.56,
-    "daily_drawdown_limit": 87.24
+    "total_market_value": 994.29,
+    "total_unrealized_pl": -5.71,
+    "daily_pnl": -5.71,
+    "daily_drawdown_limit": 87.26
   },
   "positions": [
     {
@@ -41,10 +41,10 @@
       "direction": "LONG",
       "qty": 4.23751258,
       "entry": 235.98764,
-      "current_price": 234.44,
-      "market_value": 993.442449,
-      "unrealized_pl": -6.558144,
-      "unrealized_plpc": -0.00656,
+      "current_price": 234.6395,
+      "market_value": 994.287833,
+      "unrealized_pl": -5.71276,
+      "unrealized_plpc": -0.00571,
       "mode": "RANGING",
       "range_high": 236.87,
       "range_low": 233.22
@@ -56,10 +56,10 @@
       "direction": "LONG",
       "qty": 4.23751258,
       "entry": 235.98764,
-      "current_price": 234.44,
-      "market_value": 993.442449,
-      "unrealized_pl": -6.558144,
-      "unrealized_plpc": -0.00656,
+      "current_price": 234.6395,
+      "market_value": 994.287833,
+      "unrealized_pl": -5.71276,
+      "unrealized_plpc": -0.00571,
       "mode": "RANGING",
       "range_high": 236.87,
       "range_low": 233.22
@@ -73,8 +73,8 @@
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
-    "total_pnl": -6.56,
-    "daily_pnl": -6.56
+    "total_pnl": -5.71,
+    "daily_pnl": -5.71
   },
   "market_modes": {
     "TSLA": "RANGING",
@@ -83,7 +83,7 @@
     "GOOGL": "RANGING",
     "MSFT": "RANGING",
     "AMD": "RANGING",
-    "AVGO": "RANGING",
+    "AVGO": "BEARISH",
     "AMZN": "RANGING",
     "META": "RANGING",
     "PLTR": "BEARISH",
@@ -96,8 +96,8 @@
     "NVTS": "BEARISH",
     "QQQ": "RANGING",
     "SPY": "RANGING",
-    "BTC/USD": "RANGING",
-    "ETH/USD": "RANGING",
+    "BTC/USD": "BULLISH",
+    "ETH/USD": "BULLISH",
     "SOL/USD": "RANGING",
     "AVAX/USD": "RANGING"
   },
