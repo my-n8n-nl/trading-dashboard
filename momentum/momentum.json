@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-24T09:31:52.532200",
+  "timestamp": "2026-06-24T09:37:32.300335",
   "strategy": "MOMENTUM v6.0 (Golden Middle)",
   "bot": {
     "online": true,
@@ -41,12 +41,22 @@
   },
   "portfolio": {
     "balance": 3000.0,
-    "open_positions": 0,
+    "open_positions": 1,
     "active_trades": 0,
     "daily_pnl": 0,
     "daily_drawdown_limit": 90.0
   },
-  "positions": [],
+  "positions": [
+    {
+      "symbol": "AMZN",
+      "side": "long",
+      "qty": 4.23751258,
+      "entry_price": 235.98764,
+      "current_price": 233.67,
+      "unrealized_pl": -9.82,
+      "unrealized_plpc": -0.98
+    }
+  ],
   "open_trades": [],
   "recent_trades": [
     {
