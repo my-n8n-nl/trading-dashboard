@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-24T16:46:20.619875+00:00",
+  "timestamp": "2026-06-24T17:01:14.532341+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-24T16:46:20.619875+00:00",
+    "last_activity": "2026-06-24T17:01:14.532341+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -26,14 +26,14 @@
     "max_active_trades": 4
   },
   "portfolio": {
-    "balance": 2931.63,
+    "balance": 2931.02,
     "cash": 1914.42,
     "open_positions": 1,
     "active_trades": 1,
-    "total_market_value": 1017.21,
-    "total_unrealized_pl": 17.21,
-    "daily_pnl": 25.17,
-    "daily_drawdown_limit": 87.95
+    "total_market_value": 1016.6,
+    "total_unrealized_pl": 16.6,
+    "daily_pnl": 24.56,
+    "daily_drawdown_limit": 87.93
   },
   "positions": [
     {
@@ -41,13 +41,13 @@
       "direction": "LONG",
       "qty": 4.23751258,
       "entry": 235.98764,
-      "current_price": 240.05,
-      "market_value": 1017.214895,
-      "unrealized_pl": 17.214302,
-      "unrealized_plpc": 0.01721,
+      "current_price": 239.905,
+      "market_value": 1016.600456,
+      "unrealized_pl": 16.599863,
+      "unrealized_plpc": 0.0166,
       "mode": "RANGING",
       "range_high": 242.39,
-      "range_low": 232.97
+      "range_low": 240.72
     }
   ],
   "open_trades": [
@@ -56,13 +56,13 @@
       "direction": "LONG",
       "qty": 4.23751258,
       "entry": 235.98764,
-      "current_price": 240.05,
-      "market_value": 1017.214895,
-      "unrealized_pl": 17.214302,
-      "unrealized_plpc": 0.01721,
+      "current_price": 239.905,
+      "market_value": 1016.600456,
+      "unrealized_pl": 16.599863,
+      "unrealized_plpc": 0.0166,
       "mode": "RANGING",
       "range_high": 242.39,
-      "range_low": 232.97
+      "range_low": 240.72
     }
   ],
   "recent_trades": [],
@@ -73,8 +73,8 @@
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
-    "total_pnl": 17.21,
-    "daily_pnl": 25.17
+    "total_pnl": 16.6,
+    "daily_pnl": 24.56
   },
   "market_modes": {
     "TSLA": "BEARISH",
