@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-24T11:01:06.372975+00:00",
+  "timestamp": "2026-06-24T11:16:09.776299+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-24T11:01:06.372975+00:00",
+    "last_activity": "2026-06-24T11:16:09.776299+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -26,14 +26,14 @@
     "max_active_trades": 4
   },
   "portfolio": {
-    "balance": 2902.18,
+    "balance": 2903.07,
     "cash": 1914.42,
     "open_positions": 1,
     "active_trades": 1,
-    "total_market_value": 987.76,
-    "total_unrealized_pl": -12.24,
-    "daily_pnl": -4.28,
-    "daily_drawdown_limit": 87.07
+    "total_market_value": 988.65,
+    "total_unrealized_pl": -11.35,
+    "daily_pnl": -3.39,
+    "daily_drawdown_limit": 87.09
   },
   "positions": [
     {
@@ -41,12 +41,12 @@
       "direction": "LONG",
       "qty": 4.23751258,
       "entry": 235.98764,
-      "current_price": 233.1,
-      "market_value": 987.764182,
-      "unrealized_pl": -12.236411,
-      "unrealized_plpc": -0.01224,
+      "current_price": 233.31,
+      "market_value": 988.65406,
+      "unrealized_pl": -11.346533,
+      "unrealized_plpc": -0.01135,
       "mode": "RANGING",
-      "range_high": 236.87,
+      "range_high": 235.825,
       "range_low": 233.22
     }
   ],
@@ -56,12 +56,12 @@
       "direction": "LONG",
       "qty": 4.23751258,
       "entry": 235.98764,
-      "current_price": 233.1,
-      "market_value": 987.764182,
-      "unrealized_pl": -12.236411,
-      "unrealized_plpc": -0.01224,
+      "current_price": 233.31,
+      "market_value": 988.65406,
+      "unrealized_pl": -11.346533,
+      "unrealized_plpc": -0.01135,
       "mode": "RANGING",
-      "range_high": 236.87,
+      "range_high": 235.825,
       "range_low": 233.22
     }
   ],
@@ -73,8 +73,8 @@
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
-    "total_pnl": -12.24,
-    "daily_pnl": -4.28
+    "total_pnl": -11.35,
+    "daily_pnl": -3.39
   },
   "market_modes": {
     "TSLA": "RANGING",
