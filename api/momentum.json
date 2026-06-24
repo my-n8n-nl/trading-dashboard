@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-24T19:01:18.517200+00:00",
+  "timestamp": "2026-06-24T19:16:23.632437+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-24T19:01:18.517200+00:00",
+    "last_activity": "2026-06-24T19:16:23.632437+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -26,14 +26,14 @@
     "max_active_trades": 4
   },
   "portfolio": {
-    "balance": 2917.6,
+    "balance": 2915.28,
     "cash": 1914.42,
     "open_positions": 1,
     "active_trades": 1,
-    "total_market_value": 1003.17,
-    "total_unrealized_pl": 3.17,
-    "daily_pnl": 11.14,
-    "daily_drawdown_limit": 87.53
+    "total_market_value": 1000.86,
+    "total_unrealized_pl": 0.86,
+    "daily_pnl": 8.82,
+    "daily_drawdown_limit": 87.46
   },
   "positions": [
     {
@@ -41,10 +41,10 @@
       "direction": "LONG",
       "qty": 4.23751258,
       "entry": 235.98764,
-      "current_price": 236.735,
-      "market_value": 1003.167541,
-      "unrealized_pl": 3.166948,
-      "unrealized_plpc": 0.00317,
+      "current_price": 236.19,
+      "market_value": 1000.858096,
+      "unrealized_pl": 0.857503,
+      "unrealized_plpc": 0.00086,
       "mode": "RANGING",
       "range_high": 242.39,
       "range_low": 240.72
@@ -56,10 +56,10 @@
       "direction": "LONG",
       "qty": 4.23751258,
       "entry": 235.98764,
-      "current_price": 236.735,
-      "market_value": 1003.167541,
-      "unrealized_pl": 3.166948,
-      "unrealized_plpc": 0.00317,
+      "current_price": 236.19,
+      "market_value": 1000.858096,
+      "unrealized_pl": 0.857503,
+      "unrealized_plpc": 0.00086,
       "mode": "RANGING",
       "range_high": 242.39,
       "range_low": 240.72
@@ -73,8 +73,8 @@
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
-    "total_pnl": 3.17,
-    "daily_pnl": 11.14
+    "total_pnl": 0.86,
+    "daily_pnl": 8.82
   },
   "market_modes": {
     "TSLA": "BEARISH",
@@ -88,11 +88,11 @@
     "META": "BEARISH",
     "PLTR": "BEARISH",
     "CRWD": "BEARISH",
-    "MSTR": "RANGING",
+    "MSTR": "BEARISH",
     "COIN": "BEARISH",
     "SMCI": "BEARISH",
     "HON": "RANGING",
-    "CHTR": "BULLISH",
+    "CHTR": "RANGING",
     "NVTS": "BEARISH",
     "QQQ": "BEARISH",
     "SPY": "RANGING",
