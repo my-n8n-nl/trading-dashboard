@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-24T14:01:20.081755+00:00",
+  "timestamp": "2026-06-24T14:16:18.057273+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-24T14:01:20.081755+00:00",
+    "last_activity": "2026-06-24T14:16:18.057273+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -26,14 +26,14 @@
     "max_active_trades": 4
   },
   "portfolio": {
-    "balance": 2920.53,
+    "balance": 2920.24,
     "cash": 1914.42,
     "open_positions": 1,
     "active_trades": 1,
-    "total_market_value": 1006.18,
-    "total_unrealized_pl": 6.18,
-    "daily_pnl": 14.07,
-    "daily_drawdown_limit": 87.62
+    "total_market_value": 1005.82,
+    "total_unrealized_pl": 5.82,
+    "daily_pnl": 13.78,
+    "daily_drawdown_limit": 87.61
   },
   "positions": [
     {
@@ -41,13 +41,13 @@
       "direction": "LONG",
       "qty": 4.23751258,
       "entry": 235.98764,
-      "current_price": 237.445,
-      "market_value": 1006.176175,
-      "unrealized_pl": 6.175582,
-      "unrealized_plpc": 0.00618,
+      "current_price": 237.36,
+      "market_value": 1005.815986,
+      "unrealized_pl": 5.815393,
+      "unrealized_plpc": 0.00582,
       "mode": "RANGING",
       "range_high": 235.825,
-      "range_low": 233.86
+      "range_low": 232.97
     }
   ],
   "open_trades": [
@@ -56,13 +56,13 @@
       "direction": "LONG",
       "qty": 4.23751258,
       "entry": 235.98764,
-      "current_price": 237.445,
-      "market_value": 1006.176175,
-      "unrealized_pl": 6.175582,
-      "unrealized_plpc": 0.00618,
+      "current_price": 237.36,
+      "market_value": 1005.815986,
+      "unrealized_pl": 5.815393,
+      "unrealized_plpc": 0.00582,
       "mode": "RANGING",
       "range_high": 235.825,
-      "range_low": 233.86
+      "range_low": 232.97
     }
   ],
   "recent_trades": [],
@@ -73,17 +73,17 @@
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
-    "total_pnl": 6.18,
-    "daily_pnl": 14.07
+    "total_pnl": 5.82,
+    "daily_pnl": 13.78
   },
   "market_modes": {
-    "TSLA": "RANGING",
+    "TSLA": "BEARISH",
     "NVDA": "BEARISH",
     "ASML": "BEARISH",
-    "GOOGL": "RANGING",
+    "GOOGL": "BULLISH",
     "MSFT": "RANGING",
-    "AMD": "RANGING",
-    "AVGO": "BEARISH",
+    "AMD": "BEARISH",
+    "AVGO": "RANGING",
     "AMZN": "RANGING",
     "META": "RANGING",
     "PLTR": "BEARISH",
@@ -92,7 +92,7 @@
     "COIN": "BEARISH",
     "SMCI": "BEARISH",
     "HON": "RANGING",
-    "CHTR": "RANGING",
+    "CHTR": "BULLISH",
     "NVTS": "BEARISH",
     "QQQ": "BEARISH",
     "SPY": "RANGING",
