@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-25T13:46:18.505996+00:00",
+  "timestamp": "2026-06-25T14:01:26.246636+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-25T13:46:18.505996+00:00",
+    "last_activity": "2026-06-25T14:01:26.246636+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -26,27 +26,55 @@
     "max_active_trades": 4
   },
   "portfolio": {
-    "balance": 2880.26,
-    "cash": 2880.26,
-    "open_positions": 0,
-    "active_trades": 0,
-    "total_market_value": 0,
-    "total_unrealized_pl": 0,
-    "daily_pnl": -26.88,
+    "balance": 2880.3,
+    "cash": 1876.36,
+    "open_positions": 1,
+    "active_trades": 1,
+    "total_market_value": 1003.94,
+    "total_unrealized_pl": 0.04,
+    "daily_pnl": -26.84,
     "daily_drawdown_limit": 86.41
   },
-  "positions": [],
-  "open_trades": [],
+  "positions": [
+    {
+      "symbol": "HON",
+      "direction": "LONG",
+      "qty": 4.281188457,
+      "entry": 234.49,
+      "current_price": 234.5,
+      "market_value": 1003.938693,
+      "unrealized_pl": 0.042812,
+      "unrealized_plpc": 4e-05,
+      "mode": "RANGING",
+      "range_high": 228.27,
+      "range_low": 226.69
+    }
+  ],
+  "open_trades": [
+    {
+      "symbol": "HON",
+      "direction": "LONG",
+      "qty": 4.281188457,
+      "entry": 234.49,
+      "current_price": 234.5,
+      "market_value": 1003.938693,
+      "unrealized_pl": 0.042812,
+      "unrealized_plpc": 4e-05,
+      "mode": "RANGING",
+      "range_high": 228.27,
+      "range_low": 226.69
+    }
+  ],
   "recent_trades": [],
   "stats": {
     "total": 0,
-    "open": 0,
+    "open": 1,
     "closed": 0,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
-    "total_pnl": 0,
-    "daily_pnl": -26.88
+    "total_pnl": 0.04,
+    "daily_pnl": -26.84
   },
   "market_modes": {
     "TSLA": "BEARISH",
