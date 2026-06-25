@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-25T23:01:08.331406+00:00",
+  "timestamp": "2026-06-25T23:16:12.039139+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-25T23:01:08.331406+00:00",
+    "last_activity": "2026-06-25T23:16:12.039139+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -45,7 +45,7 @@
       "market_value": 0.275342,
       "unrealized_pl": -0.003339,
       "unrealized_plpc": -0.01198,
-      "mode": "BULLISH",
+      "mode": "RANGING",
       "range_high": 237.33,
       "range_low": 230.28
     }
@@ -60,7 +60,7 @@
       "market_value": 0.275342,
       "unrealized_pl": -0.003339,
       "unrealized_plpc": -0.01198,
-      "mode": "BULLISH",
+      "mode": "RANGING",
       "range_high": 237.33,
       "range_low": 230.28
     }
@@ -79,7 +79,7 @@
   "market_modes": {
     "TSLA": "BEARISH",
     "NVDA": "BEARISH",
-    "ASML": "RANGING",
+    "ASML": "BULLISH",
     "GOOGL": "BULLISH",
     "MSFT": "BEARISH",
     "AMD": "BEARISH",
@@ -91,7 +91,7 @@
     "MSTR": "BEARISH",
     "COIN": "BEARISH",
     "SMCI": "RANGING",
-    "HON": "BULLISH",
+    "HON": "RANGING",
     "CHTR": "BEARISH",
     "NVTS": "BEARISH",
     "QQQ": "BULLISH",
