@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-25T13:01:17.596668+00:00",
+  "timestamp": "2026-06-25T13:16:22.618335+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-25T13:01:17.596668+00:00",
+    "last_activity": "2026-06-25T13:16:22.618335+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -26,14 +26,14 @@
     "max_active_trades": 4
   },
   "portfolio": {
-    "balance": 2900.45,
+    "balance": 2900.99,
     "cash": 1914.42,
     "open_positions": 1,
     "active_trades": 1,
-    "total_market_value": 986.03,
-    "total_unrealized_pl": -13.97,
-    "daily_pnl": -6.69,
-    "daily_drawdown_limit": 87.01
+    "total_market_value": 986.57,
+    "total_unrealized_pl": -13.43,
+    "daily_pnl": -6.15,
+    "daily_drawdown_limit": 87.03
   },
   "positions": [
     {
@@ -41,10 +41,10 @@
       "direction": "LONG",
       "qty": 4.23751258,
       "entry": 235.98764,
-      "current_price": 232.69,
-      "market_value": 986.026802,
-      "unrealized_pl": -13.973791,
-      "unrealized_plpc": -0.01397,
+      "current_price": 232.8178,
+      "market_value": 986.568356,
+      "unrealized_pl": -13.432237,
+      "unrealized_plpc": -0.01343,
       "mode": "BEARISH",
       "range_high": null,
       "range_low": null
@@ -56,10 +56,10 @@
       "direction": "LONG",
       "qty": 4.23751258,
       "entry": 235.98764,
-      "current_price": 232.69,
-      "market_value": 986.026802,
-      "unrealized_pl": -13.973791,
-      "unrealized_plpc": -0.01397,
+      "current_price": 232.8178,
+      "market_value": 986.568356,
+      "unrealized_pl": -13.432237,
+      "unrealized_plpc": -0.01343,
       "mode": "BEARISH",
       "range_high": null,
       "range_low": null
@@ -73,8 +73,8 @@
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
-    "total_pnl": -13.97,
-    "daily_pnl": -6.69
+    "total_pnl": -13.43,
+    "daily_pnl": -6.15
   },
   "market_modes": {
     "TSLA": "BEARISH",
@@ -90,7 +90,7 @@
     "CRWD": "BEARISH",
     "MSTR": "BEARISH",
     "COIN": "BEARISH",
-    "SMCI": "BEARISH",
+    "SMCI": "RANGING",
     "HON": "RANGING",
     "CHTR": "BEARISH",
     "NVTS": "BEARISH",
