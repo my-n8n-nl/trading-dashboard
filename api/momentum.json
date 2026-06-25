@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-25T14:01:26.246636+00:00",
+  "timestamp": "2026-06-25T14:16:23.287422+00:00",
   "strategy": "MOMENTUM v7.5 Hybride",
   "bot": {
     "online": true,
-    "last_activity": "2026-06-25T14:01:26.246636+00:00",
+    "last_activity": "2026-06-25T14:16:23.287422+00:00",
     "version": "v7.5"
   },
   "config": {
@@ -26,14 +26,14 @@
     "max_active_trades": 4
   },
   "portfolio": {
-    "balance": 2880.3,
+    "balance": 2884.54,
     "cash": 1876.36,
     "open_positions": 1,
     "active_trades": 1,
-    "total_market_value": 1003.94,
-    "total_unrealized_pl": 0.04,
-    "daily_pnl": -26.84,
-    "daily_drawdown_limit": 86.41
+    "total_market_value": 1008.18,
+    "total_unrealized_pl": 4.28,
+    "daily_pnl": -22.6,
+    "daily_drawdown_limit": 86.54
   },
   "positions": [
     {
@@ -41,13 +41,13 @@
       "direction": "LONG",
       "qty": 4.281188457,
       "entry": 234.49,
-      "current_price": 234.5,
-      "market_value": 1003.938693,
-      "unrealized_pl": 0.042812,
-      "unrealized_plpc": 4e-05,
+      "current_price": 235.49,
+      "market_value": 1008.17707,
+      "unrealized_pl": 4.281189,
+      "unrealized_plpc": 0.00426,
       "mode": "RANGING",
       "range_high": 228.27,
-      "range_low": 226.69
+      "range_low": 226.86
     }
   ],
   "open_trades": [
@@ -56,13 +56,13 @@
       "direction": "LONG",
       "qty": 4.281188457,
       "entry": 234.49,
-      "current_price": 234.5,
-      "market_value": 1003.938693,
-      "unrealized_pl": 0.042812,
-      "unrealized_plpc": 4e-05,
+      "current_price": 235.49,
+      "market_value": 1008.17707,
+      "unrealized_pl": 4.281189,
+      "unrealized_plpc": 0.00426,
       "mode": "RANGING",
       "range_high": 228.27,
-      "range_low": 226.69
+      "range_low": 226.86
     }
   ],
   "recent_trades": [],
@@ -73,14 +73,14 @@
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
-    "total_pnl": 0.04,
-    "daily_pnl": -26.84
+    "total_pnl": 4.28,
+    "daily_pnl": -22.6
   },
   "market_modes": {
     "TSLA": "BEARISH",
     "NVDA": "BEARISH",
     "ASML": "BEARISH",
-    "GOOGL": "BULLISH",
+    "GOOGL": "RANGING",
     "MSFT": "RANGING",
     "AMD": "BEARISH",
     "AVGO": "RANGING",
@@ -90,11 +90,11 @@
     "CRWD": "BEARISH",
     "MSTR": "BEARISH",
     "COIN": "BEARISH",
-    "SMCI": "BEARISH",
+    "SMCI": "RANGING",
     "HON": "RANGING",
     "CHTR": "BEARISH",
     "NVTS": "BEARISH",
-    "QQQ": "BEARISH",
+    "QQQ": "RANGING",
     "SPY": "RANGING",
     "BTC/USD": "RANGING",
     "ETH/USD": "BEARISH",
