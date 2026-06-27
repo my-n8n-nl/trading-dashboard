@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-06-26T05:51:40.809203",
+  "timestamp": "2026-06-27T22:09:29.846287",
   "strategy": "MOMENTUM v6.0 (Golden Middle)",
   "bot": {
-    "online": true,
+    "online": false,
     "last_activity": "2026-06-26T07:46:11.621432",
     "version": "v6.0"
   },
@@ -41,22 +41,12 @@
   },
   "portfolio": {
     "balance": 3000.0,
-    "open_positions": 1,
+    "open_positions": 0,
     "active_trades": 1,
     "daily_pnl": 0,
     "daily_drawdown_limit": 90.0
   },
-  "positions": [
-    {
-      "symbol": "HON",
-      "side": "long",
-      "qty": 0.001188457,
-      "entry_price": 234.49,
-      "current_price": 230.23,
-      "unrealized_pl": -0.01,
-      "unrealized_plpc": -1.82
-    }
-  ],
+  "positions": [],
   "open_trades": [
     {
       "id": 4,
