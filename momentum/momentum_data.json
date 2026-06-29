@@ -80,8 +80,8 @@
     "last_candle_time": "2026-06-29 12:00:00+00:00"
   },
   "MSFT": {
-    "price": 379.85,
-    "close": 379.85,
+    "price": 380.3,
+    "close": 380.3,
     "rh": null,
     "rl": null,
     "atr": NaN,
@@ -97,7 +97,7 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-06-29 13:00:00+00:00"
+    "last_candle_time": "2026-06-29 13:15:00+00:00"
   },
   "AMD": {
     "price": 529.14,
@@ -204,7 +204,7 @@
     "close": 700.04,
     "rh": 697.31,
     "rl": 685.24,
-    "atr": 3.468571428571425,
+    "atr": 3.4589285714285603,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -244,7 +244,7 @@
     "close": 149.2,
     "rh": 149.67,
     "rl": 146.17,
-    "atr": 1.0060714285714312,
+    "atr": 1.004642857142861,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -284,7 +284,7 @@
     "close": 231.4,
     "rh": 232.44,
     "rl": 230.52,
-    "atr": 1.1514285714285717,
+    "atr": 1.1371428571428583,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -324,7 +324,7 @@
     "close": 17.23,
     "rh": 17.555,
     "rl": 17.06,
-    "atr": 0.16178571428571406,
+    "atr": 0.1599999999999999,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -380,11 +380,11 @@
     "last_candle_time": "2026-06-26 20:30:00+00:00"
   },
   "BTC/USD": {
-    "price": 60151.119999999995,
-    "close": 60587.0555,
+    "price": 60170.424499999994,
+    "close": 60353.819,
     "rh": 60247.222,
     "rl": 58814.2,
-    "atr": 262.5048214285728,
+    "atr": 281.68875000000065,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -397,14 +397,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-06-29 12:00:00+00:00"
+    "last_candle_time": "2026-06-29 12:15:00+00:00"
   },
   "ETH/USD": {
-    "price": 1583.7269999999999,
-    "close": 1592.5005,
+    "price": 1582.4745,
+    "close": 1588.245,
     "rh": 1586.28,
     "rl": 1546.26,
-    "atr": 6.8582142857142925,
+    "atr": 7.096857142857142,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -417,14 +417,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-06-29 12:00:00+00:00"
+    "last_candle_time": "2026-06-29 12:15:00+00:00"
   },
   "SOL/USD": {
-    "price": 74.06395,
-    "close": 73.90025,
+    "price": 74.20845,
+    "close": 73.888,
     "rh": 73.63,
     "rl": 69.69673083,
-    "atr": 0.5316913767857139,
+    "atr": 0.5410913767857143,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -437,26 +437,40 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-06-29 12:00:00+00:00"
+    "last_candle_time": "2026-06-29 12:15:00+00:00"
   },
   "AVAX/USD": {
-    "price": 6.60288,
-    "close": 6.6855,
+    "price": 6.606225,
+    "close": 6.64895,
     "rh": 6.64978,
     "rl": 6.2707,
-    "atr": 0.05843081642857127,
+    "atr": 0.05864545928571412,
     "mode": "BULLISH",
     "breakout": {
-      "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
+      "trigger": true,
+      "direction": "LONG",
+      "body_ratio": 0.6613838098171545,
+      "volume_ratio": 4.945333978494445,
+      "atr_ratio": 3.0560072734613692
     },
-    "entry": null,
+    "entry": {
+      "direction": "LONG",
+      "entry": 6.63826,
+      "sl": 6.550291811071428,
+      "tp1": 6.814196377857143,
+      "tp2": 7.078100944642857,
+      "rr": 2.0,
+      "rr_pass": true,
+      "body_ratio": 0.6613838098171545,
+      "volume_ratio": 4.945333978494445,
+      "atr_ratio": 3.0560072734613692,
+      "entry_type": "LIMIT",
+      "trailing": true,
+      "risk_alloc": 30.0
+    },
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-06-29 12:00:00+00:00"
+    "last_candle_time": "2026-06-29 12:15:00+00:00"
   }
 }
