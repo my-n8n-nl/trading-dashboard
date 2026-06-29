@@ -100,11 +100,11 @@
     "last_candle_time": "2026-06-29 12:00:00+00:00"
   },
   "AMD": {
-    "price": 520.2,
-    "close": 520.2,
-    "rh": 524.61,
-    "rl": 515.95,
-    "atr": 3.8639285714285734,
+    "price": 529.14,
+    "close": 529.14,
+    "rh": null,
+    "rl": null,
+    "atr": NaN,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -115,9 +115,9 @@
     },
     "entry": null,
     "volume_blocked": false,
-    "stale_data": true,
-    "data_label": "[MARKET CLOSED - LAST AVAILABLE DATA]",
-    "last_candle_time": "2026-06-26 19:45:00+00:00"
+    "stale_data": false,
+    "data_label": "",
+    "last_candle_time": "2026-06-29 12:15:00+00:00"
   },
   "AVGO": {
     "price": 365.26,
@@ -220,8 +220,8 @@
     "last_candle_time": "2026-06-26 19:45:00+00:00"
   },
   "MSTR": {
-    "price": 87.45,
-    "close": 87.45,
+    "price": 89.14,
+    "close": 89.14,
     "rh": null,
     "rl": null,
     "atr": NaN,
@@ -237,7 +237,7 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-06-29 12:00:00+00:00"
+    "last_candle_time": "2026-06-29 12:15:00+00:00"
   },
   "COIN": {
     "price": 149.2,
@@ -380,7 +380,7 @@
     "last_candle_time": "2026-06-26 20:30:00+00:00"
   },
   "BTC/USD": {
-    "price": 60626.305,
+    "price": 60570.399999999994,
     "close": 59906.125,
     "rh": 60247.222,
     "rl": 58814.2,
@@ -400,7 +400,7 @@
     "last_candle_time": "2026-06-29 11:15:00+00:00"
   },
   "ETH/USD": {
-    "price": 1593.5,
+    "price": 1591.815,
     "close": 1572.14,
     "rh": 1586.28,
     "rl": 1546.26,
@@ -420,7 +420,7 @@
     "last_candle_time": "2026-06-29 11:15:00+00:00"
   },
   "SOL/USD": {
-    "price": 73.9032,
+    "price": 73.89500000000001,
     "close": 72.65245,
     "rh": 73.63,
     "rl": 69.69673083,
@@ -440,7 +440,7 @@
     "last_candle_time": "2026-06-29 11:15:00+00:00"
   },
   "AVAX/USD": {
-    "price": 6.686,
+    "price": 6.6646149999999995,
     "close": 6.551475,
     "rh": 6.64978,
     "rl": 6.262685,
