@@ -20,7 +20,7 @@
     "last_candle_time": "2026-07-13 12:30:00+00:00"
   },
   "NVDA": {
-    "price": 208.27,
+    "price": 207.92,
     "close": 208.27,
     "rh": null,
     "rl": null,
@@ -40,8 +40,8 @@
     "last_candle_time": "2026-07-13 13:00:00+00:00"
   },
   "ASML": {
-    "price": 1760.04,
-    "close": 1760.04,
+    "price": 1758.42,
+    "close": 1758.42,
     "rh": null,
     "rl": null,
     "atr": NaN,
@@ -57,7 +57,7 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-07-13 12:15:00+00:00"
+    "last_candle_time": "2026-07-13 13:00:00+00:00"
   },
   "GOOGL": {
     "price": 355.7,
@@ -200,11 +200,11 @@
     "last_candle_time": "2026-07-13 13:00:00+00:00"
   },
   "CRWD": {
-    "price": 187.15,
-    "close": 187.15,
-    "rh": 187.935,
-    "rl": 186.62,
-    "atr": 0.7282142857142873,
+    "price": 186.04,
+    "close": 186.04,
+    "rh": null,
+    "rl": null,
+    "atr": NaN,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -215,9 +215,9 @@
     },
     "entry": null,
     "volume_blocked": false,
-    "stale_data": true,
-    "data_label": "[MARKET CLOSED - LAST AVAILABLE DATA]",
-    "last_candle_time": "2026-07-10 19:45:00+00:00"
+    "stale_data": false,
+    "data_label": "",
+    "last_candle_time": "2026-07-13 13:15:00+00:00"
   },
   "MSTR": {
     "price": 91.56,
@@ -242,7 +242,7 @@
   "COIN": {
     "price": 159.09,
     "close": 159.09,
-    "rh": 161.11,
+    "rh": 160.055,
     "rl": 158.745,
     "atr": 0.8957142857142871,
     "mode": "RANGING",
@@ -284,7 +284,7 @@
     "close": 226.4,
     "rh": 228.74,
     "rl": 227.045,
-    "atr": 0.6696428571428592,
+    "atr": 0.6610714285714303,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -324,7 +324,7 @@
     "close": 13.46,
     "rh": 13.495,
     "rl": 13.36,
-    "atr": 0.07428571428571436,
+    "atr": 0.07357142857142865,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -380,11 +380,11 @@
     "last_candle_time": "2026-07-13 12:30:00+00:00"
   },
   "BTC/USD": {
-    "price": 62466.413,
-    "close": 62792.486,
+    "price": 62459.550218781005,
+    "close": 62681.915,
     "rh": 64370.7435,
     "rl": 62462.6765,
-    "atr": 133.98878690464178,
+    "atr": 132.97425119035688,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -397,14 +397,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-07-13 12:00:00+00:00"
+    "last_candle_time": "2026-07-13 12:15:00+00:00"
   },
   "ETH/USD": {
-    "price": 1767.9650000000001,
-    "close": 1779.224,
+    "price": 1766.565,
+    "close": 1775.753,
     "rh": 1842.6785,
     "rl": 1773.205,
-    "atr": 3.9446785714286046,
+    "atr": 3.9378928571428884,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -417,14 +417,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-07-13 12:00:00+00:00"
+    "last_candle_time": "2026-07-13 12:15:00+00:00"
   },
   "SOL/USD": {
-    "price": 75.69399999999999,
-    "close": 76.03415,
+    "price": 75.5769,
+    "close": 75.898,
     "rh": 78.17,
     "rl": 75.4131,
-    "atr": 0.3640821428571438,
+    "atr": 0.3624821428571445,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -437,14 +437,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-07-13 12:00:00+00:00"
+    "last_candle_time": "2026-07-13 12:15:00+00:00"
   },
   "AVAX/USD": {
-    "price": 6.6362,
-    "close": 6.60948,
+    "price": 6.64276,
+    "close": 6.58285,
     "rh": 6.665,
     "rl": 6.37215,
-    "atr": 0.04477571428571414,
+    "atr": 0.04602392857142844,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -457,6 +457,6 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-07-13 12:00:00+00:00"
+    "last_candle_time": "2026-07-13 12:15:00+00:00"
   }
 }
