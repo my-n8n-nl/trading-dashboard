@@ -380,11 +380,11 @@
     "last_candle_time": "2026-07-20 20:00:00+00:00"
   },
   "BTC/USD": {
-    "price": 66015.91,
-    "close": 65920.74,
+    "price": 66077.6345,
+    "close": 65880.9835,
     "rh": 65860.5545,
     "rl": 64017.2635,
-    "atr": 173.33321428571278,
+    "atr": 173.0470357142845,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -397,14 +397,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-07-21 06:30:00+00:00"
+    "last_candle_time": "2026-07-21 06:45:00+00:00"
   },
   "ETH/USD": {
-    "price": 1935.732,
-    "close": 1936.71,
+    "price": 1935.1415000000002,
+    "close": 1934.579,
     "rh": 1934.07,
     "rl": 1851.8,
-    "atr": 4.942642857142881,
+    "atr": 4.919821428571448,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -417,14 +417,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-07-21 06:30:00+00:00"
+    "last_candle_time": "2026-07-21 06:45:00+00:00"
   },
   "SOL/USD": {
-    "price": 78.445,
-    "close": 78.6425,
+    "price": 78.47489999999999,
+    "close": 78.5092,
     "rh": 79.3294,
     "rl": 75.741,
-    "atr": 0.3111535714285734,
+    "atr": 0.31636785714285864,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -437,26 +437,40 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-07-21 06:30:00+00:00"
+    "last_candle_time": "2026-07-21 06:45:00+00:00"
   },
   "AVAX/USD": {
-    "price": 6.6731,
-    "close": 6.681,
+    "price": 6.671049999999999,
+    "close": 6.66832,
     "rh": 6.662,
     "rl": 6.48805,
-    "atr": 0.021039516428571492,
+    "atr": 0.01926665928571441,
     "mode": "RANGING",
     "breakout": {
-      "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
+      "trigger": true,
+      "direction": "LONG",
+      "body_ratio": 0.8791999999999919,
+      "volume_ratio": 1.7868588492189157,
+      "atr_ratio": 1.1882402375964571
     },
-    "entry": null,
+    "entry": {
+      "direction": "LONG",
+      "entry": 6.672208,
+      "sl": 6.643308011071428,
+      "tp1": 6.730007977857144,
+      "tp2": 6.81670794464286,
+      "rr": 2.0,
+      "rr_pass": true,
+      "body_ratio": 0.8791999999999919,
+      "volume_ratio": 1.7868588492189157,
+      "atr_ratio": 1.1882402375964571,
+      "entry_type": "LIMIT",
+      "trailing": true,
+      "risk_alloc": 30.0
+    },
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-07-21 06:30:00+00:00"
+    "last_candle_time": "2026-07-21 06:45:00+00:00"
   }
 }
