@@ -35,10 +35,10 @@
   },
   "NVDA": {
     "price": 206.87,
-    "close": 206.9,
+    "close": 206.87,
     "rh": 211.89,
     "rl": 204.83,
-    "atr": 1.009285714285712,
+    "atr": 0.9657142857142824,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -51,14 +51,14 @@
     "volume_blocked": false,
     "stale_data": true,
     "data_label": "[MARKET CLOSED - LAST AVAILABLE DATA]",
-    "last_candle_time": "2026-07-24 20:00:00+00:00"
+    "last_candle_time": "2026-07-24 20:15:00+00:00"
   },
   "ASML": {
     "price": 1756.93,
-    "close": 1758.94,
+    "close": 1756.93,
     "rh": 1797.86,
     "rl": 1740.335,
-    "atr": 8.954999999999993,
+    "atr": 8.777857142857133,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -71,14 +71,14 @@
     "volume_blocked": false,
     "stale_data": true,
     "data_label": "[MARKET CLOSED - LAST AVAILABLE DATA]",
-    "last_candle_time": "2026-07-24 19:45:00+00:00"
+    "last_candle_time": "2026-07-24 20:15:00+00:00"
   },
   "GOOGL": {
     "price": 319.31,
-    "close": 319.74,
+    "close": 319.31,
     "rh": 324.17,
     "rl": 317.63,
-    "atr": 0.9085714285714224,
+    "atr": 0.8789285714285678,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -91,7 +91,7 @@
     "volume_blocked": false,
     "stale_data": true,
     "data_label": "[MARKET CLOSED - LAST AVAILABLE DATA]",
-    "last_candle_time": "2026-07-24 20:00:00+00:00"
+    "last_candle_time": "2026-07-24 20:15:00+00:00"
   },
   "MSFT": {
     "price": 381.81,
@@ -135,10 +135,10 @@
   },
   "AVGO": {
     "price": 381.67,
-    "close": 381.84,
+    "close": 381.67,
     "rh": 387.37,
     "rl": 378.84,
-    "atr": 1.6942857142857244,
+    "atr": 1.6207142857142938,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -151,7 +151,7 @@
     "volume_blocked": false,
     "stale_data": true,
     "data_label": "[MARKET CLOSED - LAST AVAILABLE DATA]",
-    "last_candle_time": "2026-07-24 19:45:00+00:00"
+    "last_candle_time": "2026-07-24 20:15:00+00:00"
   },
   "AMZN": {
     "price": 232.1,
@@ -355,10 +355,10 @@
   },
   "QQQ": {
     "price": 685.05,
-    "close": 684.12,
+    "close": 685.05,
     "rh": 692.59,
     "rl": 682.5,
-    "atr": 1.5617857142856824,
+    "atr": 1.5517857142856835,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -371,7 +371,7 @@
     "volume_blocked": false,
     "stale_data": true,
     "data_label": "[MARKET CLOSED - LAST AVAILABLE DATA]",
-    "last_candle_time": "2026-07-24 20:00:00+00:00"
+    "last_candle_time": "2026-07-24 20:15:00+00:00"
   },
   "SPY": {
     "price": 738.29,
@@ -394,31 +394,11 @@
     "last_candle_time": "2026-07-24 20:00:00+00:00"
   },
   "BTC/USD": {
-    "price": 64319.279500000004,
-    "close": 64372.067,
+    "price": 64309.697,
+    "close": 64349.405,
     "rh": 64243.23,
     "rl": 63706.8,
-    "atr": 96.64153571428635,
-    "mode": "RANGING",
-    "breakout": {
-      "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
-    },
-    "entry": null,
-    "volume_blocked": false,
-    "stale_data": false,
-    "data_label": "",
-    "last_candle_time": "2026-07-25 19:00:00+00:00"
-  },
-  "ETH/USD": {
-    "price": 1872.835,
-    "close": 1873.6175,
-    "rh": 1874.776,
-    "rl": 1850.0,
-    "atr": 3.0189642857142838,
+    "atr": 95.28307142857167,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -433,32 +413,12 @@
     "data_label": "",
     "last_candle_time": "2026-07-25 19:15:00+00:00"
   },
-  "SOL/USD": {
-    "price": 74.41499999999999,
-    "close": 74.6199,
-    "rh": 75.15460396,
-    "rl": 73.575,
-    "atr": 0.17133571428571262,
-    "mode": "BULLISH",
-    "breakout": {
-      "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
-    },
-    "entry": null,
-    "volume_blocked": false,
-    "stale_data": false,
-    "data_label": "",
-    "last_candle_time": "2026-07-25 19:00:00+00:00"
-  },
-  "AVAX/USD": {
-    "price": 6.68243,
-    "close": 6.67272,
-    "rh": 6.724,
-    "rl": 6.2202,
-    "atr": 0.05059071428571427,
+  "ETH/USD": {
+    "price": 1872.67,
+    "close": 1873.755,
+    "rh": 1875.455,
+    "rl": 1850.0,
+    "atr": 2.868392857142843,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -471,6 +431,46 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-07-25 19:00:00+00:00"
+    "last_candle_time": "2026-07-25 19:30:00+00:00"
+  },
+  "SOL/USD": {
+    "price": 74.45400000000001,
+    "close": 74.5674,
+    "rh": 75.15460396,
+    "rl": 73.575,
+    "atr": 0.16955714285714102,
+    "mode": "BULLISH",
+    "breakout": {
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
+    },
+    "entry": null,
+    "volume_blocked": false,
+    "stale_data": false,
+    "data_label": "",
+    "last_candle_time": "2026-07-25 19:15:00+00:00"
+  },
+  "AVAX/USD": {
+    "price": 6.679024999999999,
+    "close": 6.67045,
+    "rh": 6.724,
+    "rl": 6.2202,
+    "atr": 0.04972285714285712,
+    "mode": "RANGING",
+    "breakout": {
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
+    },
+    "entry": null,
+    "volume_blocked": false,
+    "stale_data": false,
+    "data_label": "",
+    "last_candle_time": "2026-07-25 19:15:00+00:00"
   }
 }
