@@ -380,11 +380,11 @@
     "last_candle_time": "2026-07-27 19:45:00+00:00"
   },
   "BTC/USD": {
-    "price": 63591.744999999995,
-    "close": 63634.753,
+    "price": 63546.7,
+    "close": 63701.95,
     "rh": 65695.5885,
     "rl": 63533.5505,
-    "atr": 232.24678571428635,
+    "atr": 232.91435714285763,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -397,14 +397,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-07-27 23:30:00+00:00"
+    "last_candle_time": "2026-07-27 23:45:00+00:00"
   },
   "ETH/USD": {
-    "price": 1884.1,
-    "close": 1885.3095,
+    "price": 1881.6644999999999,
+    "close": 1890.194,
     "rh": 1977.8485,
     "rl": 1882.0,
-    "atr": 7.82360714285718,
+    "atr": 7.986000000000039,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -417,14 +417,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-07-27 23:30:00+00:00"
+    "last_candle_time": "2026-07-27 23:45:00+00:00"
   },
   "SOL/USD": {
-    "price": 73.91935000000001,
-    "close": 73.95615,
+    "price": 73.85,
+    "close": 74.14835,
     "rh": 77.28865,
     "rl": 73.7315,
-    "atr": 0.3423678571428549,
+    "atr": 0.33446071428571145,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -437,26 +437,26 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-07-27 23:30:00+00:00"
+    "last_candle_time": "2026-07-27 23:45:00+00:00"
   },
   "AVAX/USD": {
-    "price": 6.43389,
-    "close": 6.38835,
+    "price": 6.428834999999999,
+    "close": 6.4035,
     "rh": 6.73827,
     "rl": 6.49087,
-    "atr": 0.03043928571428551,
+    "atr": 0.029811785714285537,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
-      "direction": "SHORT",
-      "body_ratio": 0.8579338889199647,
-      "volume_ratio": 48.68791116445196,
-      "atr_ratio": 3.425095785440624
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
     },
     "entry": null,
-    "volume_blocked": true,
+    "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-07-27 23:30:00+00:00"
+    "last_candle_time": "2026-07-27 23:45:00+00:00"
   }
 }
