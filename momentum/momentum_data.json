@@ -63,7 +63,7 @@
     "price": 334.82,
     "close": 334.82,
     "rh": 335.32,
-    "rl": 331.1,
+    "rl": 332.065,
     "atr": 1.1764285714285774,
     "mode": "BEARISH",
     "breakout": {
@@ -83,7 +83,7 @@
     "price": 448.62,
     "close": 448.62,
     "rh": 458.68,
-    "rl": 443.71,
+    "rl": 448.52,
     "atr": 2.030000000000005,
     "mode": "BULLISH",
     "breakout": {
@@ -167,27 +167,13 @@
     "atr": 2.307142857142854,
     "mode": "RANGING",
     "breakout": {
-      "trigger": true,
-      "direction": "LONG",
-      "body_ratio": 0.7128712871287238,
-      "volume_ratio": 3.7456801662751658,
-      "atr_ratio": 2.06152500364483
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
     },
-    "entry": {
-      "direction": "LONG",
-      "entry": 537.255,
-      "sl": 533.7942857142857,
-      "tp1": 544.1764285714286,
-      "tp2": 554.5585714285714,
-      "rr": 2.0,
-      "rr_pass": true,
-      "body_ratio": 0.7128712871287238,
-      "volume_ratio": 3.7456801662751658,
-      "atr_ratio": 2.06152500364483,
-      "entry_type": "LIMIT",
-      "trailing": true,
-      "risk_alloc": 30.0
-    },
+    "entry": null,
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
@@ -197,7 +183,7 @@
     "price": 122.21,
     "close": 122.21,
     "rh": 122.52,
-    "rl": 120.29,
+    "rl": 121.5,
     "atr": 0.4546428571428588,
     "mode": "RANGING",
     "breakout": {
@@ -257,7 +243,7 @@
     "price": 155.03,
     "close": 155.03,
     "rh": 164.535,
-    "rl": 159.79,
+    "rl": 162.02,
     "atr": 1.3725000000000023,
     "mode": "RANGING",
     "breakout": {
@@ -357,7 +343,7 @@
     "price": 685.92,
     "close": 685.92,
     "rh": 685.09,
-    "rl": 677.8,
+    "rl": 679.3,
     "atr": 1.2249999999999903,
     "mode": "RANGING",
     "breakout": {
@@ -377,7 +363,7 @@
     "price": 742.59,
     "close": 742.59,
     "rh": 742.45,
-    "rl": 734.625,
+    "rl": 741.01,
     "atr": 0.8374999999999935,
     "mode": "RANGING",
     "breakout": {
@@ -394,11 +380,11 @@
     "last_candle_time": "2026-07-30 20:30:00+00:00"
   },
   "BTC/USD": {
-    "price": 63810.4165,
-    "close": 63837.27,
+    "price": 63768.473,
+    "close": 63846.624,
     "rh": 65351.6785,
     "rl": 63536.45,
-    "atr": 129.42932142857066,
+    "atr": 128.36217857142816,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -411,14 +397,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-07-31 10:30:00+00:00"
+    "last_candle_time": "2026-07-31 10:45:00+00:00"
   },
   "ETH/USD": {
-    "price": 1882.278,
-    "close": 1886.985,
+    "price": 1881.42,
+    "close": 1885.26,
     "rh": 1934.562467467,
     "rl": 1877.05,
-    "atr": 4.309892857142878,
+    "atr": 4.087607142857158,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -431,14 +417,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-07-31 10:30:00+00:00"
+    "last_candle_time": "2026-07-31 10:45:00+00:00"
   },
   "SOL/USD": {
-    "price": 73.46000000000001,
-    "close": 73.526,
+    "price": 73.4195,
+    "close": 73.49,
     "rh": 75.18635,
     "rl": 73.224,
-    "atr": 0.2619035714285697,
+    "atr": 0.236974999999998,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -451,14 +437,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-07-31 10:30:00+00:00"
+    "last_candle_time": "2026-07-31 10:45:00+00:00"
   },
   "AVAX/USD": {
-    "price": 6.44808,
-    "close": 6.46342,
+    "price": 6.45095,
+    "close": 6.474,
     "rh": 6.53924,
     "rl": 6.38965,
-    "atr": 0.02587000000000022,
+    "atr": 0.027104285714285897,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -471,6 +457,6 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-07-31 10:30:00+00:00"
+    "last_candle_time": "2026-07-31 10:45:00+00:00"
   }
 }
