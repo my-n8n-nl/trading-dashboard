@@ -74,24 +74,38 @@
     "last_candle_time": "2026-07-31 19:45:00+00:00"
   },
   "GOOGL": {
-    "price": 356.06,
-    "close": 356.06,
+    "price": 355.13,
+    "close": 355.13,
     "rh": 356.32,
     "rl": 348.44,
-    "atr": 1.2914285714285743,
-    "mode": "BEARISH",
+    "atr": 1.2417857142857176,
+    "mode": "RANGING",
     "breakout": {
-      "trigger": false,
+      "trigger": true,
       "direction": "LONG",
       "body_ratio": 0.7873831775700786,
       "volume_ratio": 2.5167601498605294,
       "atr_ratio": 1.719862227324947
     },
-    "entry": null,
+    "entry": {
+      "direction": "LONG",
+      "entry": 356.67100000000005,
+      "sl": 354.80832142857145,
+      "tp1": 360.39635714285725,
+      "tp2": 365.98439285714306,
+      "rr": 2.0,
+      "rr_pass": true,
+      "body_ratio": 0.7873831775700786,
+      "volume_ratio": 2.5167601498605294,
+      "atr_ratio": 1.719862227324947,
+      "entry_type": "LIMIT",
+      "trailing": true,
+      "risk_alloc": 30.0
+    },
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-07-31 19:45:00+00:00"
+    "last_candle_time": "2026-07-31 20:15:00+00:00"
   },
   "MSFT": {
     "price": 464.49,
@@ -354,12 +368,12 @@
     "last_candle_time": "2026-07-31 19:45:00+00:00"
   },
   "QQQ": {
-    "price": 687.89,
-    "close": 687.89,
+    "price": 687.36,
+    "close": 687.36,
     "rh": 695.665,
     "rl": 680.205,
-    "atr": 1.467857142857164,
-    "mode": "RANGING",
+    "atr": 1.38428571428573,
+    "mode": "BULLISH",
     "breakout": {
       "trigger": false,
       "direction": "NONE",
@@ -371,7 +385,7 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-07-31 19:45:00+00:00"
+    "last_candle_time": "2026-07-31 20:15:00+00:00"
   },
   "SPY": {
     "price": 746.79,
@@ -394,7 +408,7 @@
     "last_candle_time": "2026-07-31 19:45:00+00:00"
   },
   "BTC/USD": {
-    "price": 62961.2365,
+    "price": 62913.770000000004,
     "close": 62952.93,
     "rh": 65351.6785,
     "rl": 62404.2115,
@@ -414,7 +428,7 @@
     "last_candle_time": "2026-07-31 19:15:00+00:00"
   },
   "ETH/USD": {
-    "price": 1867.705,
+    "price": 1867.192,
     "close": 1866.085,
     "rh": 1933.9,
     "rl": 1848.071820197,
@@ -434,7 +448,7 @@
     "last_candle_time": "2026-07-31 19:15:00+00:00"
   },
   "SOL/USD": {
-    "price": 73.03965,
+    "price": 73.00235,
     "close": 72.908,
     "rh": 75.18635,
     "rl": 72.6713,
@@ -454,7 +468,7 @@
     "last_candle_time": "2026-07-31 19:15:00+00:00"
   },
   "AVAX/USD": {
-    "price": 6.4441749999999995,
+    "price": 6.435775,
     "close": 6.435005,
     "rh": 6.53924,
     "rl": 6.31237,
