@@ -4,7 +4,7 @@
     "close": 309.55,
     "rh": 313.14,
     "rl": 309.77,
-    "atr": 1.1839285714285666,
+    "atr": NaN,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -22,7 +22,7 @@
   "NVDA": {
     "price": 200.74,
     "close": 200.74,
-    "rh": 199.94,
+    "rh": null,
     "rl": 198.295,
     "atr": NaN,
     "mode": "BULLISH",
@@ -42,7 +42,7 @@
   "ASML": {
     "price": 1631.83,
     "close": 1631.83,
-    "rh": 1663.735,
+    "rh": null,
     "rl": null,
     "atr": NaN,
     "mode": "RANGING",
@@ -84,7 +84,7 @@
     "close": 463.2,
     "rh": 466.825,
     "rl": 460.0,
-    "atr": 1.7567857142857082,
+    "atr": NaN,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -102,7 +102,7 @@
   "AMD": {
     "price": 476.03,
     "close": 476.03,
-    "rh": 493.065,
+    "rh": 488.65,
     "rl": 486.08,
     "atr": NaN,
     "mode": "BEARISH",
@@ -122,7 +122,7 @@
   "AVGO": {
     "price": 388.22,
     "close": 388.22,
-    "rh": 390.555,
+    "rh": 389.4,
     "rl": 386.875,
     "atr": NaN,
     "mode": "RANGING",
@@ -162,7 +162,7 @@
   "META": {
     "price": 556.6,
     "close": 556.6,
-    "rh": 549.92,
+    "rh": null,
     "rl": 547.51,
     "atr": NaN,
     "mode": "BULLISH",
@@ -182,7 +182,7 @@
   "PLTR": {
     "price": 123.03,
     "close": 123.03,
-    "rh": 123.1,
+    "rh": null,
     "rl": 121.98,
     "atr": NaN,
     "mode": "BEARISH",
@@ -202,7 +202,7 @@
   "CRWD": {
     "price": 190.86,
     "close": 190.86,
-    "rh": 191.645,
+    "rh": null,
     "rl": 189.62,
     "atr": NaN,
     "mode": "RANGING",
@@ -322,7 +322,7 @@
   "NVTS": {
     "price": 10.83,
     "close": 10.83,
-    "rh": 11.185,
+    "rh": 11.13,
     "rl": 11.015,
     "atr": NaN,
     "mode": "BEARISH",
@@ -344,7 +344,7 @@
     "close": 686.13,
     "rh": 690.84,
     "rl": 687.775,
-    "atr": 1.3360714285714477,
+    "atr": NaN,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -362,7 +362,7 @@
   "SPY": {
     "price": 746.79,
     "close": 746.79,
-    "rh": 746.46,
+    "rh": null,
     "rl": null,
     "atr": NaN,
     "mode": "RANGING",
@@ -380,11 +380,11 @@
     "last_candle_time": "2026-07-31 19:45:00+00:00"
   },
   "BTC/USD": {
-    "price": 63002.769,
-    "close": 63046.6575,
+    "price": 63019.979999999996,
+    "close": 63055.672,
     "rh": 63239.77,
     "rl": 62781.845,
-    "atr": 74.28017857142757,
+    "atr": 75.03553571428503,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -397,14 +397,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-08-01 12:45:00+00:00"
+    "last_candle_time": "2026-08-01 13:00:00+00:00"
   },
   "ETH/USD": {
-    "price": 1867.135,
-    "close": 1867.135,
+    "price": 1867.6100000000001,
+    "close": 1867.61,
     "rh": 1875.8615,
     "rl": 1857.5265,
-    "atr": 2.3098928571428297,
+    "atr": 2.3844999999999703,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -420,11 +420,11 @@
     "last_candle_time": "2026-08-01 13:45:00+00:00"
   },
   "SOL/USD": {
-    "price": 72.89,
-    "close": 72.9,
+    "price": 72.923,
+    "close": 72.875,
     "rh": 73.47,
     "rl": 72.413793103,
-    "atr": 0.09634999999999902,
+    "atr": 0.1043857142857131,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -437,14 +437,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-08-01 13:00:00+00:00"
+    "last_candle_time": "2026-08-01 13:15:00+00:00"
   },
   "AVAX/USD": {
-    "price": 6.346,
-    "close": 6.345,
+    "price": 6.3534500000000005,
+    "close": 6.352685,
     "rh": 6.4698,
-    "rl": 6.3265,
-    "atr": 0.011409285714285757,
+    "rl": 6.32511,
+    "atr": 0.01346357142857148,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -457,6 +457,6 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-08-01 12:45:00+00:00"
+    "last_candle_time": "2026-08-01 13:00:00+00:00"
   }
 }
