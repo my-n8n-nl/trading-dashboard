@@ -151,7 +151,7 @@
     "price": 388.22,
     "close": 388.22,
     "rh": 390.555,
-    "rl": 379.81,
+    "rl": 382.76,
     "atr": 1.6332142857142824,
     "mode": "RANGING",
     "breakout": {
@@ -231,7 +231,7 @@
     "price": 190.86,
     "close": 190.86,
     "rh": 191.645,
-    "rl": 184.24,
+    "rl": 187.24,
     "atr": 0.8817857142857081,
     "mode": "RANGING",
     "breakout": {
@@ -271,7 +271,7 @@
     "price": 146.3,
     "close": 146.3,
     "rh": 151.585,
-    "rl": 139.21,
+    "rl": 139.84,
     "atr": 1.4403571428571464,
     "mode": "RANGING",
     "breakout": {
@@ -351,7 +351,7 @@
     "price": 10.83,
     "close": 10.83,
     "rh": 11.215,
-    "rl": 10.6,
+    "rl": 10.765,
     "atr": 0.10714285714285701,
     "mode": "BEARISH",
     "breakout": {
@@ -371,7 +371,7 @@
     "price": 686.13,
     "close": 686.13,
     "rh": 690.84,
-    "rl": 680.205,
+    "rl": 680.98,
     "atr": 1.3360714285714477,
     "mode": "RANGING",
     "breakout": {
@@ -391,7 +391,7 @@
     "price": 746.79,
     "close": 746.79,
     "rh": 746.46,
-    "rl": 737.7,
+    "rl": 739.825,
     "atr": 0.9978571428571611,
     "mode": "RANGING",
     "breakout": {
@@ -408,51 +408,11 @@
     "last_candle_time": "2026-07-31 19:45:00+00:00"
   },
   "BTC/USD": {
-    "price": 63007.047999999995,
-    "close": 63057.1645,
+    "price": 62976.295,
+    "close": 62988.385,
     "rh": 63239.77,
     "rl": 62404.2115,
-    "atr": 76.76310714285708,
-    "mode": "RANGING",
-    "breakout": {
-      "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
-    },
-    "entry": null,
-    "volume_blocked": false,
-    "stale_data": false,
-    "data_label": "",
-    "last_candle_time": "2026-08-01 09:30:00+00:00"
-  },
-  "ETH/USD": {
-    "price": 1863.8909790134999,
-    "close": 1863.4595,
-    "rh": 1875.8615,
-    "rl": 1852.75,
-    "atr": 1.8846071428571511,
-    "mode": "BEARISH",
-    "breakout": {
-      "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
-    },
-    "entry": null,
-    "volume_blocked": false,
-    "stale_data": false,
-    "data_label": "",
-    "last_candle_time": "2026-08-01 10:15:00+00:00"
-  },
-  "SOL/USD": {
-    "price": 72.72749999999999,
-    "close": 72.7875,
-    "rh": 73.712,
-    "rl": 72.413793103,
-    "atr": 0.20122857142856937,
+    "atr": 77.93514285714264,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -467,12 +427,12 @@
     "data_label": "",
     "last_candle_time": "2026-08-01 09:45:00+00:00"
   },
-  "AVAX/USD": {
-    "price": 6.328865,
-    "close": 6.363,
-    "rh": 6.4698,
-    "rl": 6.3615,
-    "atr": 0.013049285714285652,
+  "ETH/USD": {
+    "price": 1865.9,
+    "close": 1865.685,
+    "rh": 1875.8615,
+    "rl": 1852.75,
+    "atr": 2.122000000000006,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -485,6 +445,46 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-08-01 09:30:00+00:00"
+    "last_candle_time": "2026-08-01 10:30:00+00:00"
+  },
+  "SOL/USD": {
+    "price": 72.7858,
+    "close": 72.7365,
+    "rh": 73.47,
+    "rl": 72.413793103,
+    "atr": 0.1951678571428559,
+    "mode": "RANGING",
+    "breakout": {
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
+    },
+    "entry": null,
+    "volume_blocked": false,
+    "stale_data": false,
+    "data_label": "",
+    "last_candle_time": "2026-08-01 10:00:00+00:00"
+  },
+  "AVAX/USD": {
+    "price": 6.335050000000001,
+    "close": 6.3525,
+    "rh": 6.4698,
+    "rl": 6.3615,
+    "atr": 0.012449285714285654,
+    "mode": "BEARISH",
+    "breakout": {
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
+    },
+    "entry": null,
+    "volume_blocked": false,
+    "stale_data": false,
+    "data_label": "",
+    "last_candle_time": "2026-08-01 09:45:00+00:00"
   }
 }
