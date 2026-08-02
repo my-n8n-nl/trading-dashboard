@@ -1,10 +1,10 @@
 {
   "TSLA": {
     "price": 309.55,
-    "close": 311.19,
+    "close": 310.02,
     "rh": 312.13,
     "rl": 301.98,
-    "atr": 1.2482142857142793,
+    "atr": 1.255357142857138,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -17,7 +17,7 @@
     "volume_blocked": false,
     "stale_data": true,
     "data_label": "[MARKET CLOSED - LAST AVAILABLE DATA]",
-    "last_candle_time": "2026-07-31 19:45:00+00:00"
+    "last_candle_time": "2026-07-31 20:00:00+00:00"
   },
   "NVDA": {
     "price": 200.74,
@@ -109,10 +109,10 @@
   },
   "MSFT": {
     "price": 463.2,
-    "close": 464.7,
+    "close": 464.49,
     "rh": 464.75,
     "rl": 449.87,
-    "atr": 1.9528571428571329,
+    "atr": 1.8407142857142762,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -125,7 +125,7 @@
     "volume_blocked": false,
     "stale_data": true,
     "data_label": "[MARKET CLOSED - LAST AVAILABLE DATA]",
-    "last_candle_time": "2026-07-31 19:45:00+00:00"
+    "last_candle_time": "2026-07-31 20:00:00+00:00"
   },
   "AMD": {
     "price": 476.03,
@@ -408,52 +408,12 @@
     "last_candle_time": "2026-07-31 19:45:00+00:00"
   },
   "BTC/USD": {
-    "price": 63376.831,
-    "close": 63319.95,
+    "price": 63389.051,
+    "close": 63283.395,
     "rh": 63581.65,
-    "rl": 62690.08,
-    "atr": 115.23389285714231,
+    "rl": 62747.2,
+    "atr": 117.31117857142817,
     "mode": "RANGING",
-    "breakout": {
-      "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
-    },
-    "entry": null,
-    "volume_blocked": false,
-    "stale_data": false,
-    "data_label": "",
-    "last_candle_time": "2026-08-02 18:45:00+00:00"
-  },
-  "ETH/USD": {
-    "price": 1880.0765000000001,
-    "close": 1874.28,
-    "rh": 1882.1275,
-    "rl": 1841.8,
-    "atr": 4.489928571428599,
-    "mode": "RANGING",
-    "breakout": {
-      "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
-    },
-    "entry": null,
-    "volume_blocked": false,
-    "stale_data": false,
-    "data_label": "",
-    "last_candle_time": "2026-08-02 18:45:00+00:00"
-  },
-  "SOL/USD": {
-    "price": 73.63159999999999,
-    "close": 73.4915,
-    "rh": 73.748,
-    "rl": 72.62495,
-    "atr": 0.17424999999999966,
-    "mode": "BULLISH",
     "breakout": {
       "trigger": false,
       "direction": "NONE",
@@ -467,12 +427,12 @@
     "data_label": "",
     "last_candle_time": "2026-08-02 19:00:00+00:00"
   },
-  "AVAX/USD": {
-    "price": 6.59629,
-    "close": 6.61549,
-    "rh": 6.6628,
-    "rl": 6.1646,
-    "atr": 0.022148571428571438,
+  "ETH/USD": {
+    "price": 1880.5305,
+    "close": 1874.4395,
+    "rh": 1884.19,
+    "rl": 1841.8,
+    "atr": 4.569571428571456,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -485,6 +445,46 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-08-02 18:45:00+00:00"
+    "last_candle_time": "2026-08-02 19:00:00+00:00"
+  },
+  "SOL/USD": {
+    "price": 73.65245,
+    "close": 73.5655,
+    "rh": 73.748,
+    "rl": 72.62495,
+    "atr": 0.18560714285714294,
+    "mode": "BULLISH",
+    "breakout": {
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
+    },
+    "entry": null,
+    "volume_blocked": false,
+    "stale_data": false,
+    "data_label": "",
+    "last_candle_time": "2026-08-02 19:15:00+00:00"
+  },
+  "AVAX/USD": {
+    "price": 6.59646,
+    "close": 6.59666,
+    "rh": 6.6628,
+    "rl": 6.1646,
+    "atr": 0.022851428571428554,
+    "mode": "RANGING",
+    "breakout": {
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
+    },
+    "entry": null,
+    "volume_blocked": false,
+    "stale_data": false,
+    "data_label": "",
+    "last_candle_time": "2026-08-02 19:00:00+00:00"
   }
 }
