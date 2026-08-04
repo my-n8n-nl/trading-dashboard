@@ -1,10 +1,10 @@
 {
   "TSLA": {
-    "price": 327.37,
-    "close": 327.37,
+    "price": 327.24,
+    "close": 327.24,
     "rh": 329.52,
     "rl": 320.83,
-    "atr": 1.1692857142857065,
+    "atr": 1.1239285714285643,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -17,7 +17,7 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-08-04 19:45:00+00:00"
+    "last_candle_time": "2026-08-04 20:00:00+00:00"
   },
   "NVDA": {
     "price": 211.96,
@@ -80,24 +80,24 @@
     "last_candle_time": "2026-08-04 19:45:00+00:00"
   },
   "MSFT": {
-    "price": 492.83,
-    "close": 492.83,
+    "price": 491.61,
+    "close": 491.61,
     "rh": 499.34,
     "rl": 494.235,
-    "atr": 1.4450000000000054,
+    "atr": 1.4042857142857161,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
+      "direction": "SHORT",
+      "body_ratio": 0.8568464730290459,
+      "volume_ratio": 4.84234165722123,
+      "atr_ratio": 3.335640138408287
     },
     "entry": null,
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-08-04 19:45:00+00:00"
+    "last_candle_time": "2026-08-04 20:00:00+00:00"
   },
   "AMD": {
     "price": 525.52,
@@ -394,7 +394,7 @@
     "last_candle_time": "2026-08-04 19:45:00+00:00"
   },
   "BTC/USD": {
-    "price": 64128.120500000005,
+    "price": 64114.274999999994,
     "close": 64299.8275,
     "rh": 64362.481,
     "rl": 63246.715,
@@ -414,7 +414,7 @@
     "last_candle_time": "2026-08-04 19:00:00+00:00"
   },
   "ETH/USD": {
-    "price": 1871.79,
+    "price": 1872.1335,
     "close": 1876.145,
     "rh": 1880.24,
     "rl": 1847.485,
@@ -454,7 +454,7 @@
     "last_candle_time": "2026-08-04 19:00:00+00:00"
   },
   "AVAX/USD": {
-    "price": 6.72579,
+    "price": 6.724500000000001,
     "close": 6.73485,
     "rh": 6.972455,
     "rl": 6.545685,
