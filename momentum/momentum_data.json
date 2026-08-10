@@ -100,12 +100,12 @@
     "last_candle_time": "2026-08-10 13:00:00+00:00"
   },
   "AMD": {
-    "price": 482.28,
-    "close": 482.28,
-    "rh": 482.165,
-    "rl": 477.205,
-    "atr": 2.1217857142857093,
-    "mode": "BEARISH",
+    "price": 479.0,
+    "close": 479.0,
+    "rh": null,
+    "rl": null,
+    "atr": NaN,
+    "mode": "RANGING",
     "breakout": {
       "trigger": false,
       "direction": "NONE",
@@ -115,9 +115,9 @@
     },
     "entry": null,
     "volume_blocked": false,
-    "stale_data": true,
-    "data_label": "[MARKET CLOSED - LAST AVAILABLE DATA]",
-    "last_candle_time": "2026-08-07 20:00:00+00:00"
+    "stale_data": false,
+    "data_label": "",
+    "last_candle_time": "2026-08-10 13:00:00+00:00"
   },
   "AVGO": {
     "price": 427.82,
@@ -340,8 +340,8 @@
     "last_candle_time": "2026-08-07 19:45:00+00:00"
   },
   "QQQ": {
-    "price": 722.07,
-    "close": 722.07,
+    "price": 722.57,
+    "close": 722.57,
     "rh": null,
     "rl": null,
     "atr": NaN,
@@ -380,7 +380,7 @@
     "last_candle_time": "2026-08-07 20:00:00+00:00"
   },
   "BTC/USD": {
-    "price": 64824.82,
+    "price": 64831.05,
     "close": 65074.941,
     "rh": 65387.94,
     "rl": 64765.8,
@@ -400,7 +400,7 @@
     "last_candle_time": "2026-08-10 12:00:00+00:00"
   },
   "ETH/USD": {
-    "price": 1906.4935,
+    "price": 1907.7415,
     "close": 1904.235,
     "rh": 1935.4665000005,
     "rl": 1905.325,
@@ -440,7 +440,7 @@
     "last_candle_time": "2026-08-10 12:00:00+00:00"
   },
   "AVAX/USD": {
-    "price": 6.54261,
+    "price": 6.539339999999999,
     "close": 6.55622,
     "rh": 6.579,
     "rl": 6.37325885,
