@@ -380,31 +380,11 @@
     "last_candle_time": "2026-08-12 20:00:00+00:00"
   },
   "BTC/USD": {
-    "price": 63433.478,
-    "close": 63437.4105,
+    "price": 63403.355,
+    "close": 63486.719,
     "rh": 64477.35,
     "rl": 63243.18,
-    "atr": 110.71924999999828,
-    "mode": "RANGING",
-    "breakout": {
-      "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
-    },
-    "entry": null,
-    "volume_blocked": false,
-    "stale_data": false,
-    "data_label": "",
-    "last_candle_time": "2026-08-12 20:15:00+00:00"
-  },
-  "ETH/USD": {
-    "price": 1879.3865,
-    "close": 1884.89,
-    "rh": 1922.7,
-    "rl": 1875.2,
-    "atr": 3.5161428571428814,
+    "atr": 112.07924999999834,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -419,8 +399,28 @@
     "data_label": "",
     "last_candle_time": "2026-08-12 20:30:00+00:00"
   },
+  "ETH/USD": {
+    "price": 1874.8995,
+    "close": 1884.5345,
+    "rh": 1922.7,
+    "rl": 1875.2,
+    "atr": 3.3587142857143135,
+    "mode": "RANGING",
+    "breakout": {
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
+    },
+    "entry": null,
+    "volume_blocked": false,
+    "stale_data": false,
+    "data_label": "",
+    "last_candle_time": "2026-08-12 20:45:00+00:00"
+  },
   "SOL/USD": {
-    "price": 75.5245,
+    "price": 75.4221,
     "close": 75.8815,
     "rh": 77.1945,
     "rl": 75.3925,
@@ -440,11 +440,11 @@
     "last_candle_time": "2026-08-12 20:30:00+00:00"
   },
   "AVAX/USD": {
-    "price": 6.3549500000000005,
-    "close": 6.3929,
+    "price": 6.3456,
+    "close": 6.411,
     "rh": 6.53635,
     "rl": 6.1956,
-    "atr": 0.0360174285714285,
+    "atr": 0.03717849999999994,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -457,6 +457,6 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-08-12 20:15:00+00:00"
+    "last_candle_time": "2026-08-12 20:30:00+00:00"
   }
 }
