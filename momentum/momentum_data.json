@@ -22,7 +22,7 @@
   "NVDA": {
     "price": 225.36,
     "close": 225.36,
-    "rh": 226.465,
+    "rh": 226.23,
     "rl": 223.72,
     "atr": 0.5317857142857078,
     "mode": "BULLISH",
@@ -404,7 +404,7 @@
   "SPY": {
     "price": 777.86,
     "close": 777.86,
-    "rh": 779.37,
+    "rh": 778.41,
     "rl": 775.4,
     "atr": 0.46642857142855326,
     "mode": "RANGING",
@@ -422,11 +422,11 @@
     "last_candle_time": "2026-08-13 20:00:00+00:00"
   },
   "BTC/USD": {
-    "price": 62752.5595,
-    "close": 62735.746,
-    "rh": 63954.07,
+    "price": 62763.5,
+    "close": 62793.828,
+    "rh": 63600.53,
     "rl": 62632.8905,
-    "atr": 139.23898173264232,
+    "atr": 143.76683887549942,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -439,14 +439,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-08-14 09:45:00+00:00"
+    "last_candle_time": "2026-08-14 10:00:00+00:00"
   },
   "ETH/USD": {
-    "price": 1874.185,
-    "close": 1872.907,
-    "rh": 1894.669,
+    "price": 1874.6750000000002,
+    "close": 1874.425,
+    "rh": 1891.215,
     "rl": 1862.234,
-    "atr": 3.9543571428571664,
+    "atr": 3.7916785714285846,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -459,34 +459,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-08-14 10:00:00+00:00"
+    "last_candle_time": "2026-08-14 10:15:00+00:00"
   },
   "SOL/USD": {
-    "price": 75.2835,
-    "close": 75.4419,
+    "price": 75.4025,
+    "close": 75.51765,
     "rh": 77.236253465,
     "rl": 74.8794,
-    "atr": 0.2014642857142864,
-    "mode": "BULLISH",
-    "breakout": {
-      "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
-    },
-    "entry": null,
-    "volume_blocked": false,
-    "stale_data": false,
-    "data_label": "",
-    "last_candle_time": "2026-08-14 09:45:00+00:00"
-  },
-  "AVAX/USD": {
-    "price": 6.367917885000001,
-    "close": 6.367062885,
-    "rh": 6.4884,
-    "rl": 6.35783577,
-    "atr": 0.014944130000000135,
+    "atr": 0.2030535714285731,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -500,5 +480,25 @@
     "stale_data": false,
     "data_label": "",
     "last_candle_time": "2026-08-14 10:00:00+00:00"
+  },
+  "AVAX/USD": {
+    "price": 6.369417885000001,
+    "close": 6.370377885,
+    "rh": 6.4884,
+    "rl": 6.35783577,
+    "atr": 0.013496111071428705,
+    "mode": "BULLISH",
+    "breakout": {
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
+    },
+    "entry": null,
+    "volume_blocked": false,
+    "stale_data": false,
+    "data_label": "",
+    "last_candle_time": "2026-08-14 10:15:00+00:00"
   }
 }
