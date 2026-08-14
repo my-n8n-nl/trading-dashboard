@@ -380,31 +380,11 @@
     "last_candle_time": "2026-08-14 20:00:00+00:00"
   },
   "BTC/USD": {
-    "price": 62842.902,
-    "close": 62862.79,
+    "price": 62833.6075,
+    "close": 62845.4185,
     "rh": 63587.0,
     "rl": 62467.464218781,
-    "atr": 106.33221428571414,
-    "mode": "BEARISH",
-    "breakout": {
-      "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
-    },
-    "entry": null,
-    "volume_blocked": false,
-    "stale_data": false,
-    "data_label": "",
-    "last_candle_time": "2026-08-14 20:30:00+00:00"
-  },
-  "ETH/USD": {
-    "price": 1878.068,
-    "close": 1878.165,
-    "rh": 1889.115,
-    "rl": 1862.4038,
-    "atr": 2.9924285714285395,
+    "atr": 103.63289285714303,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -419,12 +399,12 @@
     "data_label": "",
     "last_candle_time": "2026-08-14 20:45:00+00:00"
   },
-  "SOL/USD": {
-    "price": 75.12545,
-    "close": 75.1573,
-    "rh": 76.237,
-    "rl": 74.6,
-    "atr": 0.23093214285714328,
+  "ETH/USD": {
+    "price": 1876.85,
+    "close": 1876.4085,
+    "rh": 1889.115,
+    "rl": 1862.4038,
+    "atr": 2.8808214285713967,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -437,14 +417,34 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-08-14 20:30:00+00:00"
+    "last_candle_time": "2026-08-14 21:00:00+00:00"
+  },
+  "SOL/USD": {
+    "price": 75.09965,
+    "close": 75.076,
+    "rh": 76.237,
+    "rl": 74.6,
+    "atr": 0.23023214285714338,
+    "mode": "BEARISH",
+    "breakout": {
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
+    },
+    "entry": null,
+    "volume_blocked": false,
+    "stale_data": false,
+    "data_label": "",
+    "last_candle_time": "2026-08-14 20:45:00+00:00"
   },
   "AVAX/USD": {
-    "price": 6.41105,
-    "close": 6.4216,
+    "price": 6.40654,
+    "close": 6.41877,
     "rh": 6.50289,
     "rl": 6.32521,
-    "atr": 0.019610154642857123,
+    "atr": 0.016402334642857168,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -457,6 +457,6 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-08-14 20:30:00+00:00"
+    "last_candle_time": "2026-08-14 20:45:00+00:00"
   }
 }
