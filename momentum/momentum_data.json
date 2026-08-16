@@ -162,7 +162,7 @@
   "META": {
     "price": 589.76,
     "close": 589.76,
-    "rh": 592.1,
+    "rh": null,
     "rl": null,
     "atr": NaN,
     "mode": "RANGING",
@@ -282,7 +282,7 @@
   "HON": {
     "price": 233.805,
     "close": 233.805,
-    "rh": 234.34,
+    "rh": null,
     "rl": null,
     "atr": NaN,
     "mode": "RANGING",
@@ -362,7 +362,7 @@
   "SPY": {
     "price": 776.03,
     "close": 776.03,
-    "rh": 776.49,
+    "rh": null,
     "rl": 775.87,
     "atr": NaN,
     "mode": "RANGING",
@@ -380,11 +380,11 @@
     "last_candle_time": "2026-08-14 20:00:00+00:00"
   },
   "BTC/USD": {
-    "price": 63051.375,
-    "close": 62988.098,
+    "price": 63029.759999999995,
+    "close": 62993.738,
     "rh": 63134.5,
     "rl": 62878.2,
-    "atr": 57.85200000000051,
+    "atr": 58.21685714285767,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -397,14 +397,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-08-16 14:00:00+00:00"
+    "last_candle_time": "2026-08-16 14:15:00+00:00"
   },
   "ETH/USD": {
-    "price": 1881.397,
-    "close": 1881.397,
+    "price": 1881.5700000000002,
+    "close": 1881.57,
     "rh": 1883.828,
     "rl": 1875.9155,
-    "atr": 1.3080000000000251,
+    "atr": 1.3178928571428838,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -421,10 +421,10 @@
   },
   "SOL/USD": {
     "price": 75.3675,
-    "close": 75.371,
+    "close": 75.3675,
     "rh": 75.722,
     "rl": 74.96,
-    "atr": 0.1415249999999984,
+    "atr": 0.15281071428571277,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -441,10 +441,10 @@
   },
   "AVAX/USD": {
     "price": 6.4158,
-    "close": 6.401,
+    "close": 6.404845,
     "rh": 6.50265,
     "rl": 6.213,
-    "atr": 0.01284821428571435,
+    "atr": 0.013154285714285738,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -457,6 +457,6 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-08-16 14:15:00+00:00"
+    "last_candle_time": "2026-08-16 14:30:00+00:00"
   }
 }
