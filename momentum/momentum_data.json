@@ -82,7 +82,7 @@
   "MSFT": {
     "price": 495.35,
     "close": 495.35,
-    "rh": 499.23,
+    "rh": null,
     "rl": null,
     "atr": 0.6600000000000047,
     "mode": "RANGING",
@@ -103,7 +103,7 @@
     "price": 514.395,
     "close": 514.395,
     "rh": 509.405,
-    "rl": 496.39,
+    "rl": 507.12,
     "atr": 2.14499999999999,
     "mode": "RANGING",
     "breakout": {
@@ -162,7 +162,7 @@
   "META": {
     "price": 589.76,
     "close": 589.76,
-    "rh": 595.06,
+    "rh": 592.515,
     "rl": 590.81,
     "atr": 0.9539285714285809,
     "mode": "RANGING",
@@ -343,7 +343,7 @@
     "price": 731.01,
     "close": 731.01,
     "rh": 731.12,
-    "rl": 728.34,
+    "rl": 728.805,
     "atr": 0.4853571428571643,
     "mode": "RANGING",
     "breakout": {
@@ -380,71 +380,11 @@
     "last_candle_time": "2026-08-14 20:00:00+00:00"
   },
   "BTC/USD": {
-    "price": 62980.45,
-    "close": 62936.7,
+    "price": 62976.24800000001,
+    "close": 62927.713,
     "rh": 63134.5,
     "rl": 62878.2,
-    "atr": 54.842750000000834,
-    "mode": "RANGING",
-    "breakout": {
-      "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
-    },
-    "entry": null,
-    "volume_blocked": false,
-    "stale_data": false,
-    "data_label": "",
-    "last_candle_time": "2026-08-16 11:00:00+00:00"
-  },
-  "ETH/USD": {
-    "price": 1878.562,
-    "close": 1878.562,
-    "rh": 1884.545,
-    "rl": 1875.9155,
-    "atr": 1.8655000000000297,
-    "mode": "RANGING",
-    "breakout": {
-      "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
-    },
-    "entry": null,
-    "volume_blocked": false,
-    "stale_data": false,
-    "data_label": "",
-    "last_candle_time": "2026-08-16 12:00:00+00:00"
-  },
-  "SOL/USD": {
-    "price": 75.17285,
-    "close": 75.17285,
-    "rh": 75.722,
-    "rl": 74.96,
-    "atr": 0.18796785714285846,
-    "mode": "RANGING",
-    "breakout": {
-      "trigger": false,
-      "direction": "NONE",
-      "body_ratio": 0.0,
-      "volume_ratio": 0.0,
-      "atr_ratio": 0.0
-    },
-    "entry": null,
-    "volume_blocked": false,
-    "stale_data": false,
-    "data_label": "",
-    "last_candle_time": "2026-08-16 11:45:00+00:00"
-  },
-  "AVAX/USD": {
-    "price": 6.34928,
-    "close": 6.37072,
-    "rh": 6.5194,
-    "rl": 6.213,
-    "atr": 0.013245714285714274,
+    "atr": 54.908464285715,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -458,5 +398,65 @@
     "stale_data": false,
     "data_label": "",
     "last_candle_time": "2026-08-16 11:15:00+00:00"
+  },
+  "ETH/USD": {
+    "price": 1878.4499999999998,
+    "close": 1878.45,
+    "rh": 1884.545,
+    "rl": 1875.9155,
+    "atr": 1.8213571428571609,
+    "mode": "RANGING",
+    "breakout": {
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
+    },
+    "entry": null,
+    "volume_blocked": false,
+    "stale_data": false,
+    "data_label": "",
+    "last_candle_time": "2026-08-16 12:15:00+00:00"
+  },
+  "SOL/USD": {
+    "price": 75.1345,
+    "close": 75.1345,
+    "rh": 75.722,
+    "rl": 74.96,
+    "atr": 0.1795642857142862,
+    "mode": "RANGING",
+    "breakout": {
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
+    },
+    "entry": null,
+    "volume_blocked": false,
+    "stale_data": false,
+    "data_label": "",
+    "last_candle_time": "2026-08-16 12:15:00+00:00"
+  },
+  "AVAX/USD": {
+    "price": 6.351255,
+    "close": 6.36235,
+    "rh": 6.5194,
+    "rl": 6.213,
+    "atr": 0.012794642857142793,
+    "mode": "RANGING",
+    "breakout": {
+      "trigger": false,
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
+    },
+    "entry": null,
+    "volume_blocked": false,
+    "stale_data": false,
+    "data_label": "",
+    "last_candle_time": "2026-08-16 11:30:00+00:00"
   }
 }
