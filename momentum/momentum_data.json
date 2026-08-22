@@ -394,11 +394,11 @@
     "last_candle_time": "2026-08-21 20:00:00+00:00"
   },
   "BTC/USD": {
-    "price": 77385.88500000001,
-    "close": 78459.77,
+    "price": 77393.45300000001,
+    "close": 77322.565,
     "rh": 78824.891,
     "rl": 76205.34,
-    "atr": 314.9173571428567,
+    "atr": 469.33464467721416,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -411,14 +411,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-08-22 04:45:00+00:00"
+    "last_candle_time": "2026-08-22 05:00:00+00:00"
   },
   "ETH/USD": {
-    "price": 2437.85,
-    "close": 2515.2035,
+    "price": 2439.075,
+    "close": 2445.171,
     "rh": 2545.7315,
     "rl": 2356.41,
-    "atr": 12.308464285714308,
+    "atr": 20.337535714285714,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -431,34 +431,34 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-08-22 04:45:00+00:00"
+    "last_candle_time": "2026-08-22 05:00:00+00:00"
   },
   "SOL/USD": {
-    "price": 94.35714999999999,
-    "close": 99.1512,
-    "rh": 97.52015,
+    "price": 94.218,
+    "close": 93.43,
+    "rh": 102.7835,
     "rl": 88.3329,
-    "atr": 1.3752250181071426,
+    "atr": 2.305760732392858,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
-      "direction": "LONG",
-      "body_ratio": 0.8907924220818896,
-      "volume_ratio": 15.20683128111381,
-      "atr_ratio": 4.214819201237811
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
     },
     "entry": null,
-    "volume_blocked": true,
+    "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-08-22 04:45:00+00:00"
+    "last_candle_time": "2026-08-22 05:00:00+00:00"
   },
   "AVAX/USD": {
-    "price": 7.6975549999999995,
-    "close": 8.2365,
+    "price": 7.675075,
+    "close": 7.653335,
     "rh": 7.929,
     "rl": 7.4192,
-    "atr": 0.08285821428571431,
+    "atr": 0.1871489285714286,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -471,6 +471,6 @@
     "volume_blocked": true,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-08-22 04:45:00+00:00"
+    "last_candle_time": "2026-08-22 05:00:00+00:00"
   }
 }
