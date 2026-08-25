@@ -2,7 +2,7 @@
   "TSLA": {
     "price": 348.94,
     "close": 348.94,
-    "rh": 358.685,
+    "rh": 356.83,
     "rl": 348.325,
     "atr": 1.8721428571428598,
     "mode": "RANGING",
@@ -28,10 +28,10 @@
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
-      "direction": "SHORT",
-      "body_ratio": 0.6990291262135904,
-      "volume_ratio": 1.5658893392218096,
-      "atr_ratio": 1.7542579075425693
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
     },
     "entry": null,
     "volume_blocked": false,
@@ -43,7 +43,7 @@
     "price": 1740.41,
     "close": 1740.41,
     "rh": 1758.28,
-    "rl": 1728.9,
+    "rl": 1744.0,
     "atr": 4.877142857142887,
     "mode": "RANGING",
     "breakout": {
@@ -103,7 +103,7 @@
     "price": 456.87,
     "close": 456.87,
     "rh": 462.89,
-    "rl": 455.54,
+    "rl": 456.925,
     "atr": 1.287857142857145,
     "mode": "RANGING",
     "breakout": {
@@ -128,10 +128,10 @@
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
-      "direction": "SHORT",
-      "body_ratio": 0.7575757575757615,
-      "volume_ratio": 2.4136559852406454,
-      "atr_ratio": 1.263589743589737
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
     },
     "entry": null,
     "volume_blocked": false,
@@ -202,7 +202,7 @@
   "CRWD": {
     "price": 190.705,
     "close": 190.705,
-    "rh": 192.48,
+    "rh": 191.43,
     "rl": 189.27,
     "atr": 0.6232142857142833,
     "mode": "RANGING",
@@ -248,10 +248,10 @@
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
-      "direction": "SHORT",
-      "body_ratio": 0.7809523809523795,
-      "volume_ratio": 1.5100258857164934,
-      "atr_ratio": 2.0213131660364505
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
     },
     "entry": null,
     "volume_blocked": false,
@@ -263,7 +263,7 @@
     "price": 35.15,
     "close": 35.15,
     "rh": 35.755,
-    "rl": 34.48,
+    "rl": 35.07,
     "atr": 0.24892857142857036,
     "mode": "RANGING",
     "breakout": {
@@ -283,7 +283,7 @@
     "price": 214.77,
     "close": 214.77,
     "rh": 215.52,
-    "rl": 213.875,
+    "rl": 214.195,
     "atr": 0.32571428571428385,
     "mode": "RANGING",
     "breakout": {
@@ -380,11 +380,11 @@
     "last_candle_time": "2026-08-24 20:15:00+00:00"
   },
   "BTC/USD": {
-    "price": 79206.61499999999,
-    "close": 79265.3345,
+    "price": 79308.9185,
+    "close": 79305.7265,
     "rh": 81218.274111675,
     "rl": 78468.2,
-    "atr": 373.53535714285783,
+    "atr": 360.2453928571434,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -397,14 +397,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-08-25 10:15:00+00:00"
+    "last_candle_time": "2026-08-25 10:30:00+00:00"
   },
   "ETH/USD": {
-    "price": 2475.0395,
-    "close": 2475.9935,
+    "price": 2479.0294999999996,
+    "close": 2476.955,
     "rh": 2531.8065,
     "rl": 2455.45,
-    "atr": 11.219285714285661,
+    "atr": 10.607285714285647,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -417,14 +417,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-08-25 10:15:00+00:00"
+    "last_candle_time": "2026-08-25 10:30:00+00:00"
   },
   "SOL/USD": {
-    "price": 98.5710837435,
-    "close": 99.54,
+    "price": 98.9565,
+    "close": 99.5355,
     "rh": 102.9292,
     "rl": 94.8228,
-    "atr": 0.8793850000000022,
+    "atr": 0.8307421428571453,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -437,14 +437,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-08-25 10:15:00+00:00"
+    "last_candle_time": "2026-08-25 10:30:00+00:00"
   },
   "AVAX/USD": {
-    "price": 7.525399999999999,
-    "close": 7.5242,
+    "price": 7.532,
+    "close": 7.52925,
     "rh": 7.72726,
     "rl": 7.48158,
-    "atr": 0.037723214285714235,
+    "atr": 0.03647607142857139,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -457,6 +457,6 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-08-25 10:15:00+00:00"
+    "last_candle_time": "2026-08-25 10:30:00+00:00"
   }
 }
