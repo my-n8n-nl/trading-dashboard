@@ -83,7 +83,7 @@
     "price": 491.65,
     "close": 491.65,
     "rh": 493.535,
-    "rl": 491.14,
+    "rl": null,
     "atr": 0.7764285714285799,
     "mode": "RANGING",
     "breakout": {
@@ -103,7 +103,7 @@
     "price": 509.4,
     "close": 509.4,
     "rh": 524.82,
-    "rl": 520.99,
+    "rl": 521.34,
     "atr": 2.294285714285731,
     "mode": "BULLISH",
     "breakout": {
@@ -123,7 +123,7 @@
     "price": 358.53,
     "close": 358.53,
     "rh": 365.31,
-    "rl": 359.285,
+    "rl": null,
     "atr": 1.288571428571426,
     "mode": "BEARISH",
     "breakout": {
@@ -220,11 +220,11 @@
     "last_candle_time": "2026-09-09 19:45:00+00:00"
   },
   "MSTR": {
-    "price": 129.3,
-    "close": 129.3,
+    "price": 128.31,
+    "close": 128.31,
     "rh": 135.56,
     "rl": 133.095,
-    "atr": 0.9296428571428562,
+    "atr": 0.9850000000000014,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
@@ -237,7 +237,7 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-09-10 12:30:00+00:00"
+    "last_candle_time": "2026-09-10 12:45:00+00:00"
   },
   "COIN": {
     "price": 174.655,
@@ -283,7 +283,7 @@
     "price": 204.88,
     "close": 204.88,
     "rh": 206.71,
-    "rl": 205.83,
+    "rl": null,
     "atr": 0.3824999999999993,
     "mode": "RANGING",
     "breakout": {
@@ -340,11 +340,11 @@
     "last_candle_time": "2026-09-09 19:45:00+00:00"
   },
   "QQQ": {
-    "price": 707.46,
-    "close": 707.46,
+    "price": 707.5,
+    "close": 707.5,
     "rh": 716.99,
-    "rl": 714.73,
-    "atr": 1.0207142857142668,
+    "rl": 715.58,
+    "atr": 1.0042857142857022,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -357,13 +357,13 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-09-10 12:30:00+00:00"
+    "last_candle_time": "2026-09-10 12:45:00+00:00"
   },
   "SPY": {
     "price": 758.87,
     "close": 758.87,
     "rh": 763.31,
-    "rl": 761.33,
+    "rl": 762.31,
     "atr": 0.7224999999999763,
     "mode": "RANGING",
     "breakout": {
@@ -380,11 +380,11 @@
     "last_candle_time": "2026-09-10 12:30:00+00:00"
   },
   "BTC/USD": {
-    "price": 77131.9045,
-    "close": 77979.765,
+    "price": 76921.795,
+    "close": 77816.08,
     "rh": 78917.9565,
     "rl": 77682.295,
-    "atr": 142.34360714285867,
+    "atr": 146.36421428571546,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -397,14 +397,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-09-10 11:30:00+00:00"
+    "last_candle_time": "2026-09-10 11:45:00+00:00"
   },
   "ETH/USD": {
-    "price": 2435.9675,
-    "close": 2466.67,
+    "price": 2424.75,
+    "close": 2461.72,
     "rh": 2498.28715,
     "rl": 2443.75,
-    "atr": 4.603749999999926,
+    "atr": 4.762107142857076,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -417,14 +417,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-09-10 11:30:00+00:00"
+    "last_candle_time": "2026-09-10 11:45:00+00:00"
   },
   "SOL/USD": {
-    "price": 100.0515,
-    "close": 101.31,
+    "price": 99.32775000000001,
+    "close": 101.0,
     "rh": 103.8,
     "rl": 100.3265,
-    "atr": 0.2915714285714271,
+    "atr": 0.29749999999999943,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -437,14 +437,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-09-10 11:30:00+00:00"
+    "last_candle_time": "2026-09-10 11:45:00+00:00"
   },
   "AVAX/USD": {
-    "price": 7.661,
-    "close": 7.75198,
+    "price": 7.609249999999999,
+    "close": 7.72715,
     "rh": 7.981,
     "rl": 7.667,
-    "atr": 0.030207857142857137,
+    "atr": 0.030283928571428604,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -457,6 +457,6 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-09-10 11:30:00+00:00"
+    "last_candle_time": "2026-09-10 11:45:00+00:00"
   }
 }
