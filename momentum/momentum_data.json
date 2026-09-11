@@ -305,7 +305,7 @@
     "rh": 141.015,
     "rl": 137.26,
     "atr": 0.6457142857142851,
-    "mode": "BEARISH",
+    "mode": "RANGING",
     "breakout": {
       "trigger": false,
       "direction": "NONE",
@@ -380,11 +380,11 @@
     "last_candle_time": "2026-09-10 19:45:00+00:00"
   },
   "BTC/USD": {
-    "price": 76886.87,
-    "close": 76535.875,
+    "price": 76961.0,
+    "close": 76788.248,
     "rh": 78530.3175,
     "rl": 76450.69,
-    "atr": 161.8157857142869,
+    "atr": 177.9396785714302,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -397,14 +397,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-09-10 23:45:00+00:00"
+    "last_candle_time": "2026-09-11 00:00:00+00:00"
   },
   "ETH/USD": {
-    "price": 2455.1985,
-    "close": 2436.8075,
+    "price": 2458.952,
+    "close": 2447.675,
     "rh": 2483.6235,
     "rl": 2405.3715,
-    "atr": 5.06374999999993,
+    "atr": 5.784749999999901,
     "mode": "RANGING",
     "breakout": {
       "trigger": false,
@@ -417,14 +417,14 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-09-10 23:45:00+00:00"
+    "last_candle_time": "2026-09-11 00:00:00+00:00"
   },
   "SOL/USD": {
-    "price": 99.116,
-    "close": 98.6025,
-    "rh": 102.145,
+    "price": 99.37985,
+    "close": 99.0592,
+    "rh": 102.05,
     "rl": 98.5760837435,
-    "atr": 0.3054178571428555,
+    "atr": 0.3521678571428554,
     "mode": "BULLISH",
     "breakout": {
       "trigger": false,
@@ -437,26 +437,26 @@
     "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-09-10 23:45:00+00:00"
+    "last_candle_time": "2026-09-11 00:00:00+00:00"
   },
   "AVAX/USD": {
-    "price": 7.47297,
-    "close": 7.421,
+    "price": 7.48475,
+    "close": 7.457815,
     "rh": 7.87417,
     "rl": 7.49803,
-    "atr": 0.0302717857142857,
+    "atr": 0.03130000000000001,
     "mode": "BEARISH",
     "breakout": {
       "trigger": false,
-      "direction": "SHORT",
-      "body_ratio": 0.9307021817984933,
-      "volume_ratio": 60.93707920334271,
-      "atr_ratio": 3.161566393212145
+      "direction": "NONE",
+      "body_ratio": 0.0,
+      "volume_ratio": 0.0,
+      "atr_ratio": 0.0
     },
     "entry": null,
-    "volume_blocked": true,
+    "volume_blocked": false,
     "stale_data": false,
     "data_label": "",
-    "last_candle_time": "2026-09-10 23:45:00+00:00"
+    "last_candle_time": "2026-09-11 00:00:00+00:00"
   }
 }
